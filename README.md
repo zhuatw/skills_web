@@ -1,3 +1,3 @@
 # skills_web
-my blog
+learning skills 
 
