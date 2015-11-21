@@ -1,0 +1,7 @@
+#+TITLE: word
+
+* word
+最后像字典一样按字母顺序放
+leader
+current
+a-i 插入空格或制表符

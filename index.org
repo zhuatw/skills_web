@@ -1,0 +1,22 @@
+#+TITLE: Scene
+
+* web map 
+1. [[file+emacs:c:/Users/Administrator/skills_web/emacs/spacemacs.org][spacemacs]]
+2. [[https://github.com/zhuatw][zhuatw be github.com]]
+
+* skills web directory
+index.org 
+** emacs
+spacemacs.org
+** personal
+identity.org
+** english
+word.org
+** blog
+life.org
+* 站点维护
+
+** del
+百度提供的删除语句 git rm * -r (所有东西删光光, 当然除了 .git 目录)
+** skills_web publish
+

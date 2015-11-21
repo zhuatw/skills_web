@@ -1,0 +1,504 @@
+#+TITLE: Spacemacs
+
+* text glossary
+** char object
+hjkj
+| key | prefix | insert | object | effect      | describe                  |
+| i   |        | yes    | char   | left        |                           |
+| a   |        | yes    | char   | right       |                           |
+| s   | yes    | yes    | char   | del current |                           |
+| x   | yes    | no     | char   |             | current right count       |
+| X   | yes    | no     | char   | left        | current left to one count |
+** word object 
+| key | prefix | insert | object | effect           | describe |
+| w   | yes    | no     | word   | next first       |          |
+| b   | yes    | no     | word   | last first       |          |
+| e   | yes    | no     | word   | current word end |          |
+| ge  | yes    | no     | word   | current          |          |
+W 同上，但会忽略一些标点符号。
+e	移至后一个字字尾。
+E	同上，但会忽略一些标点符号。
+b	移至前一个字字首。
+B	同上，但会忽略一些标点符号。
+H	移至屏幕顶第一个非空白字元。
+M	移至屏幕中间第一个非空白字元。
+L	移至屏幕底第一个非空白字元。这和 PageDown，PageUp 不一样，内文内容并未动，只是光标在动而已。
+n|	移至第 n 个字元(栏)处。注意，要用 Shift 键。n 是从头起算的。
+:n	移至第 n 行行首。或 nG。
+)	移至下一个句子（sentence）首。
+(	移至上一个句子（sentence）首。sentence（句子）是以 . ! ? 为区格。
+}	移至下一个段落（paragraph）首。
+{	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
+%	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
+** line object 
+| key | prefix | insert | effect                       | describe                   |   |
+| I   |        | yes    | at beginning of current line | first non-blank,visual use |   |
+| A   |        | yes    | end of the current line      |                            |   |
+| dd  | yes    | no     | line                         | current                    |   |
+| cc  | yes    | yes    | current                      | cc=S,no prefix count       |   |
+| S   | yes    | yes    | del current line             | down count                 |   |
+| C   | no     | yes    | line                         | current                    |   |
+| D   | no     | no     | line                         | current                    |   |
+| "^  | yes    | no     |                              |                            |   |
+| 0   | no     | no     | line                         |                            |   |
+| '$  | yes    | no     |                              |                            |   |
+| J   | no     |        |                              |                            |   |
+| gJ  | no     |        |                              |                            |   |
+| o   | no     | yes    |                              |                            |   |
+| O   | no     | yes    |                              |                            |   |
+
+** Scroll big range move
+| key | prefix | insert | object | effect      | describe |
+| gg  | yes    | no     |        | move scroll |          |
+| G   | yes    | no     |        | move scroll |          |
+1) 光标移动，屏幕不动
+   M 当前行到前屏幕的中间
+   H 参数默认为 6，距离屏幕顶的行数，小于 6 不行，要大于 6 才行
+   L 参数默认为 6，距离屏幕底的行数，小于 6 不行，要大于 6 才行枯
+2) 当前光标与当前行一齐移动
+   zt 当前行移动屏幕顶端
+   zz 当前行到当前屏幕的中间，也可说是当前行在屏幕中居中
+   zb 当前行移动到屏幕底端
+3) 光标不动，屏幕移动
+   c-f 向下翻一页，光标不动
+   c-b 向上翻一页，光标不动
+   c-d 向下翻半页，光标不动
+   c-u 向上翻半页，光标不动
+** other edit command 
+| key       | prefix | insert | object | effect  | describe   |
+| r         |        | yes/no | char   | current | disposable |
+| R         |        |        |        |         |            |
+| u         |        |        |        | uodo    |            |
+| c-r       |        |        |        | redo    |            |
+| spc z     |        |        |        |         |            |
+| spc t E h |        |        |        |         |            |
+6: 窗口和字体的放大缩小
+** yank and pastes 
+| key   | prefix | insert | object | effect               | describe                  |
+| xp    | yes    | no     | char   | yank/pastes          | switch right              |
+| Xp    | yes    | no     | char   | yank/pastes          | switch left  to one count |
+| ddp   | yes    | no     | line   | yank/pastes          | switch current with down  |
+| yy    | yes    | no     | line   |                      |                           |
+| y/dw  | yes    | no     | word   | del current word end | yank                      |
+| y/daw | yes    | no     | word   | del word blank       | yank                      |
+| y/diw | yes    | no     | word   | del word  non-blany  | yank                      |
+| y/de  |        |        | word   |                      |                           |
+| y/db  |        |        |        |                      |                           |
+| y/dge |        |        |        |                      |                           |
+
+** window
+spc-tab 与最近一个缓冲区来回切换
+| <SPC> w s   | 	split a window horizontally                                          |
+| <SPC> w v   | 	split a window vertically                                            |
+| <SPC> w c   | 	close a window                                                       |
+| <SPC> w d   | 	taggle window dedication (dedicated window cannot be used by a mode) |
+| <SPC> w H   | 	move window to the left                                              |
+| <SPC> w J   | 	move window to the bottom                                            |
+| <SPC> w K   | 	move window to the top                                               |
+| <SPC> w L   | 	move window to the right                                             |
+| <SPC> w m   | 	maximize/minimize a window                                           |
+| <SPC> w M   | 	maximize/minimize a window, when maximized the buffer is centered    |
+| <SPC> w p m | 	open messages buffer in a popup window                               |
+| <SPC> w p p | 	close the current sticky popup window                                |
+| <SPC> w r   | 	rotate windows clockwise                                             |
+| <SPC> w R   | 	rotate windows counter-clockwise                                     |
+| <SPC> w u   | 	undo window layout (used to effectively undo a close window)         |
+| <SPC> w U   | 	redo window layout                                                   |
+| <SPC> w w   | 	cycle and focus between windows                                      |
+** Files
+输入字母会自动筛选,不管字母的位置
+输入字母后加一个 space，会匹配为首字母
+TAB 是补全到第一个
+jk 为上下移动选择，第一个是默认选择的
+manipulation commands (start with f):
+| <SPC> f f   | open a file using ido                             |
+| <SPC> f e d | open your .spasemacs file                         |
+| <SPC> f s   | save a file                                       |
+| <SPC> f S   | save all files                                    |
+| <SPC> f t   | taggle file tree side bar using neotree           |
+| <SPC> f y   | show current file absolute path in the minibuffer |
+** Buffer
+manipulation commands (start with b):
+| <SPC> b d   | delete the current buffer (beware the associated file is also deleted) |
+| <SPC> b k   | kill the current buffer                                                |
+| <SPC> b K   | kill all buffers except the current one                                |
+| <SPC> b m h | move a buffer to the left                                              |
+| <SPC> b m j | move a buffer to the bottom                                            |
+| <SPC> b m k | move a buffer to the top                                               |
+| <SPC> b m l | move a buffer to the right                                             |
+| <SPC> b n   | switch to next buffer                                                  |
+| <SPC> b p   | switch to previous buffer                                              |
+| <SPC> b r   | rename the current buffer                                              |
+| <SPC> b s   | switch to a buffer using helm                                          |
+| <SPC> b w   | taggle read-only                                                       |
+** help
+| SPC h d b | describe-binding     |                                                                      |
+| SPC h d c | describe-char        | Describe position POS (interactively, point) and the char after POS. |
+| SPC h d f | describe-function    | Display the full documentation of FUNCTION (a symbol).               |
+| SPC h d k | describe-key         | Display documentation of the function invoked by KEY.                |
+| SPC h d m | describe-mode        | Display documentation of current major mode and minor modes.         |
+| SPC h d p | describe-package     |                                                                      |
+| SPC h d s | describe-system-info | Check the *Messages* buffer if you need to review it                 |
+| SPC h d t | describe-theme       |                                                                      |
+| SPC h d v | describe-variable    | Display the full documentation of VARIABLE (a symbol).               |
+|           | describe-syntax      |                                                                      |
+|           | view-lossage         | 100 char                                                             |
+|           | where-is             | spacemacs no use                                                     |
+| c-h c     | describe-key-briefly |                                                                      |
+| c-x c-h   |                      |                                                                      |
+14: 已经被 SPC h d b 替代了
+01: 当前缓冲区中有绑定那些按键
+12: 提示的输入的函数的快捷键是什么，现在 helm 中这个已不适用了
+13: 提示你按下快捷键运行的是什么函数
+*** apropos
+- command-apropos c-h a
+输入一个相关术语，如 line，会出现涉及到此术语的相关函数
+- apropos
+这个概念涉及到那些函数与变量
+- super-apropos
+那些函数和变量的文档里提到了这个概念
+*** page510 没看完 
+** visual
+- v Characterwise visual mode
+- V Linewise visual mode
+- c-v 矩形模式
+- 通用
+  d 删除选中的区域                                   
+  c 删除当前选中的字符，后面不动
+  o and O  在高亮块中交换光标位置 
+  gv 重新选中最近一次可视化时选过的文本                           
+  r 选一个就替一个，选多个就用你输入的替换成多个
+ 
+*** find
+f 加上一个字符的命令，这里的 f 表示“find”,比如 fx 表示在当
+前位置向下定位到第一个 x 所在的位置。 
+F 加一个字符表示向左搜索。
+n evil-search-next
+*** magit git-bash
+test and text 
+*** t be to
+是“to”的简写，比如
+tx 表示向右寻找第一个 x 所在的位置，但是它不是把光标停留
+在被搜索的字符上，而是在它之前的前一个字符上。小写的 t
+表示向右搜索，大写的 T 表示向左搜索。 
+据了两行的空间，但是在逻辑上它们是一行，因为它们之间不
+包括任何的换行符。 
+*** %
+它会自动把光标定位到与之对应的括号的
+*** 50%
+命令来跳转到文件的中间位置，用 80%命令跳转到文件的百分之八十的位置
+*** table
+s-tab 对齐和向上个单元格
+*** undo and redo
+c-x u
+| 1 | u   | undo-tree-undo | normal| vim   |
+| 2 | c-r | undo-tree-redo | normal| vim   |
+| 3 | c-_ | undo-tree-undo | normal| emacs |
+| 4 | a-_ | undo-tree-redo | normal| emacs |
+** temp notes
+*** 最短无二义前缀
+如果需要输入某个事物的名称，而这个名称是有限个数的可能性中的一种，Emacs 就能在输
+入可能最少个数的字符后判断出想输入的是什么
+忽略一些不用的文件名后缀示例 page518
+L end of line  
+key  prefix  insert  object effect   describe 
+hjkl,right up down left,prefix
+hybrid enabled disabled glossaries, follow me,
+font sessio
+text object, purview whole
+fold level fold method  <SPC> : config-system/create-layer RET
+** Symbols
+| <SPC> s l   | To list all the symbols of a buffer press:                    |
+| <SPC> s e   | edit all occurrences of the current symbol                    |
+| <SPC> t s   | taggle the auto highlighting                                  |
+| <SPC> s e   | edit all occurrences of the current symbol                    |
+| <SPC> t s   | taggle the auto highlighting                                  |
+| <SPC> s s   | initiate navigation micro-state                               |
+| <SPC> s n   | go to next occurrence and initiate navigation micro-state     |
+| <SPC> s N   | go to previous occurrence and initiate navigation micro-state |
+| <SPC> s c d | change range to display area                                  |
+| <SPC> s c f | hange range to function                                       |
+| <SPC> s C   | change range to default (whole buffer)                        |
+| <SPC> s c b | change range to whole buffer                                  |
+出现一个列表缓冲区，是以有 * 来提取的，可输入关键字来搜索 ret 后光标就到此处
+** .spacemacs.d/
+(defun dotspacemacs/user-config ()
+(server-start);;自已的配置放到这里 bb
+)
+* plugs 
+*** markdown 
+**** hd-md
+=gh-md-revert-buffers= generate a preview of the markdown content of a buffer.
+=gh-md-render-region= 当前区域输出
+*** magit 
+**** quick use
+**** To open a status buffer, type in a buffer of a Git repository:
+<SPC> g s 使用这个命名如果当前 git 管理的文件有修改，它会提示你要保存
+才能判断当前的 status 啊
+- s = add
+- S 等于要在项目类别的名称上就是所作用于此项目类别下的所有
+- c = commit
+- c-c c-c
+- P P
+**** untracked files 这里只能一个的加了吧
+这里如果出现是表示没有加入 git 管理
+**** unstaged changes S 只对这里的管用
+这个表示受 git 管理但是有更改过了
+**** staged changes
+当你使用 s 后前一个 unstaged 就会去掉 un 变成 staged 表示巳 add 了
+*** undo-tree-vap 
+spc a u c-x u
+*** bookmarks
+spc h b
+| CTRL+d | delete the selected bookmark                 |
+| CTRL+e | edit the selected bookmark                   |
+| CTRL+f | taggle filename location                     |
+| CTRL+o | open the selected bookmark in another window |
+To save a new bookmark, just type the name of the bookmark and press RET.
+在当前位置保存一个新的书签，要输入名字后 RET
+*** neotree
+可用翻页命令 c-d and c-u
+* org
+** temp note
+spc m or leader key "," 
+T 怎么大写 T 直接 TODO
+c-c c-d 输入日期
+a-ret 下行出行同级列表或大纲
+s-右箭头会切换列表显示的不同列表号
+SPC s l	spacemacs/jump-in-buffer (jump to a heading)
+org with evil-org-mode 
+c-j 含当前光标分断成新行行
+** org-edit-special Tree related shorcuts
+<dotspacemacs-major-mode-leader-key>
+| TAB         | org-cycle               |                                |
+| '$          | org-end-of-line         |                                |
+| '^          | org-beginning-of-line   |                                |
+| H           | org-beginning-of-line   | current line beginning         |
+| L           | org-end-of-line         | current end of line            |
+| o           | always-insert-item      |                                |
+| O           | org-open-above          |                                |
+| spc m e     | 	org-export-dispatch   | export current file option     |
+| spc m R     | 	org-refile            | move subtree to other subtree  |
+| spc m c     | 	org-capture           | capture                        |
+|-------------+-------------------------+--------------------------------|
+| spc m l     | 	org-open-at-point     |                                |
+| spc m f     | 	org-set-effort        | ?:PROPERTIES:                  |
+| spc m C-S-l | 	org-shiftcontrolright |                                |
+| spc m C-S-h | 	org-shiftcontrolleft  |                                |
+| spc m C-S-j | 	org-shiftcontroldown  | ??Switch to previous TODO set. |
+| spc m C-S-k | 	org-shiftcontrolup    |                                |
+*** 当前 outline 产生一个新的，但是在此级下的所有内容后产生
+** Project time management
+| spc m A | 	org-archive-subtree       | archive              |
+| spc m a | 	org-agenda                | agenda               |
+| spc m . | 	org-time-stamp            |                      |
+| spc m C | 	evil-org-recompute-clocks |                      |
+| spc m d | 	org-deadline              | deadline             |
+| spc m I | 	org-clock-in              |                      |
+| spc m O | 	org-clock-out             |                      |
+| spc m q | 	org-clock-cancel          |                      |
+| spc m s | 	org-schedule              | schedule             |
+| spc m H | 	org-shiftleft             | CLOSED               |
+| spc m K | 	org-shiftup               | #A increase priority |
+| spc m J | 	org-shiftdown             | #B increase priority |
+| spc m p |                             | starts a pomodoro    |
+** outline browse
+| spc m b | 	org-tree-to-indirect-buffer | indirect |
+| spc m n | 	org-narrow-to-subtree       | narrow   |
+| spc m N | 	widen                       | widen    |
+** outline meta 
+三类都还没看出区别
+| M-l       | org-metaright         |
+| M-h       | org-metaleft          |
+| M-k       | org-metaup            |
+| M-j       | org-metadown          |
+|-----------+-----------------------|
+| M-L       | org-shiftmetaright    |
+| M-H       | org-shiftmetaleft     |
+| M-K       | org-shiftmetaup       |
+| M-J       | org-shiftmetadown     |
+|-----------+-----------------------|
+| <         | org-metaleft          |
+| >         | org-metaright         |
+|-----------+-----------------------|
+| SPC m S l | org-demote-subtree    |
+| SPC m S h | org-promote-subtree   |
+| SPC m S k | org-move-subtree-up   |
+| SPC m S j | org-move-subtree-down |
+** outline new 
+| key   | function                           | location    | describe                         |
+|-------+------------------------------------+-------------+----------------------------------|
+| c-ret | org-insert-heading-respect-content | top of line | up new Same level                |
+|       |                                    | besides     | down new Same level              |
+| a-ret | org-meta-return                    | top of line | current line up new same level   |
+|       |                                    | line feed   | current line down new same level |
+|       |                                    |             |                                  |
+| M-o   | org-insert-heading + org-metaright | line        | new line insert or use TAB       |
+|       |                                    |             |                                  |
+** outline move
+| gh        | outline-up-heading                            |               |
+| gj        | org-forward-heading-same-level                |               |
+| gk        | org-backward-heading-same-level               |               |
+| gl        | outline-next-visible-heading                  |               |
+** todo 
+| spc m T | org-show-todo-tree                          |               |
+| spc m L | org-shiftright                              |               |
+| M-t     | org-insert-todo-heading nil + org-metaright | down new TODO |
+| T       | org-insert-todo-heading nil                 | new todo line |
+| t       | org-todo                                    |               |
+*** Org-repo-todo
+Key Binding	Description
+SPC C c	org-capture
+SPC C t	ort/capture-todo
+SPC C T	ort/capture-checkitem
+SPC m g t	ort/goto-todos
+** tags Tagging
+| spc m leader | 	org-ctrl-c-ctrl-c | tags | outline same? |
+| spc m :      | 	org-set-tags      | tags | outline same? |
+** Table-related shortcuts:
+SPC m  or leader t 
+| a   |                         | Align the table at point by aligning all vertical bars                     |
+| b   |                         | Blank the current table field or active region                             |
+| c   |                         | Convert from 'org-mode' table to table.el and back                         |
+| d c | delete column           | Delete a column from the table                                             |
+| d r | delete row              | Delete the current row or horizontal line from the table                   |
+| e   |                         | Replace the table field value at the cursor by the result of a calculation |
+| E   |                         | Export table to a file, with configurable format                           |
+| K   | switch up               | Move table row up                                                          |
+| J   | switch down             | Move table row down                                                        |
+| H   | switch column left      | Move column to the left                                                    |
+| L   | switch column right     | Move column to the right                                                   |
+| i c | insert column           | Insert a new column into the table                                         |
+| i r | insert row              | Insert a new row above the current line into the table                     |
+| i h | insert horizontal-line  | Insert a horizontal-line below the current line into the table             |
+| i H | insert hline below move | Insert a hline and move to the row below that line                         |
+| h   | move previous           | Go to the previous field in the table                                      |
+| l   | move next               | Go to the next field in the current table, creating new lines as needed    |
+| j   | move row(same column)   | Go to the next row (same column) in the current table                      |
+| n   |                         | Query for a size and insert a table skeleton                               |
+| N   |                         | Use the table.el package to insert a new table                             |
+| p   | not gnuplot             | Plot the table using org-plot/gnuplot                                      |
+| r   |                         | Recalculate the current table line by applying all stored formulas         |
+| s   | Sort?                   | Sort table lines according to the column at point                          |
+| t f |                         | Toggle the formula debugger in tables                                      |
+| t o | Toggle numbers          | Toggle the display of Row/Column numbers in tables                         |
+| w   |                         | Wrap several fields in a column like a paragraph                           |
+| I   | Import file             | Import a file as a table                                                   |
+
+** Element insertion
+SPC m h i	org-insert-heading-after-current
+SPC m h I	org-insert-heading
+SPC m i f	org-insert-footnote
+SPC m i l	org-insert-link
+
+** Org emphasize
+| SPC m x b | 	make region bold           |
+| SPC m x c | 	make region code           |
+| SPC m x i | 	make region italic         |
+| SPC m x r | 	clear region emphasis      |
+| SPC m x s | 	make region strike-through |
+| SPC m x u | 	make region underline      |
+| SPC m x v | 	make region verbose        |
+** Presentation
+org-present must be activated explicitly by typing: SPC : org-present
+Key Binding	Description
+h	previous slide
+l	next slide
+q	quit
+** Org-MIME
+Key Binding	Description
+SPC m M	in message-mode buffersm convert into html email
+SPC m m	send current buffer as HTML email message
+* elisp 
+normal and insert 状态下 a-ret e 后会出现 command buffer
+c-x c-e 出现在 minibuffer sexp->symbol expression
+c-j eval-print-last-sexp (lisp-state-eval-sexp-end-of-line)
+->eval
+后等于新出二行，第一行是值，第二行是空行的行首
+* learning Gnu Emacs 
+** 11 chapter
+function-name arguments 
+(forward-word 1)
+emacs -q and emacs -u username
+self-insert-command
+esc x command-name RETURN retur 
+keymap global-map local-map
+ctrl-x-map esc-map esc-prefix
+1. 11-352
+     define-key deymap "keystroke" 'command-name
+2. global-set-key "keystroke" 'command-name
+     define-key ctrl-x-map "l" 'goto-line
+     define-key global-map "\c-xl" 'goto-line
+     global-set-key "\c-xl" 'goto-line
+local-set-key "keystroke" 'command-name
+表 11-1:特殊字符转义表 355
+** temp word 
+percent
+application mode
+scratch
+equal
+** temp command 
+help-command
+backward-char
+kill-word
+goto-line
+quoted-insert 11-357 application mode
+apropos
+describe-function c-h-f
+** config example
+setq 是常用的，当这个不起作用时，有个更高级是 setq-default 379
+setq auto-save-interval 800
+setq left-margin 4
+setq case-fold-search nil
+autoload 'function "filename"
+autoload 'ada-mode "ada"
+(setq auto-mode-alist (cons '(* .a$" . ada-mode) auto-mode-alist))
+** variable
+- 字符串值在双引号里
+- 字符值用 prefix ?
+- 符号值用单引号 never
+** 13 chapter 
+431 defun
+(interactive "prompt-string")
+defun count-word-buffer 434 
+与编辑缓冲区和文本有关的基本函数（表：13-4)page440
+** 正则表达式 page441
+** 主编辑模式实例 
+* readme.md
+** temp word
+Documentation
+** INTRODUCTION 
+** Features
+.git\
+.dir-locals.el
+learn_text.org
+documentation.org
+README_zhua.html
+QUICK_START.org
+learn_GNU_Emacs_Lisp.org
+learn_elisp.el
+learn_elip_1.el
+learn_c.c
+README_zhua.md
+test4.txt
+test1.txt
+test3.org
+Spacemacs_Advanced_Kit.org
+wb_single.txt
+text23.txt
+test2.txt
+magit.org
+README.md
+vim_study.md
+learn_spacemacs.org
+learn_vim.md
+CapsLock.ahk
+english_verd.org
+english_verd_1.org
+english.orgc:\Program Files\emacs\bin\addpm.exe
+c:\Program Files\emacs\bin\ctags.exe
+c:\Program Files\emacs\bin\ebrowse.exe
+c:\Program Files\emacs\bin\emacs.exe
+c:\Program Files\emacs\bin\emacs-25.0.50.exe
+c:\Program Files\emacs\bin\emacsclient.exe
+c:\Program Files\emacs\bin\emacsclientw.exe
