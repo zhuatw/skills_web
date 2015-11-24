@@ -226,6 +226,13 @@ fold level fold method  <SPC> : config-system/create-layer RET
 (server-start);;自已的配置放到这里 bb
 )
 * plugs 
+*** bookmarks
+spc h b
+| CTRL+d | delete the selected bookmark                 |
+| CTRL+e | edit the selected bookmark                   |
+| CTRL+f | taggle filename location                     |
+| CTRL+o | open the selected bookmark in another window |
+To save a new bookmark, just type the name of the bookmark and press RET.
 *** markdown 
 **** hd-md
 =gh-md-revert-buffers= generate a preview of the markdown content of a buffer.
@@ -246,18 +253,51 @@ fold level fold method  <SPC> : config-system/create-layer RET
 这个表示受 git 管理但是有更改过了
 **** staged changes
 当你使用 s 后前一个 unstaged 就会去掉 un 变成 staged 表示巳 add 了
+*** NeoTree file tree
+可用翻页命令 c-d and c-u
+~SPC f t~ or ~SPC p t~
+number =0= ~SPC 0~
+| Key Binding  | Description                                                            |
+|--------------+------------------------------------------------------------------------|
+| ~h~          | collapse expanded directory or go to parent node                       |
+| ~H~          | previous sibling                                                       |
+| ~j~          | next file or directory                                                 |
+| ~J~          | next expanded directory on level down                                  |
+| ~k~          | previous file or directory                                             |
+| ~K~          | parent directory, when reaching the root change it to parent directory |
+| ~l~ or ~RET~ | expand directory                                                       |
+| ~L~          | next sibling                                                           |
+| ~R~          | make a directory the root directory                                    |
+
+Opening files with NeoTree
+
+| Key Binding      | Description                               |
+|------------------+-------------------------------------------|
+| ~l~ or ~RET~     | open file in last active window           |
+| ~# l~ or ~# RET~ | open file in window number =#=            |
+| ~¦~              | open file in an vertically split window   |
+| ~-~              | open file in an horizontally split window |
+
+Other NeoTree key bindings
+| Key Binding | Description                     |
+|-------------+---------------------------------|
+| ~TAB~       | toggle stretching of the buffer |
+| ~c~         | create a node                   |
+| ~d~         | delete a node                   |
+| ~g~         | refresh                         |
+| ~s~         | toggle showing of hidden files  |
+| ~q~ or ~fd~ | hide =NeoTree= buffer           |
+| ~r~         | rename a node                   |
+
+NeoTree mode-line
+The mode-line has the following format =[x/y] d (D:a, F:b)= where:
+  - =x= is the index of the current selected file or directory
+  - =y= the total number of items (file and directory) in the current directory
+  - =d= the name of the current directory
+  - =a= the number of directories in the current directory
+  - =b= the number of files in the current directory
 *** undo-tree-vap 
 spc a u c-x u
-*** bookmarks
-spc h b
-| CTRL+d | delete the selected bookmark                 |
-| CTRL+e | edit the selected bookmark                   |
-| CTRL+f | taggle filename location                     |
-| CTRL+o | open the selected bookmark in another window |
-To save a new bookmark, just type the name of the bookmark and press RET.
-在当前位置保存一个新的书签，要输入名字后 RET
-*** neotree
-可用翻页命令 c-d and c-u
 * org
 ** temp note
 spc m or leader key "," 
