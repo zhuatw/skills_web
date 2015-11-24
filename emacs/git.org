@@ -1,0 +1,18 @@
+#+TITLE: git
+
+* tips
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/master
+** 两个方法 
+这个是只改变了电脑上的
+With a recent version of git (Feb 2014), the correct procedure would be:
+
+git remote set-head $REMOTE_NAME $BRANCH
+
+So for example, switching the head on remote origin to branch develop would be:
+
+git remote set-head origin develop
+
+shareimprove this answer
+这个是改变了 github 上的，猜测在改了这个以后再 clone 的就是这个不用向上面这样改，之
+前的，像上面的这个  s 可能就是要 push 时要明文指定，不能使用默认值了吧
