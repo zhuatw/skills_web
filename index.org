@@ -1,5 +1,10 @@
 #+TITLE: Scene
 
+* tips 
+书签的位置
+表格的对齐
+.emacs.d 也要重新弄分支才行
+
 * web map 
 1. [[file+emacs:c:/Users/Administrator/skills_web/emacs/spacemacs.org][spacemacs]]
 2. [[https://github.com/zhuatw][zhuatw be github.com]]
