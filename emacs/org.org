@@ -98,14 +98,20 @@ SPC m g t	ort/goto-todos
 | spc m leader | 	org-ctrl-c-ctrl-c | tags | outline same? |
 | spc m :      | 	org-set-tags      | tags | outline same? |
 ** Table-related shortcuts:
- 表格中的 | (pipe) 的转义
+表格中的 | (pipe) 的转义
 使用 \vert
 SPC m  or leader t 
+|-----+-------------------------+----------------------------------------------------------------------------|
 | a   |                         | Align the table at point by aligning all vertical bars                     |
+|-----+-------------------------+----------------------------------------------------------------------------|
 | b   |                         | Blank the current table field or active region                             |
+|-----+-------------------------+----------------------------------------------------------------------------|
 | c   |                         | Convert from 'org-mode' table to table.el and back                         |
+|-----+-------------------------+----------------------------------------------------------------------------|
 | d c | delete column           | Delete a column from the table                                             |
+|-----+-------------------------+----------------------------------------------------------------------------|
 | d r | delete row              | Delete the current row or horizontal line from the table                   |
+|-----+-------------------------+----------------------------------------------------------------------------|
 | e   |                         | Replace the table field value at the cursor by the result of a calculation |
 | E   |                         | Export table to a file, with configurable format                           |
 | K   | switch up               | Move table row up                                                          |

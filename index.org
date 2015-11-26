@@ -16,7 +16,7 @@ word.org
 life.org
 * 站点维护
 
-** del
+* tips
+a-i 插入空格或制表符
+spc s l
 百度提供的删除语句 git rm * -r (所有东西删光光, 当然除了 .git 目录)
-** skills_web publish
-

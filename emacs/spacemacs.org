@@ -1,56 +1,14 @@
-#+TITLE: Spacemacs
+#+TITLE: Object
 
-* text glossary
-** char object
-hjkj
-| key | prefix | insert | object | effect      | describe                  |
-| i   |        | yes    | char   | left        |                           |
-| a   |        | yes    | char   | right       |                           |
-| s   | yes    | yes    | char   | del current |                           |
-| x   | yes    | no     | char   |             | current right count       |
-| X   | yes    | no     | char   | left        | current left to one count |
-** word object 
-| key | prefix | insert | object | effect           | describe |
-| w   | yes    | no     | word   | next first       |          |
-| b   | yes    | no     | word   | last first       |          |
-| e   | yes    | no     | word   | current word end |          |
-| ge  | yes    | no     | word   | current          |          |
-W 同上，但会忽略一些标点符号。
-e	移至后一个字字尾。
-E	同上，但会忽略一些标点符号。
-b	移至前一个字字首。
-B	同上，但会忽略一些标点符号。
-H	移至屏幕顶第一个非空白字元。
-M	移至屏幕中间第一个非空白字元。
-L	移至屏幕底第一个非空白字元。这和 PageDown，PageUp 不一样，内文内容并未动，只是光标在动而已。
+* text 
 n|	移至第 n 个字元(栏)处。注意，要用 Shift 键。n 是从头起算的。
+这和 不一样，内文内容并未动，只是光标在动而已。 |
 :n	移至第 n 行行首。或 nG。
-)	移至下一个句子（sentence）首。
-(	移至上一个句子（sentence）首。sentence（句子）是以 . ! ? 为区格。
-}	移至下一个段落（paragraph）首。
-{	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
-%	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
-** line object 
-| key | prefix | insert | effect                       | describe                   |
-| I   |        | yes    | at beginning of current line | first non-blank,visual use |
-| A   |        | yes    | end of the current line      |                            |
-| dd  | yes    | no     | line                         | current                    |
-| cc  | yes    | yes    | current                      | cc=S,no prefix count       |
-| S   | yes    | yes    | del current line             | down count                 |
-| C   | no     | yes    | line                         | current                    |
-| D   | no     | no     | line                         | current                    |
-| "^  | yes    | no     |                              |                            |
-| 0   | no     | no     | line                         |                            |
-| '$  | yes    | no     |                              |                            |
-| J   | no     |        |                              |                            |
-| gJ  | no     |        |                              |                            |
-| o   | no     | yes    |                              |                            |
-| O   | no     | yes    |                              |                            |
-
 ** Scroll big range move
-| key | prefix | insert | object | effect      | describe |
-| gg  | yes    | no     |        | move scroll |          |
-| G   | yes    | no     |        | move scroll |          |
+** Scroll big range move
+| key | pre | insert | object | effect      | describe |
+| gg  | yes | no     |        | move scroll |          |
+| G   | yes | no     |        | move scroll |          |
 1) 光标移动，屏幕不动
    M 当前行到前屏幕的中间
    H 参数默认为 6，距离屏幕顶的行数，小于 6 不行，要大于 6 才行
@@ -62,47 +20,53 @@ n|	移至第 n 个字元(栏)处。注意，要用 Shift 键。n 是从头起算
    c-f 向下翻一页，光标不动 c-b 向上翻一页，光标不动
    c-d 向下翻半页，光标不动
    c-u 向上翻半页，光标不动
+
+** column 
+默认显示 80 字符的 column 宽控制标记线
+默认快捷键是<spc> t f
+默认启动加入下面 (turn-on-fci-mode)
 ** other edit command 
-| key       | prefix | insert | object | effect  | describe   |
-| r         |        | yes/no | char   | current | disposable |
-| R         |        |        |        |         |            |
-| u         |        |        |        | uodo    |            |
-| c-r       |        |        |        | redo    |            |
-| spc z     |        |        |        |         |            |
-| spc t E h |        |        |        |         |            |
+| key       | pre | insert | object | effect  | describe   |
+| r         |     | yes/no | char   | current | disposable |
+| R         |     |        |        |         |            |
+| u         |     |        |        | uodo    |            |
+| c-r       |     |        |        | redo    |            |
+| spc z     |     |        |        |         |            |
+| spc t E h |     |        |        |         |            |
 6: 窗口和字体的放大缩小
 ** yank and pastes 
-| key   | prefix | insert | object | effect               | describe                  |
-| xp    | yes    | no     | char   | yank/pastes          | switch right              |
-| Xp    | yes    | no     | char   | yank/pastes          | switch left  to one count |
-| ddp   | yes    | no     | line   | yank/pastes          | switch current with down  |
-| yy    | yes    | no     | line   |                      |                           |
-| y/dw  | yes    | no     | word   | del current word end | yank                      |
-| y/daw | yes    | no     | word   | del word blank       | yank                      |
-| y/diw | yes    | no     | word   | del word  non-blany  | yank                      |
-| y/de  |        |        | word   |                      |                           |
-| y/db  |        |        |        |                      |                           |
-| y/dge |        |        |        |                      |                           |
+都是在正常模式下的命令，不会进入到 insert
+| key   | pre | object | effect               | describe                  |
+| xp    | yes | char   | yank/pastes          | switch right              |
+| Xp    | yes | char   | yank/pastes          | switch left  to one count |
+| ddp   | yes | line   | yank/pastes          | switch current with down  |
+| yy    | yes | line   |                      |                           |
+| y/dw  | yes | word   | del current word end | yank                      |
+| y/daw | yes | word   | del word blank       | yank                      |
+| y/diw | yes | word   | del word  non-blany  | yank                      |
+| y/de  |     | word   |                      |                           |
+| y/db  |     |        |                      |                           |
+| y/dge |     |        |                      |                           |
 
-** window
+** window spc w 
 spc-tab 与最近一个缓冲区来回切换
-| <SPC> w s   | 	split a window horizontally                                          |
-| <SPC> w v   | 	split a window vertically                                            |
-| <SPC> w c   | 	close a window                                                       |
-| <SPC> w d   | 	taggle window dedication (dedicated window cannot be used by a mode) |
-| <SPC> w H   | 	move window to the left                                              |
-| <SPC> w J   | 	move window to the bottom                                            |
-| <SPC> w K   | 	move window to the top                                               |
-| <SPC> w L   | 	move window to the right                                             |
-| <SPC> w m   | 	maximize/minimize a window                                           |
-| <SPC> w M   | 	maximize/minimize a window, when maximized the buffer is centered    |
-| <SPC> w p m | 	open messages buffer in a popup window                               |
-| <SPC> w p p | 	close the current sticky popup window                                |
-| <SPC> w r   | 	rotate windows clockwise                                             |
-| <SPC> w R   | 	rotate windows counter-clockwise                                     |
-| <SPC> w u   | 	undo window layout (used to effectively undo a close window)         |
-| <SPC> w U   | 	redo window layout                                                   |
-| <SPC> w w   | 	cycle and focus between windows                                      |
+| s   | split a window horizontally                                          |
+| v   | split a window vertically                                            |
+| c   | close a window                                                       |
+| d   | taggle window dedication (dedicated window cannot be used by a mode) |
+| H   | move window to the left                                              |
+| J   | move window to the bottom                                            |
+| K   | move window to the top                                               |
+| L   | move window to the right                                             |
+| m   | maximize/minimize a window                                           |
+| M   | maximize/minimize a window, when maximized the buffer is centered    |
+| p m | open messages buffer in a popup window                               |
+| p p | close the current sticky popup window                                |
+| r   | rotate windows clockwise                                             |
+| R   | rotate windows counter-clockwise                                     |
+| u   | undo window layout (used to effectively undo a close window)         |
+| U   | redo window layout                                                   |
+| w   | cycle and focus between windows                                      |
 ** Files
 输入字母会自动筛选,不管字母的位置
 输入字母后加一个 space，会匹配为首字母
@@ -129,8 +93,8 @@ manipulation commands (start with b):
 | <SPC> b r   | rename the current buffer                                              |
 | <SPC> b s   | switch to a buffer using helm                                          |
 | <SPC> b w   | taggle read-only                                                       |
-** help
-| SPC h d b | describe-binding     |                                                                      |
+** help spc h d
+| SPC h d b | describe-binding     | 当前缓冲区中有绑定那些按键                                           |
 | SPC h d c | describe-char        | Describe position POS (interactively, point) and the char after POS. |
 | SPC h d f | describe-function    | Display the full documentation of FUNCTION (a symbol).               |
 | SPC h d k | describe-key         | Display documentation of the function invoked by KEY.                |
@@ -142,10 +106,9 @@ manipulation commands (start with b):
 |           | describe-syntax      |                                                                      |
 |           | view-lossage         | 100 char                                                             |
 |           | where-is             | spacemacs no use                                                     |
-| c-h c     | describe-key-briefly |                                                                      |
-| c-x c-h   |                      |                                                                      |
+|           | describe-key-briefly |                                                                      |
 14: 已经被 SPC h d b 替代了
-01: 当前缓冲区中有绑定那些按键
+01: 
 12: 提示的输入的函数的快捷键是什么，现在 helm 中这个已不适用了
 13: 提示你按下快捷键运行的是什么函数
 *** apropos
@@ -199,8 +162,8 @@ c-x u
 入可能最少个数的字符后判断出想输入的是什么
 忽略一些不用的文件名后缀示例 page518
 L end of line  
-key  prefix  insert  object effect   describe 
-hjkl,right up down left,prefix
+key  pre   insert  object effect   describe 
+hjkl,right up down left,pre 
 hybrid enabled disabled glossaries, follow me,
 font sessio
 text object, purview whole
@@ -228,6 +191,12 @@ fold level fold method  <SPC> : config-system/create-layer RET
 - 解压下载的字体包
 - 复制这些字体
 - 粘贴到字体设置内就会提示在安装此字体了
+** 多光标编辑
+需要进入 iedit 模式, 此时光标变成红色, 步骤如下:
+用 vim 的 visul 模式选取要 replace 的值
+按<spc> s e 选取全部的匹配值(暂时不知怎么自定义选取)
+按 S 对值删除并进行修改
+按 ESC ESC 退出
 * plugs 
 *** bookmarks
 spc h b
@@ -324,11 +293,6 @@ ctrl-x-map esc-map esc-prefix
      global-set-key "\c-xl" 'goto-line
 local-set-key "keystroke" 'command-name
 表 11-1:特殊字符转义表 355
-** temp word 
-percent
-application mode
-scratch
-equal
 ** temp command 
 help-command
 backward-char
@@ -347,7 +311,7 @@ autoload 'ada-mode "ada"
 (setq auto-mode-alist (cons '(* .a$" . ada-mode) auto-mode-alist))
 ** variable
 - 字符串值在双引号里
-- 字符值用 prefix ?
+- 字符值用 pre  ?
 - 符号值用单引号 never
 ** 13 chapter 
 431 defun

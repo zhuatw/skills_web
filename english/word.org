@@ -1,7 +1,125 @@
 #+TITLE: word
 
-* word
-最后像字典一样按字母顺序放
-leader
+* A one
+application 
+* B two
+bookmark 
+* C three
 current
-a-i 插入空格或制表符
+** cursor
+** char
+|-----+-----+--------+-------------+---------------------------|
+| key | pre | insert | effect      | describe                  |
+|-----+-----+--------+-------------+---------------------------|
+| i   |     | yes    | left        |                           |
+| a   |     | yes    | right       |                           |
+| s   | yes | yes    | del current |                           |
+| x   | yes | no     |             | current right count       |
+| X   | yes | no     | left        | current left to one count |
+|-----+-----+--------+-------------+---------------------------|
+* D four
+describe
+dictionary
+* E five
+equal
+effect
+* F 6 six
+
+* G 7 seven
+glossary
+
+* H 8 eight
+
+* I 9 nine
+insert
+index
+* J 10 ten
+
+* K eleven
+
+* L twelve
+leader
+configurable
+configuration
+** line
+|-----+-----+--------+------------------------------+----------------------------|
+| key | pre | insert | effect                       | describe                   |
+|-----+-----+--------+------------------------------+----------------------------|
+| I   |     | yes    | at beginning of current line | first non-blank,visual use |
+| A   |     | yes    | end of the current line      |                            |
+| dd  | yes | no     | line                         | current                    |
+| cc  | yes | yes    | current                      | cc=S,no pre  count         |
+| S   | yes | yes    | del current line             | down count                 |
+| C   | no  | yes    | line                         | current                    |
+| D   | no  | no     | line                         | current                    |
+| "^  | yes | no     |                              |                            |
+| 0   | no  | no     | line                         |                            |
+| '$  | yes | no     |                              |                            |
+| J   | no  |        |                              |                            |
+| gJ  | no  |        |                              |                            |
+| o   | no  | yes    |                              |                            |
+| O   | no  | yes    |                              |                            |
+|-----+-----+--------+------------------------------+----------------------------|
+屏幕顶行和底行有参数选项控制的，现在默认好像为 6
+| H | 	移至屏幕顶行第一个非空白字元 | scroll non move | org 中为行首 |
+| M | 	移至屏幕中间第一个非空白字元 | scroll non move | org 中不能用 |
+| L | 	移至屏幕底行第一个非空白字元 | scroll non move | org 中为行尾 |
+*** line config 
+行号开启 <spc> t n
+defun dotspacemacs/config()在里面添加 (global-linum-mode t)
+* M thirteen
+manage
+mode
+* N fourteen
+
+* O fifteen
+object
+* P sixteen
+package
+publish
+percent
+prefix
+prefixion
+PageDown
+PageUp
+** paragraph
+}	移至下一个段落（paragraph）首。
+{	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
+** percent per cent
+%	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
+* Q seveteen
+
+* R eighteen
+
+* S nineteen 
+skill
+scratch
+** sentence
+)	移至下一个句子（sentence）首。
+(	移至上一个句子（sentence）首。
+sentence（句子）是以 . ! ? 为区格。
+* T twenty
+temp
+
+* U
+
+* V
+
+* W
+web
+** word
+| key | pre | insert | effect           | describe               |
+| b   | yes | no     | last first       |                        |
+| w   | yes | no     | next first       |                        |
+| W   |     |        | 同上             | 区别忽略一些符号       |
+| b   |     |        | 移至前一个字字首 |                        |
+| B   |     |        | 同上             | 区别忽略一些标点符号。 |
+| e   | 	  |        | 移至后一个字字尾 |                        |
+| E   |     |        | 同上             | 区别忽略一些符号       |
+| ge  | yes | no     | current          |                        |
+| k   | yes | no     | current word end |                        |
+* X
+
+* Y
+
+* Z
