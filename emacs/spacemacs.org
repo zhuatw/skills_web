@@ -4,131 +4,13 @@
 n|	移至第 n 个字元(栏)处。注意，要用 Shift 键。n 是从头起算的。
 这和 不一样，内文内容并未动，只是光标在动而已。 |
 :n	移至第 n 行行首。或 nG。
-** Scroll big range move
-** Scroll big range move
-| key | pre | insert | object | effect      | describe |
-| gg  | yes | no     |        | move scroll |          |
-| G   | yes | no     |        | move scroll |          |
-1) 光标移动，屏幕不动
-   M 当前行到前屏幕的中间
-   H 参数默认为 6，距离屏幕顶的行数，小于 6 不行，要大于 6 才行
-   L 参数默认为 6，距离屏幕底的行数，小于 6 不行，要大于 6 才行枯
-2) 当前光标与当前行一齐移动 zt 当前行移动屏幕顶端
-   zz 当前行到当前屏幕的中间，也可说是当前行在屏幕中居中
-   zb 当前行移动到屏幕底端
-3) 光标不动，屏幕移动
-   c-f 向下翻一页，光标不动 c-b 向上翻一页，光标不动
-   c-d 向下翻半页，光标不动
-   c-u 向上翻半页，光标不动
-
-** column 
-默认显示 80 字符的 column 宽控制标记线
-默认快捷键是<spc> t f
-默认启动加入下面 (turn-on-fci-mode)
 ** other edit command 
 | key       | pre | insert | object | effect  | describe   |
 | r         |     | yes/no | char   | current | disposable |
 | R         |     |        |        |         |            |
 | u         |     |        |        | uodo    |            |
 | c-r       |     |        |        | redo    |            |
-| spc z     |     |        |        |         |            |
-| spc t E h |     |        |        |         |            |
-6: 窗口和字体的放大缩小
-** yank and pastes 
-都是在正常模式下的命令，不会进入到 insert
-| key   | pre | object | effect               | describe                  |
-| xp    | yes | char   | yank/pastes          | switch right              |
-| Xp    | yes | char   | yank/pastes          | switch left  to one count |
-| ddp   | yes | line   | yank/pastes          | switch current with down  |
-| yy    | yes | line   |                      |                           |
-| y/dw  | yes | word   | del current word end | yank                      |
-| y/daw | yes | word   | del word blank       | yank                      |
-| y/diw | yes | word   | del word  non-blany  | yank                      |
-| y/de  |     | word   |                      |                           |
-| y/db  |     |        |                      |                           |
-| y/dge |     |        |                      |                           |
-
-** window spc w 
-spc-tab 与最近一个缓冲区来回切换
-| s   | split a window horizontally                                          |
-| v   | split a window vertically                                            |
-| c   | close a window                                                       |
-| d   | taggle window dedication (dedicated window cannot be used by a mode) |
-| H   | move window to the left                                              |
-| J   | move window to the bottom                                            |
-| K   | move window to the top                                               |
-| L   | move window to the right                                             |
-| m   | maximize/minimize a window                                           |
-| M   | maximize/minimize a window, when maximized the buffer is centered    |
-| p m | open messages buffer in a popup window                               |
-| p p | close the current sticky popup window                                |
-| r   | rotate windows clockwise                                             |
-| R   | rotate windows counter-clockwise                                     |
-| u   | undo window layout (used to effectively undo a close window)         |
-| U   | redo window layout                                                   |
-| w   | cycle and focus between windows                                      |
-** Files
-输入字母会自动筛选,不管字母的位置
-输入字母后加一个 space，会匹配为首字母
-TAB 是补全到第一个
-jk 为上下移动选择，第一个是默认选择的
-manipulation commands (start with f):
-| <SPC> f f   | open a file using ido                             |
-| <SPC> f e d | open your .spasemacs file                         |
-| <SPC> f s   | save a file                                       |
-| <SPC> f S   | save all files                                    |
-| <SPC> f t   | taggle file tree side bar using neotree           |
-| <SPC> f y   | show current file absolute path in the minibuffer |
-** Buffer
-manipulation commands (start with b):
-| <SPC> b d   | delete the current buffer (beware the associated file is also deleted) |
-| <SPC> b k   | kill the current buffer                                                |
-| <SPC> b K   | kill all buffers except the current one                                |
-| <SPC> b m h | move a buffer to the left                                              |
-| <SPC> b m j | move a buffer to the bottom                                            |
-| <SPC> b m k | move a buffer to the top                                               |
-| <SPC> b m l | move a buffer to the right                                             |
-| <SPC> b n   | switch to next buffer                                                  |
-| <SPC> b p   | switch to previous buffer                                              |
-| <SPC> b r   | rename the current buffer                                              |
-| <SPC> b s   | switch to a buffer using helm                                          |
-| <SPC> b w   | taggle read-only                                                       |
-** help spc h d
-| SPC h d b | describe-binding     | 当前缓冲区中有绑定那些按键                                           |
-| SPC h d c | describe-char        | Describe position POS (interactively, point) and the char after POS. |
-| SPC h d f | describe-function    | Display the full documentation of FUNCTION (a symbol).               |
-| SPC h d k | describe-key         | Display documentation of the function invoked by KEY.                |
-| SPC h d m | describe-mode        | Display documentation of current major mode and minor modes.         |
-| SPC h d p | describe-package     |                                                                      |
-| SPC h d s | describe-system-info | Check the *Messages* buffer if you need to review it                 |
-| SPC h d t | describe-theme       |                                                                      |
-| SPC h d v | describe-variable    | Display the full documentation of VARIABLE (a symbol).               |
-|           | describe-syntax      |                                                                      |
-|           | view-lossage         | 100 char                                                             |
-|           | where-is             | spacemacs no use                                                     |
-|           | describe-key-briefly |                                                                      |
-14: 已经被 SPC h d b 替代了
-01: 
-12: 提示的输入的函数的快捷键是什么，现在 helm 中这个已不适用了
-13: 提示你按下快捷键运行的是什么函数
-*** apropos
-- command-apropos c-h a
-输入一个相关术语，如 line，会出现涉及到此术语的相关函数
-- apropos
-这个概念涉及到那些函数与变量
-- super-apropos
-那些函数和变量的文档里提到了这个概念
-*** page510 没看完 
-** visual
-- v Characterwise visual mode
-- V Linewise visual mode
-- c-v 矩形模式
-- 通用
-  d 删除选中的区域                                   
-  c 删除当前选中的字符，后面不动
-  o and O  在高亮块中交换光标位置 
-  gv 重新选中最近一次可视化时选过的文本                           
-  r 选一个就替一个，选多个就用你输入的替换成多个
+|      |     |        |        |         |            |
  
 *** find
 f 加上一个字符的命令，这里的 f 表示“find”,比如 fx 表示在当
@@ -144,18 +26,10 @@ tx 表示向右寻找第一个 x 所在的位置，但是它不是把光标停�
 表示向右搜索，大写的 T 表示向左搜索。 
 据了两行的空间，但是在逻辑上它们是一行，因为它们之间不
 包括任何的换行符。 
-*** %
-它会自动把光标定位到与之对应的括号的
 *** 50%
 命令来跳转到文件的中间位置，用 80%命令跳转到文件的百分之八十的位置
 *** table
 s-tab 对齐和向上个单元格
-*** undo and redo
-c-x u
-| 1 | u   | undo-tree-undo | normal| vim   |
-| 2 | c-r | undo-tree-redo | normal| vim   |
-| 3 | c-_ | undo-tree-undo | normal| emacs |
-| 4 | a-_ | undo-tree-redo | normal| emacs |
 ** temp notes
 *** 最短无二义前缀
 如果需要输入某个事物的名称，而这个名称是有限个数的可能性中的一种，Emacs 就能在输
@@ -171,9 +45,7 @@ fold level fold method  <SPC> : config-system/create-layer RET
 ** Symbols
 | <SPC> s l   | To list all the symbols of a buffer press:                    |
 | <SPC> s e   | edit all occurrences of the current symbol                    |
-| <SPC> t s   | taggle the auto highlighting                                  |
 | <SPC> s e   | edit all occurrences of the current symbol                    |
-| <SPC> t s   | taggle the auto highlighting                                  |
 | <SPC> s s   | initiate navigation micro-state                               |
 | <SPC> s n   | go to next occurrence and initiate navigation micro-state     |
 | <SPC> s N   | go to previous occurrence and initiate navigation micro-state |
@@ -181,16 +53,13 @@ fold level fold method  <SPC> : config-system/create-layer RET
 | <SPC> s c f | hange range to function                                       |
 | <SPC> s C   | change range to default (whole buffer)                        |
 | <SPC> s c b | change range to whole buffer                                  |
+| <SPC> t s   | taggle the auto highlighting                                  |
+| <SPC> t s   | taggle the auto highlighting                                  |
 出现一个列表缓冲区，是以有 * 来提取的，可输入关键字来搜索 ret 后光标就到此处
 ** .spacemacs.d/
 (defun dotspacemacs/user-config ()
 (server-start);;自已的配置放到这里 
 )
-** fonts 
-- 打开控制面板的字体
-- 解压下载的字体包
-- 复制这些字体
-- 粘贴到字体设置内就会提示在安装此字体了
 ** 多光标编辑
 需要进入 iedit 模式, 此时光标变成红色, 步骤如下:
 用 vim 的 visul 模式选取要 replace 的值
@@ -198,78 +67,6 @@ fold level fold method  <SPC> : config-system/create-layer RET
 按 S 对值删除并进行修改
 按 ESC ESC 退出
 * plugs 
-*** bookmarks
-spc h b
-| CTRL+d | delete the selected bookmark                 |
-| CTRL+e | edit the selected bookmark                   |
-| CTRL+f | taggle filename location                     |
-| CTRL+o | open the selected bookmark in another window |
-To save a new bookmark, just type the name of the bookmark and press RET.
-*** markdown 
-**** hd-md
-=gh-md-revert-buffers= generate a preview of the markdown content of a buffer.
-=gh-md-render-region= 当前区域输出
-*** magit 
-**** quick use
-**** To open a status buffer, type in a buffer of a Git repository:
-<SPC> g s 使用这个命名如果当前 git 管理的文件有修改，它会提示你要保存
-才能判断当前的 status 啊
-- s = add
-- S 等于要在项目类别的名称上就是所作用于此项目类别下的所有
-- c = commit
-- c-c c-c
-- P P
-**** untracked files 这里只能一个的加了吧
-这里如果出现是表示没有加入 git 管理
-**** unstaged changes S 只对这里的管用
-这个表示受 git 管理但是有更改过了
-**** staged changes
-当你使用 s 后前一个 unstaged 就会去掉 un 变成 staged 表示巳 add 了
-*** NeoTree file tree
-可用翻页命令 c-d and c-u
-~SPC f t~ or ~SPC p t~
-number =0= ~SPC 0~
-| Key Binding  | Description                                                            |
-|--------------+------------------------------------------------------------------------|
-| ~h~          | collapse expanded directory or go to parent node                       |
-| ~H~          | previous sibling                                                       |
-| ~j~          | next file or directory                                                 |
-| ~J~          | next expanded directory on level down                                  |
-| ~k~          | previous file or directory                                             |
-| ~K~          | parent directory, when reaching the root change it to parent directory |
-| ~l~ or ~RET~ | expand directory                                                       |
-| ~L~          | next sibling                                                           |
-| ~R~          | make a directory the root directory                                    |
-
-Opening files with NeoTree
-
-| Key Binding      | Description                               |
-|------------------+-------------------------------------------|
-| ~l~ or ~RET~     | open file in last active window           |
-| ~# l~ or ~# RET~ | open file in window number =#=            |
-| ~¦~              | open file in an vertically split window   |
-| ~-~              | open file in an horizontally split window |
-
-Other NeoTree key bindings
-| Key Binding | Description                     |
-|-------------+---------------------------------|
-| ~TAB~       | toggle stretching of the buffer |
-| ~c~         | create a node                   |
-| ~d~         | delete a node                   |
-| ~g~         | refresh                         |
-| ~s~         | toggle showing of hidden files  |
-| ~q~ or ~fd~ | hide =NeoTree= buffer           |
-| ~r~         | rename a node                   |
-
-NeoTree mode-line
-The mode-line has the following format =[x/y] d (D:a, F:b)= where:
-  - =x= is the index of the current selected file or directory
-  - =y= the total number of items (file and directory) in the current directory
-  - =d= the name of the current directory
-  - =a= the number of directories in the current directory
-  - =b= the number of files in the current directory
-*** undo-tree-vap 
-spc a u c-x u
 * elisp 
 normal and insert 状态下 a-ret e 后会出现 command buffer
 c-x c-e 出现在 minibuffer sexp->symbol expression
