@@ -199,6 +199,7 @@ spc h d
 * I nine
 insert
 index
+Identit
 * J ten
 
 * K eleven
@@ -242,6 +243,7 @@ mode
 
 * O fifteen
 object
+other
 * P sixteen
 package
 publish
@@ -288,7 +290,7 @@ scratch
 sentence（句子）是以 . ! ? 为区格。
 * T twenty
 temp
-
+tip
 * U
 
 ** undo and redo
