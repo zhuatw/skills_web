@@ -1,8 +1,7 @@
 #+TITLE: org
 
-* org
+* T twenty
 ** temp note
-spc m or leader key "," 
 T 怎么大写 T 直接 TODO
 c-c c-d 输入日期
 a-ret 下行出行同级列表或大纲
@@ -44,44 +43,6 @@ c-j 含当前光标分断成新行行
 | spc m K | 	org-shiftup               | #A increase priority |
 | spc m J | 	org-shiftdown             | #B increase priority |
 | spc m p |                             | starts a pomodoro    |
-** outline browse
-| spc m b | 	org-tree-to-indirect-buffer | indirect |
-| spc m n | 	org-narrow-to-subtree       | narrow   |
-| spc m N | 	widen                       | widen    |
-** outline meta 
-三类都还没看出区别
-| M-l       | org-metaright         |
-| M-h       | org-metaleft          |
-| M-k       | org-metaup            |
-| M-j       | org-metadown          |
-|-----------+-----------------------|
-| M-L       | org-shiftmetaright    |
-| M-H       | org-shiftmetaleft     |
-| M-K       | org-shiftmetaup       |
-| M-J       | org-shiftmetadown     |
-|-----------+-----------------------|
-| <         | org-metaleft          |
-| >         | org-metaright         |
-|-----------+-----------------------|
-| SPC m S l | org-demote-subtree    |
-| SPC m S h | org-promote-subtree   |
-| SPC m S k | org-move-subtree-up   |
-| SPC m S j | org-move-subtree-down |
-** outline new 
-| key   | function                           | location    | describe                         |
-|-------+------------------------------------+-------------+----------------------------------|
-| c-ret | org-insert-heading-respect-content | top of line | up new Same level                |
-|       |                                    | besides     | down new Same level              |
-| a-ret | org-meta-return                    | top of line | current line up new same level   |
-|       |                                    | line feed   | current line down new same level |
-|       |                                    |             |                                  |
-| M-o   | org-insert-heading + org-metaright | line        | new line insert or use TAB       |
-|       |                                    |             |                                  |
-** outline move
-| gh        | outline-up-heading                            |               |
-| gj        | org-forward-heading-same-level                |               |
-| gk        | org-backward-heading-same-level               |               |
-| gl        | outline-next-visible-heading                  |               |
 ** todo 
 | spc m T | org-show-todo-tree                          |               |
 | spc m L | org-shiftright                              |               |
@@ -164,3 +125,51 @@ SPC m m	send current buffer as HTML email message
 #+STARTUP: content
 #+STARTUP: showall
 #+STARTUP: showeverything
+* O fifteen
+#+TITLE: Outline
+
+* I nine
+** indirect 
+| spc m b | org-tree-to-indirect-buffer | 在另外的窗口出现，当前窗口焦点不变 |
+
+* N fourteen
+** new 
+| key   | function                           | location    | describe                         |
+|-------+------------------------------------+-------------+----------------------------------|
+| c-ret | org-insert-heading-respect-content | top of line | up new Same level                |
+|       |                                    | besides     | down new Same level              |
+| a-ret | org-meta-return                    | top of line | current line up new same level   |
+|       |                                    | line feed   | current line down new same level |
+|       |                                    |             |                                  |
+| M-o   | org-insert-heading + org-metaright | line        | new line insert or use TAB       |
+|       |                                    |             |                                  |
+** narrow widen 
+| spc m n | org-narrow-to-subtree       | 当前大纲突显，隐藏所有其余的       |
+| spc m N | widen                       | 上面的命令用此返回                 |
+
+* M thirteen
+** move
+| gh | outline-up-heading              |
+| gj | org-forward-heading-same-level  |
+| gk | org-backward-heading-same-level |
+| gl | outline-next-visible-heading    |
+** meta
+有的还要再区分下，反正带 shift 的是带上当前级别的所有级别。
+| M-l       | org-metaright         |
+| M-h       | org-metaleft          |
+| >         | org-metaright         |
+| <         | org-metaleft          |
+|-----------+-----------------------|
+| M-L       | org-shiftmetaright    |
+| M-H       | org-shiftmetaleft     |
+|-----------+-----------------------|
+| M-k       | org-metaup            |
+| M-K       | org-shiftmetaup       |
+| M-j       | org-metadown          |
+| M-J       | org-shiftmetadown     |
+|-----------+-----------------------|
+| SPC m S l | org-demote-subtree    |
+| SPC m S h | org-promote-subtree   |
+| SPC m S k | org-move-subtree-up   |
+| SPC m S j | org-move-subtree-down |
+|-----------+-----------------------|
