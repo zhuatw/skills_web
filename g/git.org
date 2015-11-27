@@ -1,5 +1,33 @@
 #+TITLE: git
 
+* git
+本地新建一个分支，推到远程，没有显示的会默认在远程新建一个的
+$ git push origin dictionary
+Counting objects: 21, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (21/21), 5.32 KiB | 0 bytes/s, done.
+Total 21 (delta 11), reused 0 (delta 0)
+To https://github.com/zhuatw/skills_web.git
+ * [new branch]      dictionary -> dictionary
+
+** magit 
+*** quick use
+*** To open a status buffer, type in a buffer of a Git repository:
+<SPC> g s 使用这个命名如果当前 git 管理的文件有修改，它会提示你要保存
+才能判断当前的 status 啊
+- s = add
+- S 等于要在项目类别的名称上就是所作用于此项目类别下的所有
+- c = commit
+- c-c c-c
+- P P
+*** untracked files 这里只能一个的加了吧
+这里如果出现是表示没有加入 git 管理
+*** unstaged changes S 只对这里的管用
+这个表示受 git 管理但是有更改过了
+*** staged changes
+当你使用 s 后前一个 unstaged 就会去掉 un 变成 staged 表示巳 add 了
+
 * tips
   remotes/origin/HEAD -> origin/master
   remotes/origin/master

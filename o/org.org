@@ -1,60 +1,54 @@
 #+TITLE: org
 
-* T twenty
-** temp note
-T 怎么大写 T 直接 TODO
-c-c c-d 输入日期
-a-ret 下行出行同级列表或大纲
-s-右箭头会切换列表显示的不同列表号
-SPC s l	spacemacs/jump-in-buffer (jump to a heading)
-org with evil-org-mode 
-c-j 含当前光标分断成新行行
-** org-edit-special Tree related shorcuts
-<dotspacemacs-major-mode-leader-key>
-| TAB         | org-cycle               |                                |
-| '$          | org-end-of-line         |                                |
-| '^          | org-beginning-of-line   |                                |
+* A one
+** above
+| O | org-open-above |目前只知与 vim 一样在当前行上建一个空行且进入 insert |
+
+* B two
+** bold
+| SPC m x b | 	make region bold           |
+** beginning
 | H           | org-beginning-of-line   | current line beginning         |
+| \^          | org-beginning-of-line   |                                |
 | L           | org-end-of-line         | current end of line            |
-| o           | always-insert-item      |                                |
-| O           | org-open-above          |                                |
-| spc m e     | 	org-export-dispatch   | export current file option     |
-| spc m R     | 	org-refile            | move subtree to other subtree  |
-| spc m c     | 	org-capture           | capture                        |
-|-------------+-------------------------+--------------------------------|
-| spc m l     | 	org-open-at-point     |                                |
-| spc m f     | 	org-set-effort        | ?:PROPERTIES:                  |
-| spc m C-S-l | 	org-shiftcontrolright |                                |
-| spc m C-S-h | 	org-shiftcontrolleft  |                                |
-| spc m C-S-j | 	org-shiftcontroldown  | ??Switch to previous TODO set. |
-| spc m C-S-k | 	org-shiftcontrolup    |                                |
-*** 当前 outline 产生一个新的，但是在此级下的所有内容后产生
-** Project time management
-| spc m A | 	org-archive-subtree       | archive              |
-| spc m a | 	org-agenda                | agenda               |
-| spc m . | 	org-time-stamp            |                      |
-| spc m C | 	evil-org-recompute-clocks |                      |
-| spc m d | 	org-deadline              | deadline             |
-| spc m I | 	org-clock-in              |                      |
-| spc m O | 	org-clock-out             |                      |
-| spc m q | 	org-clock-cancel          |                      |
-| spc m s | 	org-schedule              | schedule             |
-| spc m H | 	org-shiftleft             | CLOSED               |
-| spc m K | 	org-shiftup               | #A increase priority |
-| spc m J | 	org-shiftdown             | #B increase priority |
-| spc m p |                             | starts a pomodoro    |
+| \$          | org-end-of-line         |                                |
+* C three 
+** code
+| SPC m x c | 	make region code |
+** capture
+| Key     | Binding               | Description |
+| SPC C c | org-capture           |             |
+| spc m c | org-capture           |             |
+| SPC C t | ort/capture-todo      |             |
+| SPC C T | ort/capture-checkitem |             |
+* E five 
+** email
+Org-MIME
+Key Binding	Description
+SPC m M	in message-mode buffersm convert into html email
+SPC m m	send current buffer as HTML email message
+** export
+| spc m e | 	org-export-dispatch | export current file option |
+** emphasis
+| SPC m x r | 	clear region emphasis |
+* F six
+SPC m i f	org-insert-footnote
+* I nine
+** italic
+| SPC m x i | 	make region italic         |
+** Item
+| o | always-insert-item |如果在 item 上就是在下行新建一个同级 item |
+* T twenty
+** TAB
+| TAB | org-cycle |
+- 在 a-o 后用 TAB 键可在 outline 的级别上切换
+
 ** todo 
 | spc m T | org-show-todo-tree                          |               |
 | spc m L | org-shiftright                              |               |
 | M-t     | org-insert-todo-heading nil + org-metaright | down new TODO |
 | T       | org-insert-todo-heading nil                 | new todo line |
 | t       | org-todo                                    |               |
-*** Org-repo-todo
-Key Binding	Description
-SPC C c	org-capture
-SPC C t	ort/capture-todo
-SPC C T	ort/capture-checkitem
-SPC m g t	ort/goto-todos
 ** tags Tagging
 | spc m leader | 	org-ctrl-c-ctrl-c | tags | outline same? |
 | spc m :      | 	org-set-tags      | tags | outline same? |
@@ -96,64 +90,31 @@ SPC m  or leader t
 | w   |                         | Wrap several fields in a column like a paragraph                           |
 | I   | Import file             | Import a file as a table                                                   |
 
-** Element insertion
-SPC m h i	org-insert-heading-after-current
-SPC m h I	org-insert-heading
-SPC m i f	org-insert-footnote
-SPC m i l	org-insert-link
 
-** Org emphasize
-| SPC m x b | 	make region bold           |
-| SPC m x c | 	make region code           |
-| SPC m x i | 	make region italic         |
-| SPC m x r | 	clear region emphasis      |
-| SPC m x s | 	make region strike-through |
-| SPC m x u | 	make region underline      |
-| SPC m x v | 	make region verbose        |
-** Presentation
-org-present must be activated explicitly by typing: SPC : org-present
-Key Binding	Description
-h	previous slide
-l	next slide
-q	quit
-** Org-MIME
-Key Binding	Description
-SPC m M	in message-mode buffersm convert into html email
-SPC m m	send current buffer as HTML email message
-** org-init 
-#+STARTUP: overview
-#+STARTUP: content
-#+STARTUP: showall
-#+STARTUP: showeverything
+| a-H | leader | delete current column |
+| a-L |        | insert current column |
 * O fifteen
-#+TITLE: Outline
+** Outline
+*** new 
+| key   | location    | describe                         |
+|-------+-------------+----------------------------------|
+| c-ret | top of line | up new Same level                |
+|       | besides     | down new Same level              |
+| a-ret | top of line | current line up new same level   |
+|       | line feed   | current line down new same level |
+|       |             |                                  |
+| M-o   | line        | new line insert or use TAB       |
 
-* I nine
-** indirect 
-| spc m b | org-tree-to-indirect-buffer | 在另外的窗口出现，当前窗口焦点不变 |
-
-* N fourteen
-** new 
-| key   | function                           | location    | describe                         |
-|-------+------------------------------------+-------------+----------------------------------|
-| c-ret | org-insert-heading-respect-content | top of line | up new Same level                |
-|       |                                    | besides     | down new Same level              |
-| a-ret | org-meta-return                    | top of line | current line up new same level   |
-|       |                                    | line feed   | current line down new same level |
-|       |                                    |             |                                  |
-| M-o   | org-insert-heading + org-metaright | line        | new line insert or use TAB       |
-|       |                                    |             |                                  |
-** narrow widen 
-| spc m n | org-narrow-to-subtree       | 当前大纲突显，隐藏所有其余的       |
-| spc m N | widen                       | 上面的命令用此返回                 |
-
-* M thirteen
-** move
+说明：这两个也是 inster 新的大纲级别与 c-ret and a-ret 基本相同吧
+| SPC m h I | org-insert-heading               | 有快捷键了                       |
+| SPC m h i | org-insert-heading-after-current | 有快捷键了                       |
+*** move cursor
 | gh | outline-up-heading              |
 | gj | org-forward-heading-same-level  |
 | gk | org-backward-heading-same-level |
 | gl | outline-next-visible-heading    |
-** meta
+*** meta
+| spc m R | 	org-refile | move subtree to other subtree |
 有的还要再区分下，反正带 shift 的是带上当前级别的所有级别。
 | M-l       | org-metaright         |
 | M-h       | org-metaleft          |
@@ -173,3 +134,40 @@ SPC m m	send current buffer as HTML email message
 | SPC m S k | org-move-subtree-up   |
 | SPC m S j | org-move-subtree-down |
 |-----------+-----------------------|
+*** indirect 
+| spc m b | org-tree-to-indirect-buffer | 另外的窗口出现，当前窗口焦点不变 |
+*** narrow
+| spc m n | org-narrow-to-subtree       | 当前大纲突显，隐藏所有其余的       |
+*** widen
+| spc m N | widen                       | 上面的命令用此返回                 |
+* P sixteen
+** Project time management
+| spc m A | 	org-archive-subtree       | archive              |
+| spc m a | 	org-agenda                | agenda               |
+| spc m . | 	org-time-stamp            |                      |
+| spc m C | 	evil-org-recompute-clocks |                      |
+| spc m d | 	org-deadline              | deadline             |
+| spc m I | 	org-clock-in              |                      |
+| spc m O | 	org-clock-out             |                      |
+| spc m q | 	org-clock-cancel          |                      |
+| spc m s | 	org-schedule              | schedule             |
+| spc m H | 	org-shiftleft             | CLOSED               |
+| spc m K | 	org-shiftup               | #A increase priority |
+| spc m J | 	org-shiftdown             | #B increase priority |
+| spc m p |                             | starts a pomodoro    |
+* R eighteen 
+* L twelve
+| SPC m i l | 	org-insert-link   |
+| spc m l   | 	org-open-at-point |
+* U twenty-one
+** underline
+| SPC m x u | 	make region underline |
+* V twenty-two
+** verbose
+| SPC m x v | 	make region verbose |
+* S nineteen
+** startup
+#+STARTUP: overview
+#+STARTUP: content
+#+STARTUP: showall
+#+STARTUP: showeverything
