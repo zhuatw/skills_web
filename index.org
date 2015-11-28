@@ -20,9 +20,7 @@ configuration
 * D four
 describe
 disposable 
-dictionary skills web
-index
-emacs
+dictionary 
 spacemacs
 personal
 identity
@@ -33,6 +31,7 @@ Documentation
 * E five
 equal
 effect
+emacs
 emphasis
 Element
 * F six
@@ -72,7 +71,8 @@ glossary
 * H eight
 hybrid
 help
-describe-binding     |
+highlighting
+describe
 char        
 function    
 key         
@@ -80,15 +80,22 @@ mode
 package     
 system-info 
 theme       
-variable    
 syntax      
-key-briefly 
-view-lossage        |
-where-is            |
-
-Describe position POS (interactively, point) and the char after POS.
-Display the full documentation of FUNCTION (a symbol).               
-Display documentation of the function invoked by KEY.                
+briefly 
+binding
+Describe
+position
+interactively
+point
+and
+the
+after
+Display
+full
+documentation
+FUNCTION
+symbol
+function invoked by KEY.                
 Display documentation of current major mode and minor modes.         
                                                                      
 Check the *Messages* buffer if you need to review it                 
@@ -105,11 +112,12 @@ insertion
 insert
 index
 Identit
+indent
 * J ten
 * K eleven
 * L twelve
 leader
-
+lossage
 * M thirteen
 manage
 mode
@@ -165,11 +173,6 @@ PageDown
 PageUp
 plugs
 pipe
-** paragraph
-}	移至下一个段落（paragraph）首。
-{	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
-** percent per cent
-%	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
 * Q seveteen
 
 * R eighteen
@@ -177,6 +180,8 @@ read
 readme
 * S nineteen 
 skill
+[[http://emacsist.com/10001Emacs][简化按键利器 hydra]]
+skills web
 shorcuts
 scratch
 scroll
@@ -185,28 +190,39 @@ sentence
 a-i 插入空格或制表符
 plugs 
 elisp 
+spc i ikIK
+:[number]：跳转到制定行
 normal and insert 状态下 a-ret e 后会出现 command buffer
 c-x c-e 出现在 minibuffer sexp->symbol expression
 c-j eval-print-last-sexp (lisp-state-eval-sexp-end-of-line)
 ->eval
-后等于新出二行，第一行是值，第二行是空行的行首
+后等于新出二行，第一行是值，第二行是空行的行首比如 space p p，就是打开工程，s
+pace p f 就是打开工程中的文件，space f f 就是直接打开文件，space g g 就是打开
+magit buffer，而 space g s 就是 git 的 stage。
+
+1.3 搜索和替换
+\：
+
+\searchWord：输入搜索内容，n 向下搜索，N 向上搜索。
+
+%：在各种括号跳转。
+
+:s/old/new：替换第一个匹配；:s/old/new/g：替换当前行匹配；:#,#s/old/new/g：替换行（#为行号）之间匹配；:%s/old/new/g：替换全文匹配。
+
+:%s/old/new/gc：替换全文匹配，每一个匹配会提示是否匹配（输入 y 表示执行替换，n 表示跳过匹配）。
 * T twenty
 temp
 tip
 table
 tree
 * U twenty-one
-** undo and redo
-undo-tree-vap 
-spc a u c-x u
-| 1 | u   | undo-tree-undo | normal| vim   |
-| 2 | c-r | undo-tree-redo | normal| vim   |
-| 3 | c-_ | undo-tree-undo | normal| emacs |
-| 4 | a-_ | undo-tree-redo | normal| emacs |
-
+undo
 * V twenty-two
 vert
+variable    
+view
 * W twenty-three
+where
 ** web map 
 [[file+emacs:c:/Users/Administrator/skills_web/emacs/spacemacs.org][spacemacs]]
 [[https://github.com/zhuatw][zhuatw be github.com]]
@@ -214,19 +230,8 @@ vert
 * X twenty-four
 
 * Y twenty-five
-** yank and pastes 
-都是在正常模式下的命令，不会进入到 insert
-| key   | pre | object | effect               | describe                  |
-| xp    | yes | char   | yank/pastes          | switch right              |
-| Xp    | yes | char   | yank/pastes          | switch left  to one count |
-| ddp   | yes | line   | yank/pastes          | switch current with down  |
-| yy    | yes | line   |                      |                           |
-| y/dw  | yes | word   | del current word end | yank                      |
-| y/daw | yes | word   | del word blank       | yank                      |
-| y/diw | yes | word   | del word  non-blany  | yank                      |
-| y/de  |     | word   |                      |                           |
-| y/db  |     |        |                      |                           |
-| y/dge |     |        |                      |                           |
+yank
+
 * Z twenty-six
 
 * text 

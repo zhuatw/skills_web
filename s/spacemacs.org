@@ -3,7 +3,7 @@
 * B two
 ** Buffer
 manipulation commands (start with b):
-delete the current buffer (beware the associated file is also deleted) 
+delete the current buffer (beware the associated file is also deleted)
 | d   | (beware the associated file is also deleted) |
 | k   | kill the current buffer                      |
 | K   | kill all buffers except the current one      |
@@ -26,7 +26,7 @@ spc h b
 To save a new bookmark, just type the name of the bookmark and press RET.
 
 * C three
-** column 
+** column
 默认显示 80 字符的 column 宽控制标记线
 默认快捷键是<spc> t f
 默认启动加入下面 (turn-on-fci-mode)
@@ -41,9 +41,8 @@ To save a new bookmark, just type the name of the bookmark and press RET.
 | x   | yes | no     |             | current right count       |
 | X   | yes | no     | left        | current left to one count |
 |-----+-----+--------+-------------+---------------------------|
-
 * F six
-** fonts 
+** fonts
 spc z  f/x 窗口和字体的放大缩小
 *** windows 下安装字体方法
 - 打开控制面板的字体
@@ -52,7 +51,7 @@ spc z  f/x 窗口和字体的放大缩小
 - 粘贴到字体设置内就会提示在安装此字体了
 ** Files
 输入字母会自动筛选,不管字母的位置
-输入字母后加一个 space，会匹配为首字母
+输入字母后加一个 Space，会匹配为首字母
 TAB 是补全到第一个
 jk 为上下移动选择，第一个是默认选择的
 manipulation commands (start with f):
@@ -96,7 +95,7 @@ spc h d
 |   | 100 char                                                             |
 |   | spacemacs no use                                                     |
 14: 已经被 SPC h d b 替代了
-01: 
+01:
 12: 提示的输入的函数的快捷键是什么，现在 helm 中这个已不适用了
 13: 提示你按下快捷键运行的是什么函数
 *** apropos
@@ -106,36 +105,59 @@ spc h d
 这个概念涉及到那些函数与变量
 - super-apropos
 那些函数和变量的文档里提到了这个概念
-*** page510 没看完 
+*** page510 没看完
 * L twelve
+** letter
+
+| ~   | evil-invert-char | 反转大小写字符，可加前缀         |   |
+| a-c | capitalize-word  | 同上但光标会到词尾空格           |   |
+|-----+------------------+----------------------------------+---|
+| a-u | upcase-word      | 处理单词后半部分整个单词转为大写 |   |
+|     | downcase-word    | 整个单词转为小写                 |   |
+|-----+------------------+----------------------------------+---|
+| u   | downcase-region  | 选定区域全部改为大写             |   |
+| U   | upcase-region    | 选定区域全部改为小写             |   |
+|     |                  |                                  |   |
+
+Small intestine 小肠
+negative-argument
+small letter 小写字母
+capital letters 大写
+lower case letters 小写字体
+SMALL POTATOES 小人物
 ** line
-|-----+-----+-----+---------------------------+----------------------|
-| key | pre | ins | effect                    | describe             |
-|-----+-----+-----+---------------------------+----------------------|
-| I   |     | yes | beginning of current line | non-blank,visual use |
-| A   |     | yes | end of the current line   |                      |
-| dd  | yes | no  | line                      | current              |
-| cc  | yes | yes | current                   | cc=S,no pre  count   |
-| S   | yes | yes | del current line          | down count           |
-| C   | no  | yes | line                      | current              |
-| D   | no  | no  | line                      | current              |
-| "^  | yes | no  |                           |                      |
-| 0   | no  | no  | line                      |                      |
-| '$  | yes | no  |                           |                      |
-| J   | no  |     |                           |                      |
-| gJ  | no  |     |                           |                      |
-| o   | no  | yes |                           |                      |
-| O   | no  | yes |                           |                      |
-|-----+-----+-----+---------------------------+----------------------|
-*** line config 
+|----------+-----+-----+---------------------------+----------------------|
+| key      | pre | ins | effect                    | describe             |
+|----------+-----+-----+---------------------------+----------------------|
+| I        |     | yes | beginning of current line | non-blank,visual use |
+| A        |     | yes | end of the current line   |                      |
+| dd       | yes | no  | line                      | current              |
+| cc       | yes | yes | current                   | cc=S,no pre  count   |
+| S        | yes | yes | del current line          | down count           |
+| C        | no  | yes | line                      | current              |
+| D        | no  | no  | line                      | current              |
+| "^       | yes | no  |                           |                      |
+| 0        | no  | no  | line                      |                      |
+| '$       | yes | no  |                           |                      |
+| J        | no  |     |                           |                      |
+| gJ       | no  |     |                           |                      |
+|----------+-----+-----+---------------------------+----------------------|
+| o        | no  | yes |                           |                      |
+| O        | no  | yes |                           |                      |
+| spci i j | yes | no  |                           |                      |
+| spci i J | yes | no  |                           |                      |
+| spci i k | yes | no  |                           |                      |
+| spci i K | yes | no  | 大小写的区别有空再分      |                      |
+|----------+-----+-----+---------------------------+----------------------|
+*** line config
 行号开启 <spc> t n
+
 defun dotspacemacs/config()在里面添加 (global-linum-mode t)
 
 * M thirteen
-** markdown 
+** markdown
 gh-md-revert-buffers 就是
 generate a preview of the markdown content of a buffer.
-
 gh-md-render-region= 当前区域输出
 * N fourteen
 ** NeoTree file tree
@@ -191,7 +213,18 @@ The mode-line has the following format =[x/y] d (D:a, F:b)= where:
 {	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
 ** percent per cent
 %	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
-* S nineteen 
+* S nineteen
+
+** search 
+/ 我现在是找到后再加个空格回车来到那
+
+spc / 查找当前光标下的单词，会自动把当前的单词加进来
+
+spc s b 这个属于 helm-grep 是在所有打开的缓冲区类找，回车就跳过去了
+
+spc spc 高亮单个字符查找，当前卷轴范围内，再输入此高亮的字母上，就跳到那了
+spc s l 
+
 ** Scroll
 | key | pre | insert | object | effect      | describe |
 | gg  | yes | no     |        | move scroll |          |
@@ -219,7 +252,7 @@ sentence（句子）是以 . ! ? 为区格。
 
 * U
 ** undo and redo
-undo-tree-vap 
+undo-tree-vap
 spc a u c-x u
 | 1 | u   | undo-tree-undo | normal| vim   |
 | 2 | c-r | undo-tree-redo | normal| vim   |
@@ -231,13 +264,27 @@ spc a u c-x u
 - V Linewise visual mode
 - c-v 矩形模式
 - 通用
-  d 删除选中的区域                                   
+  d 删除选中的区域
   y 复制
   c 删除当前选中的字符，后面不动
-  o and O  在高亮块中交换光标位置 
-  gv 重新选中最近一次可视化时选过的文本                           
+  o and O  在高亮块中交换光标位置
+  gv 重新选中最近一次可视化时选过的文本
   r 选一个就替一个，选多个就用你输入的替换成多个
-* W 
+* Y twenty-five
+** yank and pastes
+都是在正常模式下的命令，不会进入到 insert
+| key   | pre | object | effect               | describe                  |
+| xp    | yes | char   | yank/pastes          | switch right              |
+| Xp    | yes | char   | yank/pastes          | switch left  to one count |
+| ddp   | yes | line   | yank/pastes          | switch current with down  |
+| yy    | yes | line   |                      |                           |
+| y/dw  | yes | word   | del current word end | yank                      |
+| y/daw | yes | word   | del word blank       | yank                      |
+| y/diw | yes | word   | del word  non-blany  | yank                      |
+| y/de  |     | word   |                      |                           |
+| y/db  |     |        |                      |                           |
+| y/dge |     |        |                      |                           |
+* W
 ** word
 | key | pre | insert | effect           | describe               |
 | b   | yes | no     | last first       |                        |
@@ -249,7 +296,10 @@ spc a u c-x u
 | E   |     |        | 同上             | 区别忽略一些符号       |
 | ge  | yes | no     | current          |                        |
 | k   | yes | no     | current word end |                        |
-** window 
+
+spc v 选中当前光标处的单词
+< and >好像也可以在单词间的空格中移动，“.”好像也可以
+** window
 spc-tab 与最近一个缓冲区来回切换
 | s   | split a window horizontally                                          |
 | v   | split a window vertically                                            |

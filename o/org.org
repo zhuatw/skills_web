@@ -155,6 +155,12 @@ SPC m  or leader t
 | spc m K | 	org-shiftup               | #A increase priority |
 | spc m J | 	org-shiftdown             | #B increase priority |
 | spc m p |                             | starts a pomodoro    |
+
+** percent per cent
+%	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
+** paragraph
+}	移至下一个段落（paragraph）首。
+{	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
 * R eighteen 
 * L twelve
 | SPC m i l | 	org-insert-link   |
