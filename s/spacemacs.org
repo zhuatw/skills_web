@@ -214,17 +214,19 @@ The mode-line has the following format =[x/y] d (D:a, F:b)= where:
 ** percent per cent
 %	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
 * S nineteen
-
 ** search 
+*** 当前文件即光标所在的缓冲区
 / 我现在是找到后再加个空格回车来到那
-
+*** 所有缓冲区 
 spc / 查找当前光标下的单词，会自动把当前的单词加进来
 
 spc s b 这个属于 helm-grep 是在所有打开的缓冲区类找，回车就跳过去了
 
 spc spc 高亮单个字符查找，当前卷轴范围内，再输入此高亮的字母上，就跳到那了
 spc s l 
-
+spc s p 好像与那几个的区别还要再分
+spc h l 上一个搜索历史
+spc s f 指定一个文件或一个目录或两个点的上级目录
 ** Scroll
 | key | pre | insert | object | effect      | describe |
 | gg  | yes | no     |        | move scroll |          |
@@ -284,7 +286,7 @@ spc a u c-x u
 | y/de  |     | word   |                      |                           |
 | y/db  |     |        |                      |                           |
 | y/dge |     |        |                      |                           |
-* W
+* W twenty-three
 ** word
 | key | pre | insert | effect           | describe               |
 | b   | yes | no     | last first       |                        |
@@ -300,6 +302,8 @@ spc a u c-x u
 spc v 选中当前光标处的单词
 < and >好像也可以在单词间的空格中移动，“.”好像也可以
 ** window
+a-f10 当前窗格最大与恢复切换，不遮位系统工具栏
+f11 同上，即真正全屏，即会遮住系统工具栏
 spc-tab 与最近一个缓冲区来回切换
 | s   | split a window horizontally                                          |
 | v   | split a window vertically                                            |
