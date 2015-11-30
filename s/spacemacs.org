@@ -26,6 +26,23 @@ spc h b
 To save a new bookmark, just type the name of the bookmark and press RET.
 
 * C three
+** Commenting
+Comments are handled by [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]], it's bound to the following keys.
+
+    | Key Binding | Description               |
+    |-------------+---------------------------|
+    | ~SPC ;~     | comment operator          |
+    | ~SPC c l~   | comment lines             |
+    | ~SPC c L~   | invert comment lines      |
+    | ~SPC c p~   | comment paragraphs        |
+    | ~SPC c P~   | invert comment paragraphs |
+    | ~SPC c t~   | comment to line           |
+    | ~SPC c T~   | invert comment to line    |
+    | ~SPC c y~   | comment and yank          |
+    | ~SPC c Y~   | invert comment and yank   |
+
+*Tips:* To comment efficiently a block of line use the combo ~SPC ; SPC l~
+
 ** column
 默认显示 80 字符的 column 宽控制标记线
 默认快捷键是<spc> t f
@@ -109,56 +126,64 @@ spc h d
 * L twelve
 ** letter
 
-| ~   | evil-invert-char | 反转大小写字符，可加前缀         |   |
-| a-c | capitalize-word  | 同上但光标会到词尾空格           |   |
-|-----+------------------+----------------------------------+---|
-| a-u | upcase-word      | 处理单词后半部分整个单词转为大写 |   |
-|     | downcase-word    | 整个单词转为小写                 |   |
-|-----+------------------+----------------------------------+---|
-| u   | downcase-region  | 选定区域全部改为大写             |   |
-| U   | upcase-region    | 选定区域全部改为小写             |   |
-|     |                  |                                  |   |
+| ~       | evil-invert-char                    | 反转大小写字符，可加前缀         |
+| a-c     | capitalize-word                     | 同上但光标会到词尾空格           |
+|---------+-------------------------------------+----------------------------------|
+| a-u     | upcase-word                         | 处理单词后半部分整个单词转为大写 |
+|         | downcase-word                       | 整个单词转为小写                 |
+|---------+-------------------------------------+----------------------------------|
+| u       | downcase-region                     | 选定区域全部改为大写             |
+| U       | upcase-region                       | 选定区域全部改为小写             |
+| spc x u | set the selected text to lower case | 光标不动                         |
+| spc x U | set the selected text to upper case | 光标不动                         |
 
+negative-Argument
 Small intestine 小肠
-negative-argument
 small letter 小写字母
-capital letters 大写
 lower case letters 小写字体
-SMALL POTATOES 小人物
+capital letters 大写
+small potatoes 小人物
 ** line
-|----------+-----+-----+---------------------------+----------------------|
-| key      | pre | ins | effect                    | describe             |
-|----------+-----+-----+---------------------------+----------------------|
-| I        |     | yes | beginning of current line | non-blank,visual use |
-| A        |     | yes | end of the current line   |                      |
-| dd       | yes | no  | line                      | current              |
-| cc       | yes | yes | current                   | cc=S,no pre  count   |
-| S        | yes | yes | del current line          | down count           |
-| C        | no  | yes | line                      | current              |
-| D        | no  | no  | line                      | current              |
-| "^       | yes | no  |                           |                      |
-| 0        | no  | no  | line                      |                      |
-| '$       | yes | no  |                           |                      |
-| J        | no  |     |                           |                      |
-| gJ       | no  |     |                           |                      |
-|----------+-----+-----+---------------------------+----------------------|
-| o        | no  | yes |                           |                      |
-| O        | no  | yes |                           |                      |
-| spci i j | yes | no  |                           |                      |
-| spci i J | yes | no  |                           |                      |
-| spci i k | yes | no  |                           |                      |
-| spci i K | yes | no  | 大小写的区别有空再分      |                      |
-|----------+-----+-----+---------------------------+----------------------|
+|-----------+-----+-----+------------------------------+----------------------------|
+| key       | pre | ins | effect                       | describe                   |
+|-----------+-----+-----+------------------------------+----------------------------|
+| I         |     | yes | beginning of current line    | non-blank,visual use       |
+| A         |     | yes | end of the current line      |                            |
+| dd        | yes | no  | line                         | current                    |
+| cc        | yes | yes | current                      | cc=S,no pre  count         |
+| S         | yes | yes | del current line             | down count                 |
+| C         | no  | yes | line                         | current                    |
+| D         | no  | no  | line                         | current                    |
+| "^        | yes | no  |                              |                            |
+| 0         | no  | no  | line                         |                            |
+| '$        | yes | no  |                              |                            |
+| J         | no  |     |                              |                            |
+| gJ        | no  |     |                              |                            |
+|-----------+-----+-----+------------------------------+----------------------------|
+| o         | no  | yes |                              |                            |
+| O         | no  | yes |                              |                            |
+| spc i j   | yes | no  |                              |                            |
+| spc i J   | yes | no  |                              |                            |
+| spc i k   | yes | no  |                              |                            |
+| spc i K   | yes | no  | 大小写的区别有空再分         |                            |
+|-----------+-----+-----+------------------------------+----------------------------|
+| spc x J   |     |     | move down a line of text     | (enter micro-state)        |
+| spc x K   |     |     | move up a line of text       | (enter micro-state)        |
+| spc x t l |     |     | swap (transpose) the current | line with the previous one |
+|-----------+-----+-----+------------------------------+----------------------------|
+| spc l     |     |     | goto-line                    |                            |
+|-----------+-----+-----+------------------------------+----------------------------|
 *** line config
 行号开启 <spc> t n
 
 defun dotspacemacs/config()在里面添加 (global-linum-mode t)
 
+
 * M thirteen
 ** markdown
-gh-md-revert-buffers 就是
 generate a preview of the markdown content of a buffer.
 gh-md-render-region= 当前区域输出
+gh-md-revert-buffers 就是
 * N fourteen
 ** NeoTree file tree
 可用翻页命令 c-d and c-u
@@ -215,38 +240,48 @@ The mode-line has the following format =[x/y] d (D:a, F:b)= where:
 %	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
 * S nineteen
 ** search 
-*** 当前文件即光标所在的缓冲区
-/ 我现在是找到后再加个空格回车来到那
-*** 所有缓冲区 
-spc / 查找当前光标下的单词，会自动把当前的单词加进来
-
-spc s b 这个属于 helm-grep 是在所有打开的缓冲区类找，回车就跳过去了
-
-spc spc 高亮单个字符查找，当前卷轴范围内，再输入此高亮的字母上，就跳到那了
-spc s l 
-spc s p 好像与那几个的区别还要再分
-spc h l 上一个搜索历史
-spc s f 指定一个文件或一个目录或两个点的上级目录
+|---------+---------------------+-------------------+---------------------------|
+| spc spc |                     | current buffer    | 单个字符的                |
+|---------+---------------------+-------------------+---------------------------|
+| \/      | evil-search-forward | current buffer    | c-s or c-r  N or n is vim |
+|---------+---------------------+-------------------+---------------------------|
+| spc s l | helm-semantic       | current buffer    | Helm-semantic-or-imenu    |
+|---------+---------------------+-------------------+---------------------------|
+| spc s s | helm-swoop          | current buffer    | 可加空格后进一步搜索      |
+| spc s S | helm-swoop          | current buffer    | 会提取当前光标处的单词    |
+|---------+---------------------+-------------------+---------------------------|
+| spc /   |                     | buffer            | 会提取当前的，中文会一行  |
+|---------+---------------------+-------------------+---------------------------|
+| spc s b | helm-grep           | buffer            |                           |
+| spc s B | helm-grep           | buffer            | 会提取当前光标处的单词    |
+| spc h l | helm-gerp           |                   | 上面搜索的的历史          |
+|---------+---------------------+-------------------+---------------------------|
+| spc s f |                     | file or directory |                           |
+| spc s p |                     | file or directory | 区别再分                  |
+|---------+---------------------+-------------------+---------------------------|
 ** Scroll
 | key | pre | insert | object | effect      | describe |
 | gg  | yes | no     |        | move scroll |          |
 | G   | yes | no     |        | move scroll |          |
 屏幕顶行和底行有参数选项控制的，现在默认好像为 6
-| H | 	移至屏幕顶行第一个非空白字元 | scroll non move | org 中为行首 |
-| M | 	移至屏幕中间第一个非空白字元 | scroll non move | org 中不能用 |
-| L | 	移至屏幕底行第一个非空白字元 | scroll non move | org 中为行尾 |
+| H | 移至屏幕顶行第一个非空白字元 | scroll non move | org 中为行首 |
+| M | 移至屏幕中间第一个非空白字元 | scroll non move | org 中不能用 |
+| L | 移至屏幕底行第一个非空白字元 | scroll non move | org 中为行尾 |
 1) 光标移动，屏幕不动
-   M 当前行到前屏幕的中间
-   H 参数默认为 6，距离屏幕顶的行数，小于 6 不行，要大于 6 才行
-   L 参数默认为 6，距离屏幕底的行数，小于 6 不行，要大于 6 才行枯
+    M 当前行到前屏幕的中间
+    H 参数默认为 6，距离屏幕顶的行数，小于 6 不行，要大于 6 才行
+    L 参数默认为 6，距离屏幕底的行数，小于 6 不行，要大于 6 才行枯
 2) 当前光标与当前行一齐移动
-   zt 当前行移动屏幕顶端
-   zz 当前行到当前屏幕的中间，也可说是当前行在屏幕中居中
-   zb 当前行移动到屏幕底端
-3) 光标不动，屏幕移动
+    z t 当前行移动屏幕顶端
+    z z 当前行到当前屏幕的中间，也可说是当前行在屏幕中居中
+    z b 当前行移动到屏幕底端
+    z f reposition-window
+4) 光标不动，屏幕移动
    c-f 向下翻一页，光标不动 c-b 向上翻一页，光标不动
    c-d 向下翻半页，光标不动 c-u 向上翻半页，光标不动
-
+5) 可进入微观状态
+    SPC n +	increase the number under point by one and initiate micro-state
+    SPC n -	decrease the number under point by one and initiate micro-state
 ** sentence
 )	移至下一个句子（sentence）首。
 (	移至上一个句子（sentence）首。
@@ -271,7 +306,16 @@ spc a u c-x u
   c 删除当前选中的字符，后面不动
   o and O  在高亮块中交换光标位置
   gv 重新选中最近一次可视化时选过的文本
-  r 选一个就替一个，选多个就用你输入的替换成多个
+  r 选一个就替一个，选多个就用你输入的替换成多个 Expand-region
+*** Expand-region
+Spacemacs adds another Visual mode via the expand-region mode.
+| Key Binding | Description                              |
+|-------------+------------------------------------------|
+| ~SPC v~     | initiate expand-region mode then...      |
+| ~v~         | expand the region by one semantic unit   |
+| ~V~         | contract the region by one semantic unit |
+| ~r~         | reset the region to initial selection    |
+| ~ESC~       | leave expand-region mode                 |
 * Y twenty-five
 ** yank and pastes
 都是在正常模式下的命令，不会进入到 insert
@@ -288,16 +332,19 @@ spc a u c-x u
 | y/dge |     |        |                      |                           |
 * W twenty-three
 ** word
-| key | pre | insert | effect           | describe               |
-| b   | yes | no     | last first       |                        |
-| w   | yes | no     | next first       |                        |
-| W   |     |        | 同上             | 区别忽略一些符号       |
-| b   |     |        | 移至前一个字字首 |                        |
-| B   |     |        | 同上             | 区别忽略一些标点符号。 |
-| e   | 	  |        | 移至后一个字字尾 |                        |
-| E   |     |        | 同上             | 区别忽略一些符号       |
-| ge  | yes | no     | current          |                        |
-| k   | yes | no     | current word end |                        |
+| key       | pre | insert | effect               | describe                           |
+| b         | yes | no     | last first           |                                    |
+| w         | yes | no     | next first           |                                    |
+| W         |     |        | 同上                 | 区别忽略一些符号                   |
+| b         |     |        | 移至前一个字字首     |                                    |
+| B         |     |        | 同上                 | 区别忽略一些标点符号。             |
+| e         | 	  |        | 移至后一个字字尾     |                                    |
+| E         |     |        | 同上                 | 区别忽略一些符号                   |
+| ge        | yes | no     | current              |                                    |
+| k         | yes | no     | current word end     |                                    |
+|-----------+-----+--------+----------------------+------------------------------------|
+| spc x t w |     |        | swap (transpose) the | current word with the previous one |
+|           |     |        |                      |                                    |
 
 spc v 选中当前光标处的单词
 < and >好像也可以在单词间的空格中移动，“.”好像也可以

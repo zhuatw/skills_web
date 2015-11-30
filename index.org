@@ -21,6 +21,7 @@ configuration
 describe
 disposable 
 dictionary 
+directory
 spacemacs
 personal
 identity
