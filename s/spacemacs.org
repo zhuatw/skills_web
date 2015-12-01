@@ -239,11 +239,16 @@ The mode-line has the following format =[x/y] d (D:a, F:b)= where:
 ** percent per cent
 %	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
 * S nineteen
+** 查找的范围 
+*** current buffer or namely current buffer
+***  wv 当前缓冲区
+*** 当前文件
+*** 当前所有缓冲区
 ** search 
 |---------+---------------------+-------------------+---------------------------|
 | spc spc |                     | current buffer    | 单个字符的                |
 |---------+---------------------+-------------------+---------------------------|
-| \/      | evil-search-forward | current buffer    | c-s or c-r  N or n is vim |
+| \/ or ? | evil-search-forward | current buffer    | c-s or c-r  N or n is vim |
 |---------+---------------------+-------------------+---------------------------|
 | spc s l | helm-semantic       | current buffer    | Helm-semantic-or-imenu    |
 |---------+---------------------+-------------------+---------------------------|

@@ -1,0 +1,354 @@
+#+TITLE: Searching
+
+* B two
+** Searching in current file
+| Key Binding | Description                                         |
+|-------------+-----------------------------------------------------|
+| ~SPC s a a~ | =ag=                                                |
+| ~SPC s a A~ | =ag= with default input                             |
+| ~SPC s g g~ | =grep=                                              |
+| ~SPC s g G~ | =grep= with default input                           |
+
+** Searching in all open buffers visiting files
+| Key Binding | Description                                         |
+|-------------+-----------------------------------------------------|
+| ~SPC s b~   | search with the first found tool                    |
+| ~SPC s B~   | search with the first found tool with default input |
+| ~SPC s a b~ | =ag=                                                |
+| ~SPC s a B~ | =ag= with default text                              |
+| ~SPC s g b~ | =grep=                                              |
+| ~SPC s g B~ | =grep= with default text                            |
+| ~SPC s k b~ | =ack=                                               |
+| ~SPC s k B~ | =ack= with default text                             |
+| ~SPC s t b~ | =pt=                                                |
+| ~SPC s t B~ | =pt= with default text                              |
+* C three
+** config
+If the last key (determining the scope) is uppercase then the current region or
+symbol under point is used as default input for the search. For instance ~SPC s
+a B~ will search with symbol under point (if there is no active region).
+
+If the tool key is omitted then a default tool will be automatically selected
+for the search. This tool corresponds to the first tool found on the system of
+the list =dotspacemacs-search-tools=, the default order is =ag=, =pt=, =ack=
+then =grep=. For instance ~SPC s b~ will search in the opened buffers using =pt=
+if =ag= has not been found on the system.
+
+
+It is possible to search in the current file by double tapping the second key
+of the sequence, for instance ~SPC s a a~ will search in the current
+file with =ag=.
+
+*** Useful key bindings
+| Key Binding     | Description                                                              |
+|-----------------+--------------------------------------------------------------------------|
+| ~SPC h l~       | resume the last =helm= buffer                                            |
+| ~F3~            | in a =helm= buffer, convert a =helm= search buffer into a regular buffer |
+| ~SPC s L~       | focus the last converted search buffer                                   |
+| Prefix argument | will ask for file extensions                                             |
+
+* E five
+** external
+1. ag 现在也不用，在 windows 下并不快
+    windows 中 cygwin 下的 ag.exe 并不是很快，与默认值不同吧
+2. grep
+3. ack 不要了
+4. pt 有空再说
+*With an external tool*
+Spacemacs can be interfaced with different search utilities like:
+  - ack
+  - grep
+  - [[https://github.com/ggreer/the_silver_searcher][ag]]
+  - [[https://github.com/monochromegane/the_platinum_searcher][pt]]
+
+* F six
+** files and directory
+Searching for files in an arbitrary directory
+| Key Binding | Description                                         |
+|-------------+-----------------------------------------------------|
+| ~SPC s f~   | search with the first found tool                    |
+| ~SPC s F~   | search with the first found tool with default input |
+| ~SPC s a f~ | =ag=                                                |
+| ~SPC s a F~ | =ag= with default text                              |
+| ~SPC s g f~ | =grep=                                              |
+| ~SPC s g F~ | =grep= with default text                            |
+| ~SPC s k f~ | =ack=                                               |
+| ~SPC s k F~ | =ack= with default text                             |
+| ~SPC s t f~ | =pt=                                                |
+| ~SPC s t F~ | =pt= with default text                              |
+* N fourteen 
+** 光标移动的方式
+1. 鼠标指那点那。 
+2. 上下左右箭逐渐移动。
+3. hjkl
+4. spc spc 只是搜字符的，也只是在当前缓冲区窗口的可视范围内
+5. / or ? 这个也可以搜索当前的 
+6. * 高亮当前的单词，出现微观命令行
+7. : 输入数字指定行 
+8. spc l
+   可视的所有缓冲区都行，如果是在只读的缓冲区执行不会波及到其它可视的缓冲区
+** 内部自带的是 c-s 
+1. 其它的可能都是要 cygwin 里才能用的
+2. http://blog.kowalczyk.info/software/the-silver-searcher-for-windows.html
+3. 我原来有装 cygwin 里面应该是默认支持 grep 的
+4. ack 是增强版，ag 是 ack 的加强版，好像开发者说不再做 ack 了，推荐 ag 了
+5. 
+   
+** project 
+如果当前缓冲区没有设置成项目，支持 git 的目录为一个项目，项目需要明文指定
+** file directory
+明文指定搜索的范围
+emacs 查找替换 
+** temp 
+
+1，逐个查找
+
+
+C-s 向下查找
+
+C - r 向上查找
+
+按下 C-s 后输入要搜索的词，emacs 会即时显示当前光标后第一个搜索到的结果，按 C-s 会跳到下一个结果，按 C - r 会跳到上一个结果。
+
+按 Enter 结束查找或按 C - g 取消查找回到原来的地方。
+
+按下 C-s 或 C-r 后，按 M - p 显示上一个搜索词，M - n 显示下一个搜索词。类似 C - p 是上一行，C - n 下一行。
+
+按下 C-s 或 C - r 后，输入要查找的词的头几个字，然后按 C - w 会补全当前位置的单词。
+
+2，查找单词
+
+
+按 C - s RET C - w 或 C - r RET C - w 来使用单词搜索。
+
+3，查找及替换
+
+
+按 M - %启动查找替换，输入要被替换的词，回车，然后输入要替换的词，再回车。
+
+被替换的词会高亮起来，这时，输入 y 替换并跳到下一个，输入 n 忽略并跳到下一个，输入 q 结束，输入！替换剩下的全部。
+
+一些常用的选项：
+
+　　C - g 中断查找替换过程。
+
+　　^ 返回上一个替换点，按 y 继续下一个，如果不想替换上一个的话，用^返回到上一个，然后按 C - r 进入编辑，修改完后按 C - M - c 退出继续下一个。
+
+　　C - l 使当前匹配显示在文档中间。
+
+　　C - r 进入修改。
+
+4，列出匹配的模式
+
+
+有时候想列出匹配的全面模式，而不是在文档中浏览，这个可以使用 occur 这个函数。
+
+例子：M - x occur RET Create RET
+
+这时，emacs 会新开一个窗口来列出匹配的行，用鼠标点击或把光标移到一行按回车就会跳转到那里。
+
+* O fifteen
+** occur mode
+若只是需要在 Emacs 所打开的 buffer 中查询某字段,则 occur 命令一个对 GNU grep 的很好的替代
+1. M-x occur
+   会让你输入一个正则表达式,然后在 当前 buffer 中进行内容匹配,在 Occur Output buffer 中显
+   示匹配正则表达式的行,并对匹配部分进行加亮处理.
+2. M-x multi-occur
+   会让你选择要在哪些 buffer 中进行内容匹配
+3. M-x multi-occur-in-matching-buffers
+   会在 buffer name 符合某正则的 buffer 中进行内容匹配
+4. M-x occur-rename-buffer
+    对默认的*Occur* outputbuffer 进行重命名,命名规则为*Occur:匹配的文件名列表,用/分隔*
+*** occur output buffer
+r 命令重命名*occur output* buffer
+g 命令重现做一次正则匹配查询
+M-g M-n / M-g M-p 遍历*occur output* buffer 中匹配行的原所在文件位置
+C-c C-f 开启 Next-Error-Follow minor mode
+在开启 Next-Error-Follow minor mode 后,可用使用 M-n 和 M-p 来代替 M-g M-n / M-g M-p
+q 命令退出*occur output* buffer
+*** 让 occur 命令作用于某个 major mode 的所有 buffer 中
+(eval-when-compile                                                    
+  (require 'cl))                                                      
+
+(defun get-buffers-matching-mode (mode)                               
+  "Returns a list of buffers where their major-mode is equal to MODE" 
+  (let ((buffer-mode-matches '()))                                    
+    (dolist (buf (buffer-list))                                        
+      (with-current-buffer buf                                         
+        (if (eq mode major-mode)                                       
+            (add-to-list 'buffer-mode-matches buf))))                  
+    buffer-mode-matches))                                              
+
+(defun multi-occur-in-this-mode ()                                    
+  "Show all lines matching REGEXP in buffers with this major mode."   
+  (interactive)                                                       
+  (multi-occur                                                        
+   (get-buffers-matching-mode major-mode)                             
+   (car (occur-read-primary-args))))                                  
+
+;; global key for `multi-occur-in-this-mode' - you should change this.
+(global-set-key (kbd "C-<f2>") 'multi-occur-in-this-mode)
+
+* P sixteen 
+** Project
+Searching in a project
+| Key Binding           | Description                                         |
+|-----------------------+-----------------------------------------------------|
+| ~SPC s p~             | search with the first found tool                    |
+| ~SPC /~  or ~SPC s P~ | search with the first found tool with default input |
+| ~SPC s a p~           | =ag=                                                |
+| ~SPC s a P~           | =ag= with default text                              |
+| ~SPC s g p~           | =grep= with default text                            |
+| ~SPC s k p~           | =ack=                                               |
+| ~SPC s k P~           | =ack= with default text                             |
+| ~SPC s t p~           | =pt=                                                |
+| ~SPC s t P~           | =pt= with default text                              |
+
+** prefix
+
+The search commands in Spacemacs are organized under the ~SPC s~ prefix with the
+next key is the tool to use and the last key is the scope. For instance ~SPC s a
+b~ will search in all opened buffers using =ag=.
+
+The tool keys are:
+
+| Tool | Key |
+|------+-----|
+| ag   | a   |
+| grep | g   |
+| ack  | k   |
+| pt   | t   |
+
+The available scopes and corresponding keys are:
+
+| Scope                      | Key    |
+|----------------------------+--------|
+| opened buffers             | b      |
+| files in a given directory | f      |
+| current project            | p      |
+
+* S nineteen
+** swiper
+1. 借用子龙山人的配置，就已直接绑定也就是替换了原来的快捷键就是 c-s
+2. 重复按 c-s 可以不停地查找一下个，按 c-r 可以查找上一个。
+3. 如果匹配的项目不止一个的时候，可以在下面有一个 mini buffer 可以预览，
+   这个才是 swiper 的 killer feature。
+4. 在这个预览窗口里面，我绑定了 c-j/c-k 来上下选择。
+5. 如果你按 c-g 取消，你的光标还是会回到原来你按 c-s 的地方。
+6. 在 emacs state 里用。我一般会选择使用 swiper 来查找想要的内容，而不会
+   先回到 evil normal 状态，再按/来搜索。
+** swoop
+This is very similar to =moccur=, it displays a =helm= buffer with all the
+occurrences of the word under point. You can then change the search query in
+real-time and navigate between them easily.
+
+You can even edit the occurrences directly in the =helm= buffer and apply the
+modifications to the buffer.
+
+| Key Binding | Description                    |
+|-------------+--------------------------------|
+| ~SPC s s~   | execute =helm-swoop=           |
+| ~SPC s S~   | execute =helm-multi-swoop=     |
+| ~SPC s C-s~ | execute =helm-multi-swoop-all= |
+
+| Key Binding | Description                                         |
+|-------------+-----------------------------------------------------|
+| ~SPC s s~   | search with the first found tool                    |
+| ~SPC s S~   | search with the first found tool with default input |
+
+* W twenty-three
+Searching the web
+| Key Binding | Description                                                          |
+|-------------+----------------------------------------------------------------------|
+| ~SPC s w g~ | Get Google suggestions in emacs. Opens Google results in Browser.    |
+| ~SPC s w w~ | Get Wikipedia suggestions in emacs. Opens Wikipedia page in Browser. |
+*** Persistent highlighting
+Spacemacs uses =evil-search-highlight-persist= to keep the searched expression
+highlighted until the next search. It is also possible to clear the highlighting
+by pressing ~SPC s c~ or executing the ex command =:noh=.
+
+*** Stacking highlights
+With [[https://github.com/boyw165/hl-anything][hl-anything]] it is possible to highlight all occurrences of the word under
+point. The highlights can be stacked.
+
+| Key Binding | Description                                                                 |
+|-------------+-----------------------------------------------------------------------------|
+| ~SPC h c~   | clear the highlightings                                                     |
+| ~SPC h C~   | clear the highlightings globally (all opened buffers)                       |
+| ~SPC h h~   | highlight all occurrence of the word at point                               |
+| ~SPC h H~   | highlight all occurrence of the word at point globally (all opened buffers) |
+| ~SPC h n~   | next highlighted occurrence                                                 |
+| ~SPC h N~   | previous highlighted occurrence                                             |
+| ~SPC h p~   | toggle auto-highlight of the enclosing parenthesis                          |
+| ~SPC h r~   | restore saved highlights in the current buffer                              |
+| ~SPC h s~   | save current highlights                                                     |
+
+*** Highlight current symbol
+Spacemacs supports highlighting of the current symbol on demand (provided by
+[[https://github.com/emacsmirror/auto-highlight-symbol][auto-highlight-symbol]] mode) and adds a micro-state to easily navigate and rename
+this symbol.
+
+It is also possible to change the range of the navigation on the fly to:
+  - buffer
+  - function
+  - visible area
+
+To initiate the highlighting of the current symbol under point press ~SPC s h~.
+
+Navigation between the highlighted symbols can be done with the commands:
+
+| Key Binding | Description                                                                        |
+|-------------+------------------------------------------------------------------------------------|
+| ~/~         | initiate navigation micro-state on current symbol and jump forwards                |
+| ~#~         | initiate navigation micro-state on current symbol and jump backwards               |
+| ~SPC s e~   | edit all occurrences of the current symbol(/)                                      |
+| ~SPC s h~   | highlight the current symbol and all its occurrence within the current range       |
+| ~SPC s H~   | go to the last searched occurrence of the last highlighted symbol                  |
+| ~SPC t h a~ | toggle automatic highlight of symbol under point after =ahs-idle-interval= seconds |
+
+In 'Spacemacs' highlight symbol micro-state:
+
+| Key Binding   | Description                                                   |
+|---------------+---------------------------------------------------------------|
+| ~e~           | edit occurrences (*)                                          |
+| ~n~           | go to next occurrence                                         |
+| ~N~           | go to previous occurrence                                     |
+| ~d~           | go to next definition occurrence                              |
+| ~D~           | go to previous definition occurrence                          |
+| ~r~           | change range (=function=, =display area=, =whole buffer=)     |
+| ~R~           | go to home occurrence (reset position to starting occurrence) |
+| Any other key | leave the navigation micro-state                              |
+
+(*) using [[https://github.com/tsdh/iedit][iedit]] or the default implementation
+of =auto-highlight-symbol=
+
+The micro-state text in minibuffer display the following information:
+
+#+BEGIN_EXAMPLE
+    <M> [6/11]* press (n/N) to navigate, (e) to edit, (r) to change range or (R)
+    for reset
+#+END_EXAMPLE
+
+Where =<M> [x/y]*= is:
+  - M: the current range mode
+  - =<B>=: whole buffer range
+  - =<D>=: current display range
+  - =<F>=: current function range
+  - =x=: the index of the current highlighted occurrence
+  - =y=: the total number of occurrences
+  - =*=: appears if there is at least one occurrence which is not currently visible.
+
+*** Visual Star
+With [[https://github.com/bling/evil-visualstar][evil-visualstar]] you can search for the next occurrence of the current
+selection.
+
+It is pretty useful combined with the [[#region-selection][expand-region]] bindings.
+
+/Note:/ If the current state is not the =visual state= then pressing ~*~ uses
+[[#auto-highlight-symbols][auto-highlight-symbol]] and its micro-state.
+
+*** Listing symbols by semantic
+Use =helm-semantic-or-imenu= command from =Helm= to quickly navigate between the
+symbols in a buffer.
+
+To list all the symbols of a buffer press: ~SPC s l~

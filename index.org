@@ -22,9 +22,6 @@ describe
 disposable 
 dictionary 
 directory
-spacemacs
-personal
-identity
 english
 word
 life
@@ -139,7 +136,7 @@ content
 render
 region
 * N fourteen
-
+native
 * O fifteen
 object
 other
@@ -183,6 +180,7 @@ PageDown
 PageUp
 plugs
 pipe
+personal
 * Q seveteen
 
 * R eighteen
