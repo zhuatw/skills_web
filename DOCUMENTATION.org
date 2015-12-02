@@ -1174,22 +1174,6 @@ toggle on and off a toggle.
 Navigation is performed using the Vi key bindings ~hjkl~.
 
 | Key Binding | Description                                                                       |
-|-------------+-----------------------------------------------------------------------------------|
-| ~h~         | move cursor left                                                                  |
-| ~j~         | move cursor down                                                                  |
-| ~k~         | move cursor up                                                                    |
-| ~l~         | move cursor right                                                                 |
-| ~H~         | move cursor to the top of the screen                                              |
-| ~L~         | move cursor to the bottom of the screen                                           |
-| ~SPC j h~   | go to the beginning of line (and set a mark at the previous location in the line) |
-| ~SPC j l~   | go to the end of line (and set a mark at the previous location in the line)       |
-| ~SPC t -~   | lock the cursor at the center of the screen                                       |
-
-**** Smooth scrolling
-[[https://github.com/aspiers/smooth-scrolling][smooth-scrolling]] prevent the point to jump when it reaches the top or
-bottom of the screen. It is enabled by default.
-
-On Windows, you may want to disable it. To disable the smooth scrolling set the
 =dotspacemacs-smooth-scrolling= variable in your =~/.spacemacs= to =nil=:
 
 #+begin_src emacs-lisp

@@ -13,6 +13,7 @@ bookmark
 current
 cycle
 char
+counter-clockwise
 column
 cursor
 configurable
@@ -138,16 +139,20 @@ region
 * N fourteen
 native
 * O fifteen
-object
 other
 outline spc s l
 emphasize
 emphasis 
 org-present must be activated explicitly by typing: SPC : org-present
 Binding	Description
+
 previous slide
+
 next slide
 quit
+** object
+1. Additional text objects
+    每日 vim 插件–vim 中的文本对象及相关插件 (foocoder.com) - 推酷
 ** org
 <dotspacemacs-major-mode-leader-key>
 Org-repo-todo
@@ -231,6 +236,10 @@ variable
 view
 * W twenty-three
 where
+** workflow
+1. +CapsLock
+2. yuodao
+3. vpn
 ** web map 
 [[file+emacs:c:/Users/Administrator/skills_web/emacs/spacemacs.org][spacemacs]]
 [[https://github.com/zhuatw][zhuatw be github.com]]

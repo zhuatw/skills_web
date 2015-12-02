@@ -2,12 +2,12 @@
 
 * B two
 ** Searching in current file
-| Key Binding | Description                                         |
-|-------------+-----------------------------------------------------|
-| ~SPC s a a~ | =ag=                                                |
-| ~SPC s a A~ | =ag= with default input                             |
-| ~SPC s g g~ | =grep=                                              |
-| ~SPC s g G~ | =grep= with default input                           |
+| Key Binding | Description               |
+|-------------+---------------------------|
+| ~SPC s a a~ | =ag=                      |
+| ~SPC s a A~ | =ag= with default input   |
+| ~SPC s g g~ | =grep=                    |
+| ~SPC s g G~ | =grep= with default input |
 
 ** Searching in all open buffers visiting files
 | Key Binding | Description                                         |

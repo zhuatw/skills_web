@@ -1,22 +1,38 @@
 #+TITLE: Spacemacs
 
 * B two
-** Buffer
-manipulation commands (start with b):
-delete the current buffer (beware the associated file is also deleted)
-| d   | (beware the associated file is also deleted) |
-| k   | kill the current buffer                      |
-| K   | kill all buffers except the current one      |
-| m h | move a buffer to the left                    |
-| m j | move a buffer to the bottom                  |
-| m k | move a buffer to the top                     |
-| m l | move a buffer to the right                   |
-| n   | switch to next buffer                        |
-| p   | switch to previous buffer                    |
-| r   | rename the current buffer                    |
-| s   | switch to a buffer using helm                |
-| w   | taggle read-only                             |
 
+** Buffer
+**** Buffers manipulation key bindings
+|-------------+-------------------------------------------------------------------------|
+| ~SPC b b~   | switch to a buffer using =helm=                                         |
+| ~SPC b d~   | kill the current buffer (does not delete the visited file)              |
+| ~SPC b e~   | erase the content of the buffer (ask for confirmation)                  |
+|             | 擦除  这   内容   在 这          问     要    确认                      |
+|-------------+-------------------------------------------------------------------------|
+| ~SPC b h~   | open =*spacemacs*= home buffer                                          |
+| ~SPC b k~   | kill a buffer                                                           |
+| ~SPC b K~   | kill all buffers except the current one                                 |
+|             | 除了      当前                                                          |
+|-------------+-------------------------------------------------------------------------|
+| ~SPC b C-k~ | kill all buffers matching the regexp                                    |
+|             | 匹配         正则                                                       |
+|-------------+-------------------------------------------------------------------------|
+| ~SPC b m h~ | move a buffer to the left                                               |
+| ~SPC b m j~ | move a buffer to the bottom                                             |
+| ~SPC b m k~ | move a buffer to the top                                                |
+| ~SPC b m l~ | move a buffer to the right                                              |
+|-------------+-------------------------------------------------------------------------|
+| ~SPC b M~   | swap windows using [[https://github.com/abo-abo/ace-window][ace-swap-window]]                                      |
+|             | 切换                                                                    |
+| ~SPC b n~   | switch to next buffer avoiding special buffers                          |
+| ~SPC b p~   | switch to previous buffer avoiding special buffers                      |
+| ~SPC b P~   | copy clipboard and replace buffer (useful when pasting from a browser)  |
+| ~SPC b R~   | revert the current buffer (reload from disk)                            |
+| ~SPC b w~   | toggle read-only (writable state)                                       |
+| ~SPC b Y~   | copy whole buffer to clipboard (useful when copying to a browser)       |
+|             | 复制 所有            剪切板 先记住到时再试用                            |
+| ~z f~       | Make current function or comments visible in buffer as much as possible |
 ** bookmarks
 spc h b
 | CTRL+d | delete the selected bookmark                 |
@@ -27,19 +43,21 @@ To save a new bookmark, just type the name of the bookmark and press RET.
 
 * C three
 ** Commenting
-Comments are handled by [[https://github.com/redguardtoo/evil-nerd-commenter][evil-nerd-commenter]], it's bound to the following keys.
-
-    | Key Binding | Description               |
-    |-------------+---------------------------|
-    | ~SPC ;~     | comment operator          |
-    | ~SPC c l~   | comment lines             |
-    | ~SPC c L~   | invert comment lines      |
-    | ~SPC c p~   | comment paragraphs        |
-    | ~SPC c P~   | invert comment paragraphs |
-    | ~SPC c t~   | comment to line           |
-    | ~SPC c T~   | invert comment to line    |
-    | ~SPC c y~   | comment and yank          |
-    | ~SPC c Y~   | invert comment and yank   |
+    | Key Binding | Description                        |
+    |-------------+------------------------------------|
+    | ~SPC ;~     | comment operator                   |
+    |             | ; = c                              |
+    | a-;         | 可视模式可直接                     |
+    |             | 如正常模式就带注释符号在上一行新建 |
+    |-------------+------------------------------------|
+    | ~SPC c l~   | comment lines                      |
+    | ~SPC c L~   | invert comment lines               |
+    | ~SPC c p~   | comment paragraphs                 |
+    | ~SPC c P~   | invert comment paragraphs          |
+    | ~SPC c t~   | comment to line                    |
+    | ~SPC c T~   | invert comment to line             |
+    | ~SPC c y~   | comment and yank                   |
+    | ~SPC c Y~   | invert comment and yank            |
 
 *Tips:* To comment efficiently a block of line use the combo ~SPC ; SPC l~
 
@@ -175,7 +193,8 @@ small potatoes 小人物
 |-----------+-----+-----+------------------------------+----------------------------|
 *** line config
 行号开启 <spc> t n
-
+y o 下行加个空行
+y O 上行加个空行
 defun dotspacemacs/config()在里面添加 (global-linum-mode t)
 
 
@@ -353,24 +372,101 @@ Spacemacs adds another Visual mode via the expand-region mode.
 
 spc v 选中当前光标处的单词
 < and >好像也可以在单词间的空格中移动，“.”好像也可以
-** window
+** window 
+当窗口布局是纵向时，切换成横向，要用 s-向右箭头
+当窗口布局是横向时，切换成纵向，要用 s-向下箭头
+*** Window manipulation micro-state
+| ~SPC w .~     | initiate micro-state                                          |
+|---------------+---------------------------------------------------------------|
+| ~?~           | display the full documentation in minibuffer                  |
+|               | 显示小状态栏的小帮助                                          |
+|---------------+---------------------------------------------------------------|
+| ~0~           | neotree                                                       |
+|               | 导航目录浏览专用的                                            |
+|---------------+---------------------------------------------------------------|
+| ~-~           | vertical split                                                |
+| ~/~           | horizontal split                                              |
+|---------------+---------------------------------------------------------------|
+| ~[~           | shrink window horizontally                                    |
+| ~]~           | enlarge window horizontally                                   |
+| ~{~           | shrink window vertically                                      |
+| ~}~           | enlarge window vertically                                     |
+| ~c~           | close window                                                  |
+| ~C~           | close other windows                                           |
+|---------------+---------------------------------------------------------------|
+| ~g~           | toggle =golden-ratio= on and off                              |
+|---------------+---------------------------------------------------------------|
+| ~h~           | go to window on the left                                      |
+| ~j~           | go to window below                                            |
+| ~k~           | go to window above                                            |
+| ~l~           | go to window on the right                                     |
+| ~H~           | move window to the left                                       |
+| ~J~           | move window to the bottom                                     |
+| ~K~           | move bottom to the top                                        |
+| ~L~           | move window to the right                                      |
+|---------------+---------------------------------------------------------------|
+| ~o~           | focus other frame                                             |
+|---------------+---------------------------------------------------------------|
+| ~R~           | rotate windows                                                |
+|---------------+---------------------------------------------------------------|
+| ~s~           | horizontal split                                              |
+| ~S~           | horizontal split and focus new window                         |
+| ~v~           | vertical split                                                |
+| ~V~           | horizontal split and focus new window                         |
+|---------------+---------------------------------------------------------------|
+| ~u~           | undo window layout (used to effectively undo a closed window) |
+| ~U~           | redo window layout                                            |
+| ~w~           | focus other window                                            |
+| Any other key | leave the micro-state                                         |
+*** window
+SPC number 加数字
 a-f10 当前窗格最大与恢复切换，不遮位系统工具栏
 f11 同上，即真正全屏，即会遮住系统工具栏
 spc-tab 与最近一个缓冲区来回切换
-| s   | split a window horizontally                                          |
-| v   | split a window vertically                                            |
-| c   | close a window                                                       |
-| d   | taggle window dedication (dedicated window cannot be used by a mode) |
-| H   | move window to the left                                              |
-| J   | move window to the bottom                                            |
-| K   | move window to the top                                               |
-| L   | move window to the right                                             |
-| m   | maximize/minimize a window                                           |
-| M   | maximize/minimize a window, when maximized the buffer is centered    |
-| p m | open messages buffer in a popup window                               |
-| p p | close the current sticky popup window                                |
-| r   | rotate windows clockwise                                             |
-| R   | rotate windows counter-clockwise                                     |
-| u   | undo window layout (used to effectively undo a close window)         |
-| U   | redo window layout                                                   |
-| w   | cycle and focus between windows                                      |
+|--------+-----------------------------------------------------------------------------|
+| =      | balance split windows                                                       |
+|        | 如果有调整过大小就均匀恢复各窗口                                            |
+|--------+-----------------------------------------------------------------------------|
+| d      | toggle window dedication (dedicated window cannot be reused by a mode)      |
+|        | 钉住窗口（只读类的专用窗口不能用这功能）                                    |
+|--------+-----------------------------------------------------------------------------|
+| h      | move to window on the left                                                  |
+| H      | move window to the left                                                     |
+| j      | move to window below                                                        |
+| J      | move window to the bottom                                                   |
+| k      | move to window above                                                        |
+| K      | move window to the top                                                      |
+| l      | move to window on the right                                                 |
+| L      | move window to the right                                                    |
+|--------+-----------------------------------------------------------------------------|
+| m      | maximize/minimize a window (maximize is equivalent to delete other windows) |
+| M      | maximize/minimize a window, when maximized the buffer is centered           |
+|        | 就是以当前窗口中的文本为中心，正常时都是靠左显示的，好像不太灵，暂缓看      |
+|--------+-----------------------------------------------------------------------------|
+| o      | cycle and focus between frames                                              |
+|        | 两个窗格时切换用的，我用启动服务器                                          |
+| p m    | open messages buffer in a popup window                                      |
+|        | 打开 消息     缓冲区 为一个 弹出 小窗口                                     |
+| p p    | close the current sticky popup window                                       |
+|        | 关闭  这个 当前   黏性   弹出                                               |
+|--------+-----------------------------------------------------------------------------|
+| c      | close a window                                                              |
+| C      | delete another window using [[https://github.com/abo-abo/ace-window][ace-delete-window]]                               |
+|        | 关闭其它窗口                                                                |
+|--------+-----------------------------------------------------------------------------|
+| R      | rotate windows clockwise                                                    |
+|        | 旋转           顺时针                                                       |
+|--------+-----------------------------------------------------------------------------|
+| s or ~ | horizontal split                                                            |
+| S      | horizontal split and focus new window                                       |
+| v or w | vertical split                                                              |
+| V      | vertical split and focus new window                                         |
+|--------+-----------------------------------------------------------------------------|
+| w      | cycle and focus between windows                                             |
+|        | 循环      焦点                                                              |
+|--------+-----------------------------------------------------------------------------|
+|        | 暂时还不清楚的                                                              |
+| b      | force the focus back to the minibuffer (usefull with =helm= popups)         |
+| SPC    | select window using [[https://github.com/abo-abo/ace-window][ace-window]]                                              |
+| u      | undo window layout (used to effectively undo a closed window)               |
+| U      | redo window layout                                                          |
