@@ -58,6 +58,7 @@ bar
 using
 neotree
 show
+plugins
 current
 absolute
 path

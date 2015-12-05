@@ -1,0 +1,67 @@
+#+TITLE: web
+
+1. 固定标签栏 zhuatw
+2. 书签工具栏
+   1. [[http://site.baidu.com/default2.htm][百度网址大全]]
+   2. [[http://www.hao123.com/?tn=12092018_12_hao_pg][hao123_上网从这里开始]] 六日天气要在这再点进去，或有时瞎逛逛  
+   3. 
+
+* B two
+| [[http://www.baidu.com/more/][百度产品大全]]         |                                                        |
+| [[http://yun.baidu.com/?ref=PPZQ][百度云 个人主页]]      | 百度云盘的主页，有相关应用在这里                       |
+| [[http://pan.baidu.com/disk/home#from=share_pan_logo][百度云 网盘-全部文件]] | 百度云盘的内容才在这里                                 |
+| [[http://cang.baidu.com/][百度搜藏]]             | 淘汰了，有空整理后就删掉，整合到百度云中我不用         |
+| [[http://wenku.baidu.com/user/mydocs][百度文库]]             | 收藏的文档在这里，渲染的页面有点不好，要往下拉才看的到 |
+| [[http://www.baidu.com/p/zh131443][百度个人主页]]         | 我的，有贴吧的贴子，有百科写的，有知道回答的           |
+|                      |                                                        |
+* T
+第一行菜单栏一般我会隐藏的。
+|--------------+---------------+----------------------------------|
+| 菜单栏       | 第一行        | 一般是最顶上的，可显示开启       |
+| 标签页       | 第二行        | 就是打开的各个网页为一个个的标签 |
+|--------------+---------------+----------------------------------|
+| 地址栏       | 第三行 左     | 输网址的，输词也会变成搜索       |
+| 搜索栏       | 第三行 中偏左 | 与地址栏同排的                   |
+| 工具栏       | 第三行 右     | 与地址栏同排的                   |
+|--------------+---------------+----------------------------------|
+| 书签工具栏   | c-s-b第四行   | 就是收藏网页标签为工具栏的类型   |
+| 书签的标签   | 我不用        | 是用来给收藏打标签用的           |
+| 书签的文件夹 |               | 大分类，但我不用                 |
+|--------------+---------------+----------------------------------|
+| 书签侧栏     | c-b           | 为切换类型，且这两个还可互换     |
+| 历史侧栏     | c-h           | 为切换类型，且这两个还可互换     |
+|--------------+---------------+----------------------------------|
+ 
+* B two
+** test
+[[http://www.jianshu.com/p/77a20acaae3b][三分钟带你快速入门极简色彩学 - 简书]]
+[[http://www.cnblogs.com/Wayou/p/shortcuts.html][没有鼠标的日子多亏了我精湛的手操，各种快捷键分享 - 刘哇勇 - 博客园]]
+我上次用的改大写键就是他的
+[[http://www.cnblogs.com/nbsofer/archive/2012/12/23/2829805.html][VimFx,让firefox支持类Vim编辑器的快捷操作 - 女孩不哭 - 博客园]]
+* F six
+** firefox
+- [[https://support.mozilla.org/zh-CN/kb/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%94%B5%E8%84%91%E4%B9%8B%E9%97%B4%E5%90%8C%E6%AD%A5Firefox%E7%9A%84%E8%AE%BE%E7%BD%AE#w_dazunaiuueikgaguujoelakuacgcasinskeuluka][如何在电脑之间同步Firefox的设置 | Firefox 帮助]]
+- [[http://blog.csdn.net/jianhuili/article/details/9040957][FireGestures 火狐手势插件 使用 - jianhuili的CSDN博客 - 博客频道 - CSDN.NET]]
+- [[http://bbs.kafan.cn/thread-1510558-1-1.html][菜鸟也用Firefox（4）：火狐同步_Firefox_浏览器讨论区 卡饭论坛 - 互助分享 - 大气谦和!]]
+- [[http://jingyan.baidu.com/article/4b52d702a90eacfc5c774b16.html][火狐插件FireGestures手势使用图解_百度经验]]
+** extensions
+ 1. Copy as Org-mode
+ 2. VimFx
+ 3. FireGestures
+ 4. Google Translator for Firefox
+ 5. NiceReader
+* S 
+[[http://bbs.360safe.com/forum.php?mod=digestlist][360安全社区--论坛]]
+[[http://c21.yunpan.360.cn/my][360云盘 - 我的云盘]]
+[[http://www.360swp.com/][网盘搜索--国内网盘]]
+
+* P
+[[http://www.pdfaid.com/extract-text-pdf.aspx][PDF to Text | Extract Text From PDF]]
+[[http://www.ipc.me/10-online-converter.html][10款方便的在线文件格式转换工具网站 | iPc.me]]
+[[https://cloudconvert.com/][CloudConvert - convert anything to anything]]
+
+* Q
+[[http://bbs.qjvpn.com.cn/forum-37-1.html][官方公告 - 旗舰VPN论坛 - Powered by Discuz!]]
+[[http://www.qijian4.com/user/usercenter.php][用户中心 - 旗舰加速器]]
+* H
+[[http://dbank.vmall.com/netdisk/index.html?v=2.9.361443427313243#%2F%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6][华为网盘-我的网盘]]

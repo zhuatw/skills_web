@@ -51,13 +51,11 @@
 | \= | 与上个存盘的文件做 diff 对比  |
 | g  | 刷新文件目录                  |
 |    |                               |
-** bookmarks
-spc h b
-| CTRL+d | delete the selected bookmark                 |
-| CTRL+e | edit the selected bookmark                   |
-| CTRL+f | taggle filename location                     |
-| CTRL+o | open the selected bookmark in another window |
-To save a new bookmark, just type the name of the bookmark and press RET.
+** bookmarks spc h b bookmark-bmenu-list
+| CTRL+d  | delete the selected bookmark                 |
+| CTRL+e  | edit the selected bookmark                   |
+| CTRL+f  | taggle filename location                     |
+| CTRL+o  | open the selected bookmark in another window |
 
 * C three
 ** Commenting
@@ -218,42 +216,6 @@ spc h d
 - super-apropos
 那些函数和变量的文档里提到了这个概念
 *** page510 没看完
-* R eighteen  
-** Registers
-| ~SPC r e~   | show evil yank and named registers |
-| ~SPC r m~   | show marks register                |
-| ~SPC r r~   | show helm register                 |
-| ~SPC r y~   | show kill ring                     |
-** Registers temp
-寄存器用于存贮内容，在需要时取出，插入缓冲区。
-
-Emacs 的寄存器使用单个字符命名，可以存贮两种内容 ：
-
-光标位置和窗口状态
-
-表 25.11. Emacs 寄存器
-C-x r SPC (寄存器名)	M-x point-to-register	存贮光标位置
-C-x r w (寄存器名)	M-x window-configuration-to-register	保存当前窗口状态
-C-x r f (寄存器名)	M-x frame-configuration-to-register	保存所有窗口状态
-C-x r j (寄存器名)	M-x jump-to-register	光标跳转
-C-x j (寄存器名)	略……	同上
-
-文本和数字
-
-表 25.12. Emacs 寄存器2
-C-x r s (寄存器名)	M-x copy-to-register	将连续区块拷贝到寄存器中
-C-x r r (寄存器名)	M-x copy-rectangle-to-register	将矩形区块拷贝到寄存器中
-C-u (数字) C-x r n (寄存器名)	M-x number-to-register	将数字拷贝到寄存器中
-C-x r i (寄存器名)	M-x insert-register	在缓冲区中插入寄存器内容
-
-M-x view-register 查看寄存器内容
-M-x list-registers 查看寄存器列表
-寄存器中的矩形区块，以矩形区块的方式插入到缓冲区中。 见 “区块编辑”一节
-也可以将文件插入到寄存器中 (set-register ?寄存器名称 '(file . 文件名)) ，示例
-          M-x lisp-interaction-mode 进入交互模式，输入如下 Lisp 代码：
-          (set-register ?e '(file . "~/.emacs"))(光标)移动此外， C-j 求值。
-          M-x list-registers 查看寄存器列表，多了寄存器 e ： Register e contains the file "~/.emacs".     
-
 * L twelve
 ** letter
 
@@ -309,8 +271,6 @@ small potatoes 小人物
 y o 下行加个空行
 y O 上行加个空行
 defun dotspacemacs/config()在里面添加 (global-linum-mode t)
-
-
 * M thirteen
 ** markdown
 generate a preview of the markdown content of a buffer.
@@ -363,13 +323,51 @@ The mode-line has the following format =[x/y] d (D:a, F:b)= where:
   - =d= the name of the current directory
   - =a= the number of directories in the current directory
   - =b= the number of files in the current directory
-
 * P sixteen
 ** paragraph
 }	移至下一个段落（paragraph）首。
 {	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
 ** percent per cent
 %	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
+* R eighteen  
+** Registers
+任何字母数字字符。寄存器的名称是区分大小写的，x 和 X 指的是两个不同的寄存器
+存光标
+存窗口状态
+存个数字来用 
+存选中的矩形区块
+存选中的连续区块
+还有个用 elisp 来导入一个文件名到一个寄存器，使用时是此文件的内容
+使用时，如果存的是光标位置就要用 jump 这个
+其它的都是用 insert 命令，emacs 会根据你保存的不同类型的内容来 insert
+| ~SPC r e~   | show evil yank and named registers |
+| ~SPC r m~   | show marks register                |
+| ~SPC r r~   | show helm register                 |
+| ~SPC r y~   | show kill ring                     |
+M-x view-register 查看寄存器内容
+M-x list-registers 查看寄存器列表
+*** cursor 
+| C-x r SPC (寄存器名) | point-to-register                | 存贮光标位置     |
+| C-x r j (寄存器名)   | jump-to-register                 | 光标跳转         |
+*** window 
+| C-x r w (寄存器名)   | window-configuration-to-register | 保存当前窗口状态 |
+| C-x r f (寄存器名)   | frame-configuration-to-register  | 保存所有窗口状态 |
+*** visual block 
+|C-x r s (寄存器名)|copy-to-register|	将连续区块拷贝到寄存器中|
+|C-x r r (寄存器名)|copy-rectangle-to-register|	将矩形区块拷贝到寄存器中|
+*** 也可以将文件插入到寄存器中
+(set-register ?寄存器名称 '(file . 文件名))
+示例: 
+1) lisp-interaction-mode
+   进入交互模式，输入如下 Lisp 代码
+2) (set-register ?e '(file . "~/.emacs"))
+   (光标)移动此外， C-j 求值
+3) list-registers
+   现在就多了寄存器 e ： Register e contains the file "~/.emacs".
+*** 用C-u（数字）存贮一个数字到寄存器来用此数字
+C-u (数字) C-x r n (寄存器名)	number-to-register	将数字拷贝到寄存器中
+*** insert
+C-x r i (寄存器名)	M-x insert-register	在缓冲区中插入寄存器内容
 * S nineteen
 ** 查找的范围 
 current buffer or namely current file
