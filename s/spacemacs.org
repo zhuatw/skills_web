@@ -92,7 +92,29 @@
 | x   | yes | no     |             | current right count       |
 | X   | yes | no     | left        | current left to one count |
 |-----+-----+--------+-------------+---------------------------|
+* D four 
+Dired DIRectory EDitor
+[[http://www.xlgps.com/article/97064.html][emacs 新手筆記（四） —— 使用 dired 完成一些簡單的文件和目錄操作 - xlgps.com]]
+** commands
+| g  | 重新整理                                  |
+| +  | 新增目錄                                  |
+| s  | 按照時間/檔名排序檔案                     |
+| \^ | 回到上層目錄                              |
+| m  | 標記多個檔案                              |
+| u  | 取消標記                                  |
+| U  | 清除所有標記                              |
+| R  | 重新命名/移動（概念與 Unix 下的 mv 相同） |
+| C  | 拷貝檔案                                  |
+| \! | 執行外部命令                              |
+| &  | 非同步地（asynchronously）執行外部命令    |
+| D  | 刪除單一檔案                              |
+| d  | 標記多個檔案為刪除                        |
+| x  | 套用刪除                                  |
+| X  | 解壓縮                                    |
+
 * F six
+** hydra
+[[http://blog.hickwu.com/posts/336][Hick | Emacs简化按键利器hydra]] WIZ
 ** fonts
 spc z  f/x 窗口和字体的放大缩小
 *** windows 下安装字体方法
@@ -323,6 +345,10 @@ The mode-line has the following format =[x/y] d (D:a, F:b)= where:
   - =d= the name of the current directory
   - =a= the number of directories in the current directory
   - =b= the number of files in the current directory
+* O
+occur
+[[http://darksun.blog.51cto.com/3874064/1416934][emacs之occur mode笔记 - 暗日 - 51CTO技术博客]]
+
 * P sixteen
 ** paragraph
 }	移至下一个段落（paragraph）首。

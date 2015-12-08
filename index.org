@@ -2,13 +2,15 @@
 
 * A one
 application 
+absolute     
+all          
 * B two
 buffer
 blog
+bar          
 bookmark 
 ** bae 
 百度提供的删除语句 git rm * -r (所有东西删光光, 当然除了 .git 目录)
-
 * C three
 current
 cycle
@@ -20,6 +22,8 @@ configurable
 configuration
 * D four
 describe
+command      
+current      
 disposable 
 dictionary 
 directory
@@ -34,38 +38,28 @@ emacs
 emphasis
 Element
 * F six
-first
-features
-fonts 
-windows
-File
-space
-TAB
-manipulation
-commands
-start
-with
-open
-file
-using
-your
-save
-all
-taggle
-tree
-side
-bar
-using
-neotree
-show
-plugins
-current
-absolute
-path
-in
-the
-minibuffer
-
+feature      
+file         
+file         
+first        
+fonts        
+forvo        
+open         
+path         
+plugins      
+save         
+show         
+side         
+space        
+start        
+taggle       
+the          
+tree         
+using        
+using        
+windows      
+with         
+your         
 * G seven
 glossary
 ** git
@@ -115,7 +109,8 @@ apropos
 super-apropos
 
 * I nine
-INTRODUCTION
+introduction
+in           
 insertion
 insert
 index
@@ -127,6 +122,8 @@ indent
 leader
 lossage
 * M thirteen
+manipulation 
+minibuffer   
 manage
 mode
 markdown 
@@ -138,10 +135,11 @@ content
 render
 region
 * N fourteen
+neotree      
 native
 * O fifteen
 other
-outline spc s l
+outline
 emphasize
 emphasis 
 org-present must be activated explicitly by typing: SPC : org-present
@@ -194,6 +192,8 @@ read
 readme
 * S nineteen 
 skill
+site
+sitemap
 [[http://emacsist.com/10001Emacs][简化按键利器 hydra]]
 skills web
 shorcuts

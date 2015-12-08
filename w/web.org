@@ -1,19 +1,60 @@
 #+TITLE: web
 
-1. 固定标签栏 zhuatw
+1. 固定标签栏 zhuatw [[http://zhuatw.duapp.com/blog/2015/11/21/spacemacs/#orgheadline20][Spacemacs - org-page]]
 2. 书签工具栏
    1. [[http://site.baidu.com/default2.htm][百度网址大全]]
    2. [[http://www.hao123.com/?tn=12092018_12_hao_pg][hao123_上网从这里开始]] 六日天气要在这再点进去，或有时瞎逛逛  
-   3. 
+   3. 网页应用入口
+   4. 软件官网
+   5. 英超
+   6. 在读
+   7. work
+   8. 网络标签语 
+[[https://zhuatw.github.io/][zhuatw's Blog]]  github
+[[http://emacs-china.org/][欢迎来到 emacs-china - EMACS-CHINA]]
+[[http://www.ssports.com/uc/game/b/list/11903239/view.shtml?p=1#][新英体育--账户中心 - 我的赛程]]
+[[http://www.w3school.com.cn/][w3school 在线教程]]
+[[http://www.ruanyifeng.com/blog/2015/08/git-use-process.html][Git 使用规范流程 - 阮一峰的网络日志]]
+[[http://tieba.baidu.com/p/1852070318][小白式科普：样式and脚本_firefox吧_百度贴吧]]
+[[http://blog.163.com/wobutianl@126/blog/#m=0&t=1&c=fks_084070087080084075084080084095085085082070092082094][wobutianl的日志 - 网易博客emacs 操作 org-mode]]
+[[http://www.yifeiyang.net/emacs/][emacs - 装备精良的Emacs]] org-mode 中的 GTD
+[[http://jingyan.baidu.com/article/c1465413696ff80bfcfc4cfe.html][SD卡和TF卡的区别_百度经验]]
+[[http://club.excelhome.net/forum.php?mod=viewthread&tid=932919][Excel 关于查找方法(Find方法)的最通俗教程-ExcelVBA程序开发-ExcelHome技术论坛 -]]
+[[http://club.excelhome.net/forum.php?mod=viewthread&tid=191295][关于查找方法(Find方法)的应用-ExcelVBA程序开发-ExcelHome技术论坛 -]]
+[[http://blog.chinaunix.net/uid-45094-id-3012311.html][大教堂和市集-cvip-ChinaUnix博客]]
 
+c-x 8 来输入特殊字符
+网易公开课
+CSDN
+[[http://bbs.kafan.cn/thread-1838794-1-1.html][分享个人配置，简洁高效，告别折腾_Firefox_浏览器讨论区 卡饭论坛]]
+[[http://blog.binchen.org/posts/emacs-speed-up-1000.html][Emacs speed up 1000% | Chen's blog]]
+
+[[http://club.excelhome.net/forum.php][Excel--Home主页]]
+
+[[http://segmentfault.com/a/1190000002490633][【前端知识】Flexbox，更优雅的布局 - GitCafe - SegmentFault]]
+[[http://sydi.org/posts/linux/programs-list-for-arch-linux.html][我在ArchLinux下使用的程序]]
+[[http://lifegoo.pluskid.org/wiki/EmacsTip.html][Emacs 小技巧]]
+[[http://www.kuqin.com/shuoit/20150727/347223.html][从 Vim 到 Emacs 到 Evil_开发工具_酷勤网]]
+[[http://lifegoo.pluskid.org/wiki/EmacsAsFileManger.html][Emacs -- 强大的文件管理器]]
+[[http://www.w3cplus.com/css3/a-guide-to-flexbox.html][一个完整的Flexbox指南 | css3教程-css3实例-css3动画 | W3CPlus]]
+[[http://0000-bigtree.github.io/blog/2015/06/26/config-emacs.html][配置 Emacs]]
+[[http://www.cnblogs.com/Wayou/p/how_to_choose_a_license.html][如何为你的代码选择一个开源协议 - 刘哇勇 - 博客园]] WIZ
+[[http://zhuanlan.zhihu.com/FrontendMagazine/19854868?utm_campaign=rss&utm_medium=rss&utm_source=rss&utm_content=title][基于单个 Div 的 CSS 绘图 - 前端外刊评论 - 知乎专栏]]
+[[http://www.cnblogs.com/BeginMan/p/3591005.html][Git一套简流 - BeginMan - 博客园]]
+
+[[http://emacsist.com/9999][Emacs/Vim/Sublime Text学习曲线参考 - Emacs & Emacsist]]
+[[http://blog.jobbole.com/85412/][高效的Emacs - 博客 - 伯乐在线]]
+[[http://www.divcss5.com/][DIVCSS5 - DIV+CSS布局教程学习与CSS资源分享平台]]
+
+[[http://www.zixue7.com/topic-jiaocheng.html][自学去视频资源列表-免费获取所有教程 自学去]] 自学去论坛是一个完全免费的网站
 * B two
+| [[http://console.bce.baidu.com/billing/?_=1449475545250#/account/index][百度开放云-管理中心]]  |                                                        |
 | [[http://www.baidu.com/more/][百度产品大全]]         |                                                        |
 | [[http://yun.baidu.com/?ref=PPZQ][百度云 个人主页]]      | 百度云盘的主页，有相关应用在这里                       |
 | [[http://pan.baidu.com/disk/home#from=share_pan_logo][百度云 网盘-全部文件]] | 百度云盘的内容才在这里                                 |
 | [[http://cang.baidu.com/][百度搜藏]]             | 淘汰了，有空整理后就删掉，整合到百度云中我不用         |
 | [[http://wenku.baidu.com/user/mydocs][百度文库]]             | 收藏的文档在这里，渲染的页面有点不好，要往下拉才看的到 |
 | [[http://www.baidu.com/p/zh131443][百度个人主页]]         | 我的，有贴吧的贴子，有百科写的，有知道回答的           |
-|                      |                                                        |
 * T
 第一行菜单栏一般我会隐藏的。
 |--------------+---------------+----------------------------------|
@@ -33,11 +74,15 @@
 |--------------+---------------+----------------------------------|
  
 * B two
-** test
 [[http://www.jianshu.com/p/77a20acaae3b][三分钟带你快速入门极简色彩学 - 简书]]
-[[http://www.cnblogs.com/Wayou/p/shortcuts.html][没有鼠标的日子多亏了我精湛的手操，各种快捷键分享 - 刘哇勇 - 博客园]]
-我上次用的改大写键就是他的
+[[http://www.cnblogs.com/Wayou/p/shortcuts.html][没有鼠标的日子多亏了我精湛的手操，各种快捷键分享 - 刘哇勇 - 博客园]] 我上次用的改大写键就是他的
 [[http://www.cnblogs.com/nbsofer/archive/2012/12/23/2829805.html][VimFx,让firefox支持类Vim编辑器的快捷操作 - 女孩不哭 - 博客园]]
+* D four   
+[[http://kuanyui.github.io/2014/06/21/dired-tutorial-and-essential-configs/][必備的 Dired 設定與簡易教學 | 東北角的小徑]] WIZ
+* E five
+[[https://hackpad.com/Emacs.tw-UGK6KMWTUXh#:h=%E8%AA%BF%E6%A0%A1Emacs%E5%A8%98][Emacs.tw - hackpad.com]] IRC
+
+
 * F six
 ** firefox
 - [[https://support.mozilla.org/zh-CN/kb/%E5%A6%82%E4%BD%95%E5%9C%A8%E7%94%B5%E8%84%91%E4%B9%8B%E9%97%B4%E5%90%8C%E6%AD%A5Firefox%E7%9A%84%E8%AE%BE%E7%BD%AE#w_dazunaiuueikgaguujoelakuacgcasinskeuluka][如何在电脑之间同步Firefox的设置 | Firefox 帮助]]
@@ -45,11 +90,21 @@
 - [[http://bbs.kafan.cn/thread-1510558-1-1.html][菜鸟也用Firefox（4）：火狐同步_Firefox_浏览器讨论区 卡饭论坛 - 互助分享 - 大气谦和!]]
 - [[http://jingyan.baidu.com/article/4b52d702a90eacfc5c774b16.html][火狐插件FireGestures手势使用图解_百度经验]]
 ** extensions
- 1. Copy as Org-mode
- 2. VimFx
- 3. FireGestures
- 4. Google Translator for Firefox
- 5. NiceReader
+ 1) Copy as Org-mode
+ 2) VimFx
+ 3) FireGestures
+    鼠标动作则对应上（U）、下（D）、左（L）、右（R）四个方向
+    鼠标手势：按住右键不放移动鼠标（这是最基本的手势类型，其余几种可以在高级选项中定义）
+    滚轮手势：按住右键不放滚动滚轮
+    摇杆手势：按住右键不放左击，反之亦然
+    按键手势：按住Ctrl / Shift键不放使用鼠标手势
+    标签滚轮手势：在标签栏上滚动滚轮
+ 4) Google Translator for Firefox
+ 5) NiceReader
+** syne 
+要在同步内断开
+在注意靠下点有个本地同步服务和全球服务，国际版下没这个选项
+选本地同步服务，用全球服务好像开了 vpn 也不行
 * S 
 [[http://bbs.360safe.com/forum.php?mod=digestlist][360安全社区--论坛]]
 [[http://c21.yunpan.360.cn/my][360云盘 - 我的云盘]]
@@ -65,3 +120,116 @@
 [[http://www.qijian4.com/user/usercenter.php][用户中心 - 旗舰加速器]]
 * H
 [[http://dbank.vmall.com/netdisk/index.html?v=2.9.361443427313243#%2F%E7%BD%91%E7%9B%98%E6%96%87%E4%BB%B6][华为网盘-我的网盘]]
+* wzi
+[[http://www.fmddlmyy.cn/text7.html][谈谈Windows程序中的字符编码]]
+[[http://www.zhihu.com/question/20568288][个人如何根据所要寄的物品类型选择相应的物流服务？ - 知乎]]
+[[http://blog.donews.com/phio/archive/2004/11/02/159238.aspx][Total Commander 不完全手册 2.1(CCF) - phio&lepx’ home - 就是找个纪录的地方]]
+[[http://blog.donews.com/phio/archive/2004/09/14/98321.aspx][笑眼中噙着泪花――重温《喜剧之王》（转载MOV8) - phio&lepx’ home - 就是找个纪录的地方]]
+[[http://blog.donews.com/phio/archive/2004/11/08/164413.aspx][超强中国简史 - phio&lepx’ home - 就是找个纪录的地方]]
+[[http://blog.donews.com/phio/archive/2004/11/23/179723.aspx][一篇支持盗版的非常有力度的文章 - phio&lepx’ home - 就是找个纪录的地方]]
+[[http://blog.sina.com.cn/s/blog_59c0a56201016im6.html][login shell 和 non-login shell 的区别_竹夭_新浪博客]]
+[[http://blog.chinaunix.net/uid-25256412-id-91256.html][linux 系统tty、pty和pts 的概念及区别-ulovko-ChinaUnix博客]]
+[[http://developer.51cto.com/art/201009/228383.htm][解析JDK、J2EE、J2SE、J2ME的区别 - 51CTO.COM]]
+[[http://lujun9972.github.io/emacs/org-manual-7.8/#sec-7][Org-Manual 7.8 - DarkSun的笔记]] github blog
+
+
+
+* l 
+[[http://www.accessoft.com/article-show.asp?id=9225][Access、SQLServer、Oracle常见的区别Access软件网]]]
+[[http://www.accessoft.com/article-show.asp?id=8958][快速开发平台(企业版)--快速平台升迁至SQLSERVER图解教程Access软件网]]]
+[[http://zhidao.baidu.com/link?url=i5sdFgcgayhT-1dCChYh7WdZ95KfIbxUZxfZh0znhh598Tgq8uWy-7TOH3qtQ8udWOR2tC2QW84KJsmsWb5Urq][域和工作组的区别._百度知道]]
+[[http://vimskill.readthedocs.org/Stage_0.html][关于文本处理的思考 — VimSkill 0.3 文档]]
+[[http://dream8346.blog.163.com/blog/static/199120659201441075418521/][Emacs 初级教程 - 疯子的日志 - 网易博客]]
+[[http://www.cnblogs.com/legendxian/archive/2012/06/18/2553111.html][.Net项目分层与文件夹结构大全(最佳架子奖,吐槽奖,阴沟翻船奖揭晓) - 传说中的弦哥 - 博客园]]
+[[http://www.360doc.com/content/13/0620/17/1437142_294320939.shtml][Audacity 音频编辑器教程]]
+[[http://www.cnblogs.com/mzhanker/archive/2011/06/06/2073503.html][数据库表主键的设计原则 - ESK - 博客园]]
+[[http://www.doc88.com/p-730755050902.html][北京工装公司的模具生产管理系统的设计与实现 - 硕士论文 - 道客巴巴]]
+[[http://blog.csdn.net/zhourui1982/article/details/4871896][几种常见代码管理工具比较(2009) - 周睿的博客(blog) - 博客频道 - CSDN.NET]]
+[[http://cs2.swfc.edu.cn/~wx672/lecture_notes/linux/latex/latex_tutorial.html#sec-1][Emacs + LaTeX 快速上手]]
+[[http://blog.csdn.net/passos/article/details/124722][SharpDevelop源码分析 (一、序+基本概念) - blog - 博客频道 - CSDN.NET]]
+[[http://shahuwang.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9D%82%E7%9F%A5/%E7%94%A8%E4%BD%A0%E5%AE%B6%E9%87%8C%E7%9A%84%E7%94%B5%E8%84%91%E5%81%9A%E6%9C%8D%E5%8A%A1%E5%99%A8.html][用你家里的电脑做服务器]]
+[[http://news.cnblogs.com/n/514445][GitHub中国开发者年度报告 {2014}_IT新闻_博客园]]
+[[https://zh.wikipedia.org/zh/DOT%E8%AF%AD%E8%A8%80][DOT语言 - 维基百科，自由的百科全书]]
+[[http://news.cnblogs.com/n/519479/][Java，传奇的一生！_IT新闻_博客园]]
+[[http://vgoulet.act.ulaval.ca/en/emacs/windows/][Vincent Goulet - Emacs]]  编译好的，我前面没图片显示时用的
+[[http://melpa.org/#/][MELPA]]
+[[http://orgmode.org/manual/index.html][The Org Manual]]
+[[http://spacemacs.org/][Spacemacs by syl20bnr]] spacemacs介绍的页面
+[[http://orgmode.org/][Org mode for Emacs – Your Life in Plain Text]]
+[[http://elpa.gnu.org/packages/][GNU ELPA Packages]]
+[[http://gnu.mirror.iweb.com/emacs/][Index of /emacs]] emacs官网下载点
+[[ftp://ftp.gnu.org/gnu/emacs/windows/][ftp://ftp.gnu.org/gnu/emacs/windows/ 的索引]]
+[[http://ftp.gnu.org/pub/gnu/emacs/windows/][Index of /pub/gnu/emacs/windows]]
+
+[[http://byrlx.github.io/][Zhengchao Xu]] github blog
+[[http://jixiuf.github.io/sitemap.html][站点地图]] 写的很多的一个 github blog 站点，好多要优先看
+ [[https://github.com/emacs-tw/awesome-emacs][emacs-tw/awesome-emacs · GitHub]] 汇总分类了 emacs 的优秀插件代表
+[[https://github.com/liugang][liugang (Galen)]] 有说org缩写 github 的仓库
+[[https://github.com/zhuatw][zhuatw (zhuatw)]]
+[[https://github.com/zilongshanren/spacemacs-private][zilongshanren/spacemacs-private]]
+[[https://github.com/syl20bnr/spacemacs][syl20bnr/spacemacs]]
+[[https://github.com/syl20bnr/spacemacs/tree/master/doc][spacemacs/doc at master · syl20bnr/spacemacs]]
+[[http://ddloeffler.blogspot.com/2013/04/keybindings-for-emacs-markdown-mode.html][Keybindings for Emacs markdown-mode | David's Blog]]
+
+| 单词          | 普通人眼中           | 开发者眼中            |
+|---------------+----------------------+-----------------------|
+| socket        | 插座                 | 套接字                |
+| per­for­mance | 演出                 | 性能                  |
+| ATM           | 自动取款机           | 异步传输模式          |
+| memory        | 记忆                 | 内存                  |
+| eclipse       | 日蚀                 | 一种 IDE              |
+| oracle        | 神谕                 | 甲骨文公司            |
+| cookie        | 小甜点               | 一种 web session 机制 |
+| stack         | 堆                   | 堆栈                  |
+| port          | 港口                 | 端口                  |
+| cardboard     | 纸盒                 | Google 出的 VR 设备   |
+| container     | 集装箱               | 容器                  |
+| terminal      | 航站楼               | 终端                  |
+| python        | 蟒蛇                 | python编程语言        |
+| jetty         | 码头                 | 一种 servlet 引擎     |
+| tomcat        | 雄性的猫             | 一种 servlet 引擎     |
+| backbone      | 脊柱                 | 一种前端 MVC 框架     |
+| bug           | 虫子                 | 程序问题              |
+| apache        | 阿帕奇直升机         | 一种Web服务器         |
+| cache         | 隐藏处所             | 缓存                  |
+| ruby          | 红宝石               | ruby编程语言          |
+| java          | 爪哇(地点)、爪哇咖啡 | java编程语言          |
+| process       | 处理、过程           | 计算机进程            |
+| route         | 路线、通道           | 路由                  |
+| site          | 位置、地点           | 网站                  |
+| dump          | 倾倒                 | 转储                  |
+| thread        | 线、思路             | 计算机线程            |
+| crash         | 撞碎、坠毁           | 程序崩溃              |
+| firewall      | 防火墙(实体)         | 网络防火墙            |
+| host          | 主人                 | 安装虚拟机程序的主机  |
+| guest         | 客人                 | host 上的虚拟机       |
+| log           | 伐木、记录           | 日志                  |
+| pipe          | 管子                 | 程序连接的管道        |
+| monitor       | 班长、显示器         | 监控                  |
+| access        | 接近; 入口           | 存取、访问            |
+| border        | 边界                 | 边框                  |
+| client        | 客户                 | 客户端                |
+| server        | 侍者                 | 服务器                |
+| crack         | 破裂                 | 入侵                  |
+| domain        | 领域                 | 域名                  |
+| FAT           | 胖                   | 一种文件系统          |
+| Trojan        | 特洛伊               | 木马(计算机病毒)      |
+| shell         | 外壳                 | 命令行交互界面        |
+| postscript    | 附言、后记           | 一种打印编程语言      |
+| program       | 计划、项目           | 计算机程序            |
+| clipboard     | 带夹子的写字板(实体) | 计算机中的剪切板      |
+| master        | 主人、硕士           | 主                    |
+| slave         | 奴隶                 | 从                    |
+| bus           | 公共汽车             | 总线                  |
+| packet        | 小包、小盒子         | 数据包                |
+| image         | 图像、形象           | 镜像                  |
+| mirror        | 镜子                 | 网站镜像              |
+| array         | 排列                 | 数组                  |
+| branch        | 分枝                 | 代码仓库堆分支        |
+| fork          | 叉子                 | 派生项目(git)         |
+| frame         | 框架、边框           | 帧                    |
+| GDG           | 郭德纲               | 谷歌开发者社区        |
+| polymer       | 聚合                 | 一种 Web 组件库       |
+| dart          | 飞镖                 | 一种编程语言          |
+| subversion    | 颠覆                 | 一种版本控制系统      |
+| console       | 安慰                 | 控制台                |

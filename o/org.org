@@ -33,9 +33,13 @@ SPC m m	send current buffer as HTML email message
 | SPC m x r | 	clear region emphasis |
 * F six
 SPC m i f	org-insert-footnote
+注脚的这一行一定要在顶格即不能有缩进。
 * I nine
+| variable | org-indent-mode | 缩进开关切换 |
 ** italic
-| SPC m x i | 	make region italic         |
+| SPC m x i | make region italic |
+|           |                    |
+
 ** Item
 | o | always-insert-item |如果在 item 上就是在下行新建一个同级 item |
 * T twenty
@@ -57,7 +61,7 @@ SPC m i f	org-insert-footnote
 使用 \vert
 SPC m  or leader t 
 |-----+-------------------------+----------------------------------------------------------------------------|
-| a   |                         | Align the table at point by aligning all vertical bars                     |
+| a   | org-table-align         | Align the table at point by aligning all vertical bars                     |
 |-----+-------------------------+----------------------------------------------------------------------------|
 | b   |                         | Blank the current table field or active region                             |
 |-----+-------------------------+----------------------------------------------------------------------------|
@@ -87,13 +91,15 @@ SPC m  or leader t
 | s   | Sort?                   | Sort table lines according to the column at point                          |
 | t f |                         | Toggle the formula debugger in tables                                      |
 | t o | Toggle numbers          | Toggle the display of Row/Column numbers in tables                         |
-| w   |                         | Wrap several fields in a column like a paragraph                           |
 | I   | Import file             | Import a file as a table                                                   |
+|     | org-table-next-field    |                                                                            |
+| w   |                         | Wrap several fields in a column like a paragraph                           |
 
 
 | a-H | leader | delete current column |
 | a-L |        | insert current column |
 * O fifteen
+organization
 ** Outline
 *** new 
 | key   | location    | describe                         |
@@ -156,6 +162,8 @@ SPC m  or leader t
 | spc m J | 	org-shiftdown             | #B increase priority |
 | spc m p |                             | starts a pomodoro    |
 
+
+
 ** percent per cent
 %	这是匹配{}，[]，() 用的，例如光标在{ 上只要按%，就会跑到相匹配的} 上。
 ** paragraph
@@ -163,8 +171,26 @@ SPC m  or leader t
 {	移至上一个段落（paragraph）首。paragraph（段落）是以空白行为区格。
 * R eighteen 
 * L twelve
-| SPC m i l | 	org-insert-link   |
-| spc m l   | 	org-open-at-point |
+** link 
+[[http://lujun9972.github.io/emacs/org-manual-7.8/#sec-4][Org-Manual 7.8 - DarkSun的笔记]] 
+链接还可制作缩写
+1. custom_id
+2. target or # < <My Target> >
+3. <<<>>>
+4. footnote
+5. 外部链接 
+|            | org-store-link           | 创建一个当前位置的链接                         |
+| SPC m i l  | org-insert-link          | 光标当前已有链接就提示编辑                     |
+| c-u prefix | org-insert-link          | spacemacs已经优化了同上                        |
+|------------+--------------------------+------------------------------------------------|
+| spc m l    | org-open-at-point        | c-c c-o                                        |
+|            | org-toggle-inline-images | 切换显示内联图片                               |
+|            | org-mark-ring-push       | 保存当前位置，如在链接处跳转都会自动先执行这步 |
+|            | org-mark-ring-goto       |                                                |
+|            | org-previous-link        |                                                |
+|            | org-next-link            |                                                |
+[[file:org.org][file:~/skills_web/o/org.org]]
+
 * U twenty-one
 ** underline
 | SPC m x u | 	make region underline |
