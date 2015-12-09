@@ -1,46 +1,44 @@
-#+TITLE: Spacemacs
+#+TITLE: emacs
 
 * B two
-
-** Buffer spc b b
-*** Buffers manipulation key bindings
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b b~   | switch to a buffer using =helm=                                         |
-| ~SPC b d~   | kill the current buffer (does not delete the visited file)              |
-| ~SPC b e~   | erase the content of the buffer (ask for confirmation)                  |
-|             | 擦除  这   内容   在 这          问     要    确认                      |
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b h~   | open =*spacemacs*= home buffer                                          |
-| ~SPC b k~   | kill a buffer                                                           |
-| ~SPC b K~   | kill all buffers except the current one                                 |
-|             | 除了      当前                                                          |
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b C-k~ | kill all buffers matching the regexp                                    |
-|             | 杀死              匹配         正则                                     |
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b m h~ | move a buffer to the left                                               |
-| ~SPC b m j~ | move a buffer to the bottom                                             |
-| ~SPC b m k~ | move a buffer to the top                                                |
-| ~SPC b m l~ | move a buffer to the right                                              |
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b M~   | swap windows using [[https://github.com/abo-abo/ace-window][ace-swap-window]]                                      |
-|             | 切换                                                                    |
-| ~SPC b n~   | switch to next buffer avoiding special buffers                          |
-| ~SPC b p~   | switch to previous buffer avoiding special buffers                      |
-| ~SPC b P~   | copy clipboard and replace buffer (useful when pasting from a browser)  |
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b R~   | revert the current buffer (reload from disk)                            |
-|             | 恢复                       重新装  从  磁盘                             |
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b w~   | toggle read-only (writable state)                                       |
-|             | 开关   读   只    可写     状态                                         |
-|-------------+-------------------------------------------------------------------------|
-| ~SPC b Y~   | copy whole buffer to clipboard (useful when copying to a browser)       |
-|             | 复制 所有            剪切板 先记住到时再试用                            |
-|-------------+-------------------------------------------------------------------------|
-| ~z f~       | Make current function or comments visible in buffer as much as possible |
-|-------------+-------------------------------------------------------------------------|
-*** ibuffer spc b B
+** Buffers manipulation key bindings
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b b~   |               | switch to a buffer using =helm=                                         |
+| ~SPC b d~   |               | kill the current buffer (does not delete the visited file)              |
+| ~SPC b e~   |               | erase the content of the buffer (ask for confirmation)                  |
+|             |               | 擦除  这   内容   在 这          问     要    确认                      |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b h~   |               | open =*spacemacs*= home buffer                                          |
+| ~SPC b k~   |               | kill a buffer                                                           |
+| ~SPC b K~   |               | kill all buffers except the current one                                 |
+|             |               | 除了      当前                                                          |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b C-k~ |               | kill all buffers matching the regexp                                    |
+|             |               | 杀死              匹配         正则                                     |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b m h~ |               | move a buffer to the left                                               |
+| ~SPC b m j~ |               | move a buffer to the bottom                                             |
+| ~SPC b m k~ |               | move a buffer to the top                                                |
+| ~SPC b m l~ |               | move a buffer to the right                                              |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b M~   |               | swap windows using [[https://github.com/abo-abo/ace-window][ace-swap-window]]                                      |
+|             |               | 切换                                                                    |
+| ~SPC b n~   |               | switch to next buffer avoiding special buffers                          |
+| ~SPC b p~   |               | switch to previous buffer avoiding special buffers                      |
+| ~SPC b P~   |               | copy clipboard and replace buffer (useful when pasting from a browser)  |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b R~   | revert-buffer | revert the current buffer (reload from disk)                            |
+|             |               | 恢复                       重新装  从  磁盘                             |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b w~   |               | toggle read-only (writable state)                                       |
+|             |               | 开关   读   只    可写     状态                                         |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~SPC b Y~   |               | copy whole buffer to clipboard (useful when copying to a browser)       |
+|             |               | 复制 所有            剪切板 先记住到时再试用                            |
+|-------------+---------------+-------------------------------------------------------------------------|
+| ~z f~       |               | Make current function or comments visible in buffer as much as possible |
+|-------------+---------------+-------------------------------------------------------------------------|
+** ibuffer spc b B
 真的 china 的包有人算法不同表格就对不齐了，有个 togtle 的单词也是错的，spc s s 也没说对，勘误
 过滤的功能/暂不用
 | D  | 标记为待删除，好像小写 d 也行 |
@@ -56,7 +54,7 @@
 | CTRL+e  | edit the selected bookmark                   |
 | CTRL+f  | taggle filename location                     |
 | CTRL+o  | open the selected bookmark in another window |
-
+list-bookmarks
 * C three
 ** Commenting
     | Key Binding | Description                        |
@@ -81,7 +79,7 @@
 默认显示 80 字符的 column 宽控制标记线
 默认快捷键是<spc> t f
 默认启动加入下面 (turn-on-fci-mode)
-
+| default-fill-column | verbl |
 ** char
 |-----+-----+--------+-------------+---------------------------|
 | key | pre | insert | effect      | describe                  |
@@ -112,6 +110,9 @@ Dired DIRectory EDitor
 | x  | 套用刪除                                  |
 | X  | 解壓縮                                    |
 
+| default-directory | spacemacs 里可能屏蔽了 |
+| desktop-save-mode | variable               |
+|                   |                        |
 * F six
 ** hydra
 [[http://blog.hickwu.com/posts/336][Hick | Emacs简化按键利器hydra]] WIZ
@@ -230,13 +231,10 @@ spc h d
 01:
 12: 提示的输入的函数的快捷键是什么，现在 helm 中这个已不适用了
 13: 提示你按下快捷键运行的是什么函数
-*** apropos
-- command-apropos c-h a
-输入一个相关术语，如 line，会出现涉及到此术语的相关函数
-- apropos
-这个概念涉及到那些函数与变量
-- super-apropos
-那些函数和变量的文档里提到了这个概念
+
+| c-h a | command-apropos | 输入一个相关术语，如 line，会出现涉及到此术语的相关函数 |
+|       |                 | 这个概念涉及到那些函数与变量                            |
+| d     |                 | 那些函数和变量的文档里提到了这个概念                    |
 *** page510 没看完
 * L twelve
 ** letter
@@ -259,45 +257,45 @@ lower case letters 小写字体
 capital letters 大写
 small potatoes 小人物
 ** line
-|-----------+-----+-----+------------------------------+----------------------------|
-| key       | pre | ins | effect                       | describe                   |
-|-----------+-----+-----+------------------------------+----------------------------|
-| I         |     | yes | beginning of current line    | non-blank,visual use       |
-| A         |     | yes | end of the current line      |                            |
-| dd        | yes | no  | line                         | current                    |
-| cc        | yes | yes | current                      | cc=S,no pre  count         |
-| S         | yes | yes | del current line             | down count                 |
-| C         | no  | yes | line                         | current                    |
-| D         | no  | no  | line                         | current                    |
-| "^        | yes | no  |                              |                            |
-| 0         | no  | no  | line                         |                            |
-| '$        | yes | no  |                              |                            |
-| J         | no  |     |                              |                            |
-| gJ        | no  |     |                              |                            |
-|-----------+-----+-----+------------------------------+----------------------------|
-| o         | no  | yes |                              |                            |
-| O         | no  | yes |                              |                            |
-| spc i j   | yes | no  |                              |                            |
-| spc i J   | yes | no  |                              |                            |
-| spc i k   | yes | no  |                              |                            |
-| spc i K   | yes | no  | 大小写的区别有空再分         |                            |
-|-----------+-----+-----+------------------------------+----------------------------|
-| spc x J   |     |     | move down a line of text     | (enter micro-state)        |
-| spc x K   |     |     | move up a line of text       | (enter micro-state)        |
-| spc x t l |     |     | swap (transpose) the current | line with the previous one |
-|-----------+-----+-----+------------------------------+----------------------------|
-| spc l     |     |     | goto-line                    |                            |
-|-----------+-----+-----+------------------------------+----------------------------|
-*** line config
-行号开启 <spc> t n
-y o 下行加个空行
-y O 上行加个空行
-defun dotspacemacs/config()在里面添加 (global-linum-mode t)
+|-----------+---------------------+-----+------------------------------+-----------------------------|
+| key       | pre                 | ins | effect                       | describe                    |
+|-----------+---------------------+-----+------------------------------+-----------------------------|
+| I         |                     | yes | beginning of current line    | non-blank,visual use        |
+| A         |                     | yes | end of the current line      |                             |
+| dd        | yes                 | no  | line                         | current                     |
+| cc        | yes                 | yes | current                      | cc=S,no pre  count          |
+| S         | yes                 | yes | del current line             | down count                  |
+| C         | no                  | yes | line                         | current                     |
+| D         | no                  | no  | line                         | current                     |
+| "^        | yes                 | no  |                              |                             |
+| 0         | no                  | no  | line                         |                             |
+| '$        | yes                 | no  |                              |                             |
+| J         | no                  |     |                              |                             |
+| gJ        | no                  |     |                              |                             |
+|-----------+---------------------+-----+------------------------------+-----------------------------|
+| o         | no                  | yes |                              |                             |
+| O         | no                  | yes |                              |                             |
+| spc i j   | yes                 | no  | y o 下行加个空行             |                             |
+| spc i J   | yes                 | no  |                              |                             |
+| spc i k   | yes                 | no  | y O 上行加个空行             |                             |
+| spc i K   | yes                 | no  | 大小写的区别有空再分         |                             |
+|-----------+---------------------+-----+------------------------------+-----------------------------|
+| spc x J   |                     |     | move down a line of text     | (enter micro-state)         |
+| spc x K   |                     |     | move up a line of text       | (enter micro-state)         |
+| spc x t l |                     |     | swap (transpose) the current | line with the previous one  |
+|-----------+---------------------+-----+------------------------------+-----------------------------|
+| spc l     |                     |     | goto-line                    |                             |
+|-----------+---------------------+-----+------------------------------+-----------------------------|
+| spc t n   | global-linum-mode t |     |                              | defun dotspacemacs/config() |
+
 * M thirteen
 ** markdown
 generate a preview of the markdown content of a buffer.
 gh-md-render-region= 当前区域输出
 gh-md-revert-buffers 就是
+| menu-bar-mode |                 |
+| menu-bar-open | minibuffer open |
+|               |                 |
 * N fourteen
 ** NeoTree file tree
 可用翻页命令 c-d and c-u
@@ -395,6 +393,9 @@ C-u (数字) C-x r n (寄存器名)	number-to-register	将数字拷贝到寄存�
 *** insert
 C-x r i (寄存器名)	M-x insert-register	在缓冲区中插入寄存器内容
 * S nineteen
+scroll-left
+scroll-right
+
 ** 查找的范围 
 current buffer or namely current file
 当前   缓冲区             当前  文件
@@ -447,14 +448,16 @@ current buffer or namely current file
 (	移至上一个句子（sentence）首。
 sentence（句子）是以 . ! ? 为区格。
 
-* U
-** undo and redo
-undo-tree-vap
-spc a u c-x u
-| 1 | u   | undo-tree-undo | normal| vim   |
-| 2 | c-r | undo-tree-redo | normal| vim   |
-| 3 | c-_ | undo-tree-undo | normal| emacs |
-| 4 | a-_ | undo-tree-redo | normal| emacs |
+* T twenty
+text-scale-increase
+text-scale-decrease
+text-scale-adjust
+* U twenty-one
+| spc a u | undo-tree-visualize | c-x u |
+| u       | undo-tree-undo      | vim   |
+| c-r     | undo-tree-redo      | vim   |
+| c-_     | undo-tree-undo      | emacs |
+| a-_     | undo-tree-redo      | emacs |
 * V
 ** visual
 - v Characterwise visual mode
@@ -476,28 +479,6 @@ Spacemacs adds another Visual mode via the expand-region mode.
 | ~V~         | contract the region by one semantic unit |
 | ~r~         | reset the region to initial selection    |
 | ~ESC~       | leave expand-region mode                 |
-* Y twenty-five
-** yank and pastes
-都是在正常模式下的命令，不会进入到 insert
-| key   | pre | object | effect               | describe                  |
-| xp    | yes | char   | yank/pastes          | switch right              |
-| Xp    | yes | char   | yank/pastes          | switch left  to one count |
-| ddp   | yes | line   | yank/pastes          | switch current with down  |
-| yy    | yes | line   |                      |                           |
-| y/dw  | yes | word   | del current word end | yank                      |
-| y/daw | yes | word   | del word blank       | yank                      |
-| y/diw | yes | word   | del word  non-blany  | yank                      |
-| y/de  |     | word   |                      |                           |
-| y/db  |     |        |                      |                           |
-| y/dge |     |        |                      |                           |
-** youdao 
-1. MELPA 有可安装
-2. mpg123 官网下载，有64位的
-   http://mpg123.org/download.shtml
-3. 解压后要加入环境变量 
-4. 加入自己的层即可
-5. f7 出声音，f9 单独缓冲区
-6. 中文分词有空再看
    
 * W twenty-three
 ** word
@@ -613,5 +594,27 @@ spc-tab 与最近一个缓冲区来回切换
 |        | 暂时还不清楚的                                                              |
 | b      | force the focus back to the minibuffer (usefull with =helm= popups)         |
 | SPC    | select window using [[https://github.com/abo-abo/ace-window][ace-window]]                                              |
-| u      | undo window layout (used to effectively undo a closed window)               |
 | U      | redo window layout                                                          |
+| u      | undo window layout (used to effectively undo a closed window)               |
+* Y twenty-five
+** yank and pastes
+都是在正常模式下的命令，不会进入到 insert
+| key   | pre | object | effect               | describe                  |
+| xp    | yes | char   | yank/pastes          | switch right              |
+| Xp    | yes | char   | yank/pastes          | switch left  to one count |
+| ddp   | yes | line   | yank/pastes          | switch current with down  |
+| yy    | yes | line   |                      |                           |
+| y/dw  | yes | word   | del current word end | yank                      |
+| y/daw | yes | word   | del word blank       | yank                      |
+| y/diw | yes | word   | del word  non-blany  | yank                      |
+| y/de  |     | word   |                      |                           |
+| y/db  |     |        |                      |                           |
+| y/dge |     |        |                      |                           |
+** youdao 
+1. MELPA 有可安装
+2. mpg123 官网下载，有64位的
+   http://mpg123.org/download.shtml
+3. 解压后要加入环境变量 
+4. 加入自己的层即可
+5. f7 出声音，f9 单独缓冲区
+6. 中文分词有空再看

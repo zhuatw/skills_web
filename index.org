@@ -1,5 +1,8 @@
 #+TITLE: Words
 
+index.org emacs.org org.org web.org search.org
+vim.org memo.org footnote.org
+
 * A one
 application 
 absolute     
@@ -252,113 +255,4 @@ yank
 
 * Z twenty-six
 
-* text 
-n|	移至第 n 个字元(栏)处。注意，要用 Shift 键。n 是从头起算的。
-这和 不一样，内文内容并未动，只是光标在动而已。 |
-:n	移至第 n 行行首。或 nG。
-** other edit command 
-| key | pre | insert | object | effect  | describe   |
-| r   |     | yes/no | char   | current | disposable |
-| R   |     |        |        |         |            |
-| u   |     |        |        | uodo    |            |
-| c-r |     |        |        | redo    |            |
-|     |     |        |        |         |            |
- 
-*** find
-f 加上一个字符的命令，这里的 f 表示“find”,比如 fx 表示在当
-前位置向下定位到第一个 x 所在的位置。 
-F 加一个字符表示向左搜索。
-n evil-search-next
-*** magit git-bash
-test and text 
-*** t be to
-是“to”的简写，比如
-tx 表示向右寻找第一个 x 所在的位置，但是它不是把光标停留
-在被搜索的字符上，而是在它之前的前一个字符上。小写的 t
-表示向右搜索，大写的 T 表示向左搜索。 
-据了两行的空间，但是在逻辑上它们是一行，因为它们之间不
-包括任何的换行符。 
-*** 50%
-命令来跳转到文件的中间位置，用 80%命令跳转到文件的百分之八十的位置
-*** table
-s-tab 对齐和向上个单元格
-** temp notes
-*** 最短无二义前缀
-如果需要输入某个事物的名称，而这个名称是有限个数的可能性中的一种，Emacs 就能在输
-入可能最少个数的字符后判断出想输入的是什么
-忽略一些不用的文件名后缀示例 page518
-L end of line  
-key  pre   insert  object effect   describe 
-hjkl,right up down left,pre 
-hybrid enabled disabled glossaries, follow me,
-font sessio
-text object, purview whole
-fold level fold method  <SPC> : config-system/create-layer RET
-** Symbols
-| <SPC> s l   | To list all the symbols of a buffer press:                    |
-| <SPC> s e   | edit all occurrences of the current symbol                    |
-| <SPC> s e   | edit all occurrences of the current symbol                    |
-| <SPC> s s   | initiate navigation micro-state                               |
-| <SPC> s n   | go to next occurrence and initiate navigation micro-state     |
-| <SPC> s N   | go to previous occurrence and initiate navigation micro-state |
-| <SPC> s c d | change range to display area                                  |
-| <SPC> s c f | hange range to function                                       |
-| <SPC> s C   | change range to default (whole buffer)                        |
-| <SPC> s c b | change range to whole buffer                                  |
-| <SPC> t s   | taggle the auto highlighting                                  |
-| <SPC> t s   | taggle the auto highlighting                                  |
-出现一个列表缓冲区，是以有 * 来提取的，可输入关键字来搜索 ret 后光标就到此处
-** .spacemacs.d/
-(defun dotspacemacs/user-config ()
-(server-start);;自已的配置放到这里 
-)
-** 多光标编辑
-需要进入 iedit 模式, 此时光标变成红色, 步骤如下:
-用 vim 的 visul 模式选取要 replace 的值
-按<spc> s e 选取全部的匹配值(暂时不知怎么自定义选取)
-按 S 对值删除并进行修改
-按 ESC ESC 退出
-* learning Gnu Emacs 
-** 11 chapter
-function-name arguments 
-(forward-word 1)
-emacs -q and emacs -u username
-self-insert-command
-esc x command-name RETURN retur 
-keymap global-map local-map
-ctrl-x-map esc-map esc-prefix
-1. 11-352
-     define-key deymap "keystroke" 'command-name
-2. global-set-key "keystroke" 'command-name
-     define-key ctrl-x-map "l" 'goto-line
-     define-key global-map "\c-xl" 'goto-line
-     global-set-key "\c-xl" 'goto-line
-local-set-key "keystroke" 'command-name
-表 11-1:特殊字符转义表 355
-** temp command 
-help-command
-backward-char
-kill-word
-goto-line
-quoted-insert 11-357 application mode
-apropos
-describe-function c-h-f
-** config example
-setq 是常用的，当这个不起作用时，有个更高级是 setq-default 379
-setq auto-save-interval 800
-setq left-margin 4
-setq case-fold-search nil
-autoload 'function "filename"
-autoload 'ada-mode "ada"
-(setq auto-mode-alist (cons '(* .a$" . ada-mode) auto-mode-alist))
-** variable
-- 字符串值在双引号里
-- 字符值用 pre  ?
-- 符号值用单引号 never
-** 13 chapter 
-431 defun
-(interactive "prompt-string")
-defun count-word-buffer 434 
-与编辑缓冲区和文本有关的基本函数（表：13-4)page440
-** 正则表达式 page441
-** 主编辑模式实例 
+

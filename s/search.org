@@ -1,5 +1,9 @@
 #+TITLE: Searching
 
+* A one
+| spc spc | ace-jump-char-mode |
+|         | ace-jump-word-mode |
+| spc l   | ace-jump-line-mode |
 * T twenty
 ** 首先进入 Customize Group Grep 分组中，
 基础命令设置

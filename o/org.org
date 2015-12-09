@@ -1,17 +1,14 @@
 #+TITLE: org
 
 * A one
-** above
 | O | org-open-above |目前只知与 vim 一样在当前行上建一个空行且进入 insert |
 
 * B two
-** bold
-| SPC m x b | 	make region bold           |
-** beginning
-| H           | org-beginning-of-line   | current line beginning         |
-| \^          | org-beginning-of-line   |                                |
-| L           | org-end-of-line         | current end of line            |
-| \$          | org-end-of-line         |                                |
+| SPC m x b | org-bold              |                        |
+| H         | org-beginning-of-line | current line beginning |
+| \^        | org-beginning-of-line |                        |
+| L         | org-end-of-line       | current end of line    |
+| \$        | org-end-of-line       |                        |
 * C three 
 ** code
 | SPC m x c | 	make region code |
