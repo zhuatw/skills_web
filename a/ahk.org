@@ -1,0 +1,38 @@
+#+TITLE: AHK
+
+* memo 
+版本选择 AutoHotkey_L（AutoHotkey 1.1）， 确定 ahk_L 和 utf-8 现在谁不用 utf-8
+安装后，每个脚本都是需由程序 (AutoHotkey.exe) 执行的包含命令的纯文本
+c:\Program Files\AutoHotkey\Installer.ahk  一个安装链接
+c:\Program Files\AutoHotkey\AutoHotkey.chm 中文帮助
+c:\Program Files\AutoHotkey\AU3_Spy.exe 查看窗口信息工具
+c:\Program Files\AutoHotkey\AutoHotkey.exe 打开帮助文件，现已用中文帮助覆盖
+c:\Program Files\AutoHotkey\AutoHotkeyA32.exe
+c:\Program Files\AutoHotkey\AutoHotkeyU32.exe
+c:\Program Files\AutoHotkey\AutoHotkeyU64.exe
+c:\Program Files\AutoHotkey\license.txt 一个版权申明
+c:\Program Files\AutoHotkey\AutoHotkey Website.url 一个官网站点链接
+----------------------------------
+c:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe
+一个ahk脚本转为二进制的工具 Convert .ahk to .exe
+需选选择转成的编码类型的
+c:\Program Files\AutoHotkey\Compiler\ANSI 32-bit.bin
+c:\Program Files\AutoHotkey\Compiler\AutoHotkeySC.bin
+c:\Program Files\AutoHotkey\Compiler\Unicode 32-bit.bin
+c:\Program Files\AutoHotkey\Compiler\Unicode 64-bit.bin
+
+* we
+[[http://ahk8.com/thread-945.html][AutoHotkey 脚本关联工具（自定义默认编辑器、编译器等）]]
+[[http://ahk8.com/index.php][Autohotkey 中文论坛]]
+[[https://autohotkey.com/boards/viewtopic.php?t=4290][如何构建知识体系 - AutoHotkey Community]]
+[[http://blog.sina.com.cn/s/blog_5218584f0101qfw4.html][AutoHotKey 常用命令及示例_akjfzfa_新浪博客]]
+
+[[http://ahkcn.sourceforge.net/docs/Tutorial.htm][AutoHotkey 向导：创建宏和热键]] 网页中文帮助首参考
+
+[[http://zhuanlan.zhihu.com/autohotkey/19707355][【指南】选择哪个分支？ - AutoHotkey 之美 - 知乎专栏]]
+[[http://sourceforge.net/p/ahkcn/wiki/AutoHotkey%E5%8E%86%E5%8F%B2%E5%8F%8A%E5%BD%93%E5%89%8D%E5%88%86%E6%94%AF/][AutoHotkey 中文化项目 / Wiki / AutoHotkey历史及当前分支]]
+[[https://autohotkey.com/boards/viewforum.php?f=6][Scripts and Functions - AutoHotkey Community]] 英文官方论坛
+[[https://autohotkey.com/boards/viewtopic.php?t=4271][专用编辑器 SciTE4AutoHotkey - AutoHotkey Community]]
+[[https://autohotkey.com/boards/viewtopic.php?t=4733][WMI 脚本第一阶 - AutoHotkey Community]]
+[[http://newsmth.net/nForum/#!article/TotalCommander/55109][初尝tc半月的一些个人ahk代码和ini设置]]
+[[http://autohotkey-script-manager.googlecode.com/svn/trunk/AHK%20Script%20Manager.ahk][http://autohotkey-script-manager.googlecode.com/svn/trunk/AHK%20Script%20Manager.ahk]]

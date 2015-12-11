@@ -13,7 +13,6 @@
 
 * A one
 [[http://www.accessoft.com/article-show.asp?id=9225][Access、SQLServer、Oracle常见的区别Access软件网]]]
-
 [[http://www.accessoft.com/article-show.asp?id=8958][快速开发平台(企业版)--快速平台升迁至SQLSERVER图解教程Access软件网]]]
 [[http://www.360doc.com/content/13/0620/17/1437142_294320939.shtml][Audacity 音频编辑器教程]]
 
