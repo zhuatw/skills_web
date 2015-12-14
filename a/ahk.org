@@ -21,7 +21,55 @@ c:\Program Files\AutoHotkey\Compiler\AutoHotkeySC.bin
 c:\Program Files\AutoHotkey\Compiler\Unicode 32-bit.bin
 c:\Program Files\AutoHotkey\Compiler\Unicode 64-bit.bin
 
-* we
+* e360\software_packages\AutoHotkeye360\
+| ScriptSetting v1.0.3.ahk        | 默认编辑器                          |
+| SciTE4AHK300601_Install.exe     | 支持ahk的编辑器安装版, 主要支持调试 |
+| SciTE.zip                       | 网友整合的 SciTE 中文版             |
+| AHK Script Manager.zip          | 网友开发的脚本管理器                |
+| AutoScriptWriter.zip            | 自动录制脚本的, 官网不提供了        |
+| 语音数字.zip                    |                                     |
+| autohotkey中文版.zip            | 替换覆盖英文帮助                    |
+| 微软的$$$clipbrd.exe            |                                     |
+| Gridy.zip                       |                                     |
+| NiftyWindows-0.9.3.1-source.zip |                                     |
+| GridMoveSetup.exe               |                                     |
+| Clipjump.rar                    |                                     |
+AutoHotkeyHelp_CN.zip
+AutoHotkey112204_Install.exe
+* AHK Script Manager.exe
+左边键盘的 c+a+鼠标左键
+正常命名的脚本:	会随AHK Script Manager启动而启动，关闭而关闭. 适用于常驻脚本.
+!开头的脚本:	需要手动启动，启动后会驻守，可以手动关闭. 适用于某段时间需要常驻的脚本.
++开头的脚本:	启动后只执行一次任务，执行完自动退出，不会驻守. 适用于执行一次性任务.
+
+AHK Script Manager
+Ctrl + Alt + A			关闭所有脚本
+Ctrl + Alt + 中键		唤出"重载脚本"菜单
+Ctrl + Alt + 右键		唤出"关闭脚本"菜单
+Ctrl + Alt + 左键		唤出"启动脚本"菜单
+
+AHK帮助.ahk
+Alt + H					在AHK帮助文件中查找剪切板内容
+
+CMD.ahk
+Ctrl + L				仿Linux Term下Ctrl+L的清屏行为
+Ctrl + V				CMD窗口粘贴
+
+截图.ahk
+Ctrl + Shift + 左键		截图存为PNG图片，并保存到桌面
+Ctrl + Shift + 右键		截图保存到ClipBoard中，用于直接粘贴
+
+锁屏.ahk
+Win + L					锁屏并关闭屏幕
+
++Google翻译.ahk
+Enter                   查询
+Ctrl + Enter            代替普通的回车，进行换行
+
+TODO LIST.ahk
+Enter					保存
+Ctrl + Enter			文本换行
+* web
 [[http://ahk8.com/thread-945.html][AutoHotkey 脚本关联工具（自定义默认编辑器、编译器等）]]
 [[http://ahk8.com/index.php][Autohotkey 中文论坛]]
 [[https://autohotkey.com/boards/viewtopic.php?t=4290][如何构建知识体系 - AutoHotkey Community]]

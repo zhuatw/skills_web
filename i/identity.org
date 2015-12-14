@@ -1,5 +1,13 @@
 #+TITLE: Identity
 
+* tips
+新浪 常用短中两拼
+七牛 同上
+ahk8 同上
+新英常用短
+
+忘了有个改的是大写
+
 * A one
 qf my 163 sina hotmail
 | 阿里云   | 前缀 | 常用长拼     | 移动验证 |
