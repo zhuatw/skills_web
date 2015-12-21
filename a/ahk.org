@@ -1,5 +1,7 @@
 #+TITLE: AHK
 
+* tips 
+大写 K 就是查找当前单词在官网上的语法
 * memo 
 版本选择 AutoHotkey_L（AutoHotkey 1.1）， 确定 ahk_L 和 utf-8 现在谁不用 utf-8
 安装后，每个脚本都是需由程序 (AutoHotkey.exe) 执行的包含命令的纯文本
@@ -36,39 +38,6 @@ c:\Program Files\AutoHotkey\Compiler\Unicode 64-bit.bin
 | Clipjump.rar                    |                                     |
 AutoHotkeyHelp_CN.zip
 AutoHotkey112204_Install.exe
-* AHK Script Manager.exe
-左边键盘的 c+a+鼠标左键
-正常命名的脚本:	会随AHK Script Manager启动而启动，关闭而关闭. 适用于常驻脚本.
-!开头的脚本:	需要手动启动，启动后会驻守，可以手动关闭. 适用于某段时间需要常驻的脚本.
-+开头的脚本:	启动后只执行一次任务，执行完自动退出，不会驻守. 适用于执行一次性任务.
-
-AHK Script Manager
-Ctrl + Alt + A			关闭所有脚本
-Ctrl + Alt + 中键		唤出"重载脚本"菜单
-Ctrl + Alt + 右键		唤出"关闭脚本"菜单
-Ctrl + Alt + 左键		唤出"启动脚本"菜单
-
-AHK帮助.ahk
-Alt + H					在AHK帮助文件中查找剪切板内容
-
-CMD.ahk
-Ctrl + L				仿Linux Term下Ctrl+L的清屏行为
-Ctrl + V				CMD窗口粘贴
-
-截图.ahk
-Ctrl + Shift + 左键		截图存为PNG图片，并保存到桌面
-Ctrl + Shift + 右键		截图保存到ClipBoard中，用于直接粘贴
-
-锁屏.ahk
-Win + L					锁屏并关闭屏幕
-
-+Google翻译.ahk
-Enter                   查询
-Ctrl + Enter            代替普通的回车，进行换行
-
-TODO LIST.ahk
-Enter					保存
-Ctrl + Enter			文本换行
 * web
 [[http://ahk8.com/thread-945.html][AutoHotkey 脚本关联工具（自定义默认编辑器、编译器等）]]
 [[http://ahk8.com/index.php][Autohotkey 中文论坛]]
@@ -77,10 +46,13 @@ Ctrl + Enter			文本换行
 
 [[http://ahkcn.sourceforge.net/docs/Tutorial.htm][AutoHotkey 向导：创建宏和热键]] 网页中文帮助首参考
 
-[[http://zhuanlan.zhihu.com/autohotkey/19707355][【指南】选择哪个分支？ - AutoHotkey 之美 - 知乎专栏]]
 [[http://sourceforge.net/p/ahkcn/wiki/AutoHotkey%E5%8E%86%E5%8F%B2%E5%8F%8A%E5%BD%93%E5%89%8D%E5%88%86%E6%94%AF/][AutoHotkey 中文化项目 / Wiki / AutoHotkey历史及当前分支]]
 [[https://autohotkey.com/boards/viewforum.php?f=6][Scripts and Functions - AutoHotkey Community]] 英文官方论坛
 [[https://autohotkey.com/boards/viewtopic.php?t=4271][专用编辑器 SciTE4AutoHotkey - AutoHotkey Community]]
 [[https://autohotkey.com/boards/viewtopic.php?t=4733][WMI 脚本第一阶 - AutoHotkey Community]]
 [[http://newsmth.net/nForum/#!article/TotalCommander/55109][初尝tc半月的一些个人ahk代码和ini设置]]
-[[http://autohotkey-script-manager.googlecode.com/svn/trunk/AHK%20Script%20Manager.ahk][http://autohotkey-script-manager.googlecode.com/svn/trunk/AHK%20Script%20Manager.ahk]]
+[http://autohotkey-script-manager.googlecode.com/svn/trunk/AHK%20Script%20Manager.ahk][http://autohotkey-script-manager.googlecode.com/svn/trunk/AHK%20Script%20Manager.ahk]]
+[[http://zhuanlan.zhihu.com/autohotkey][AutoHotkey 之美 - 知乎专栏]]
+[[http://zhuanlan.zhihu.com/autohotkey/19707355][【指南】选择哪个分支？ - AutoHotkey 之美 - 知乎专栏]]
+[[http://ahkcn.github.io/docs/AHKL_DBGPClients.htm][调试功能]]
+[[http://jdev.tw/blog/734/autohotkey-introduction-chinese][輕鬆學會彈指神功－揭露AutoHotkey絕技 | 簡睿隨筆 | 學習過程的紀錄與備忘]]
