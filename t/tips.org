@@ -1,0 +1,41 @@
+改了两个地方，一个是把有声音的链接改成 e360的，/ 要改成 \ 
+把原来用那个什么函数 url的删掉，直接来格式化，要去掉记得去掉括号。
+
+Total Commander实现只复制文件名不复制后缀的方法(2014.4.7更新) | 古意人 - Google Chrome
+
+http://www.guyiren.com/archives/171[[http://bbs.kafan.cn/thread-1778935-1-1.html][【转帖】Chrome 标签页增强小程序（基于AHK脚本）_Chrome_浏览器讨论区 卡饭论坛 - 互助分享 - 大气谦和! - Google Chrome]]6
+* hotkey
+windows
+# 1 2
+* word 
+Blender 3D
+
+* E 
+
+
+
+** e:\e360
+
+
+
+
+ebook
+
+* cloud
+
+
+程序都装在 C 盘
+
+emacs 在 home 目录
+IT知识 D 盘
+工作区 E 盘
+中转临时区 F 盘
+*** life
+*** english 
+*** 综合
+*** emacs 
+*** personal
+*** IT
+*** work
+*** football
+

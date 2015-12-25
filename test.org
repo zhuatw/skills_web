@@ -1,9 +1,61 @@
 #+TITLE: Searching
 #+<<two>>
 
-
-[[two]]
+change.mp3
+char.mp3
+chrome.mp3
+class.mp3
+concession.mp3
+deliver_y_ing_man.mp3
+done.mp3
+draw_ing.mp3
+electrode.mp3
+Escape.mp3
+except_ion.mp3
+Exist.mp3
+haste_n.mp3
+hide.mp3
+identity.mp3
+Important.mp3
+Insert.mp3
+last.mp3
+line.mp3
+log.mp3
+mail.mp3
+material.mp3
+Minimize.mp3
+mobile.mp3
+normal.mp3
+page.mp3
+paragraph.mp3
+phone.mp3
+plan_ning.mp3
+price.mp3
+project_s.mp3
+queue_ing.mp3
+re_pair.mp3
+Recent.mp3
+register.mp3
+Release.mp3
+replenish.mp3
+rework.mp3
+Search.mp3
+Send.mp3
+sentence.mp3
+sequence.mp3
+Sleep.mp3
+solve_d_r.mp3
+stars.mp3
+startup.mp3
+super_b_add.mp3
+tag_s.mp3
+text.mp3
+todo.mp3
+visual.mp3
+wait_ing.mp3
+word.mp3
 [[My Target][Find mytarget]]
+
 * T twenty
 ** 首先进入 Customize Group Grep 分组中，
 基础命令设置

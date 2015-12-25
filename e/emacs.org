@@ -614,7 +614,8 @@ spc-tab 与最近一个缓冲区来回切换
 1. MELPA 有可安装
 2. mpg123 官网下载，有64位的
    http://mpg123.org/download.shtml
-3. 解压后要加入环境变量 
+3. 解压后要加入环境变量  current current 
 4. 加入自己的层即可
 5. f7 出声音，f9 单独缓冲区
 6. 中文分词有空再看
+C:\Users\ADMINI~1\AppData\Local\Temp

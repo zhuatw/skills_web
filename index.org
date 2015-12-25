@@ -187,7 +187,8 @@ PageDown
 PageUp
 plugs
 pipe
-personal
+** personal
+全部放到为知
 * Q seveteen
 
 * R eighteen
