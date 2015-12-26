@@ -1,0 +1,4165 @@
+#+TITLE: Word_Frequency
+
+* Table
+| tokens            | types         | items |
+|-------------------+---------------+-------|
+| conj              | (conjunction) |    34 |
+| adv               | (adverb)      |   427 |
+| v                 | (verb)        |  1281 |
+| det               | (determiner)  |    47 |
+| pron              | (pronoun)     |    46 |
+| interjection      | 13            |       |
+| a                 | (adjective)   |  1124 |
+| n                 | (noun)        |  3262 |
+| prep              | (preposition) |    71 |
+| modal             |               |    12 |
+| infinitive-marker |               |     1 |
+
+sort-order, frequency, word, word-class
+
+N,里面没有, 放到各自首字母下
+A，有录音
+2，数字表示里面有两处，但为不同的词性
+AN，有录音，但 Word Frequency 里没有 
+R, 
+* A one
+| the        | det               |   |
+| be         | v                 |   |
+| of         | prep              |   |
+| and        | conj              |   |
+| a          | det               |   |
+| in         | prep              |   |
+| to         | infinitive-marker |   |
+| have       | v                 |   |
+| it         | pron              |   |
+| to         | prep              |   |
+| for        | prep              |   |
+| i          | pron              |   |
+| that       | conj              |   |
+| you        | pron              |   |
+| he         | pron              |   |
+| on         | prep              |   |
+| with       | prep              |   |
+| do         | v                 |   |
+| at         | prep              |   |
+| by         | prep              |   |
+| not        | adv               |   |
+| this       | det               |   |
+| but        | conj              |   |
+| from       | prep              |   |
+| they       | pron              |   |
+| his        | det               |   |
+| that       | det               |   |
+| she        | pron              |   |
+| or         | conj              |   |
+| which      | det               |   |
+| as         | conj              |   |
+| we         | pron              |   |
+| an         | det               |   |
+| say        | v                 |   |
+| will       | modal             |   |
+| would      | modal             |   |
+| can        | modal             |   |
+| if         | conj              |   |
+| their      | det               |   |
+| go         | v                 |   |
+| what       | det               |   |
+| there      | pron              |   |
+| all        | det               |   |
+| get        | v                 |   |
+| her        | det               |   |
+| make       | v                 |   |
+| who        | pron              |   |
+| as         | prep              |   |
+| out        | adv               |   |
+| up         | adv               |   |
+| see        | v                 |   |
+| know       | v                 |   |
+| time       | n                 |   |
+| take       | v                 |   |
+| them       | pron              |   |
+| some       | det               |   |
+| could      | modal             |   |
+| so         | adv               |   |
+| him        | pron              |   |
+| year       | n                 |   |
+| into       | prep              |   |
+| its        | det               |   |
+| then       | adv               |   |
+| think      | v                 |   |
+| my         | det               |   |
+| come       | v                 |   |
+| than       | conj              |   |
+| more       | adv               |   |
+| about      | prep              |   |
+| now        | adv               |   |
+| last       | a                 | A |
+| your       | det               |   |
+| me         | pron              |   |
+| no         | det               |   |
+| other      | a                 |   |
+| give       | v                 |   |
+| just       | adv               |   |
+| should     | modal             |   |
+| these      | det               |   |
+| people     | n                 |   |
+| also       | adv               |   |
+| well       | adv               |   |
+| any        | det               |   |
+| only       | adv               |   |
+| new        | a                 |   |
+| very       | adv               |   |
+| when       | conj              |   |
+| may        | modal             |   |
+| way        | n                 |   |
+| look       | v                 |   |
+| like       | prep              |   |
+| use        | v                 |   |
+| her        | pron              |   |
+| such       | det               |   |
+| how        | adv               |   |
+| because    | conj              |   |
+| when       | adv               |   |
+| as         | adv               |   |
+| good       | a                 |   |
+| find       | v                 |   |
+| man        | n                 |   |
+| our        | det               |   |
+| want       | v                 |   |
+| day        | n                 |   |
+| between    | prep              |   |
+| even       | adv               |   |
+| there      | adv               |   |
+| many       | det               |   |
+| those      | det               |   |
+| one        | pron              |   |
+| after      | prep              |   |
+| down       | adv               |   |
+| yeah       | interjection      |   |
+| so         | conj              |   |
+| thing      | n                 |   |
+| tell       | v                 |   |
+| through    | prep              |   |
+| back       | adv               |   |
+| still      | adv               |   |
+| must       | modal             |   |
+| child      | n                 |   |
+| here       | adv               |   |
+| over       | prep              |   |
+| too        | adv               |   |
+| put        | v                 |   |
+| own        | det               |   |
+| on         | adv               |   |
+| no         | interjection      |   |
+| work       | v                 |   |
+| become     | v                 |   |
+| more       | det               |   |
+| old        | a                 |   |
+| government | n                 |   |
+| mean       | v                 |   |
+| part       | n                 |   |
+| leave      | v                 |   |
+| life       | n                 |   |
+| great      | a                 |   |
+| where      | adv               |   |
+| case       | n                 |   |
+| woman      | n                 |   |
+| over       | adv               |   |
+| seem       | v                 |   |
+| same       | det               |   |
+| us         | pron              |   |
+| work       | n                 |   |
+| need       | v                 |   |
+| feel       | v                 |   |
+| system     | n                 |   |
+| each       | det               |   |
+| might      | modal             |   |
+| may        | v                 |   |
+| much       | adv               |   |
+| ask        | v                 |   |
+| group      | n                 |   |
+| number     | n                 |   |
+| yes        | interjection      |   |
+| however    | adv               |   |
+* B two
+| another     | det   |   |
+| again       | adv   |   |
+| world       | n     |   |
+| area        | n     |   |
+| show        | v     |   |
+| course      | n     |   |
+| company     | n     |   |
+| shall       | modal |   |
+| under       | prep  |   |
+| problem     | n     |   |
+| against     | prep  |   |
+| never       | adv   |   |
+| all         | adv   |   |
+| most        | adv   |   |
+| service     | n     |   |
+| try         | v     |   |
+| call        | v     |   |
+| hand        | n     |   |
+| party       | n     |   |
+| high        | a     |   |
+| about       | adv   |   |
+| something   | pron  |   |
+| school      | n     |   |
+| in          | adv   |   |
+| small       | a     |   |
+| place       | n     |   |
+| before      | prep  |   |
+| why         | adv   |   |
+| while       | conj  |   |
+| away        | adv   |   |
+| keep        | v     |   |
+| point       | n     |   |
+| house       | n     |   |
+| different   | a     |   |
+| country     | n     |   |
+| really      | adv   |   |
+| provide     | v     |   |
+| week        | n     |   |
+| hold        | v     |   |
+| large       | a     |   |
+| member      | n     |   |
+| off         | adv   |   |
+| always      | adv   |   |
+| next        | det   |   |
+| follow      | v     |   |
+| without     | prep  |   |
+| turn        | v     |   |
+| end         | n     |   |
+| within      | prep  |   |
+| local       | a     |   |
+| where       | conj  |   |
+| during      | prep  |   |
+| bring       | v     |   |
+| most        | det   |   |
+| word        | n     |   |
+| begin       | v     |   |
+| although    | conj  |   |
+| example     | n     |   |
+| next        | adv   |   |
+| family      | n     |   |
+| rather      | adv   |   |
+| fact        | n     |   |
+| like        | v     |   |
+| social      | a     |   |
+| write       | v     |   |
+| state       | n     |   |
+| percent     | n     |   |
+| quite       | adv   |   |
+| both        | det   |   |
+| start       | v     |   |
+| run         | v     |   |
+| long        | a     |   |
+| right       | adv   |   |
+| set         | v     |   |
+| help        | v     |   |
+| every       | det   |   |
+| home        | n     |   |
+| month       | n     |   |
+| side        | n     |   |
+| night       | n     |   |
+| important   | a     | A |
+| eye         | n     |   |
+| head        | n     |   |
+| information | n     |   |
+| question    | n     |   |
+| business    | n     |   |
+| play        | v     |   |
+| power       | n     |   |
+| money       | n     |   |
+| change      | n     | A |
+| move        | v     |   |
+| interest    | n     |   |
+| order       | n     |   |
+| book        | n     |   |
+| often       | adv   |   |
+| development | n     |   |
+| young       | a     |   |
+| national    | a     |   |
+| pay         | v     |   |
+| hear        | v     |   |
+| room        | n     |   |
+| whether     | conj  |   |
+| water       | n     |   |
+| form        | n     |   |
+| car         | n     |   |
+| other       | n     |   |
+| yet         | adv   |   |
+| perhaps     | adv   |   |
+| meet        | v     |   |
+| level       | n     |   |
+| until       | conj  |   |
+| though      | conj  |   |
+| policy      | n     |   |
+| include     | v     |   |
+| believe     | v     |   |
+| council     | n     |   |
+| already     | adv   |   |
+| possible    | a     |   |
+| nothing     | pron  |   |
+| line        | n     | A |
+| allow       | v     |   |
+| need        | n     |   |
+| effect      | n     |   |
+| big         | a     |   |
+| use         | n     |   |
+| lead        | v     |   |
+| stand       | v     |   |
+| idea        | n     |   |
+| study       | n     |   |
+| lot         | n     |   |
+| live        | v     |   |
+| job         | n     |   |
+| since       | conj  |   |
+| name        | n     |   |
+| result      | n     |   |
+| body        | n     |   |
+| happen      | v     |   |
+| friend      | n     |   |
+| right       | n     |   |
+| least       | adv   |   |
+| right       | a     |   |
+| almost      | adv   |   |
+| much        | det   |   |
+| carry       | v     |   |
+| authority   | n     |   |
+| long        | adv   |   |
+| early       | a     |   |
+| view        | n     |   |
+| himself     | pron  |   |
+| public      | a     |   |
+| together    | adv   |   |
+| talk        | v     |   |
+| report      | n     |   |
+| after       | conj  |   |
+| only        | a     |   |
+| before      | conj  |   |
+| bit         | n     |   |
+| face        | n     |   |
+* C three
+| char          |      | AN |
+| chrome        |      | AN |
+| sit           | v    |    |
+| market        | n    |    |
+| appear        | v    |    |
+| continue      | v    |    |
+| able          | a    |    |
+| political     | a    |    |
+| later         | adv  |    |
+| hour          | n    |    |
+| rate          | n    |    |
+| law           | n    |    |
+| door          | n    |    |
+| court         | n    |    |
+| office        | n    |    |
+| let           | v    |    |
+| war           | n    |    |
+| produce       | v    |    |
+| reason        | n    |    |
+| less          | adv  |    |
+| minister      | n    |    |
+| subject       | n    |    |
+| person        | n    |    |
+| term          | n    |    |
+| particular    | a    |    |
+| full          | a    |    |
+| involve       | v    |    |
+| sort          | n    |    |
+| require       | v    |    |
+| suggest       | v    |    |
+| far           | a    |    |
+| towards       | prep |    |
+| anything      | pron |    |
+| period        | n    |    |
+| consider      | v    |    |
+| read          | v    |    |
+| change        | v    |    |
+| society       | n    |    |
+| process       | n    |    |
+| mother        | n    |    |
+| offer         | v    |    |
+| late          | a    |    |
+| voice         | n    |    |
+| both          | adv  |    |
+| once          | adv  |    |
+| police        | n    |    |
+| kind          | n    |    |
+| lose          | v    |    |
+| add           | v    |    |
+| probably      | adv  |    |
+| expect        | v    |    |
+| ever          | adv  |    |
+| available     | a    |    |
+| no            | adv  |    |
+| price         | n    | A  |
+| little        | a    |    |
+| action        | n    |    |
+| issue         | n    |    |
+| far           | adv  |    |
+| remember      | v    |    |
+| position      | n    |    |
+| low           | a    |    |
+| cost          | n    |    |
+| little        | det  |    |
+| matter        | n    |    |
+| community     | n    |    |
+| remain        | v    |    |
+| figure        | n    |    |
+| type          | n    |    |
+| research      | n    |    |
+| actually      | adv  |    |
+| education     | n    |    |
+| fall          | v    |    |
+| speak         | v    |    |
+| few           | n    |    |
+| today         | adv  |    |
+| enough        | adv  |    |
+| open          | v    |    |
+| bad           | a    |    |
+| buy           | v    |    |
+| programme     | n    |    |
+| minute        | n    |    |
+| moment        | n    |    |
+| girl          | n    |    |
+| age           | n    |    |
+| centre        | n    |    |
+| stop          | v    |    |
+| control       | n    |    |
+| value         | n    |    |
+| send          | v    | A  |
+| health        | n    |    |
+| decide        | v    |    |
+| main          | a    |    |
+| win           | v    |    |
+| understand    | v    |    |
+| decision      | n    |    |
+| develop       | v    |    |
+| class         | n    | A  |
+| industry      | n    |    |
+| receive       | v    |    |
+| back          | n    |    |
+| several       | det  |    |
+| return        | v    |    |
+| build         | v    |    |
+| spend         | v    |    |
+| force         | n    |    |
+| condition     | n    |    |
+| itself        | pron |    |
+| paper         | n    |    |
+| themselves    | pron |    |
+| off           | prep |    |
+| major         | a    |    |
+| describe      | v    |    |
+| agree         | v    |    |
+| economic      | a    |    |
+| increase      | v    |    |
+| upon          | prep |    |
+| learn         | v    |    |
+| general       | a    |    |
+| century       | n    |    |
+| therefore     | adv  |    |
+| father        | n    |    |
+| section       | n    |    |
+| patient       | n    |    |
+| around        | adv  |    |
+| activity      | n    |    |
+| road          | n    |    |
+| table         | n    |    |
+| including     | prep |    |
+| church        | n    |    |
+| reach         | v    |    |
+| real          | a    |    |
+| lie           | v    |    |
+| mind          | n    |    |
+| likely        | a    |    |
+| among         | prep |    |
+| team          | n    |    |
+| experience    | n    |    |
+| death         | n    |    |
+| soon          | adv  |    |
+| act           | n    |    |
+| sense         | n    |    |
+| staff         | n    |    |
+| certain       | a    |    |
+| student       | n    |    |
+| half          | det  |    |
+| around        | prep |    |
+| language      | n    |    |
+| walk          | v    |    |
+| die           | v    |    |
+| special       | a    |    |
+| difficult     | a    |    |
+| international | a    |    |
+| particularly  | adv  |    |
+| department    | n    |    |
+| management    | n    |    |
+| morning       | n    |    |
+| draw          | v    | AN |
+| hope          | v    |    |
+| across        | prep |    |
+
+* D four
+| done         | n            | AN |
+| plan         | n            | A2 |
+| product      | n            |    |
+| city         | n            |    |
+| early        | adv          |    |
+| committee    | n            |    |
+| ground       | n            |    |
+| letter       | n            |    |
+| create       | v            |    |
+| evidence     | n            |    |
+| foot         | n            |    |
+| clear        | a            |    |
+| boy          | n            |    |
+| game         | n            |    |
+| food         | n            |    |
+| role         | n            |    |
+| practice     | n            |    |
+| bank         | n            |    |
+| else         | adv          |    |
+| support      | n            |    |
+| sell         | v            |    |
+| event        | n            |    |
+| building     | n            |    |
+| range        | n            |    |
+| behind       | prep         |    |
+| sure         | a            |    |
+| report       | v            |    |
+| pass         | v            |    |
+| black        | a            |    |
+| stage        | n            |    |
+| meeting      | n            |    |
+| sometimes    | adv          |    |
+| thus         | adv          |    |
+| accept       | v            |    |
+| town         | n            |    |
+| art          | n            |    |
+| further      | adv          |    |
+| club         | n            |    |
+| cause        | v            |    |
+| arm          | n            |    |
+| history      | n            |    |
+| parent       | n            |    |
+| land         | n            |    |
+| trade        | n            |    |
+| watch        | v            |    |
+| white        | a            |    |
+| situation    | n            |    |
+| whose        | det          |    |
+| ago          | adv          |    |
+| teacher      | n            |    |
+| record       | n            |    |
+| manager      | n            |    |
+| relation     | n            |    |
+| common       | a            |    |
+| strong       | a            |    |
+| whole        | a            |    |
+| field        | n            |    |
+| free         | a            |    |
+| break        | v            |    |
+| yesterday    | adv          |    |
+| support      | v            |    |
+| window       | n            |    |
+| account      | n            |    |
+| explain      | v            |    |
+| stay         | v            |    |
+| few          | det          |    |
+| wait         | v            |    |
+| usually      | adv          |    |
+| difference   | n            |    |
+| material     | n            | A  |
+| air          | n            |    |
+| wife         | n            |    |
+| cover        | v            |    |
+| apply        | v            |    |
+| project      | n            | A  |
+| raise        | v            |    |
+| sale         | n            |    |
+| relationship | n            |    |
+| indeed       | adv          |    |
+| light        | n            |    |
+| claim        | v            |    |
+| form         | v            |    |
+| base         | v            |    |
+| care         | n            |    |
+| someone      | pron         |    |
+| everything   | pron         |    |
+| certainly    | adv          |    |
+| rule         | n            |    |
+| home         | adv          |    |
+| cut          | v            |    |
+| grow         | v            |    |
+| similar      | a            |    |
+| story        | n            |    |
+| quality      | n            |    |
+| tax          | n            |    |
+| worker       | n            |    |
+| nature       | n            |    |
+| structure    | n            |    |
+| data         | n            |    |
+| necessary    | a            |    |
+| pound        | n            |    |
+| method       | n            |    |
+| unit         | n            |    |
+| central      | a            |    |
+| bed          | n            |    |
+| union        | n            |    |
+| movement     | n            |    |
+| board        | n            |    |
+| true         | a            |    |
+| well         | interjection |    |
+| simply       | adv          |    |
+| contain      | v            |    |
+| especially   | adv          |    |
+| open         | a            |    |
+| short        | a            |    |
+| personal     | a            |    |
+| detail       | n            |    |
+| model        | n            |    |
+| bear         | v            |    |
+| single       | a            |    |
+| join         | v            |    |
+| reduce       | v            |    |
+| establish    | v            |    |
+| herself      | pron         |    |
+| wall         | n            |    |
+| face         | v            |    |
+| easy         | a            |    |
+| private      | a            |    |
+| computer     | n            |    |
+| former       | det          |    |
+| hospital     | n            |    |
+| chapter      | n            |    |
+| scheme       | n            |    |
+| theory       | n            |    |
+| choose       | v            |    |
+| wish         | v            |    |
+| property     | n            |    |
+| achieve      | v            |    |
+| financial    | a            |    |
+| poor         | a            |    |
+| officer      | n            |    |
+| up           | prep         |    |
+| charge       | n            |    |
+| director     | n            |    |
+| drive        | v            |    |
+| deal         | v            |    |
+| place        | v            |    |
+| approach     | n            |    |
+| chance       | n            |    |
+| application  | n            |    |
+| seek         | v            |    |
+| cos          | conj         |    |
+| foreign      | a            |    |
+| along        | prep         |    |
+| top          | n            |    |
+| amount       | n            |    |
+| son          | n            |    |
+| operation    | n            |    |
+| fail         | v            |    |
+* E five
+| human        | a    |    |
+| opportunity  | n    |    |
+| simple       | a    |    |
+| leader       | n    |    |
+| look         | n    |    |
+| share        | n    |    |
+| production   | n    |    |
+| recent       | a    | A  |
+| firm         | n    |    |
+| picture      | n    |    |
+| source       | n    |    |
+| security     | n    |    |
+| serve        | v    |    |
+| according    | prep |    |
+| end          | v    |    |
+| contract     | n    |    |
+| wide         | a    |    |
+| occur        | v    |    |
+| agreement    | n    |    |
+| better       | adv  |    |
+| kill         | v    |    |
+| act          | v    |    |
+| site         | n    |    |
+| either       | adv  |    |
+| labour       | n    |    |
+| plan         | v    | A2 |
+| various      | a    |    |
+| since        | prep |    |
+| test         | n    |    |
+| eat          | v    |    |
+| loss         | n    |    |
+| close        | v    |    |
+| represent    | v    |    |
+| love         | v    |    |
+| colour       | n    |    |
+| clearly      | adv  |    |
+| shop         | n    |    |
+| benefit      | n    |    |
+| animal       | n    |    |
+| heart        | n    |    |
+| election     | n    |    |
+| purpose      | n    |    |
+| standard     | n    |    |
+| due          | a    |    |
+| secretary    | n    |    |
+| rise         | v    |    |
+| date         | n    |    |
+| hard         | a    |    |
+| music        | n    |    |
+| hair         | n    |    |
+| prepare      | v    |    |
+| factor       | n    |    |
+| other        | pron |    |
+| anyone       | pron |    |
+| pattern      | n    |    |
+| manage       | v    |    |
+| piece        | n    |    |
+| discuss      | v    |    |
+| prove        | v    |    |
+| front        | n    |    |
+| evening      | n    |    |
+| royal        | a    |    |
+| tree         | n    |    |
+| population   | n    |    |
+| fine         | a    |    |
+| plant        | n    |    |
+| pressure     | n    |    |
+| response     | n    |    |
+| catch        | v    |    |
+| street       | n    |    |
+| pick         | v    |    |
+| performance  | n    |    |
+| knowledge    | n    |    |
+| despite      | prep |    |
+| design       | n    |    |
+| page         | n    | A  |
+| enjoy        | v    |    |
+| individual   | n    |    |
+| suppose      | v    |    |
+| rest         | n    |    |
+| instead      | adv  |    |
+| wear         | v    |    |
+| basis        | n    |    |
+| size         | n    |    |
+| environment  | n    |    |
+| per          | prep |    |
+| fire         | n    |    |
+| series       | n    |    |
+| success      | n    |    |
+| natural      | a    |    |
+| wrong        | a    |    |
+| near         | prep |    |
+| round        | adv  |    |
+| thought      | n    |    |
+| list         | n    |    |
+| argue        | v    |    |
+| final        | a    |    |
+| future       | n    |    |
+| introduce    | v    |    |
+| analysis     | n    |    |
+| enter        | v    |    |
+| space        | n    |    |
+| arrive       | v    |    |
+| ensure       | v    |    |
+| demand       | n    |    |
+| statement    | n    |    |
+| to           | adv  |    |
+| attention    | n    |    |
+| love         | n    |    |
+| principle    | n    |    |
+| pull         | v    |    |
+| set          | n    |    |
+| doctor       | n    |    |
+| choice       | n    |    |
+| refer        | v    |    |
+| feature      | n    |    |
+| couple       | n    |    |
+| step         | n    |    |
+| following    | a    |    |
+| thank        | v    |    |
+| machine      | n    |    |
+| income       | n    |    |
+| training     | n    |    |
+| present      | v    |    |
+| association  | n    |    |
+| film         | n    |    |
+| region       | n    |    |
+| effort       | n    |    |
+| player       | n    |    |
+| everyone     | pron |    |
+| present      | a    |    |
+| award        | n    |    |
+| village      | n    |    |
+| control      | v    |    |
+| organisation | n    |    |
+| whatever     | det  |    |
+| news         | n    |    |
+| nice         | a    |    |
+| difficulty   | n    |    |
+| modern       | a    |    |
+| cell         | n    |    |
+| close        | a    |    |
+| current      | a    |    |
+| legal        | a    |    |
+| energy       | n    |    |
+| finally      | adv  |    |
+| degree       | n    |    |
+| mile         | n    |    |
+| means        | n    |    |
+| growth       | n    |    |
+| whom         | pron |    |
+| treatment    | n    |    |
+| sound        | n    |    |
+| above        | prep |    |
+| task         | n    |    |
+| provision    | n    |    |
+| affect       | v    |    |
+| please       | adv  |    |
+* F six
+| red            | a     |   |
+| happy          | a     |   |
+| behaviour      | n     |   |
+| concerned      | a     |   |
+| point          | v     |   |
+| function       | n     |   |
+| identify       | v     |   |
+| resource       | n     |   |
+| defence        | n     |   |
+| garden         | n     |   |
+| floor          | n     |   |
+| technology     | n     |   |
+| style          | n     |   |
+| feeling        | n     |   |
+| science        | n     |   |
+| relate         | v     |   |
+| doubt          | n     |   |
+| horse          | n     |   |
+| force          | v     |   |
+| answer         | n     |   |
+| compare        | v     |   |
+| suffer         | v     |   |
+| individual     | a     |   |
+| forward        | adv   |   |
+| announce       | v     |   |
+| user           | n     |   |
+| fund           | n     |   |
+| character      | n     |   |
+| risk           | n     |   |
+| normal         | a     | A |
+| myself         | pron  |   |
+| nor            | conj  |   |
+| dog            | n     |   |
+| obtain         | v     |   |
+| quickly        | adv   |   |
+| army           | n     |   |
+| indicate       | v     |   |
+| forget         | v     |   |
+| station        | n     |   |
+| glass          | n     |   |
+| cup            | n     |   |
+| previous       | a     |   |
+| husband        | n     |   |
+| recently       | adv   |   |
+| publish        | v     |   |
+| serious        | a     |   |
+| anyway         | adv   |   |
+| visit          | v     |   |
+| capital        | n     |   |
+| either         | det   |   |
+| note           | n     |   |
+| season         | n     |   |
+| argument       | n     |   |
+| listen         | v     |   |
+| show           | n     |   |
+| responsibility | n     |   |
+| significant    | a     |   |
+| deal           | n     |   |
+| prime          | a     |   |
+| economy        | n     |   |
+| element        | n     |   |
+| finish         | v     |   |
+| duty           | n     |   |
+| fight          | v     |   |
+| train          | v     |   |
+| maintain       | v     |   |
+| attempt        | n     |   |
+| leg            | n     |   |
+| investment     | n     |   |
+| save           | v     |   |
+| throughout     | prep  |   |
+| design         | v     |   |
+| suddenly       | adv   |   |
+| brother        | n     |   |
+| improve        | v     |   |
+| avoid          | v     |   |
+| wonder         | v     |   |
+| tend           | v     |   |
+| title          | n     |   |
+| hotel          | n     |   |
+| aspect         | n     |   |
+| increase       | n     |   |
+| help           | n     |   |
+| industrial     | a     |   |
+| express        | v     |   |
+| summer         | n     |   |
+| determine      | v     |   |
+| generally      | adv   |   |
+| daughter       | n     |   |
+| exist          | v     | A |
+| used           | modal |   |
+| share          | v     |   |
+| baby           | n     |   |
+| nearly         | adv   |   |
+| smile          | v     |   |
+| sorry          | a     |   |
+| sea            | n     |   |
+| skill          | n     |   |
+| claim          | n     |   |
+| treat          | v     |   |
+| remove         | v     |   |
+| concern        | n     |   |
+| university     | n     |   |
+| labour         | a     |   |
+| left           | a     |   |
+| dead           | a     |   |
+| discussion     | n     |   |
+| specific       | a     |   |
+| customer       | n     |   |
+| box            | n     |   |
+| outside        | prep  |   |
+| state          | v     |   |
+| conference     | n     |   |
+| whole          | n     |   |
+| total          | a     |   |
+| profit         | n     |   |
+| division       | n     |   |
+| throw          | v     |   |
+| procedure      | n     |   |
+| fill           | v     |   |
+| king           | n     |   |
+| assume         | v     |   |
+| image          | n     |   |
+| oil            | n     |   |
+| obviously      | adv   |   |
+| unless         | conj  |   |
+| appropriate    | a     |   |
+| circumstance   | n     |   |
+| military       | a     |   |
+| proposal       | n     |   |
+| mention        | v     |   |
+| client         | n     |   |
+| sector         | n     |   |
+| direction      | n     |   |
+| admit          | v     |   |
+| though         | adv   |   |
+| replace        | v     |   |
+| basic          | a     |   |
+| hard           | adv   |   |
+| instance       | n     |   |
+| sign           | n     |   |
+| original       | a     |   |
+| successful     | a     |   |
+| okay           | adv   |   |
+| reflect        | v     |   |
+| aware          | a     |   |
+| measure        | n     |   |
+| attitude       | n     |   |
+| yourself       | pron  |   |
+| disease        | n     |   |
+| exactly        | adv   |   |
+| above          | adv   |   |
+| commission     | n     |   |
+| intend         | v     |   |
+| beyond         | prep  |   |
+| seat           | n     |   |
+| president      | n     |   |
+| encourage      | v     |   |
+* G seven
+| addition      | n    |   |
+| goal          | n    |   |
+| round         | prep |   |
+| miss          | v    |   |
+| popular       | a    |   |
+| affair        | n    |   |
+| technique     | n    |   |
+| respect       | n    |   |
+| drop          | v    |   |
+| professional  | a    |   |
+| less          | det  |   |
+| once          | conj |   |
+| item          | n    |   |
+| fly           | v    |   |
+| reveal        | v    |   |
+| version       | n    |   |
+| maybe         | adv  |   |
+| ability       | n    |   |
+| operate       | v    |   |
+| good          | n    |   |
+| campaign      | n    |   |
+| heavy         | a    |   |
+| advice        | n    |   |
+| institution   | n    |   |
+| top           | a    |   |
+| discover      | v    |   |
+| surface       | n    |   |
+| library       | n    |   |
+| pupil         | n    |   |
+| record        | v    |   |
+| refuse        | v    |   |
+| prevent       | v    |   |
+| advantage     | n    |   |
+| dark          | a    |   |
+| teach         | v    |   |
+| memory        | n    |   |
+| culture       | n    |   |
+| blood         | n    |   |
+| cost          | v    |   |
+| majority      | n    |   |
+| answer        | v    |   |
+| variety       | n    |   |
+| press         | n    |   |
+| depend        | v    |   |
+| bill          | n    |   |
+| competition   | n    |   |
+| ready         | a    |   |
+| general       | n    |   |
+| access        | n    |   |
+| hit           | v    |   |
+| stone         | n    |   |
+| useful        | a    |   |
+| extent        | n    |   |
+| employment    | n    |   |
+| regard        | v    |   |
+| apart         | adv  |   |
+| present       | n    |   |
+| appeal        | n    |   |
+| text          | n    |   |
+| parliament    | n    |   |
+| cause         | n    |   |
+| terms         | n    |   |
+| bar           | n    |   |
+| attack        | n    |   |
+| effective     | a    |   |
+| mouth         | n    |   |
+| down          | prep |   |
+| result        | v    |   |
+| fish          | n    |   |
+| future        | a    |   |
+| visit         | n    |   |
+| little        | adv  |   |
+| easily        | adv  |   |
+| attempt       | v    |   |
+| enable        | v    |   |
+| trouble       | n    |   |
+| traditional   | a    |   |
+| payment       | n    |   |
+| best          | adv  |   |
+| post          | n    |   |
+| county        | n    |   |
+| lady          | n    |   |
+| holiday       | n    |   |
+| realise       | v    |   |
+| importance    | n    |   |
+| chair         | n    |   |
+| facility      | n    |   |
+| complete      | v    |   |
+| article       | n    |   |
+| object        | n    |   |
+| context       | n    |   |
+| survey        | n    |   |
+| notice        | v    |   |
+| complete      | a    |   |
+| turn          | n    |   |
+| direct        | a    |   |
+| immediately   | adv  |   |
+| collection    | n    |   |
+| reference     | n    |   |
+| card          | n    |   |
+| interesting   | a    |   |
+| considerable  | a    |   |
+| television    | n    |   |
+| extend        | v    |   |
+| communication | n    |   |
+| agency        | n    |   |
+| physical      | a    |   |
+| except        | conj | A |
+| check         | v    |   |
+| sun           | n    |   |
+| species       | n    |   |
+| possibility   | n    |   |
+| official      | n    |   |
+| chairman      | n    |   |
+| speaker       | n    |   |
+| second        | n    |   |
+| career        | n    |   |
+| laugh         | v    |   |
+| weight        | n    |   |
+| sound         | v    |   |
+| responsible   | a    |   |
+| base          | n    |   |
+| document      | n    |   |
+| solution      | n    |   |
+| return        | n    |   |
+| medical       | a    |   |
+| hot           | a    |   |
+| recognise     | v    |   |
+| talk          | n    |   |
+| budget        | n    |   |
+| river         | n    |   |
+| fit           | v    |   |
+| organization  | n    |   |
+| existing      | a    |   |
+| start         | n    |   |
+| push          | v    |   |
+| tomorrow      | adv  |   |
+| requirement   | n    |   |
+| cold          | a    |   |
+| edge          | n    |   |
+| opposition    | n    |   |
+| opinion       | n    |   |
+| drug          | n    |   |
+| quarter       | n    |   |
+| option        | n    |   |
+| sign          | v    |   |
+| worth         | prep |   |
+| call          | n    |   |
+| define        | v    |   |
+| stock         | n    |   |
+| influence     | n    |   |
+| occasion      | n    |   |
+| eventually    | adv  |   |
+| software      | n    |   |
+| highly        | adv  |   |
+| exchange      | n    |   |
+| lack          | n    |   |
+| shake         | v    |   |
+* H eight
+| haste         | n    | AN |
+| hasten        | v    | AN |
+| study         | v    |    |
+| concept       | n    |    |
+| blue          | a    |    |
+| star          | n    | A  |
+| startup       | n    | A  |
+| radio         | n    |    |
+| no-one        | pron |    |
+| arrangement   | n    |    |
+| examine       | v    |    |
+| bird          | n    |    |
+| green         | a    |    |
+| band          | n    |    |
+| sex           | n    |    |
+| finger        | n    |    |
+| past          | n    |    |
+| independent   | a    |    |
+| equipment     | n    |    |
+| north         | n    |    |
+| mind          | v    |    |
+| move          | n    |    |
+| message       | n    |    |
+| fear          | n    |    |
+| afternoon     | n    |    |
+| drink         | v    |    |
+| fully         | adv  |    |
+| race          | n    |    |
+| gain          | v    |    |
+| strategy      | n    |    |
+| extra         | a    |    |
+| scene         | n    |    |
+| slightly      | adv  |    |
+| kitchen       | n    |    |
+| speech        | n    |    |
+| arise         | v    |    |
+| network       | n    |    |
+| tea           | n    |    |
+| peace         | n    |    |
+| failure       | n    |    |
+| employee      | n    |    |
+| ahead         | adv  |    |
+| scale         | n    |    |
+| hardly        | adv  |    |
+| attend        | v    |    |
+| shoulder      | n    |    |
+| otherwise     | adv  |    |
+| railway       | n    |    |
+| directly      | adv  |    |
+| supply        | n    |    |
+| expression    | n    |    |
+| owner         | n    |    |
+| associate     | v    |    |
+| corner        | n    |    |
+| past          | a    |    |
+| match         | n    |    |
+| sport         | n    |    |
+| status        | n    |    |
+| beautiful     | a    |    |
+| offer         | n    |    |
+| marriage      | n    |    |
+| hang          | v    |    |
+| civil         | a    |    |
+| perform       | v    |    |
+| sentence      | n    | A  |
+| crime         | n    |    |
+| ball          | n    |    |
+| marry         | v    |    |
+| wind          | n    |    |
+| truth         | n    |    |
+| protect       | v    |    |
+| safety        | n    |    |
+| partner       | n    |    |
+| completely    | adv  |    |
+| copy          | n    |    |
+| balance       | n    |    |
+| sister        | n    |    |
+| reader        | n    |    |
+| below         | adv  |    |
+| trial         | n    |    |
+| rock          | n    |    |
+| damage        | n    |    |
+| adopt         | v    |    |
+| newspaper     | n    |    |
+| meaning       | n    |    |
+| light         | a    |    |
+| essential     | a    |    |
+| obvious       | a    |    |
+| nation        | n    |    |
+| confirm       | v    |    |
+| south         | n    |    |
+| length        | n    |    |
+| branch        | n    |    |
+| deep          | a    |    |
+| none          | pron |    |
+| planning      | n    | A  |
+| trust         | n    |    |
+| working       | a    |    |
+| pain          | n    |    |
+| studio        | n    |    |
+| positive      | a    |    |
+| spirit        | n    |    |
+| college       | n    |    |
+| accident      | n    |    |
+| star          | v    |    |
+| hope          | n    |    |
+| mark          | v    |    |
+| works         | n    |    |
+| league        | n    |    |
+| clear         | v    |    |
+| imagine       | v    |    |
+| through       | adv  |    |
+| cash          | n    |    |
+| normally      | adv  |    |
+| play          | n    |    |
+| strength      | n    |    |
+| train         | n    |    |
+| travel        | v    |    |
+| target        | n    |    |
+| very          | a    |    |
+| pair          | n    | A  |
+| male          | a    |    |
+| gas           | n    |    |
+| issue         | v    |    |
+| contribution  | n    |    |
+| complex       | a    |    |
+| supply        | v    |    |
+| beat          | v    |    |
+| artist        | n    |    |
+| agent         | n    |    |
+| presence      | n    |    |
+| along         | adv  |    |
+| environmental | a    |    |
+| strike        | v    |    |
+| contact       | n    |    |
+| protection    | n    |    |
+| beginning     | n    |    |
+| demand        | v    |    |
+| media         | n    |    |
+| relevant      | a    |    |
+| employ        | v    |    |
+| shoot         | v    |    |
+| executive     | n    |    |
+| slowly        | adv  |    |
+| relatively    | adv  |    |
+| aid           | n    |    |
+| huge          | a    |    |
+| late          | adv  |    |
+| speed         | n    |    |
+| review        | n    |    |
+| test          | v    |    |
+| order         | v    |    |
+| route         | n    |    |
+| consequence   | n    |    |
+| telephone     | n    |    |
+| release       | v    | A2 |
+| proportion    | n    |    |
+| primary       | a    |    |
+| consideration | n    |    |
+| reform        | n    |    |
+| driver        | n    |    |
+* I nice
+| annual         | a    |    |
+| nuclear        | a    |    |
+| latter         | det  |    |
+| practical      | a    |    |
+| commercial     | a    |    |
+| rich           | a    |    |
+| emerge         | v    |    |
+| apparently     | adv  |    |
+| ring           | v    |    |
+| distance       | n    |    |
+| exercise       | n    |    |
+| key            | a    |    |
+| close          | adv  |    |
+| skin           | n    |    |
+| island         | n    |    |
+| separate       | a    |    |
+| aim            | v    |    |
+| danger         | n    |    |
+| credit         | n    |    |
+| usual          | a    |    |
+| link           | v    |    |
+| candidate      | n    |    |
+| track          | n    |    |
+| safe           | a    |    |
+| interested     | a    |    |
+| assessment     | n    |    |
+| path           | n    |    |
+| merely         | adv  |    |
+| plus           | prep |    |
+| district       | n    |    |
+| regular        | a    |    |
+| reaction       | n    |    |
+| impact         | n    |    |
+| collect        | v    |    |
+| debate         | n    |    |
+| lay            | v    |    |
+| rise           | n    |    |
+| belief         | n    |    |
+| conclusion     | n    |    |
+| shape          | n    |    |
+| vote           | n    |    |
+| aim            | n    |    |
+| politics       | n    |    |
+| reply          | v    |    |
+| press          | v    |    |
+| approach       | v    |    |
+| file           | n    |    |
+| western        | a    |    |
+| earth          | n    |    |
+| public         | n    |    |
+| survive        | v    |    |
+| estate         | n    |    |
+| boat           | n    |    |
+| prison         | n    |    |
+| additional     | a    |    |
+| settle         | v    |    |
+| largely        | adv  |    |
+| wine           | n    |    |
+| observe        | v    |    |
+| limit          | v    |    |
+| deny           | v    |    |
+| for            | conj |    |
+| straight       | adv  |    |
+| somebody       | pron |    |
+| writer         | n    |    |
+| weekend        | n    |    |
+| clothes        | n    |    |
+| active         | a    |    |
+| sight          | n    |    |
+| video          | n    |    |
+| reality        | n    |    |
+| hall           | n    |    |
+| nevertheless   | adv  |    |
+| regional       | a    |    |
+| vehicle        | n    |    |
+| worry          | v    |    |
+| powerful       | a    |    |
+| possibly       | adv  |    |
+| cross          | v    |    |
+| colleague      | n    |    |
+| charge         | v    |    |
+| lead           | n    |    |
+| farm           | n    |    |
+| respond        | v    |    |
+| employer       | n    |    |
+| carefully      | adv  |    |
+| understanding  | n    |    |
+| connection     | n    |    |
+| comment        | n    |    |
+| grant          | v    |    |
+| concentrate    | v    |    |
+| ignore         | v    |    |
+| phone          | n    | A2 |
+| hole           | n    |    |
+| insurance      | n    |    |
+| content        | n    |    |
+| confidence     | n    |    |
+| sample         | n    |    |
+| transport      | n    |    |
+| objective      | n    |    |
+| alone          | a    |    |
+| flower         | n    |    |
+| injury         | n    |    |
+| lift           | v    |    |
+| stick          | v    |    |
+| front          | a    |    |
+| mainly         | adv  |    |
+| battle         | n    |    |
+| generation     | n    |    |
+| currently      | adv  |    |
+| winter         | n    |    |
+| inside         | prep |    |
+| impossible     | a    |    |
+| somewhere      | adv  |    |
+| arrange        | v    |    |
+| will           | n    |    |
+| sleep          | v    | A  |
+| progress       | n    |    |
+| volume         | n    |    |
+| ship           | n    |    |
+| legislation    | n    |    |
+| commitment     | n    |    |
+| enough         | det  |    |
+| conflict       | n    |    |
+| bag            | n    |    |
+| fresh          | a    |    |
+| entry          | n    |    |
+| smile          | n    |    |
+| fair           | a    |    |
+| promise        | v    |    |
+| introduction   | n    |    |
+| senior         | a    |    |
+| manner         | n    |    |
+| background     | n    |    |
+| key            | n    |    |
+| touch          | v    |    |
+| vary           | v    |    |
+| sexual         | a    |    |
+| ordinary       | a    |    |
+| cabinet        | n    |    |
+| painting       | n    |    |
+| entirely       | adv  |    |
+| engine         | n    |    |
+| previously     | adv  |    |
+| administration | n    |    |
+| tonight        | adv  |    |
+| adult          | n    |    |
+| prefer         | v    |    |
+| author         | n    |    |
+| actual         | a    |    |
+| song           | n    |    |
+| investigation  | n    |    |
+| debt           | n    |    |
+| visitor        | n    |    |
+| forest         | n    |    |
+| repeat         | v    |    |
+| wood           | n    |    |
+| contrast       | n    |    |
+* J ten
+| extremely    | adv   |    |
+| wage         | n     |    |
+| domestic     | a     |    |
+| commit       | v     |    |
+| threat       | n     |    |
+| bus          | n     |    |
+| warm         | a     |    |
+| sir          | n     |    |
+| regulation   | n     |    |
+| drink        | n     |    |
+| relief       | n     |    |
+| internal     | a     |    |
+| strange      | a     |    |
+| excellent    | a     |    |
+| run          | n     |    |
+| fairly       | adv   |    |
+| technical    | a     |    |
+| tradition    | n     |    |
+| measure      | v     |    |
+| insist       | v     |    |
+| his          | pron  |    |
+| farmer       | n     |    |
+| until        | prep  |    |
+| traffic      | n     |    |
+| dinner       | n     |    |
+| consumer     | n     |    |
+| meal         | n     |    |
+| warn         | v     |    |
+| living       | a     |    |
+| package      | n     |    |
+| half         | n     |    |
+| increasingly | adv   |    |
+| description  | n     |    |
+| soft         | a     |    |
+| stuff        | n     |    |
+| award        | v     |    |
+| existence    | n     |    |
+| improvement  | n     |    |
+| coffee       | n     |    |
+| appearance   | n     |    |
+| standard     | a     |    |
+| attack       | v     |    |
+| sheet        | n     |    |
+| category     | n     |    |
+| distribution | n     |    |
+| equally      | adv   |    |
+| session      | n     |    |
+| cultural     | a     |    |
+| loan         | n     |    |
+| bind         | v     |    |
+| museum       | n     |    |
+| conversation | n     |    |
+| threaten     | v     |    |
+| link         | n     |    |
+| launch       | v     |    |
+| proper       | a     |    |
+| victim       | n     |    |
+| audience     | n     |    |
+| famous       | a     |    |
+| master       | n     |    |
+| lip          | n     |    |
+| religious    | a     |    |
+| joint        | a     |    |
+| cry          | v     |    |
+| potential    | a     |    |
+| broad        | a     |    |
+| exhibition   | n     |    |
+| experience   | v     |    |
+| judge        | n     |    |
+| formal       | a     |    |
+| housing      | n     |    |
+| past         | prep  |    |
+| concern      | v     |    |
+| freedom      | n     |    |
+| gentleman    | n     |    |
+| attract      | v     |    |
+| explanation  | n     |    |
+| appoint      | v     |    |
+| note         | v     |    |
+| chief        | a     |    |
+| total        | n     |    |
+| lovely       | a     |    |
+| official     | a     |    |
+| date         | v     |    |
+| demonstrate  | v     |    |
+| construction | n     |    |
+| middle       | n     |    |
+| yard         | n     |    |
+| unable       | a     |    |
+| acquire      | v     |    |
+| surely       | adv   |    |
+| crisis       | n     |    |
+| propos       | v     |    |
+| west         | n     |    |
+| impose       | v     |    |
+| market       | v     |    |
+| care         | v     |    |
+| god          | n     |    |
+| favour       | n     |    |
+| before       | adv   |    |
+| name         | v     |    |
+| equal        | a     |    |
+| capacity     | n     |    |
+| flat         | n     |    |
+| selection    | n     |    |
+| alone        | adv   |    |
+| football     | n     |    |
+| victory      | n     |    |
+| factory      | n     |    |
+| rural        | a     |    |
+| twice        | adv   |    |
+| sing         | v     |    |
+| whereas      | conj  |    |
+| own          | v     |    |
+| head         | v     |    |
+| examination  | n     |    |
+| deliver      | v     | A  |
+| nobody       | pron  |    |
+| substantial  | a     |    |
+| invite       | v     |    |
+| intention    | n     |    |
+| egg          | n     |    |
+| reasonable   | a     |    |
+| onto         | prep  |    |
+| retain       | v     |    |
+| aircraft     | n     |    |
+| decade       | n     |    |
+| cheap        | a     |    |
+| quiet        | a     |    |
+| bright       | a     |    |
+| contribute   | v     |    |
+| row          | n     |    |
+| search       | n     | A2 |
+| limit        | n     |    |
+| definition   | n     |    |
+| unemployment | n     |    |
+| spread       | v     |    |
+| mark         | n     |    |
+| flight       | n     |    |
+| account      | v     |    |
+| output       | n     |    |
+| last         | v     | A2 |
+| tour         | n     |    |
+| address      | n     |    |
+| immediate    | a     |    |
+| reduction    | n     |    |
+| interview    | n     |    |
+| assess       | v     |    |
+| promote      | v     |    |
+| everybody    | pron  |    |
+| suitable     | a     |    |
+| ought        | modal |    |
+| growing      | a     |    |
+| nod          | v     |    |
+| reject       | v     |    |
+| while        | n     |    |
+| high         | adv   |    |
+| dream        | n     |    |
+* K eleven
+| vote           | v    |   |
+| divide         | v    |   |
+| declare        | v    |   |
+| handle         | v    |   |
+| detailed       | a    |   |
+| challenge      | n    |   |
+| notice         | n    |   |
+| rain           | n    |   |
+| destroy        | v    |   |
+| mountain       | n    |   |
+| concentration  | n    |   |
+| limited        | a    |   |
+| finance        | n    |   |
+| pension        | n    |   |
+| influence      | v    |   |
+| afraid         | a    |   |
+| murder         | n    |   |
+| neck           | n    |   |
+| weapon         | n    |   |
+| hide           | v    |   |
+| offence        | n    |   |
+| absence        | n    |   |
+| error          | n    |   |
+| representative | n    |   |
+| enterprise     | n    |   |
+| criticism      | n    |   |
+| average        | a    |   |
+| quick          | a    |   |
+| sufficient     | a    |   |
+| appointment    | n    |   |
+| match          | v    |   |
+| transfer       | v    |   |
+| acid           | n    |   |
+| spring         | n    |   |
+| birth          | n    |   |
+| ear            | n    |   |
+| recognize      | v    |   |
+| recommend      | v    |   |
+| module         | n    |   |
+| instruction    | n    |   |
+| democratic     | a    |   |
+| park           | n    |   |
+| weather        | n    |   |
+| bottle         | n    |   |
+| address        | v    |   |
+| bedroom        | n    |   |
+| kid            | n    |   |
+| pleasure       | n    |   |
+| realize        | v    |   |
+| assembly       | n    |   |
+| expensive      | a    |   |
+| select         | v    |   |
+| teaching       | n    |   |
+| desire         | n    |   |
+| whilst         | conj |   |
+| contact        | v    |   |
+| implication    | n    |   |
+| combine        | v    |   |
+| temperature    | n    |   |
+| wave           | n    |   |
+| magazine       | n    |   |
+| totally        | adv  |   |
+| mental         | a    |   |
+| used           | a    |   |
+| store          | n    |   |
+| scientific     | a    |   |
+| frequently     | adv  |   |
+| thanks         | n    |   |
+| beside         | prep |   |
+| settlement     | n    |   |
+| absolutely     | adv  |   |
+| critical       | a    |   |
+| recognition    | n    |   |
+| touch          | n    |   |
+| consist        | v    |   |
+| below          | prep |   |
+| silence        | n    |   |
+| expenditure    | n    |   |
+| institute      | n    |   |
+| dress          | v    |   |
+| dangerous      | a    |   |
+| familiar       | a    |   |
+| asset          | n    |   |
+| belong         | v    |   |
+| educational    | a    |   |
+| sum            | n    |   |
+| publication    | n    |   |
+| partly         | adv  |   |
+| block          | n    |   |
+| seriously      | adv  |   |
+| youth          | n    |   |
+| tape           | n    |   |
+| elsewhere      | adv  |   |
+| cover          | n    |   |
+| fee            | n    |   |
+| program        | n    |   |
+| treaty         | n    |   |
+| necessarily    | adv  |   |
+| unlikely       | a    |   |
+| properly       | adv  |   |
+| guest          | n    |   |
+| code           | n    |   |
+| hill           | n    |   |
+| screen         | n    |   |
+| household      | n    |   |
+| sequence       | n    | A |
+| correct        | a    |   |
+| female         | a    |   |
+| phase          | n    |   |
+| crowd          | n    |   |
+| welcome        | v    |   |
+| metal          | n    |   |
+| human          | n    |   |
+| widely         | adv  |   |
+| undertake      | v    |   |
+| cut            | n    |   |
+| sky            | n    |   |
+| brain          | n    |   |
+| expert         | n    |   |
+| experiment     | n    |   |
+| tiny           | a    |   |
+| perfect        | a    |   |
+| disappear      | v    |   |
+| initiative     | n    |   |
+| assumption     | n    |   |
+| photograph     | n    |   |
+| ministry       | n    |   |
+| congress       | n    |   |
+| transfer       | n    |   |
+| reading        | n    |   |
+| scientist      | n    |   |
+| fast           | adv  |   |
+| fast           | a    |   |
+| closely        | adv  |   |
+| thin           | a    |   |
+| solicitor      | n    |   |
+| secure         | v    |   |
+| plate          | n    |   |
+| pool           | n    |   |
+| gold           | n    |   |
+| emphasis       | n    |   |
+| recall         | v    |   |
+| shout          | v    |   |
+| generate       | v    |   |
+| location       | n    |   |
+| display        | v    |   |
+| heat           | n    |   |
+| gun            | n    |   |
+| shut           | v    |   |
+| journey        | n    |   |
+| imply          | v    |   |
+| violence       | n    |   |
+| dry            | a    |   |
+| historical     | a    |   |
+| step           | v    |   |
+| curriculum     | n    |   |
+| noise          | n    |   |
+| lunch          | n    |   |
+* L twelve
+| log            | n            |    |
+| fear           | v            |    |
+| succeed        | v            |    |
+| fall           | n            |    |
+| bottom         | n            |    |
+| initial        | a            |    |
+| theme          | n            |    |
+| characteristic | n            |    |
+| pretty         | adv          |    |
+| empty          | a            |    |
+| display        | n            |    |
+| combination    | n            |    |
+| interpretation | n            |    |
+| rely           | v            |    |
+| escape         | v            | A2 |
+| score          | v            |    |
+| justice        | n            |    |
+| upper          | a            |    |
+| tooth          | n            |    |
+| organise       | v            |    |
+| cat            | n            |    |
+| tool           | n            |    |
+| spot           | n            |    |
+| bridge         | n            |    |
+| double         | a            |    |
+| direct         | v            |    |
+| conclude       | v            |    |
+| relative       | a            |    |
+| soldier        | n            |    |
+| climb          | v            |    |
+| breath         | n            |    |
+| afford         | v            |    |
+| urban          | a            |    |
+| nurse          | n            |    |
+| narrow         | a            |    |
+| liberal        | a            |    |
+| coal           | n            |    |
+| priority       | n            |    |
+| wild           | a            |    |
+| revenue        | n            |    |
+| membership     | n            |    |
+| grant          | n            |    |
+| approve        | v            |    |
+| tall           | a            |    |
+| apparent       | a            |    |
+| faith          | n            |    |
+| under          | adv          |    |
+| fix            | v            |    |
+| slow           | a            |    |
+| troop          | n            |    |
+| motion         | n            |    |
+| leading        | a            |    |
+| component      | n            |    |
+| bloody         | a            |    |
+| literature     | n            |    |
+| conservative   | a            |    |
+| variation      | n            |    |
+| remind         | v            |    |
+| inform         | v            |    |
+| alternative    | n            |    |
+| neither        | adv          |    |
+| outside        | adv          |    |
+| mass           | n            |    |
+| busy           | a            |    |
+| chemical       | n            |    |
+| careful        | a            |    |
+| investigate    | v            |    |
+| roll           | v            |    |
+| instrument     | n            |    |
+| guide          | n            |    |
+| criterion      | n            |    |
+| pocket         | n            |    |
+| suggestion     | n            |    |
+| aye            | interjection |    |
+| entitle        | v            |    |
+| tone           | n            |    |
+| attractive     | a            |    |
+| wing           | n            |    |
+| surprise       | n            |    |
+| male           | n            |    |
+| ring           | n            |    |
+| pub            | n            |    |
+| fruit          | n            |    |
+| passage        | n            |    |
+| illustrate     | v            |    |
+| pay            | n            |    |
+| ride           | v            |    |
+| foundation     | n            |    |
+| restaurant     | n            |    |
+| vital          | a            |    |
+| alternative    | a            |    |
+| burn           | v            |    |
+| map            | n            |    |
+| united         | a            |    |
+| device         | n            |    |
+| jump           | v            |    |
+| estimate       | v            |    |
+| conduct        | v            |    |
+| derive         | v            |    |
+| comment        | v            |    |
+| east           | n            |    |
+| advise         | v            |    |
+| advance        | n            |    |
+| motor          | n            |    |
+| satisfy        | v            |    |
+| hell           | n            |    |
+| winner         | n            |    |
+| effectively    | adv          |    |
+| mistake        | n            |    |
+| incident       | n            |    |
+| focus          | v            |    |
+| exercise       | v            |    |
+| representation | n            |    |
+| release        | n            | A2 |
+| leaf           | n            |    |
+| border         | n            |    |
+| wash           | v            |    |
+| prospect       | n            |    |
+| blow           | v            |    |
+| trip           | n            |    |
+| observation    | n            |    |
+| gather         | v            |    |
+| ancient        | a            |    |
+| brief          | a            |    |
+| gate           | n            |    |
+| elderly        | a            |    |
+| persuade       | v            |    |
+| overall        | a            |    |
+| rare           | a            |    |
+| index          | n            |    |
+| hand           | v            |    |
+| circle         | n            |    |
+| creation       | n            |    |
+| drawing        | n            | AN |
+| anybody        | pron         |    |
+| flow           | n            |    |
+| matter         | v            |    |
+| external       | a            |    |
+| capable        | a            |    |
+| recover        | v            |    |
+| shot           | n            |    |
+| request        | n            |    |
+| impression     | n            |    |
+| neighbour      | n            |    |
+| theatre        | n            |    |
+| beneath        | prep         |    |
+| hurt           | v            |    |
+| mechanism      | n            |    |
+| potential      | n            |    |
+| lean           | v            |    |
+| defendant      | n            |    |
+| atmosphere     | n            |    |
+| slip           | v            |    |
+| chain          | n            |    |
+| accompany      | v            |    |
+| wonderful      | a            |    |
+| earn           | v            |    |
+| enemy          | n            |    |
+| desk           | n            |    |
+* M thirteen
+| engineering   | n    |    |
+| minimize      | v    | AN |
+| mobile        | a    | AN |
+| panel         | n    |    |
+| distinction   | n    |    |
+| deputy        | n    |    |
+| discipline    | n    |    |
+| strike        | n    |    |
+| married       | a    |    |
+| plenty        | pron |    |
+| establishment | n    |    |
+| fashion       | n    |    |
+| roof          | n    |    |
+| milk          | n    |    |
+| entire        | a    |    |
+| tear          | n    |    |
+| secondary     | a    |    |
+| finding       | n    |    |
+| welfare       | n    |    |
+| increased     | a    |    |
+| attach        | v    |    |
+| typical       | a    |    |
+| meanwhile     | adv  |    |
+| leadership    | n    |    |
+| walk          | n    |    |
+| negotiation   | n    |    |
+| clean         | a    |    |
+| religion      | n    |    |
+| count         | v    |    |
+| grey          | a    |    |
+| hence         | adv  |    |
+| alright       | adv  |    |
+| first         | a    |    |
+| fuel          | n    |    |
+| mine          | n    |    |
+| appeal        | v    |    |
+| servant       | n    |    |
+| liability     | n    |    |
+| constant      | a    |    |
+| hate          | v    |    |
+| shoe          | n    |    |
+| expense       | n    |    |
+| vast          | a    |    |
+| soil          | n    |    |
+| writing       | n    |    |
+| nose          | n    |    |
+| origin        | n    |    |
+| lord          | n    |    |
+| rest          | v    |    |
+| drive         | n    |    |
+| ticket        | n    |    |
+| editor        | n    |    |
+| switch        | v    |    |
+| provided      | conj |    |
+| northern      | a    |    |
+| significance  | n    |    |
+| channel       | n    |    |
+| convention    | n    |    |
+| damage        | v    |    |
+| funny         | a    |    |
+| bone          | n    |    |
+| severe        | a    |    |
+| search        | v    | A2 |
+| iron          | n    |    |
+| vision        | n    |    |
+| via           | prep |    |
+| somewhat      | adv  |    |
+| inside        | adv  |    |
+| trend         | n    |    |
+| revolution    | n    |    |
+| terrible      | a    |    |
+| knee          | n    |    |
+| dress         | n    |    |
+| unfortunately | adv  |    |
+| steal         | v    |    |
+| criminal      | a    |    |
+| signal        | n    |    |
+| notion        | n    |    |
+| comparison    | n    |    |
+| academic      | a    |    |
+| outcome       | n    |    |
+| lawyer        | n    |    |
+| strongly      | adv  |    |
+| surround      | v    |    |
+| explore       | v    |    |
+| achievement   | n    |    |
+| odd           | a    |    |
+| expectation   | n    |    |
+| corporate     | a    |    |
+| prisoner      | n    |    |
+| question      | v    |    |
+| rapidly       | adv  |    |
+| deep          | adv  |    |
+| southern      | a    |    |
+| amongst       | prep |    |
+| withdraw      | v    |    |
+| afterwards    | adv  |    |
+| paint         | v    |    |
+| judge         | v    |    |
+| citizen       | n    |    |
+| permanent     | a    |    |
+| weak          | a    |    |
+| separate      | v    |    |
+| ourselves     | pron |    |
+| plastic       | n    |    |
+| connect       | v    |    |
+| fundamental   | a    |    |
+| plane         | n    |    |
+| height        | n    |    |
+| opening       | n    |    |
+| lesson        | n    |    |
+| similarly     | adv  |    |
+| shock         | n    |    |
+| rail          | n    |    |
+| tenant        | n    |    |
+| owe           | v    |    |
+| originally    | adv  |    |
+| middle        | a    |    |
+| somehow       | adv  |    |
+| minor         | a    |    |
+| negative      | a    |    |
+| knock         | v    |    |
+| root          | n    |    |
+| pursue        | v    |    |
+| inner         | a    |    |
+| crucial       | a    |    |
+| occupy        | v    |    |
+| that          | adv  |    |
+| independence  | n    |    |
+| column        | n    |    |
+| proceeding    | n    |    |
+| female        | n    |    |
+| beauty        | n    |    |
+| perfectly     | adv  |    |
+| struggle      | n    |    |
+| gap           | n    |    |
+| house         | v    |    |
+| database      | n    |    |
+| stretch       | v    |    |
+| stress        | n    |    |
+| passenger     | n    |    |
+| boundary      | n    |    |
+| easy          | adv  |    |
+| view          | v    |    |
+| manufacturer  | n    |    |
+| sharp         | a    |    |
+| formation     | n    |    |
+| queen         | n    |    |
+| waste         | n    |    |
+| virtually     | adv  |    |
+| expand        | v    |    |
+| contemporary  | a    |    |
+| politician    | n    |    |
+| back          | v    |    |
+| territory     | n    |    |
+| championship  | n    |    |
+| exception     | n    | A  |
+| thick         | a    |    |
+| inquiry       | n    |    |
+| topic         | n    |    |
+* N fourteen
+| resident      | n    |    |
+| transaction   | n    |    |
+| parish        | n    |    |
+| supporter     | n    |    |
+| massive       | a    |    |
+| light         | v    |    |
+| unique        | a    |    |
+| challenge     | v    |    |
+| inflation     | n    |    |
+| assistance    | n    |    |
+| list          | v    |    |
+| identity      | n    | A  |
+| suit          | v    |    |
+| parliamentary | a    |    |
+| unknown       | a    |    |
+| preparation   | n    |    |
+| elect         | v    |    |
+| badly         | adv  |    |
+| moreover      | adv  |    |
+| tie           | v    |    |
+| cancer        | n    |    |
+| champion      | n    |    |
+| exclude       | v    |    |
+| review        | v    |    |
+| licence       | n    |    |
+| breakfast     | n    |    |
+| minority      | n    |    |
+| appreciate    | v    |    |
+| fan           | n    |    |
+| chief         | n    |    |
+| accommodation | n    |    |
+| subsequent    | a    |    |
+| democracy     | n    |    |
+| brown         | a    |    |
+| taste         | n    |    |
+| crown         | n    |    |
+| permit        | v    |    |
+| buyer         | n    |    |
+| gift          | n    |    |
+| resolution    | n    |    |
+| angry         | a    |    |
+| metre         | n    |    |
+| wheel         | n    |    |
+| clause        | n    |    |
+| break         | n    |    |
+| tank          | n    |    |
+| benefit       | v    |    |
+| engage        | v    |    |
+| alive         | a    |    |
+| complaint     | n    |    |
+| inch          | n    |    |
+| firm          | a    |    |
+| abandon       | v    |    |
+| blame         | v    |    |
+| clean         | v    |    |
+| quote         | v    |    |
+| yours         | pron |    |
+| quantity      | n    |    |
+| rule          | v    |    |
+| guilty        | a    |    |
+| prior         | a    |    |
+| round         | a    |    |
+| eastern       | a    |    |
+| coat          | n    |    |
+| involvement   | n    |    |
+| tension       | n    |    |
+| diet          | n    |    |
+| enormous      | a    |    |
+| score         | n    |    |
+| rarely        | adv  |    |
+| prize         | n    |    |
+| remaining     | a    |    |
+| significantly | adv  |    |
+| glance        | v    |    |
+| dominate      | v    |    |
+| trust         | v    |    |
+| naturally     | adv  |    |
+| interpret     | v    |    |
+| land          | v    |    |
+| frame         | n    |    |
+| extension     | n    |    |
+| mix           | v    |    |
+| spokesman     | n    |    |
+| friendly      | a    |    |
+| acknowledge   | v    |    |
+| register      | v    | A2 |
+| regime        | n    |    |
+| fault         | n    |    |
+| mine          | pron |    |
+| dispute       | n    |    |
+| grass         | n    |    |
+| quietly       | adv  |    |
+| decline       | n    |    |
+| dismiss       | v    |    |
+| delivery      | n    | A  |
+| complain      | v    |    |
+| conservative  | n    |    |
+| shift         | v    |    |
+| port          | n    |    |
+| beach         | n    |    |
+| string        | n    |    |
+| depth         | n    |    |
+| unusual       | a    |    |
+| travel        | n    |    |
+| pilot         | n    |    |
+| obligation    | n    |    |
+| gene          | n    |    |
+| yellow        | a    |    |
+| republic      | n    |    |
+| shadow        | n    |    |
+| dear          | a    |    |
+| analyse       | v    |    |
+| anywhere      | adv  |    |
+| average       | n    |    |
+| phrase        | n    |    |
+| long-term     | a    |    |
+| crew          | n    |    |
+| lucky         | a    |    |
+| restore       | v    |    |
+| convince      | v    |    |
+| coast         | n    |    |
+| engineer      | n    |    |
+| heavily       | adv  |    |
+| extensive     | a    |    |
+| glad          | a    |    |
+| charity       | n    |    |
+| oppose        | v    |    |
+| defend        | v    |    |
+| alter         | v    |    |
+| warning       | n    |    |
+| arrest        | v    |    |
+| framework     | n    |    |
+| approval      | n    |    |
+| bother        | v    |    |
+| novel         | n    |    |
+| accuse        | v    |    |
+| surprised     | a    |    |
+| currency      | n    |    |
+| restrict      | v    |    |
+| possess       | v    |    |
+| moral         | a    |    |
+| protein       | n    |    |
+| distinguish   | v    |    |
+| gently        | adv  |    |
+| reckon        | v    |    |
+| incorporate   | v    |    |
+| proceed       | v    |    |
+| assist        | v    |    |
+| sure          | adv  |    |
+| stress        | v    |    |
+| justify       | v    |    |
+| behalf        | n    |    |
+| councillor    | n    |    |
+| setting       | n    |    |
+| command       | n    |    |
+| maintenance   | n    |    |
+| stair         | n    |    |
+| poem          | n    |    |
+* O fifteen
+| chest          | n   |    |
+| like           | adv |    |
+| secret         | n   |    |
+| restriction    | n   |    |
+| efficient      | a   |    |
+| suspect        | v   |    |
+| hat            | n   |    |
+| tough          | a   |    |
+| firmly         | adv |    |
+| willing        | a   |    |
+| healthy        | a   |    |
+| focus          | n   |    |
+| construct      | v   |    |
+| occasionally   | adv |    |
+| mode           | n   |    |
+| saving         | n   |    |
+| comfortable    | a   |    |
+| camp           | n   |    |
+| trade          | v   |    |
+| export         | n   |    |
+| wake           | v   |    |
+| partnership    | n   |    |
+| daily          | a   |    |
+| abroad         | adv |    |
+| profession     | n   |    |
+| load           | n   |    |
+| countryside    | n   |    |
+| boot           | n   |    |
+| mostly         | adv |    |
+| sudden         | a   |    |
+| implement      | v   |    |
+| reputation     | n   |    |
+| print          | v   |    |
+| calculate      | v   |    |
+| keen           | a   |    |
+| guess          | v   |    |
+| recommendation | n   |    |
+| autumn         | n   |    |
+| conventional   | a   |    |
+| cope           | v   |    |
+| constitute     | v   |    |
+| poll           | n   |    |
+| voluntary      | a   |    |
+| valuable       | a   |    |
+| recovery       | n   |    |
+| cast           | v   |    |
+| premise        | n   |    |
+| resolve        | v   |    |
+| regularly      | adv |    |
+| solve          | v   | A  |
+| plaintiff      | n   |    |
+| critic         | n   |    |
+| agriculture    | n   |    |
+| ice            | n   |    |
+| constitution   | n   |    |
+| communist      | n   |    |
+| layer          | n   |    |
+| recession      | n   |    |
+| slight         | a   |    |
+| dramatic       | a   |    |
+| golden         | a   |    |
+| temporary      | a   |    |
+| suit           | n   |    |
+| shortly        | adv |    |
+| initially      | adv |    |
+| arrival        | n   |    |
+| protest        | n   |    |
+| resistance     | n   |    |
+| silent         | a   |    |
+| presentation   | n   |    |
+| soul           | n   |    |
+| self           | n   |    |
+| judgment       | n   |    |
+| feed           | v   |    |
+| muscle         | n   |    |
+| shareholder    | n   |    |
+| opposite       | a   |    |
+| pollution      | n   |    |
+| wealth         | n   |    |
+| video-taped    | a   |    |
+| kingdom        | n   |    |
+| bread          | n   |    |
+| perspective    | n   |    |
+| camera         | n   |    |
+| prince         | n   |    |
+| illness        | n   |    |
+| cake           | n   |    |
+| meat           | n   |    |
+| submit         | v   |    |
+| ideal          | a   |    |
+| relax          | v   |    |
+| penalty        | n   |    |
+| purchase       | v   |    |
+| tired          | a   |    |
+| beer           | n   |    |
+| specify        | v   |    |
+| short          | adv |    |
+| monitor        | v   |    |
+| electricity    | n   |    |
+| specifically   | adv |    |
+| bond           | n   |    |
+| statutory      | a   |    |
+| laboratory     | n   |    |
+| federal        | a   |    |
+| captain        | n   |    |
+| deeply         | adv |    |
+| pour           | v   |    |
+| boss           | n   |    |
+| creature       | n   |    |
+| urge           | v   |    |
+| locate         | v   |    |
+| being          | n   |    |
+| struggle       | v   |    |
+| lifespan       | n   |    |
+| flat           | a   |    |
+| valley         | n   |    |
+| like           | a   |    |
+| guard          | n   |    |
+| emergency      | n   |    |
+| dark           | n   |    |
+| bomb           | n   |    |
+| dollar         | n   |    |
+| efficiency     | n   |    |
+| mood           | n   |    |
+| convert        | v   |    |
+| possession     | n   |    |
+| marketing      | n   |    |
+| please         | v   |    |
+| habit          | n   |    |
+| subsequently   | adv |    |
+| round          | n   |    |
+| purchase       | n   |    |
+| sort           | v   |    |
+| outside        | a   |    |
+| gradually      | adv |    |
+| expansion      | n   |    |
+| competitive    | a   |    |
+| co-operation   | n   |    |
+| acceptable     | a   |    |
+| angle          | n   |    |
+| cook           | v   |    |
+| net            | a   |    |
+| sensitive      | a   |    |
+| ratio          | n   |    |
+| kiss           | v   |    |
+| amount         | v   |    |
+| sleep          | n   | A2 |
+| finance        | v   |    |
+| essentially    | adv |    |
+| fund           | v   |    |
+| preserve       | v   |    |
+| wedding        | n   |    |
+| personality    | n   |    |
+| bishop         | n   |    |
+| dependent      | a   |    |
+| landscape      | n   |    |
+| pure           | a   |    |
+| mirror         | n   |    |
+* P sixteen
+| lock           | v            |   |
+| symptom        | n            |   |
+| promotion      | n            |   |
+| global         | a            |   |
+| aside          | adv          |   |
+| tendency       | n            |   |
+| conservation   | n            |   |
+| reply          | n            |   |
+| estimate       | n            |   |
+| qualification  | n            |   |
+| pack           | v            |   |
+| governor       | n            |   |
+| expected       | a            |   |
+| invest         | v            |   |
+| cycle          | n            |   |
+| alright        | a            |   |
+| philosophy     | n            |   |
+| gallery        | n            |   |
+| sad            | a            |   |
+| intervention   | n            |   |
+| emotional      | a            |   |
+| advertising    | n            |   |
+| regard         | n            |   |
+| dance          | v            |   |
+| cigarette      | n            |   |
+| predict        | v            |   |
+| adequate       | a            |   |
+| variable       | n            |   |
+| net            | n            |   |
+| retire         | v            |   |
+| sugar          | n            |   |
+| pale           | a            |   |
+| frequency      | n            |   |
+| guy            | n            |   |
+| feature        | v            |   |
+| furniture      | n            |   |
+| administrative | a            |   |
+| wooden         | a            |   |
+| input          | n            |   |
+| phenomenon     | n            |   |
+| surprising     | a            |   |
+| jacket         | n            |   |
+| actor          | n            |   |
+| kick           | v            |   |
+| producer       | n            |   |
+| hearing        | n            |   |
+| chip           | n            |   |
+| equation       | n            |   |
+| certificate    | n            |   |
+| hello          | interjection |   |
+| remarkable     | a            |   |
+| alliance       | n            |   |
+| smoke          | v            |   |
+| awareness      | n            |   |
+| throat         | n            |   |
+| discovery      | n            |   |
+| festival       | n            |   |
+| dance          | n            |   |
+| promise        | n            |   |
+| rose           | n            |   |
+| principal      | a            |   |
+| brilliant      | a            |   |
+| proposed       | a            |   |
+| coach          | n            |   |
+| absolute       | a            |   |
+| drama          | n            |   |
+| recording      | n            |   |
+| precisely      | adv          |   |
+| bath           | n            |   |
+| celebrate      | v            |   |
+| substance      | n            |   |
+| swing          | v            |   |
+| for            | adv          |   |
+| rapid          | a            |   |
+| rough          | a            |   |
+| investor       | n            |   |
+| fire           | v            |   |
+| rank           | n            |   |
+| compete        | v            |   |
+| sweet          | a            |   |
+| decline        | v            |   |
+| rent           | n            |   |
+| dealer         | n            |   |
+| bend           | v            |   |
+| solid          | a            |   |
+| cloud          | n            |   |
+| across         | adv          |   |
+| level          | a            |   |
+| enquiry        | n            |   |
+| fight          | n            |   |
+| abuse          | n            |   |
+| golf           | n            |   |
+| guitar         | n            |   |
+| electronic     | a            |   |
+| cottage        | n            |   |
+| scope          | n            |   |
+| pause          | v            |   |
+| mixture        | n            |   |
+| emotion        | n            |   |
+| comprehensive  | a            |   |
+| shirt          | n            |   |
+| allowance      | n            |   |
+| retirement     | n            |   |
+| breach         | n            |   |
+| infection      | n            |   |
+| resist         | v            |   |
+| qualify        | v            |   |
+| paragraph      | n            | A |
+| sick           | a            |   |
+| near           | a            |   |
+| researcher     | n            |   |
+| consent        | n            |   |
+| written        | a            |   |
+| literary       | a            |   |
+| ill            | a            |   |
+| wet            | a            |   |
+| lake           | n            |   |
+| entrance       | n            |   |
+| peak           | n            |   |
+| successfully   | adv          |   |
+| sand           | n            |   |
+| breathe        | v            |   |
+| cold           | n            |   |
+| cheek          | n            |   |
+| platform       | n            |   |
+| interaction    | n            |   |
+| need           | modal        |   |
+| watch          | n            |   |
+| borrow         | v            |   |
+| birthday       | n            |   |
+| knife          | n            |   |
+| extreme        | a            |   |
+| core           | n            |   |
+| peasant        | n            |   |
+| armed          | a            |   |
+| permission     | n            |   |
+| supreme        | a            |   |
+| overcome       | v            |   |
+| greatly        | adv          |   |
+| visual         | a            |   |
+| lad            | n            |   |
+| genuine        | a            |   |
+| personnel      | n            |   |
+| judgement      | n            |   |
+| exciting       | a            |   |
+| stream         | n            |   |
+| perception     | n            |   |
+| guarantee      | v            |   |
+| disaster       | n            |   |
+| darkness       | n            |   |
+| bid            | n            |   |
+| sake           | n            |   |
+| organize       | v            |   |
+| tourist        | n            |   |
+| policeman      | n            |   |
+| castle         | n            |   |
+| figure         | v            |   |
+| race           | v            |   |
+* Q seveteen
+| demonstration | n            |
+| queue         | n            |
+| anger         | n            |
+| briefly       | adv          |
+| presumably    | adv          |
+| clock         | n            |
+| hero          | n            |
+| expose        | v            |
+| custom        | n            |
+| maximum       | a            |
+| wish          | n            |
+| earning       | n            |
+| priest        | n            |
+| resign        | v            |
+| store         | v            |
+| widespread    | a            |
+| comprise      | v            |
+| chamber       | n            |
+| acquisition   | n            |
+| involved      | a            |
+| confident     | a            |
+| circuit       | n            |
+| radical       | a            |
+| detect        | v            |
+| stupid        | a            |
+| grand         | a            |
+| consumption   | n            |
+| hold          | n            |
+| zone          | n            |
+| mean          | a            |
+| altogether    | adv          |
+| rush          | v            |
+| numerous      | a            |
+| sink          | v            |
+| everywhere    | adv          |
+| classical     | a            |
+| respectively  | adv          |
+| distinct      | a            |
+| mad           | a            |
+| honour        | n            |
+| statistics    | n            |
+| false         | a            |
+| square        | n            |
+| differ        | v            |
+| disk          | n            |
+| truly         | adv          |
+| survival      | n            |
+| proud         | a            |
+| tower         | n            |
+| deposit       | n            |
+| pace          | n            |
+| compensation  | n            |
+| adviser       | n            |
+| consultant    | n            |
+| drag          | v            |
+| advanced      | a            |
+| landlord      | n            |
+| whenever      | adv          |
+| delay         | n            |
+| green         | n            |
+| car           | v            |
+| holder        | n            |
+| secret        | a            |
+| edition       | n            |
+| occupation    | n            |
+| agricultural  | a            |
+| intelligence  | n            |
+| empire        | n            |
+| definitely    | adv          |
+| negotiate     | v            |
+| host          | n            |
+| relative      | n            |
+| mass          | a            |
+| helpful       | a            |
+| fellow        | n            |
+| sweep         | v            |
+| poet          | n            |
+| journalist    | n            |
+| defeat        | n            |
+| unlike        | prep         |
+| primarily     | adv          |
+| tight         | a            |
+| indication    | n            |
+| dry           | v            |
+| cricket       | n            |
+| whisper       | v            |
+| routine       | n            |
+| print         | n            |
+| anxiety       | n            |
+| witness       | n            |
+| concerning    | prep         |
+| mill          | n            |
+| gentle        | a            |
+| curtain       | n            |
+| mission       | n            |
+| supplier      | n            |
+| basically     | adv          |
+| assure        | v            |
+| poverty       | n            |
+| snow          | n            |
+| prayer        | n            |
+| pipe          | n            |
+| deserve       | v            |
+| shift         | n            |
+| split         | v            |
+| near          | adv          |
+| consistent    | a            |
+| carpet        | n            |
+| ownership     | n            |
+| joke          | n            |
+| fewer         | det          |
+| workshop      | n            |
+| salt          | n            |
+| aged          | prep         |
+| symbol        | n            |
+| slide         | v            |
+| cross         | n            |
+| anxious       | a            |
+| tale          | n            |
+| preference    | n            |
+| inevitably    | adv          |
+| mere          | a            |
+| behave        | v            |
+| gain          | n            |
+| nervous       | a            |
+| guide         | v            |
+| remark        | n            |
+| pleased       | a            |
+| province      | n            |
+| steel         | n            |
+| practise      | v            |
+| flow          | v            |
+| holy          | a            |
+| dose          | n            |
+| alcohol       | n            |
+| guidance      | n            |
+| constantly    | adv          |
+| climate       | n            |
+| enhance       | v            |
+| reasonably    | adv          |
+| waste         | v            |
+| smooth        | a            |
+| dominant      | a            |
+| conscious     | a            |
+| formula       | n            |
+| tail          | n            |
+| ha            | interjection |
+| electric      | a            |
+| sheep         | n            |
+| medicine      | n            |
+| strategic     | a            |
+| disabled      | a            |
+| smell         | n            |
+| operator      | n            |
+| mount         | v            |
+| advance       | v            |
+| remote        | a            |
+| measurement   | n            |
+| favour        | v            |
+* R eighteen
+| rote           | n            | N  |
+| replenish      | v            | AN |
+| rework         | v            | AN |
+| neither        | det          |    |
+| architecture   | n            |    |
+| worth          | n            |    |
+| tie            | n            |    |
+| barrier        | n            |    |
+| practitioner   | n            |    |
+| outstanding    | a            |    |
+| enthusiasm     | n            |    |
+| theoretical    | a            |    |
+| implementation | n            |    |
+| worried        | a            |    |
+| pitch          | n            |    |
+| drop           | n            |    |
+| phone          | v            | A2 |
+| shape          | v            |    |
+| clinical       | a            |    |
+| lane           | n            |    |
+| apple          | n            |    |
+| catalogue      | n            |    |
+| tip            | n            |    |
+| publisher      | n            |    |
+| opponent       | n            |    |
+| live           | a            |    |
+| burden         | n            |    |
+| tackle         | v            |    |
+| historian      | n            |    |
+| bury           | v            |    |
+| stomach        | n            |    |
+| percentage     | n            |    |
+| evaluation     | n            |    |
+| outline        | v            |    |
+| talent         | n            |    |
+| lend           | v            |    |
+| silver         | n            |    |
+| pack           | n            |    |
+| fun            | n            |    |
+| democrat       | n            |    |
+| fortune        | n            |    |
+| storage        | n            |    |
+| professional   | n            |    |
+| reserve        | n            |    |
+| interval       | n            |    |
+| dimension      | n            |    |
+| honest         | a            |    |
+| awful          | a            |    |
+| manufacture    | v            |    |
+| confusion      | n            |    |
+| pink           | a            |    |
+| impressive     | a            |    |
+| satisfaction   | n            |    |
+| visible        | a            |    |
+| vessel         | n            |    |
+| stand          | n            |    |
+| curve          | n            |    |
+| pot            | n            |    |
+| replacement    | n            |    |
+| accurate       | a            |    |
+| mortgage       | n            |    |
+| salary         | n            |    |
+| impress        | v            |    |
+| constitutional | a            |    |
+| emphasise      | v            |    |
+| developing     | a            |    |
+| proof          | n            |    |
+| furthermore    | adv          |    |
+| dish           | n            |    |
+| interview      | v            |    |
+| considerably   | adv          |    |
+| distant        | a            |    |
+| lower          | v            |    |
+| favourite      | n            |    |
+| tear           | v            |    |
+| fixed          | a            |    |
+| by             | adv          |    |
+| luck           | n            |    |
+| count          | n            |    |
+| precise        | a            |    |
+| determination  | n            |    |
+| bite           | v            |    |
+| dear           | interjection |    |
+| consultation   | n            |    |
+| range          | v            |    |
+| residential    | a            |    |
+| conduct        | n            |    |
+| capture        | v            |    |
+| ultimately     | adv          |    |
+| cheque         | n            |    |
+| economics      | n            |    |
+| sustain        | v            |    |
+| secondly       | adv          |    |
+| silly          | a            |    |
+| merchant       | n            |    |
+| lecture        | n            |    |
+| musical        | a            |    |
+| leisure        | n            |    |
+| check          | n            |    |
+| cheese         | n            |    |
+| lift           | n            |    |
+| participate    | v            |    |
+| fabric         | n            |    |
+| distribute     | v            |    |
+| lover          | n            |    |
+| childhood      | n            |    |
+| cool           | a            |    |
+| ban            | v            |    |
+| supposed       | a            |    |
+| mouse          | n            |    |
+| strain         | n            |    |
+| specialist     | a            |    |
+| consult        | v            |    |
+| minimum        | a            |    |
+| approximately  | adv          |    |
+| participant    | n            |    |
+| monetary       | a            |    |
+| confuse        | v            |    |
+| dare           | v            |    |
+| smoke          | n            |    |
+| movie          | n            |    |
+| seed           | n            |    |
+| cease          | v            |    |
+| open           | adv          |    |
+| journal        | n            |    |
+| shopping       | n            |    |
+| equivalent     | n            |    |
+| palace         | n            |    |
+| exceed         | v            |    |
+| isolated       | a            |    |
+| poetry         | n            |    |
+| perceive       | v            |    |
+| lack           | v            |    |
+| strengthen     | v            |    |
+| snap           | v            |    |
+| readily        | adv          |    |
+| spite          | n            |    |
+| conviction     | n            |    |
+| corridor       | n            |    |
+| behind         | adv          |    |
+| ward           | n            |    |
+| profile        | n            |    |
+| fat            | a            |    |
+| comfort        | n            |    |
+| bathroom       | n            |    |
+| shell          | n            |    |
+| reward         | n            |    |
+| deliberately   | adv          |    |
+| automatically  | adv          |    |
+| vegetable      | n            |    |
+| imagination    | n            |    |
+| junior         | a            |    |
+| unemployed     | a            |    |
+| mystery        | n            |    |
+| pose           | v            |    |
+| violent        | a            |    |
+| march          | n            |    |
+| found          | v            |    |
+| dig            | v            |    |
+| dirty          | a            |    |
+| straight       | a            |    |
+* S nineteen
+| psychological | a            |    |
+| solved        | a            | A  |
+| solver        | a            | A  |
+| psychological | a            |    |
+| grab          | v            |    |
+| pleasant      | a            |    |
+| surgery       | n            |    |
+| inevitable    | a            |    |
+| transform     | v            |    |
+| bell          | n            |    |
+| announcement  | n            |    |
+| draft         | n            |    |
+| unity         | n            |    |
+| airport       | n            |    |
+| upset         | v            |    |
+| pretend       | v            |    |
+| plant         | v            |    |
+| till          | prep         |    |
+| known         | a            |    |
+| admission     | n            |    |
+| tissue        | n            |    |
+| magistrate    | n            |    |
+| joy           | n            |    |
+| free          | v            |    |
+| pretty        | a            |    |
+| operating     | n            |    |
+| headquarters  | n            |    |
+| grateful      | a            |    |
+| classroom     | n            |    |
+| turnover      | n            |    |
+| project       | v            | A2 |
+| shrug         | v            |    |
+| sensible      | a            |    |
+| limitation    | n            |    |
+| specialist    | n            |    |
+| newly         | adv          |    |
+| tongue        | n            |    |
+| refugee       | n            |    |
+| delay         | v            |    |
+| dream         | v            |    |
+| composition   | n            |    |
+| alongside     | prep         |    |
+| ceiling       | n            |    |
+| highlight     | v            |    |
+| stick         | n            |    |
+| favourite     | a            |    |
+| tap           | v            |    |
+| universe      | n            |    |
+| request       | v            |    |
+| label         | n            |    |
+| confine       | v            |    |
+| scream        | v            |    |
+| rid           | v            |    |
+| acceptance    | n            |    |
+| detective     | n            |    |
+| sail          | v            |    |
+| adjust        | v            |    |
+| designer      | n            |    |
+| running       | a            |    |
+| summit        | n            |    |
+| participation | n            |    |
+| weakness      | n            |    |
+| block         | v            |    |
+| so-called     | a            |    |
+| adapt         | v            |    |
+| absorb        | v            |    |
+| encounter     | v            |    |
+| defeat        | v            |    |
+| excitement    | n            |    |
+| brick         | n            |    |
+| blind         | a            |    |
+| wire          | n            |    |
+| crop          | n            |    |
+| square        | a            |    |
+| transition    | n            |    |
+| thereby       | adv          |    |
+| protest       | v            |    |
+| roll          | n            |    |
+| stop          | n            |    |
+| assistant     | n            |    |
+| deaf          | a            |    |
+| constituency  | n            |    |
+| continuous    | a            |    |
+| concert       | n            |    |
+| breast        | n            |    |
+| extraordinary | a            |    |
+| squad         | n            |    |
+| wonder        | n            |    |
+| cream         | n            |    |
+| tennis        | n            |    |
+| personally    | adv          |    |
+| communicate   | v            |    |
+| pride         | n            |    |
+| bowl          | n            |    |
+| file          | v            |    |
+| expertise     | n            |    |
+| govern        | v            |    |
+| leather       | n            |    |
+| observer      | n            |    |
+| margin        | n            |    |
+| uncertainty   | n            |    |
+| reinforce     | v            |    |
+| ideal         | n            |    |
+| injure        | v            |    |
+| holding       | n            |    |
+| universal     | a            |    |
+| evident       | a            |    |
+| dust          | n            |    |
+| overseas      | a            |    |
+| desperate     | a            |    |
+| swim          | v            |    |
+| occasional    | a            |    |
+| trouser       | n            |    |
+| surprisingly  | adv          |    |
+| register      | n            | A2 |
+| album         | n            |    |
+| guideline     | n            |    |
+| disturb       | v            |    |
+| amendment     | n            |    |
+| architect     | n            |    |
+| objection     | n            |    |
+| chart         | n            |    |
+| cattle        | n            |    |
+| doubt         | v            |    |
+| react         | v            |    |
+| consciousness | n            |    |
+| right         | interjection |    |
+| purely        | adv          |    |
+| tin           | n            |    |
+| tube          | n            |    |
+| fulfil        | v            |    |
+| commonly      | adv          |    |
+| sufficiently  | adv          |    |
+| coin          | n            |    |
+| frighten      | v            |    |
+| grammar       | n            |    |
+| diary         | n            |    |
+| flesh         | n            |    |
+| summary       | n            |    |
+| infant        | n            |    |
+| stir          | v            |    |
+| storm         | n            |    |
+| mail          | n            | A  |
+| rugby         | n            |    |
+| virtue        | n            |    |
+| specimen      | n            |    |
+| psychology    | n            |    |
+| paint         | n            |    |
+| constraint    | n            |    |
+| trace         | v            |    |
+| privilege     | n            |    |
+| completion    | n            |    |
+| progress      | v            |    |
+| hers          | pron         |    |
+| grade         | n            |    |
+| exploit       | v            |    |
+| import        | n            |    |
+| potato        | n            |    |
+| repair        | n            | A2 |
+| passion       | n            |    |
+| seize         | v            |    |
+* T twenty
+| low           | adv  |   |
+| underlying    | a    |   |
+| heaven        | n    |   |
+| nerve         | n    |   |
+| park          | v    |   |
+| collapse      | v    |   |
+| win           | n    |   |
+| printer       | n    |   |
+| coalition     | n    |   |
+| button        | n    |   |
+| pray          | v    |   |
+| ultimate      | a    |   |
+| venture       | n    |   |
+| timber        | n    |   |
+| companion     | n    |   |
+| horror        | n    |   |
+| gesture       | n    | A |
+| moon          | n    |   |
+| remark        | v    |   |
+| clever        | a    |   |
+| van           | n    |   |
+| consequently  | adv  |   |
+| raw           | a    |   |
+| glance        | n    |   |
+| broken        | a    |   |
+| jury          | n    |   |
+| gaze          | v    |   |
+| burst         | v    |   |
+| charter       | n    |   |
+| feminist      | n    |   |
+| discourse     | n    |   |
+| reflection    | n    |   |
+| carbon        | n    |   |
+| sophisticated | a    |   |
+| ban           | n    |   |
+| taxation      | n    |   |
+| prosecution   | n    |   |
+| softly        | adv  |   |
+| asleep        | a    |   |
+| aids          | n    |   |
+| publicity     | n    |   |
+| departure     | n    |   |
+| welcome       | a    |   |
+| sharply       | adv  |   |
+| reception     | n    |   |
+| cousin        | n    |   |
+| relieve       | v    |   |
+| linguistic    | a    |   |
+| vat           | n    |   |
+| forward       | a    |   |
+| blue          | n    |   |
+| multiple      | a    |   |
+| pass          | n    |   |
+| outer         | a    |   |
+| vulnerable    | a    |   |
+| patient       | a    |   |
+| evolution     | n    |   |
+| allocate      | v    |   |
+| creative      | a    |   |
+| potentially   | adv  |   |
+| just          | a    |   |
+| out           | prep |   |
+| judicial      | a    |   |
+| risk          | v    |   |
+| ideology      | n    |   |
+| smell         | v    |   |
+| agenda        | n    |   |
+| transport     | v    |   |
+| illegal       | a    |   |
+| chicken       | n    |   |
+| plain         | a    |   |
+| innovation    | n    |   |
+| opera         | n    |   |
+| lock          | n    |   |
+| grin          | v    |   |
+| shelf         | n    |   |
+| pole          | n    |   |
+| punishment    | n    |   |
+| strict        | a    |   |
+| wave          | v    |   |
+| inside        | n    |   |
+| carriage      | n    |   |
+| fit           | a    |   |
+| conversion    | n    |   |
+| hurry         | v    |   |
+| essay         | n    |   |
+| integration   | n    |   |
+| resignation   | n    |   |
+| treasury      | n    |   |
+| traveller     | n    |   |
+| chocolate     | n    |   |
+| assault       | n    |   |
+| schedule      | n    |   |
+| undoubtedly   | adv  |   |
+| twin          | n    |   |
+| format        | n    |   |
+| murder        | v    |   |
+| sigh          | v    |   |
+| seller        | n    |   |
+| lease         | n    |   |
+| bitter        | a    |   |
+| double        | v    |   |
+| ally          | n    |   |
+| stake         | n    |   |
+| processing    | n    |   |
+| informal      | a    |   |
+| flexible      | a    |   |
+| cap           | n    |   |
+| stable        | a    |   |
+| till          | conj |   |
+| sympathy      | n    |   |
+| tunnel        | n    |   |
+| pen           | n    |   |
+| instal        | v    |   |
+| suspend       | v    |   |
+| blow          | n    |   |
+| wander        | v    |   |
+| notably       | adv  |   |
+| disappoint    | v    |   |
+| wipe          | v    |   |
+| folk          | n    |   |
+| attraction    | n    |   |
+| disc          | n    |   |
+| inspire       | v    |   |
+| machinery     | n    |   |
+| undergo       | v    |   |
+| nowhere       | adv  |   |
+| inspector     | n    |   |
+| wise          | a    |   |
+| balance       | v    |   |
+| purchaser     | n    |   |
+| resort        | n    |   |
+| pop           | n    |   |
+| organ         | n    |   |
+| ease          | v    |   |
+| friendship    | n    |   |
+| deficit       | n    |   |
+| dear          | n    |   |
+| convey        | v    |   |
+| reserve       | v    |   |
+| planet        | n    |   |
+| frequent      | a    |   |
+| loose         | a    |   |
+| intense       | a    |   |
+| retail        | a    |   |
+| wind          | v    |   |
+| lost          | a    |   |
+| grain         | n    |   |
+| particle      | n    |   |
+| destruction   | n    |   |
+| witness       | v    |   |
+| pit           | n    |   |
+| registration  | n    |   |
+| conception    | n    |   |
+| steady        | a    |   |
+| rival         | n    |   |
+| steam         | n    |   |
+| back          | a    |   |
+* U twenty-one
+| chancellor     | n    |
+| crash          | v    |
+| belt           | n    |
+| logic          | n    |
+| premium        | n    |
+| confront       | v    |
+| precede        | v    |
+| experimental   | a    |
+| alarm          | n    |
+| rational       | a    |
+| incentive      | n    |
+| roughly        | adv  |
+| bench          | n    |
+| wrap           | v    |
+| regarding      | prep |
+| inadequate     | a    |
+| ambition       | n    |
+| since          | adv  |
+| fate           | n    |
+| vendor         | n    |
+| stranger       | n    |
+| spiritual      | a    |
+| increasing     | a    |
+| anticipate     | v    |
+| logical        | a    |
+| fibre          | n    |
+| attribute      | v    |
+| sense          | v    |
+| black          | n    |
+| petrol         | n    |
+| maker          | n    |
+| generous       | a    |
+| allocation     | n    |
+| depression     | n    |
+| declaration    | n    |
+| spot           | v    |
+| modest         | a    |
+| bottom         | a    |
+| dividend       | n    |
+| devote         | v    |
+| condemn        | v    |
+| integrate      | v    |
+| pile           | n    |
+| identification | n    |
+| acute          | a    |
+| barely         | adv  |
+| providing      | conj |
+| directive      | n    |
+| bet            | v    |
+| modify         | v    |
+| bare           | a    |
+| swear          | v    |
+| final          | n    |
+| accordingly    | adv  |
+| valid          | a    |
+| wherever       | adv  |
+| mortality      | n    |
+| medium         | n    |
+| silk           | n    |
+| funeral        | n    |
+| depending      | a    |
+| cow            | n    |
+| correspond     | v    |
+| cite           | v    |
+| classic        | a    |
+| inspection     | n    |
+| calculation    | n    |
+| rubbish        | n    |
+| minimum        | n    |
+| hypothesis     | n    |
+| youngster      | n    |
+| slope          | n    |
+| patch          | n    |
+| invitation     | n    |
+| ethnic         | a    |
+| federation     | n    |
+| duke           | n    |
+| wholly         | adv  |
+| closure        | n    |
+| dictionary     | n    |
+| withdrawal     | n    |
+| automatic      | a    |
+| liable         | a    |
+| cry            | n    |
+| slow           | v    |
+| borough        | n    |
+| well           | a    |
+| suspicion      | n    |
+| portrait       | n    |
+| local          | n    |
+| jew            | n    |
+| fragment       | n    |
+| revolutionary  | a    |
+| evaluate       | v    |
+| competitor     | n    |
+| sole           | a    |
+| reliable       | a    |
+| weigh          | v    |
+| medieval       | a    |
+| clinic         | n    |
+| shine          | v    |
+| knit           | v    |
+| complexity     | n    |
+| remedy         | n    |
+| fence          | n    |
+| bike           | n    |
+| freeze         | v    |
+| eliminate      | v    |
+| interior       | n    |
+| intellectual   | a    |
+| established    | a    |
+| voter          | n    |
+| garage         | n    |
+| era            | n    |
+| pregnant       | a    |
+| plot           | n    |
+| greet          | v    |
+| electrical     | a    |
+| lie            | n    |
+| disorder       | n    |
+| formally       | adv  |
+| excuse         | n    |
+| socialist      | a    |
+| cancel         | v    |
+| harm           | n    |
+| excess         | n    |
+| exact          | a    |
+| oblige         | v    |
+| accountant     | n    |
+| mutual         | a    |
+| fat            | n    |
+| volunteer      | n    |
+| laughter       | n    |
+| trick          | n    |
+| load           | v    |
+| disposal       | n    |
+| taxi           | n    |
+| murmur         | v    |
+| tonne          | n    |
+| spell          | v    |
+| clerk          | n    |
+| curious        | a    |
+| satisfactory   | a    |
+| identical      | a    |
+| applicant      | n    |
+| removal        | n    |
+| processor      | n    |
+| cotton         | n    |
+| reverse        | v    |
+| hesitate       | v    |
+| professor      | n    |
+| admire         | v    |
+| namely         | adv  |
+| electoral      | a    |
+| delight        | n    |
+| urgent         | a    |
+| prompt         | v    |
+| mate           | n    |
+* V twenty-two
+| exposure       | n   |    |
+| server         | n   |    |
+| distinctive    | a   |    |
+| marginal       | a   |    |
+| structural     | a   |    |
+| rope           | n   |    |
+| miner          | n   |    |
+| entertainment  | n   |    |
+| acre           | n   |    |
+| pig            | n   |    |
+| encouraging    | a   |    |
+| guarantee      | n   |    |
+| gear           | n   |    |
+| anniversary    | n   |    |
+| past           | adv |    |
+| ceremony       | n   |    |
+| rub            | v   |    |
+| monopoly       | n   |    |
+| left           | n   |    |
+| flee           | v   |    |
+| yield          | v   |    |
+| discount       | n   |    |
+| above          | a   |    |
+| uncle          | n   |    |
+| audit          | n   |    |
+| advertisement  | n   |    |
+| explosion      | n   |    |
+| contrary       | a   |    |
+| tribunal       | n   |    |
+| swallow        | v   |    |
+| typically      | adv |    |
+| fun            | a   |    |
+| rat            | n   |    |
+| cloth          | n   |    |
+| cable          | n   |    |
+| interrupt      | v   |    |
+| crash          | n   |    |
+| flame          | n   |    |
+| controversy    | n   |    |
+| rabbit         | n   |    |
+| everyday       | a   |    |
+| allegation     | n   |    |
+| strip          | n   |    |
+| stability      | n   |    |
+| tide           | n   |    |
+| illustration   | n   |    |
+| insect         | n   |    |
+| correspondent  | n   |    |
+| devise         | v   |    |
+| determined     | a   |    |
+| brush          | v   |    |
+| adjustment     | n   |    |
+| controversial  | a   |    |
+| organic        | a   |    |
+| escape         | n   | A2 |
+| thoroughly     | adv |    |
+| interface      | n   |    |
+| historic       | a   |    |
+| collapse       | n   |    |
+| temple         | n   |    |
+| shade          | n   |    |
+| craft          | n   |    |
+| nursery        | n   |    |
+| piano          | n   |    |
+| desirable      | a   |    |
+| assurance      | n   |    |
+| jurisdiction   | n   |    |
+| advertise      | v   |    |
+| bay            | n   |    |
+| specification  | n   |    |
+| disability     | n   |    |
+| presidential   | a   |    |
+| arrest         | n   |    |
+| unexpected     | a   |    |
+| switch         | n   |    |
+| penny          | n   |    |
+| respect        | v   |    |
+| celebration    | n   |    |
+| gross          | a   |    |
+| aid            | v   |    |
+| superb         | a   |    |
+| process        | v   |    |
+| innocent       | a   |    |
+| leap           | v   |    |
+| colony         | n   |    |
+| wound          | n   |    |
+| hardware       | n   |    |
+| satellite      | n   |    |
+| float          | v   |    |
+| bible          | n   |    |
+| statistical    | a   |    |
+| marked         | a   |    |
+| hire           | v   |    |
+| cathedral      | n   |    |
+| motive         | n   |    |
+| correct        | v   |    |
+| gastric        | a   |    |
+| raid           | n   |    |
+| comply         | v   |    |
+| accommodate    | v   |    |
+| mutter         | v   |    |
+| induce         | v   |    |
+| trap           | v   |    |
+| invasion       | n   |    |
+| humour         | n   |    |
+| bulk           | n   |    |
+| traditionally  | adv |    |
+| commission     | v   |    |
+| upstairs       | adv |    |
+| translate      | v   |    |
+| rhythm         | n   |    |
+| emission       | n   |    |
+| collective     | a   |    |
+| transformation | n   |    |
+| battery        | n   |    |
+| stimulus       | n   |    |
+| naked          | a   |    |
+| white          | n   |    |
+| menu           | n   |    |
+| toilet         | n   |    |
+| butter         | n   |    |
+| surprise       | v   |    |
+| needle         | n   |    |
+| effectiveness  | n   |    |
+| accordance     | n   |    |
+| molecule       | n   |    |
+| fiction        | n   |    |
+| learning       | n   |    |
+| statute        | n   |    |
+| reluctant      | a   |    |
+| overlook       | v   |    |
+| junction       | n   |    |
+| necessity      | n   |    |
+| nearby         | a   |    |
+| experienced    | a   |    |
+| lorry          | n   |    |
+| exclusive      | a   |    |
+| graphics       | n   |    |
+| stimulate      | v   |    |
+| warmth         | n   |    |
+| therapy        | n   |    |
+| convenient     | a   |    |
+| cinema         | n   |    |
+| domain         | n   |    |
+| tournament     | n   |    |
+| doctrine       | n   |    |
+| sheer          | a   |    |
+| proposition    | n   |    |
+| grip           | n   |    |
+| widow          | n   |    |
+| discrimination | n   |    |
+| bloody         | adv |    |
+| ruling         | a   |    |
+| fit            | n   |    |
+| nonetheless    | adv |    |
+| myth           | n   |    |
+| episode        | n   |    |
+| drift          | v   |    |
+* W twenty-three
+| assert          | v   |
+| terrace         | n   |
+| uncertain       | a   |
+| twist           | v   |
+| insight         | n   |
+| undermine       | v   |
+| tragedy         | n   |
+| enforce         | v   |
+| criticise       | v   |
+| march           | v   |
+| leaflet         | n   |
+| fellow          | a   |
+| object          | v   |
+| pond            | n   |
+| adventure       | n   |
+| diplomatic      | a   |
+| mixed           | a   |
+| rebel           | n   |
+| equity          | n   |
+| literally       | adv |
+| magnificent     | a   |
+| loyalty         | n   |
+| tremendous      | a   |
+| airline         | n   |
+| shore           | n   |
+| restoration     | n   |
+| physically      | adv |
+| render          | v   |
+| institutional   | a   |
+| emphasize       | v   |
+| mess            | n   |
+| commander       | n   |
+| straightforward | a   |
+| singer          | n   |
+| squeeze         | v   |
+| full-time       | a   |
+| breed           | v   |
+| successor       | n   |
+| triumph         | n   |
+| heading         | n   |
+| mathematics     | n   |
+| laugh           | n   |
+| clue            | n   |
+| still           | a   |
+| ease            | n   |
+| specially       | adv |
+| biological      | a   |
+| forgive         | v   |
+| trustee         | n   |
+| photo           | n   |
+| fraction        | n   |
+| chase           | v   |
+| whereby         | adv |
+| mud             | n   |
+| pensioner       | n   |
+| functional      | a   |
+| copy            | v   |
+| strictly        | adv |
+| desperately     | adv |
+| await           | v   |
+| coverage        | n   |
+| wildlife        | n   |
+| indicator       | n   |
+| lightly         | adv |
+| hierarchy       | n   |
+| evolve          | v   |
+| mechanical      | a   |
+| expert          | a   |
+| creditor        | n   |
+| capitalist      | n   |
+| essence         | n   |
+| compose         | v   |
+| mentally        | adv |
+| gaze            | n   |
+| seminar         | n   |
+| target          | v   |
+| label           | v   |
+| fig             | n   |
+| continent       | n   |
+| chap            | n   |
+| flexibility     | n   |
+| verse           | n   |
+| minute          | a   |
+| whisky          | n   |
+| equivalent      | a   |
+| recruit         | v   |
+| echo            | v   |
+| unfair          | a   |
+| launch          | n   |
+| cupboard        | n   |
+| bush            | n   |
+| shortage        | n   |
+| prominent       | a   |
+| merger          | n   |
+| command         | v   |
+| subtle          | a   |
+| capital         | a   |
+| gang            | n   |
+| fish            | v   |
+| unhappy         | a   |
+| lifetime        | n   |
+| elite           | n   |
+| refusal         | n   |
+| finish          | n   |
+| aggressive      | a   |
+| superior        | a   |
+| landing         | n   |
+| exchange        | v   |
+| debate          | v   |
+| educate         | v   |
+| separation      | n   |
+| productivity    | n   |
+| initiate        | v   |
+| probability     | n   |
+| virus           | n   |
+| reporter        | n   |
+| fool            | n   |
+| pop             | v   |
+| capitalism      | n   |
+| painful         | a   |
+| correctly       | adv |
+| complex         | n   |
+| rumour          | n   |
+| imperial        | a   |
+| justification   | n   |
+| availability    | n   |
+| spectacular     | a   |
+| remain          | n   |
+| ocean           | n   |
+| cliff           | n   |
+| sociology       | n   |
+| sadly           | adv |
+| missile         | n   |
+| situate         | v   |
+| artificial      | a   |
+| apartment       | n   |
+| provoke         | v   |
+| oral            | a   |
+| maximum         | n   |
+| angel           | n   |
+| spare           | a   |
+| shame           | n   |
+| intelligent     | a   |
+| discretion      | n   |
+| businessman     | n   |
+| explicit        | a   |
+| book            | v   |
+| uniform         | n   |
+| push            | n   |
+| counter         | n   |
+| subject         | a   |
+| objective       | a   |
+| hungry          | a   |
+| clothing        | n   |
+| ride            | n   |
+| romantic        | a   |
+| attendance      | n   |
+| part-time       | a   |
+* X twenty-four
+| trace          | n    |    |
+| backing        | n    |    |
+| sensation      | n    |    |
+| carrier        | n    |    |
+| interest       | v    |    |
+| classification | n    |    |
+| classic        | n    |    |
+| beg            | v    |    |
+| appendix       | n    |    |
+| doorway        | n    |    |
+| density        | n    |    |
+| working-class  | a    |    |
+| legislative    | a    |    |
+| hint           | n    |    |
+| shower         | n    |    |
+| current        | n    |    |
+| succession     | n    |    |
+| nasty          | a    |    |
+| duration       | n    |    |
+| desert         | n    |    |
+| receipt        | n    |    |
+| native         | a    |    |
+| chapel         | n    |    |
+| amazing        | a    |    |
+| hopefully      | adv  |    |
+| fleet          | n    |    |
+| comparable     | a    |    |
+| oxygen         | n    |    |
+| installation   | n    |    |
+| developer      | n    |    |
+| disadvantage   | n    |    |
+| recipe         | n    |    |
+| crystal        | n    |    |
+| modification   | n    |    |
+| schedule       | v    |    |
+| midnight       | n    |    |
+| successive     | a    |    |
+| formerly       | adv  |    |
+| loud           | a    |    |
+| value          | v    |    |
+| physics        | n    |    |
+| truck          | n    |    |
+| stroke         | n    |    |
+| kiss           | n    |    |
+| envelope       | n    |    |
+| speculation    | n    |    |
+| canal          | n    |    |
+| unionist       | n    |    |
+| directory      | n    |    |
+| receiver       | n    |    |
+| isolation      | n    |    |
+| fade           | v    |    |
+| chemistry      | n    |    |
+| unnecessary    | a    |    |
+| hit            | n    |    |
+| defender       | n    |    |
+| stance         | n    |    |
+| sin            | n    |    |
+| realistic      | a    |    |
+| socialist      | n    |    |
+| subsidy        | n    |    |
+| content        | a    |    |
+| toy            | n    |    |
+| darling        | n    |    |
+| decent         | a    |    |
+| liberty        | n    |    |
+| forever        | adv  |    |
+| skirt          | n    |    |
+| coordinate     | v    |    |
+| tactic         | n    |    |
+| influential    | a    |    |
+| import         | v    |    |
+| accent         | n    |    |
+| compound       | n    |    |
+| bastard        | n    |    |
+| ingredient     | n    |    |
+| dull           | a    |    |
+| cater          | v    |    |
+| scholar        | n    |    |
+| faint          | a    |    |
+| ghost          | n    |    |
+| sculpture      | n    |    |
+| ridiculous     | a    |    |
+| diagnosis      | n    |    |
+| delegate       | n    |    |
+| neat           | a    |    |
+| kit            | n    |    |
+| lion           | n    |    |
+| dialogue       | n    |    |
+| repair         | v    | A2 |
+| tray           | n    |    |
+| fantasy        | n    |    |
+| leave          | n    |    |
+| export         | v    |    |
+| forth          | adv  |    |
+| lamp           | n    |    |
+| allege         | v    |    |
+| pavement       | n    |    |
+| brand          | n    |    |
+| constable      | n    |    |
+| compromise     | n    |    |
+| flag           | n    |    |
+| filter         | n    |    |
+| reign          | n    |    |
+| execute        | v    |    |
+| pity           | n    |    |
+| merit          | n    |    |
+| diagram        | n    |    |
+| wool           | n    |    |
+| organism       | n    |    |
+| elegant        | a    |    |
+| red            | n    |    |
+| undertaking    | n    |    |
+| lesser         | a    |    |
+| reach          | n    |    |
+| marvellous     | a    |    |
+| improved       | a    |    |
+| locally        | adv  |    |
+| entity         | n    |    |
+| rape           | n    |    |
+| secure         | a    |    |
+| descend        | v    |    |
+| backwards      | adv  |    |
+| peer           | v    |    |
+| excuse         | v    |    |
+| genetic        | a    |    |
+| fold           | v    |    |
+| portfolio      | n    |    |
+| consensus      | n    |    |
+| thesis         | n    |    |
+| shop           | v    |    |
+| nest           | n    |    |
+| frown          | v    |    |
+| builder        | n    |    |
+| administer     | v    |    |
+| tip            | v    |    |
+| lung           | n    |    |
+| delegation     | n    |    |
+| outside        | n    |    |
+| heating        | n    |    |
+| like           | conj |    |
+| instinct       | n    |    |
+| teenager       | n    |    |
+| lonely         | a    |    |
+| residence      | n    |    |
+| radiation      | n    |    |
+| extract        | v    |    |
+| concession     | n    | A  |
+| autonomy       | n    |    |
+| norm           | n    |    |
+| musician       | n    |    |
+| graduate       | n    |    |
+| glory          | n    |    |
+| bear           | n    |    |
+| persist        | v    |    |
+| rescue         | v    |    |
+| equip          | v    |    |
+| partial        | a    |    |
+* Y twenty-five
+| officially     | adv          |   |
+| capability     | n            |   |
+| worry          | n            |   |
+| liberation     | n            |   |
+| hunt           | v            |   |
+| daily          | adv          |   |
+| heel           | n            |   |
+| contract       | v            |   |
+| update         | v            |   |
+| assign         | v            |   |
+| spring         | v            |   |
+| single         | n            |   |
+| commons        | n            |   |
+| weekly         | a            |   |
+| stretch        | n            |   |
+| pregnancy      | n            |   |
+| happily        | adv          |   |
+| spectrum       | n            |   |
+| interfere      | v            |   |
+| suicide        | n            |   |
+| panic          | n            |   |
+| invent         | v            |   |
+| intensive      | a            |   |
+| damp           | a            |   |
+| simultaneously | adv          |   |
+| giant          | n            |   |
+| casual         | a            |   |
+| sphere         | n            |   |
+| precious       | a            |   |
+| sword          | n            |   |
+| envisage       | v            |   |
+| bean           | n            |   |
+| time           | v            |   |
+| crazy          | a            |   |
+| changing       | a            |   |
+| primary        | n            |   |
+| concede        | v            |   |
+| besides        | adv          |   |
+| unite          | v            |   |
+| severely       | adv          |   |
+| separately     | adv          |   |
+| instruct       | v            |   |
+| insert         | v            |A  |
+| go             | n            |   |
+| exhibit        | v            |   |
+| brave          | a            |   |
+| tutor          | n            |   |
+| tune           | n            |   |
+| debut          | n            |   |
+| continued      | a            |   |
+| bid            | v            |   |
+| incidence      | n            |   |
+| downstairs     | adv          |   |
+| cafe           | n            |   |
+| regret         | v            |   |
+| killer         | n            |   |
+| delicate       | a            |   |
+| subsidiary     | n            |   |
+| gender         | n            |   |
+| entertain      | v            |   |
+| cling          | v            |   |
+| vertical       | a            |   |
+| fetch          | v            |   |
+| strip          | v            |   |
+| plead          | v            |   |
+| duck           | n            |   |
+| breed          | n            |   |
+| assistant      | a            |   |
+| pint           | n            |   |
+| abolish        | v            |   |
+| translation    | n            |   |
+| princess       | n            |   |
+| line           | v            |   |
+| excessive      | a            |   |
+| digital        | a            |   |
+| steep          | a            |   |
+| jet            | n            |   |
+| hey            | interjection |   |
+| grave          | n            |   |
+| exceptional    | a            |   |
+| boost          | v            |   |
+| random         | a            |   |
+| correlation    | n            |   |
+| outline        | n            |   |
+| intervene      | v            |   |
+| packet         | n            |   |
+| motivation     | n            |   |
+| safely         | adv          |   |
+| harsh          | a            |   |
+| spell          | n            |   |
+| spread         | n            |   |
+| draw           | n            |   |
+| concrete       | a            |   |
+| complicated    | a            |   |
+| alleged        | a            |   |
+| redundancy     | n            |   |
+| progressive    | a            |   |
+| intensity      | n            |   |
+| crack          | n            |   |
+| fly            | n            |   |
+| fancy          | v            |   |
+| alternatively  | adv          |   |
+| waiting        | a            |   |
+| scandal        | n            |   |
+| resemble       | v            |   |
+| parameter      | n            |   |
+| fierce         | a            |   |
+| tropical       | a            |   |
+| colour         | v            |   |
+| ours           | pron         |   |
+| engagement     | n            |   |
+| contest        | n            |   |
+| edit           | v            |   |
+| courage        | n            |   |
+| hip            | n            |   |
+| delighted      | a            |   |
+| sponsor        | v            |   |
+| carer          | n            |   |
+| crack          | v            |   |
+| substantially  | adv          |   |
+| occupational   | a            |   |
+| trainer        | n            |   |
+| remainder      | n            |   |
+| related        | a            |   |
+| inherit        | v            |   |
+| resume         | v            |   |
+| assignment     | n            |   |
+| conceal        | v            |   |
+| disclose       | v            |   |
+| exclusively    | adv          |   |
+| working        | n            |   |
+| mild           | a            |   |
+| chronic        | a            |   |
+| splendid       | a            |   |
+| function       | v            |   |
+| rider          | n            |   |
+| clay           | n            |   |
+| firstly        | adv          |   |
+| conceive       | v            |   |
+| politically    | adv          |   |
+| terminal       | n            |   |
+| accuracy       | n            |   |
+| coup           | n            |   |
+| ambulance      | n            |   |
+| living         | n            |   |
+| offender       | n            |   |
+| similarity     | n            |   |
+| orchestra      | n            |   |
+| brush          | n            |   |
+| systematic     | a            |   |
+| striker        | n            |   |
+| guard          | v            |   |
+| casualty       | n            |   |
+| steadily       | adv          |   |
+| painter        | n            |   |
+| opt            | v            |   |
+| handsome       | a            |   |
+| banking        | n            |   |
+* Z twenty-six 
+| sensitivity    | n            |
+| navy           | n            |
+| fascinating    | a            |
+| disappointment | n            |
+| auditor        | n            |
+| hostility      | n            |
+| spending       | n            |
+| scarcely       | adv          |
+| compulsory     | a            |
+| photographer   | n            |
+| ok             | interjection |
+| neighbourhood  | n            |
+| ideological    | a            |
+| wide           | adv          |
+| pardon         | n            |
+| double         | n            |
+| criticize      | v            |
+| supervision    | n            |
+| guilt          | n            |
+| deck           | n            |
+| payable        | a            |
+| execution      | n            |
+| suite          | n            |
+| elected        | a            |
+| solely         | adv          |
+| moral          | n            |
+| collector      | n            |
+| questionnaire  | n            |
+| flavour        | n            |
+| couple         | v            |
+| faculty        | n            |
+| tour           | v            |
+| basket         | n            |
+| mention        | n            |
+| kick           | n            |
+| horizon        | n            |
+| drain          | v            |
+| happiness      | n            |
+| fighter        | n            |
+| estimated      | a            |
+| copper         | n            |
+| legend         | n            |
+| relevance      | n            |
+| decorate       | v            |
+| continental    | a            |
+| ship           | v            |
+| operational    | a            |
+| incur          | v            |
+| parallel       | a            |
+| divorce        | n            |
+| opposed        | a            |
+| equilibrium    | n            |
+| trader         | n            |
+| ton            | n            |
+| can            | n            |
+| juice          | n            |
+| forum          | n            |
+| spin           | v            |
+| research       | v            |
+| hostile        | a            |
+| consistently   | adv          |
+| technological  | a            |
+| nightmare      | n            |
+| medal          | n            |
+| diamond        | n            |
+| speed          | v            |
+| peaceful       | a            |
+| accounting     | a            |
+| scatter        | v            |
+| monster        | n            |
+| horrible       | a            |
+| nonsense       | n            |
+| chaos          | n            |
+| accessible     | a            |
+| humanity       | n            |
+| frustration    | n            |
+| chin           | n            |
+| bureau         | n            |
+| advocate       | v            |
+| polytechnic    | n            |
+| inhabitant     | n            |
+| evil           | a            |
+| slave          | n            |
+| reservation    | n            |
+| slam           | v            |
+| handle         | n            |
+| provincial     | a            |
+| fishing        | n            |
+| facilitate     | v            |
+| yield          | n            |
+| elbow          | n            |
+| bye            | interjection |
+| warm           | v            |
+| sleeve         | n            |
+| exploration    | n            |
+| creep          | v            |
+| adjacent       | a            |
+| theft          | n            |
+| round          | v            |
+| grace          | n            |
+| predecessor    | n            |
+| supermarket    | n            |
+| smart          | a            |
+| sergeant       | n            |
+| regulate       | v            |
+| clash          | n            |
+| assemble       | v            |
+| arrow          | n            |
+| nowadays       | adv          |
+| giant          | a            |
+| waiting        | n            |
+| tap            | n            |
+| shit           | n            |
+| sandwich       | n            |
+| vanish         | v            |
+| commerce       | n            |
+| pursuit        | n            |
+| post-war       | a            |
+| will           | v            |
+| waste          | a            |
+| collar         | n            |
+| socialism      | n            |
+| skill          | v            |
+| rice           | n            |
+| exclusion      | n            |
+| upwards        | adv          |
+| transmission   | n            |
+| instantly      | adv          |
+| forthcoming    | a            |
+| appointed      | a            |
+| geographical   | a            |
+| fist           | n            |
+| abstract       | a            |
+| embrace        | v            |
+| dynamic        | a            |
+| drawer         | n            |
+| dismissal      | n            |
+| magic          | n            |
+| endless        | a            |
+| definite       | a            |
+| broadly        | adv          |
+| affection      | n            |
+| dawn           | n            |
+| principal      | n            |
+| bloke          | n            |
+| organiser      | n            |
+| trap           | n            |
+| communist      | a            |
