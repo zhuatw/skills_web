@@ -10,8 +10,9 @@ windows
 * word 
 Blender 3D
 
-* E 
-
+* software
+wiz
+foxmail
 
 
 ** e:\e360
@@ -38,4 +39,6 @@ IT知识 D 盘
 *** IT
 *** work
 *** football
-
+* Personal
+借别人的钱还时汇款后要有个收据保留，如给刘有生还款。
+本地手机通讯录，现在随便网上多个 APP 备一份即可
