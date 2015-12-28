@@ -231,7 +231,7 @@ Y, 就是用有道的，相对简单好学的
 | most        | adv   |     |
 | service     | n     |     |
 | try         | v     |     |
-| call        | v     |     |
+| call        | v     | A2  |
 | hand        | n     |     |
 | party       | n     |     |
 | high        | a     |     |
@@ -1161,7 +1161,7 @@ Y, 就是用有道的，相对简单好学的
 | option        | n    |     |
 | sign          | v    |     |
 | worth         | prep |     |
-| call          | n    |     |
+| call          | n    | A2  |
 | define        | v    |     |
 | stock         | n    |     |
 | influence     | n    |     |
@@ -1557,7 +1557,7 @@ Y, 就是用有道的，相对简单好学的
 | lip          | n     |     |
 | religious    | a     |     |
 | joint        | a     |     |
-| cry          | v     |     |
+| cry          | v     | A2  |
 | potential    | a     |     |
 | broad        | a     |     |
 | exhibition   | n     |     |
@@ -2292,6 +2292,7 @@ Y, 就是用有道的，相对简单好学的
 | stair         | n    |    |
 | poem          | n    |    |
 * O fifteen
+| candle         |     | AN |
 | chest          | n   |    |
 | like           | adv |    |
 | secret         | n   |    |
@@ -2309,7 +2310,7 @@ Y, 就是用有道的，相对简单好学的
 | mode           | n   |    |
 | saving         | n   |    |
 | comfortable    | a   |    |
-| camp           | n   |    |
+| camp           | n   | A  |
 | trade          | v   |    |
 | export         | n   |    |
 | wake           | v   |    |
@@ -2375,10 +2376,10 @@ Y, 就是用有道的，相对简单好学的
 | kingdom        | n   |    |
 | bread          | n   | A  |
 | perspective    | n   |    |
-| camera         | n   |    |
+| camera         | n   | A  |
 | prince         | n   |    |
 | illness        | n   |    |
-| cake           | n   |    |
+| cake           | n   | A  |
 | meat           | n   |    |
 | submit         | v   |    |
 | ideal          | a   |    |
@@ -3339,7 +3340,7 @@ Y, 就是用有道的，相对简单好学的
 | withdrawal     | n    |    |
 | automatic      | a    |    |
 | liable         | a    |    |
-| cry            | n    |    |
+| cry            | n    | A2 |
 | slow           | v    |    |
 | borough        | n    |    |
 | well           | a    |    |
@@ -9755,7 +9756,6 @@ one-on-one
 dealership
 donkey
 locus
-camp
 blueberry
 groom
 transcribe
@@ -19742,7 +19742,6 @@ preconceived
 externality
 set
 implacable
-cake
 kindred
 bloodied
 oddball
