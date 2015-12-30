@@ -72,7 +72,7 @@ Y, 就是用有道的，相对简单好学的
 | say        | v                 |     |
 | will       | modal             |     |
 | would      | modal             |     |
-| can        | modal             |     |
+| can        | modal             | A   |
 | if         | conj              |     |
 | their      | det               |     |
 | go         | v                 |     |
@@ -373,7 +373,13 @@ Y, 就是用有道的，相对简单好学的
 | before      | conj  | AS3 |
 | bit         | n     |     |
 | face        | n     |     |
+
 * C three
+| celery        |      | AN  |
+| cass          |      | AN  |
+| carrot        |      | AN  |
+| cane          |      | AN  |
+| candy         |      | AN  |
 | char          |      | AN  |
 | chrome        |      | AN  |
 | sit           | v    |     |
@@ -619,7 +625,7 @@ Y, 就是用有道的，相对简单好学的
 | claim        | v            |     |
 | form         | v            |     |
 | base         | v            | A2  |
-| care         | n            |     |
+| care         | n            | A2  |
 | someone      | pron         |     |
 | everything   | pron         |     |
 | certainly    | adv          |     |
@@ -764,7 +770,7 @@ Y, 就是用有道的，相对简单好学的
 | plant        | n    |    |
 | pressure     | n    |    |
 | response     | n    |    |
-| catch        | v    |    |
+| catch        | v    | A  |
 | street       | n    |    |
 | pick         | v    |    |
 | performance  | n    |    |
@@ -903,7 +909,7 @@ Y, 就是用有道的，相对简单好学的
 | serious        | a     |     |
 | anyway         | adv   |     |
 | visit          | v     |     |
-| capital        | n     |     |
+| capital        | n     | A   |
 | either         | det   |     |
 | note           | n     |     |
 | season         | n     |     |
@@ -1113,7 +1119,7 @@ Y, 就是用有道的，相对简单好学的
 | immediately   | adv  |     |
 | collection    | n    |     |
 | reference     | n    |     |
-| card          | n    |     |
+| card          | n    | A   |
 | interesting   | a    |     |
 | considerable  | a    |     |
 | television    | n    |     |
@@ -1130,7 +1136,7 @@ Y, 就是用有道的，相对简单好学的
 | chairman      | n    |     |
 | speaker       | n    |     |
 | second        | n    |     |
-| career        | n    |     |
+| career        | n    | A   |
 | laugh         | v    |     |
 | weight        | n    |     |
 | sound         | v    |     |
@@ -1285,7 +1291,7 @@ Y, 就是用有道的，相对简单好学的
 | clear         | v    |     |
 | imagine       | v    |     |
 | through       | adv  | A2  |
-| cash          | n    |     |
+| cash          | n    | A   |
 | normally      | adv  |     |
 | play          | n    |     |
 | strength      | n    |     |
@@ -1590,7 +1596,7 @@ Y, 就是用有道的，相对简单好学的
 | west         | n     |     |
 | impose       | v     |     |
 | market       | v     |     |
-| care         | v     |     |
+| care         | v     | A2  |
 | god          | n     |     |
 | favour       | n     |     |
 | before       | adv   | AS3 |
@@ -1950,7 +1956,7 @@ Y, 就是用有道的，相对简单好学的
 | flow           | n            |    |
 | matter         | v            |    |
 | external       | a            |    |
-| capable        | a            |    |
+| capable        | a            | A  |
 | recover        | v            |    |
 | shot           | n            |    |
 | request        | n            |    |
@@ -2397,7 +2403,7 @@ Y, 就是用有道的，相对简单好学的
 | statutory      | a   |    |
 | laboratory     | n   |    |
 | federal        | a   |    |
-| captain        | n   |    |
+| captain        | n   | A  |
 | deeply         | adv |    |
 | pour           | v   |    |
 | boss           | n   | A  |
@@ -2607,7 +2613,7 @@ Y, 就是用有道的，相对简单好学的
 | organize       | v            |     |
 | tourist        | n            |     |
 | policeman      | n            |     |
-| castle         | n            |     |
+| castle         | n            | A   |
 | figure         | v            |     |
 | race           | v            |     |
 * Q seveteen
@@ -2718,7 +2724,7 @@ Y, 就是用有道的，相对简单好学的
 | split         | v            |    |
 | near          | adv          |    |
 | consistent    | a            |    |
-| carpet        | n            |    |
+| carpet        | n            | A  |
 | ownership     | n            |    |
 | joke          | n            |    |
 | fewer         | det          |    |
@@ -2976,7 +2982,7 @@ Y, 就是用有道的，相对简单好学的
 | dream         | v            |    |
 | composition   | n            |    |
 | alongside     | prep         |    |
-| ceiling       | n            |    |
+| ceiling       | n            | A  |
 | highlight     | v            |    |
 | stick         | n            |    |
 | favourite     | a            |    |
@@ -3919,7 +3925,7 @@ Y, 就是用有道的，相对简单好学的
 | damp           | a            |    |
 | simultaneously | adv          |    |
 | giant          | n            |    |
-| casual         | a            |    |
+| casual         | a            | A  |
 | sphere         | n            |    |
 | precious       | a            |    |
 | sword          | n            |    |
@@ -4243,7 +4249,6 @@ dynamics
 ours
 senior
 dignity
-carpet
 parental
 heat
 buddy
@@ -4367,7 +4372,6 @@ flexible
 progressive
 web
 conspiracy
-catch
 casualty
 republic
 execution
@@ -4742,7 +4746,6 @@ fame
 regret
 striking
 likelihood
-carrot
 atop
 toll
 rim
@@ -5446,7 +5449,6 @@ notable
 dusty
 glow
 trip
-cane
 fortunate
 least
 forge
@@ -6005,7 +6007,6 @@ propaganda
 underscore
 formulate
 corrupt
-castle
 technically
 parallel
 wan
@@ -7452,7 +7453,6 @@ voucher
 explosives
 scheduled
 floating
-cash
 single
 burger
 throne
@@ -8404,7 +8404,6 @@ luckily
 Syrian
 trivial
 designation
-celery
 systemic
 porcelain
 gleaming
@@ -16633,7 +16632,6 @@ incongruous
 unambiguous
 indigent
 epidemiological
-capital
 stand-alone
 tutorial
 throwback
@@ -17995,7 +17993,6 @@ shallow
 articulated
 cystic
 personification
-carpet
 intensively
 awkwardness
 disinfectant
