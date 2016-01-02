@@ -46,20 +46,20 @@ Y, 就是用有道的，相对简单好学的
 | have       | v                 |     |
 | it         | pron              |     |
 | to         | prep              |     |
-| for        | prep              |     |
+| for        | prep              | A   |
 | i          | pron              |     |
 | that       | conj              |     |
 | you        | pron              |     |
 | he         | pron              |     |
 | on         | prep              |     |
 | with       | prep              |     |
-| do         | v                 |     |
+| do         | v                 | A   |
 | at         | prep              |     |
 | by         | prep              | A2  |
 | not        | adv               |     |
 | this       | det               |     |
 | but        | conj              | A   |
-| from       | prep              |     |
+| from       | prep              | A   |
 | they       | pron              |     |
 | his        | det               |     |
 | that       | det               |     |
@@ -101,7 +101,7 @@ Y, 就是用有道的，相对简单好学的
 | then       | adv               |     |
 | think      | v                 |     |
 | my         | det               |     |
-| come       | v                 |     |
+| come       | v                 | A   |
 | than       | conj              |     |
 | more       | adv               |     |
 | about      | prep              | AS2 |
@@ -135,11 +135,11 @@ Y, 就是用有道的，相对简单好学的
 | when       | adv               |     |
 | as         | adv               |     |
 | good       | a                 |     |
-| find       | v                 |     |
+| find       | v                 | A   |
 | man        | n                 |     |
 | our        | det               |     |
 | want       | v                 |     |
-| day        | n                 |     |
+| day        | n                 | A   |
 | between    | prep              | AN  |
 | even       | adv               |     |
 | there      | adv               |     |
@@ -147,7 +147,7 @@ Y, 就是用有道的，相对简单好学的
 | those      | det               |     |
 | one        | pron              |     |
 | after      | prep              | AS2 |
-| down       | adv               |     |
+| down       | adv               | A2  |
 | yeah       | interjection      |     |
 | so         | conj              |     |
 | thing      | n                 |     |
@@ -156,7 +156,7 @@ Y, 就是用有道的，相对简单好学的
 | back       | adv               | AS4 |
 | still      | adv               |     |
 | must       | modal             |     |
-| child      | n                 |     |
+| child      | n                 | A   |
 | here       | adv               |     |
 | over       | prep              |     |
 | too        | adv               |     |
@@ -183,7 +183,7 @@ Y, 就是用有道的，相对简单好学的
 | us         | pron              |     |
 | work       | n                 |     |
 | need       | v                 |     |
-| feel       | v                 |     |
+| feel       | v                 | A   |
 | system     | n                 |     |
 | each       | det               |     |
 | might      | modal             |     |
@@ -220,8 +220,8 @@ Y, 就是用有道的，相对简单好学的
 | world       | n     |     |
 | area        | n     |     |
 | show        | v     |     |
-| course      | n     |     |
-| company     | n     |     |
+| course      | n     | A   |
+| company     | n     | A   |
 | shall       | modal |     |
 | under       | prep  |     |
 | problem     | n     |     |
@@ -259,10 +259,10 @@ Y, 就是用有道的，相对简单好学的
 | off         | adv   |     |
 | always      | adv   | AS  |
 | next        | det   |     |
-| follow      | v     |     |
+| follow      | v     | A   |
 | without     | prep  |     |
 | turn        | v     |     |
-| end         | n     |     |
+| end         | n     | A2  |
 | within      | prep  |     |
 | local       | a     |     |
 | where       | conj  |     |
@@ -274,9 +274,9 @@ Y, 就是用有道的，相对简单好学的
 | although    | conj  |     |
 | example     | n     |     |
 | next        | adv   |     |
-| family      | n     |     |
+| family      | n     | A   |
 | rather      | adv   |     |
-| fact        | n     |     |
+| fact        | n     | A   |
 | like        | v     |     |
 | social      | a     |     |
 | write       | v     |     |
@@ -290,13 +290,13 @@ Y, 就是用有道的，相对简单好学的
 | right       | adv   | A4  |
 | set         | v     |     |
 | help        | v     |     |
-| every       | det   |     |
+| every       | det   | A   |
 | home        | n     |     |
 | month       | n     |     |
 | side        | n     |     |
 | night       | n     |     |
 | important   | a     | A   |
-| eye         | n     |     |
+| eye         | n     | A   |
 | head        | n     |     |
 | information | n     |     |
 | question    | n     |     |
@@ -352,7 +352,7 @@ Y, 就是用有道的，相对简单好学的
 | result      | n     |     |
 | body        | n     | A   |
 | happen      | v     |     |
-| friend      | n     |     |
+| friend      | n     | A   |
 | right       | n     | A4  |
 | least       | adv   |     |
 | right       | a     | A4  |
@@ -361,7 +361,7 @@ Y, 就是用有道的，相对简单好学的
 | carry       | v     |     |
 | authority   | n     |     |
 | long        | adv   |     |
-| early       | a     |     |
+| early       | a     | A2  |
 | view        | n     |     |
 | himself     | pron  |     |
 | public      | a     |     |
@@ -372,9 +372,20 @@ Y, 就是用有道的，相对简单好学的
 | only        | a     |     |
 | before      | conj  | AS3 |
 | bit         | n     |     |
-| face        | n     |     |
+| face        | n     | A2  |
 
 * C three
+| cure          |      | AN  |
+| crunchy       |      | AN  |
+| cruel         |      | AN  |
+| crayon        |      | AN  |
+| comb          |      | A   |
+| color         |      | A   |
+| classmate     |      | AN  |
+| cheese        |      | ANN |
+| chat          |      | A   |
+| chalk         |      | A   |
+| center        |      | AN  |
 | celery        |      | AN  |
 | cass          |      | AN  |
 | carrot        |      | AN  |
@@ -392,7 +403,7 @@ Y, 就是用有道的，相对简单好学的
 | hour          | n    |     |
 | rate          | n    |     |
 | law           | n    |     |
-| door          | n    |     |
+| door          | n    | A   |
 | court         | n    |     |
 | office        | n    |     |
 | let           | v    |     |
@@ -405,12 +416,12 @@ Y, 就是用有道的，相对简单好学的
 | person        | n    |     |
 | term          | n    |     |
 | particular    | a    |     |
-| full          | a    |     |
+| full          | a    | A   |
 | involve       | v    |     |
 | sort          | n    |     |
 | require       | v    |     |
 | suggest       | v    |     |
-| far           | a    |     |
+| far           | a    | A2  |
 | towards       | prep |     |
 | anything      | pron |     |
 | period        | n    |     |
@@ -438,7 +449,7 @@ Y, 就是用有道的，相对简单好学的
 | little        | a    |     |
 | action        | n    |     |
 | issue         | n    |     |
-| far           | adv  |     |
+| far           | adv  | A2  |
 | remember      | v    |     |
 | position      | n    |     |
 | low           | a    |     |
@@ -452,11 +463,11 @@ Y, 就是用有道的，相对简单好学的
 | research      | n    |     |
 | actually      | adv  |     |
 | education     | n    |     |
-| fall          | v    |     |
+| fall          | v    | A2  |
 | speak         | v    |     |
-| few           | n    |     |
+| few           | n    | A2  |
 | today         | adv  |     |
-| enough        | adv  |     |
+| enough        | adv  | A2  |
 | open          | v    |     |
 | bad           | a    | AS  |
 | buy           | v    | A   |
@@ -467,7 +478,7 @@ Y, 就是用有道的，相对简单好学的
 | age           | n    | AS  |
 | centre        | n    |     |
 | stop          | v    |     |
-| control       | n    |     |
+| control       | n    | A2  |
 | value         | n    |     |
 | send          | v    | A   |
 | health        | n    |     |
@@ -501,7 +512,7 @@ Y, 就是用有道的，相对简单好学的
 | general       | a    |     |
 | century       | n    |     |
 | therefore     | adv  |     |
-| father        | n    |     |
+| father        | n    | A   |
 | section       | n    |     |
 | patient       | n    |     |
 | around        | adv  | AS2 |
@@ -509,7 +520,7 @@ Y, 就是用有道的，相对简单好学的
 | road          | n    |     |
 | table         | n    |     |
 | including     | prep |     |
-| church        | n    |     |
+| church        | n    | A   |
 | reach         | v    |     |
 | real          | a    |     |
 | lie           | v    |     |
@@ -523,13 +534,13 @@ Y, 就是用有道的，相对简单好学的
 | act           | n    | AS  |
 | sense         | n    |     |
 | staff         | n    |     |
-| certain       | a    |     |
+| certain       | a    | A   |
 | student       | n    |     |
 | half          | det  |     |
 | around        | prep | AS2 |
 | language      | n    |     |
 | walk          | v    |     |
-| die           | v    |     |
+| die           | v    | A   |
 | special       | a    |     |
 | difficult     | a    |     |
 | international | a    |     |
@@ -537,26 +548,37 @@ Y, 就是用有道的，相对简单好学的
 | department    | n    |     |
 | management    | n    |     |
 | morning       | n    |     |
-| draw          | v    | AN  |
+| draw          | v    | AN2 |
 | hope          | v    |     |
 | across        | prep | AS2 |
 
-* D four
+* D four A
+| drum         |              | ANN |
+| dolphin      |              | ANN |
+| doll         |              | ANN |
+| dial         |              | A   |
+| devil        |              | A   |
+| dessert      |              | A   |
+| dentist      |              | AN  |
+| deer         |              | ANN |
+| darker       |              | ANN |
+| dandelion    |              | ANN |
+| dairy        |              | A   |
 | done         | n            | AN  |
 | plan         | n            | A2  |
 | product      | n            |     |
 | city         | n            |     |
-| early        | adv          |     |
+| early        | adv          | A2  |
 | committee    | n            |     |
 | ground       | n            |     |
 | letter       | n            |     |
 | create       | v            |     |
 | evidence     | n            |     |
-| foot         | n            |     |
+| foot         | n            | A   |
 | clear        | a            |     |
 | boy          | n            | Y   |
 | game         | n            |     |
-| food         | n            |     |
+| food         | n            | A   |
 | role         | n            |     |
 | practice     | n            |     |
 | bank         | n            | AS  |
@@ -579,7 +601,7 @@ Y, 就是用有道的，相对简单好学的
 | town         | n            |     |
 | art          | n            | AS  |
 | further      | adv          |     |
-| club         | n            |     |
+| club         | n            | A   |
 | cause        | v            |     |
 | arm          | n            | Y   |
 | history      | n            |     |
@@ -598,8 +620,8 @@ Y, 就是用有道的，相对简单好学的
 | common       | a            |     |
 | strong       | a            |     |
 | whole        | a            |     |
-| field        | n            |     |
-| free         | a            |     |
+| field        | n            | A   |
+| free         | a            | A   |
 | break        | v            | A   |
 | yesterday    | adv          |     |
 | support      | v            |     |
@@ -607,14 +629,14 @@ Y, 就是用有道的，相对简单好学的
 | account      | n            |     |
 | explain      | v            |     |
 | stay         | v            |     |
-| few          | det          |     |
+| few          | det          | A2  |
 | wait         | v            | A   |
 | usually      | adv          |     |
 | difference   | n            |     |
 | material     | n            | A   |
 | air          | n            | AS  |
 | wife         | n            |     |
-| cover        | v            |     |
+| cover        | v            | A2  |
 | apply        | v            | AS  |
 | project      | n            | A   |
 | raise        | v            |     |
@@ -622,7 +644,7 @@ Y, 就是用有道的，相对简单好学的
 | relationship | n            |     |
 | indeed       | adv          |     |
 | light        | n            |     |
-| claim        | v            |     |
+| claim        | v            | A2  |
 | form         | v            |     |
 | base         | v            | A2  |
 | care         | n            | A2  |
@@ -631,7 +653,7 @@ Y, 就是用有道的，相对简单好学的
 | certainly    | adv          |     |
 | rule         | n            |     |
 | home         | adv          |     |
-| cut          | v            |     |
+| cut          | v            | A2  |
 | grow         | v            |     |
 | similar      | a            |     |
 | story        | n            |     |
@@ -645,7 +667,7 @@ Y, 就是用有道的，相对简单好学的
 | pound        | n            |     |
 | method       | n            |     |
 | unit         | n            |     |
-| central      | a            |     |
+| central      | a            | A   |
 | bed          | n            | AS  |
 | union        | n            |     |
 | movement     | n            |     |
@@ -667,8 +689,8 @@ Y, 就是用有道的，相对简单好学的
 | establish    | v            |     |
 | herself      | pron         |     |
 | wall         | n            |     |
-| face         | v            |     |
-| easy         | a            |     |
+| face         | v            | A2  |
+| easy         | a            | A2  |
 | private      | a            |     |
 | computer     | n            |     |
 | former       | det          |     |
@@ -676,7 +698,7 @@ Y, 就是用有道的，相对简单好学的
 | chapter      | n            |     |
 | scheme       | n            |     |
 | theory       | n            |     |
-| choose       | v            |     |
+| choose       | v            | A   |
 | wish         | v            |     |
 | property     | n            |     |
 | achieve      | v            |     |
@@ -684,13 +706,13 @@ Y, 就是用有道的，相对简单好学的
 | poor         | a            |     |
 | officer      | n            |     |
 | up           | prep         |     |
-| charge       | n            |     |
+| charge       | n            | A2  |
 | director     | n            |     |
-| drive        | v            |     |
+| drive        | v            | A2  |
 | deal         | v            |     |
 | place        | v            |     |
 | approach     | n            | AS2 |
-| chance       | n            |     |
+| chance       | n            | A   |
 | application  | n            |     |
 | seek         | v            |     |
 | cos          | conj         |     |
@@ -701,7 +723,11 @@ Y, 就是用有道的，相对简单好学的
 | son          | n            |     |
 | operation    | n            |     |
 | fail         | v            |     |
-* E five
+* E five A
+| eraser       |      | AN |
+| fairy        |      | AN |
+| elephant     |      | AN |
+| excite       |      | AN |
 | human        | a    |    |
 | opportunity  | n    |    |
 | simple       | a    |    |
@@ -716,7 +742,7 @@ Y, 就是用有道的，相对简单好学的
 | security     | n    |    |
 | serve        | v    |    |
 | according    | prep |    |
-| end          | v    |    |
+| end          | v    | A2 |
 | contract     | n    |    |
 | wide         | a    |    |
 | occur        | v    |    |
@@ -731,9 +757,9 @@ Y, 就是用有道的，相对简单好学的
 | various      | a    |    |
 | since        | prep |    |
 | test         | n    |    |
-| eat          | v    |    |
+| eat          | v    | A  |
 | loss         | n    |    |
-| close        | v    |    |
+| close        | v    | A3 |
 | represent    | v    |    |
 | love         | v    |    |
 | colour       | n    |    |
@@ -748,7 +774,7 @@ Y, 就是用有道的，相对简单好学的
 | due          | a    |    |
 | secretary    | n    |    |
 | rise         | v    |    |
-| date         | n    |    |
+| date         | n    | A2 |
 | hard         | a    |    |
 | music        | n    |    |
 | hair         | n    |    |
@@ -761,12 +787,12 @@ Y, 就是用有道的，相对简单好学的
 | piece        | n    |    |
 | discuss      | v    |    |
 | prove        | v    |    |
-| front        | n    |    |
-| evening      | n    |    |
+| front        | n    | A2 |
+| evening      | n    | A  |
 | royal        | a    |    |
 | tree         | n    |    |
 | population   | n    |    |
-| fine         | a    |    |
+| fine         | a    | A  |
 | plant        | n    |    |
 | pressure     | n    |    |
 | response     | n    |    |
@@ -776,9 +802,9 @@ Y, 就是用有道的，相对简单好学的
 | performance  | n    |    |
 | knowledge    | n    |    |
 | despite      | prep |    |
-| design       | n    |    |
+| design       | n    | A2 |
 | page         | n    | A  |
-| enjoy        | v    |    |
+| enjoy        | v    | A  |
 | individual   | n    |    |
 | suppose      | v    |    |
 | rest         | n    |    |
@@ -814,8 +840,8 @@ Y, 就是用有道的，相对简单好学的
 | principle    | n    |    |
 | pull         | v    |    |
 | set          | n    |    |
-| doctor       | n    |    |
-| choice       | n    |    |
+| doctor       | n    | A  |
+| choice       | n    | A  |
 | refer        | v    |    |
 | feature      | n    |    |
 | couple       | n    |    |
@@ -827,7 +853,7 @@ Y, 就是用有道的，相对简单好学的
 | training     | n    |    |
 | present      | v    |    |
 | association  | n    |    |
-| film         | n    |    |
+| film         | n    | A  |
 | region       | n    |    |
 | effort       | n    |    |
 | player       | n    |    |
@@ -835,7 +861,7 @@ Y, 就是用有道的，相对简单好学的
 | present      | a    |    |
 | award        | n    |    |
 | village      | n    |    |
-| control      | v    |    |
+| control      | v    | A2 |
 | organisation | n    |    |
 | whatever     | det  |    |
 | news         | n    |    |
@@ -843,10 +869,10 @@ Y, 就是用有道的，相对简单好学的
 | difficulty   | n    |    |
 | modern       | a    |    |
 | cell         | n    |    |
-| close        | a    |    |
+| close        | a    | A3 |
 | current      | a    |    |
 | legal        | a    |    |
-| energy       | n    |    |
+| energy       | n    | A  |
 | finally      | adv  |    |
 | degree       | n    |    |
 | mile         | n    |    |
@@ -861,6 +887,8 @@ Y, 就是用有道的，相对简单好学的
 | affect       | v    |    |
 | please       | adv  |    |
 * F six
+| frog           |       | A   |
+| flood          |       | AN  |
 | red            | a     |     |
 | happy          | a     |     |
 | behaviour      | n     |     |
@@ -871,7 +899,7 @@ Y, 就是用有道的，相对简单好学的
 | resource       | n     |     |
 | defence        | n     |     |
 | garden         | n     |     |
-| floor          | n     |     |
+| floor          | n     | AN  |
 | technology     | n     |     |
 | style          | n     |     |
 | feeling        | n     |     |
@@ -893,15 +921,15 @@ Y, 就是用有道的，相对简单好学的
 | normal         | a     | A   |
 | myself         | pron  |     |
 | nor            | conj  |     |
-| dog            | n     |     |
+| dog            | n     | A   |
 | obtain         | v     |     |
 | quickly        | adv   |     |
 | army           | n     | AS  |
 | indicate       | v     |     |
-| forget         | v     |     |
+| forget         | v     | A   |
 | station        | n     |     |
 | glass          | n     |     |
-| cup            | n     |     |
+| cup            | n     | A   |
 | previous       | a     |     |
 | husband        | n     |     |
 | recently       | adv   |     |
@@ -922,9 +950,9 @@ Y, 就是用有道的，相对简单好学的
 | prime          | a     |     |
 | economy        | n     |     |
 | element        | n     |     |
-| finish         | v     |     |
-| duty           | n     |     |
-| fight          | v     |     |
+| finish         | v     | A2  |
+| duty           | n     | A   |
+| fight          | v     | A2  |
 | train          | v     |     |
 | maintain       | v     |     |
 | attempt        | n     |     |
@@ -932,7 +960,7 @@ Y, 就是用有道的，相对简单好学的
 | investment     | n     |     |
 | save           | v     |     |
 | throughout     | prep  |     |
-| design         | v     |     |
+| design         | v     | A2  |
 | suddenly       | adv   |     |
 | brother        | n     | A   |
 | improve        | v     |     |
@@ -949,7 +977,7 @@ Y, 就是用有道的，相对简单好学的
 | summer         | n     |     |
 | determine      | v     |     |
 | generally      | adv   |     |
-| daughter       | n     |     |
+| daughter       | n     | A   |
 | exist          | v     | A   |
 | used           | modal |     |
 | share          | v     |     |
@@ -959,7 +987,7 @@ Y, 就是用有道的，相对简单好学的
 | sorry          | a     |     |
 | sea            | n     |     |
 | skill          | n     |     |
-| claim          | n     |     |
+| claim          | n     | A2  |
 | treat          | v     |     |
 | remove         | v     |     |
 | concern        | n     |     |
@@ -980,7 +1008,7 @@ Y, 就是用有道的，相对简单好学的
 | division       | n     |     |
 | throw          | v     |     |
 | procedure      | n     |     |
-| fill           | v     |     |
+| fill           | v     | A   |
 | king           | n     |     |
 | assume         | v     |     |
 | image          | n     |     |
@@ -1028,12 +1056,12 @@ Y, 就是用有道的，相对简单好学的
 | affair        | n    |     |
 | technique     | n    |     |
 | respect       | n    |     |
-| drop          | v    |     |
+| drop          | v    | A2  |
 | professional  | a    |     |
 | less          | det  |     |
 | once          | conj |     |
 | item          | n    |     |
-| fly           | v    |     |
+| fly           | v    | A2  |
 | reveal        | v    |     |
 | version       | n    |     |
 | maybe         | adv  |     |
@@ -1063,7 +1091,7 @@ Y, 就是用有道的，相对简单好学的
 | answer        | v    | AS2 |
 | variety       | n    |     |
 | press         | n    |     |
-| depend        | v    |     |
+| depend        | v    | A   |
 | bill          | n    |     |
 | competition   | n    |     |
 | ready         | a    |     |
@@ -1086,9 +1114,9 @@ Y, 就是用有道的，相对简单好学的
 | attack        | n    |     |
 | effective     | a    |     |
 | mouth         | n    |     |
-| down          | prep |     |
+| down          | prep | A2  |
 | result        | v    |     |
-| fish          | n    |     |
+| fish          | n    | A2  |
 | future        | a    |     |
 | visit         | n    |     |
 | little        | adv  |     |
@@ -1100,12 +1128,12 @@ Y, 就是用有道的，相对简单好学的
 | payment       | n    |     |
 | best          | adv  |     |
 | post          | n    |     |
-| county        | n    |     |
+| county        | n    | A   |
 | lady          | n    |     |
 | holiday       | n    |     |
 | realise       | v    |     |
 | importance    | n    |     |
-| chair         | n    |     |
+| chair         | n    | A   |
 | facility      | n    |     |
 | complete      | v    |     |
 | article       | n    | AS  |
@@ -1115,7 +1143,7 @@ Y, 就是用有道的，相对简单好学的
 | notice        | v    |     |
 | complete      | a    |     |
 | turn          | n    |     |
-| direct        | a    |     |
+| direct        | a    | A2  |
 | immediately   | adv  |     |
 | collection    | n    |     |
 | reference     | n    |     |
@@ -1158,7 +1186,7 @@ Y, 就是用有道的，相对简单好学的
 | push          | v    |     |
 | tomorrow      | adv  |     |
 | requirement   | n    |     |
-| cold          | a    |     |
+| cold          | a    | A   |
 | edge          | n    |     |
 | opposition    | n    |     |
 | opinion       | n    |     |
@@ -1178,7 +1206,7 @@ Y, 就是用有道的，相对简单好学的
 | exchange      | n    |     |
 | lack          | n    |     |
 | shake         | v    |     |
-* H eight
+* H eight a
 | haste         | n    | AN  |
 | hasten        | v    | AN  |
 | study         | v    |     |
@@ -1194,7 +1222,7 @@ Y, 就是用有道的，相对简单好学的
 | green         | a    |     |
 | band          | n    | AS  |
 | sex           | n    |     |
-| finger        | n    |     |
+| finger        | n    | A   |
 | past          | n    |     |
 | independent   | a    |     |
 | equipment     | n    |     |
@@ -1209,7 +1237,7 @@ Y, 就是用有道的，相对简单好学的
 | race          | n    |     |
 | gain          | v    |     |
 | strategy      | n    |     |
-| extra         | a    |     |
+| extra         | a    | AS2 |
 | scene         | n    |     |
 | slightly      | adv  |     |
 | kitchen       | n    |     |
@@ -1232,7 +1260,7 @@ Y, 就是用有道的，相对简单好学的
 | expression    | n    |     |
 | owner         | n    |     |
 | associate     | v    |     |
-| corner        | n    |     |
+| corner        | n    | A   |
 | past          | a    |     |
 | match         | n    |     |
 | sport         | n    |     |
@@ -1241,7 +1269,7 @@ Y, 就是用有道的，相对简单好学的
 | offer         | n    |     |
 | marriage      | n    |     |
 | hang          | v    |     |
-| civil         | a    |     |
+| civil         | a    | A   |
 | perform       | v    |     |
 | sentence      | n    | A   |
 | crime         | n    |     |
@@ -1253,7 +1281,7 @@ Y, 就是用有道的，相对简单好学的
 | safety        | n    |     |
 | partner       | n    |     |
 | completely    | adv  |     |
-| copy          | n    |     |
+| copy          | n    | A2  |
 | balance       | n    | AS2 |
 | sister        | n    |     |
 | reader        | n    |     |
@@ -1272,7 +1300,7 @@ Y, 就是用有道的，相对简单好学的
 | south         | n    |     |
 | length        | n    |     |
 | branch        | n    |     |
-| deep          | a    |     |
+| deep          | a    | A2  |
 | none          | pron |     |
 | planning      | n    | A   |
 | trust         | n    |     |
@@ -1281,7 +1309,7 @@ Y, 就是用有道的，相对简单好学的
 | studio        | n    |     |
 | positive      | a    |     |
 | spirit        | n    |     |
-| college       | n    |     |
+| college       | n    | A   |
 | accident      | n    |     |
 | star          | v    |     |
 | hope          | n    |     |
@@ -1304,7 +1332,7 @@ Y, 就是用有道的，相对简单好学的
 | gas           | n    |     |
 | issue         | v    |     |
 | contribution  | n    |     |
-| complex       | a    |     |
+| complex       | a    | A   |
 | supply        | v    |     |
 | beat          | v    | AS  |
 | artist        | n    | AS  |
@@ -1353,12 +1381,12 @@ Y, 就是用有道的，相对简单好学的
 | distance       | n    |     |
 | exercise       | n    |     |
 | key            | a    |     |
-| close          | adv  |     |
+| close          | adv  | A3  |
 | skin           | n    |     |
 | island         | n    |     |
 | separate       | a    |     |
 | aim            | v    |     |
-| danger         | n    |     |
+| danger         | n    | A   |
 | credit         | n    |     |
 | usual          | a    |     |
 | link           | v    |     |
@@ -1375,7 +1403,7 @@ Y, 就是用有道的，相对简单好学的
 | reaction       | n    |     |
 | impact         | n    |     |
 | collect        | v    |     |
-| debate         | n    |     |
+| debate         | n    | A2  |
 | lay            | v    |     |
 | rise           | n    |     |
 | belief         | n    |     |
@@ -1389,7 +1417,7 @@ Y, 就是用有道的，相对简单好学的
 | approach       | v    | AS2 |
 | file           | n    |     |
 | western        | a    |     |
-| earth          | n    |     |
+| earth          | n    | A   |
 | public         | n    |     |
 | survive        | v    |     |
 | estate         | n    |     |
@@ -1404,7 +1432,7 @@ Y, 就是用有道的，相对简单好学的
 | deny           | v    |     |
 | for            | conj |     |
 | straight       | adv  |     |
-| somebody       | pron |    |
+| somebody       | pron |     |
 | writer         | n    |     |
 | weekend        | n    |     |
 | clothes        | n    |     |
@@ -1419,9 +1447,9 @@ Y, 就是用有道的，相对简单好学的
 | worry          | v    |     |
 | powerful       | a    |     |
 | possibly       | adv  |     |
-| cross          | v    |     |
+| cross          | v    | A2  |
 | colleague      | n    |     |
-| charge         | v    |     |
+| charge         | v    | A2  |
 | lead           | n    |     |
 | farm           | n    |     |
 | respond        | v    |     |
@@ -1442,11 +1470,11 @@ Y, 就是用有道的，相对简单好学的
 | transport      | n    |     |
 | objective      | n    |     |
 | alone          | a    | AS2 |
-| flower         | n    |     |
+| flower         | n    | A   |
 | injury         | n    |     |
 | lift           | v    |     |
 | stick          | v    |     |
-| front          | a    |     |
+| front          | a    | A2  |
 | mainly         | adv  |     |
 | battle         | n    | AS  |
 | generation     | n    |     |
@@ -1463,13 +1491,13 @@ Y, 就是用有道的，相对简单好学的
 | ship           | n    |     |
 | legislation    | n    |     |
 | commitment     | n    |     |
-| enough         | det  |     |
+| enough         | det  | A2  |
 | conflict       | n    |     |
 | bag            | n    | Y   |
-| fresh          | a    |     |
+| fresh          | a    | A   |
 | entry          | n    |     |
 | smile          | n    |     |
-| fair           | a    |     |
+| fair           | a    | AS2 |
 | promise        | v    |     |
 | introduction   | n    |     |
 | senior         | a    |     |
@@ -1495,7 +1523,7 @@ Y, 就是用有道的，相对简单好学的
 | investigation  | n    |     |
 | debt           | n    |     |
 | visitor        | n    |     |
-| forest         | n    |     |
+| forest         | n    | A   |
 | repeat         | v    |     |
 | wood           | n    |     |
 | contrast       | n    |     |
@@ -1503,7 +1531,7 @@ Y, 就是用有道的，相对简单好学的
 | extremely    | adv   |     |
 | wage         | n     |     |
 | domestic     | a     |     |
-| commit       | v     |     |
+| commit       | v     | A   |
 | threat       | n     |     |
 | bus          | n     | Y   |
 | warm         | a     |     |
@@ -1524,7 +1552,7 @@ Y, 就是用有道的，相对简单好学的
 | farmer       | n     |     |
 | until        | prep  |     |
 | traffic      | n     |     |
-| dinner       | n     |     |
+| dinner       | n     | A   |
 | consumer     | n     |     |
 | meal         | n     |     |
 | warn         | v     |     |
@@ -1558,7 +1586,7 @@ Y, 就是用有道的，相对简单好学的
 | proper       | a     |     |
 | victim       | n     |     |
 | audience     | n     |     |
-| famous       | a     |     |
+| famous       | a     | A   |
 | master       | n     |     |
 | lip          | n     |     |
 | religious    | a     |     |
@@ -1579,11 +1607,11 @@ Y, 就是用有道的，相对简单好学的
 | explanation  | n     |     |
 | appoint      | v     |     |
 | note         | v     |     |
-| chief        | a     |     |
+| chief        | a     | A2  |
 | total        | n     |     |
 | lovely       | a     |     |
 | official     | a     |     |
-| date         | v     |     |
+| date         | v     | A2  |
 | demonstrate  | v     |     |
 | construction | n     |     |
 | middle       | n     |     |
@@ -1601,7 +1629,7 @@ Y, 就是用有道的，相对简单好学的
 | favour       | n     |     |
 | before       | adv   | AS3 |
 | name         | v     |     |
-| equal        | a     |     |
+| equal        | a     | AS2 |
 | capacity     | n     |     |
 | flat         | n     |     |
 | selection    | n     |     |
@@ -1621,13 +1649,13 @@ Y, 就是用有道的，相对简单好学的
 | substantial  | a     |     |
 | invite       | v     |     |
 | intention    | n     |     |
-| egg          | n     |     |
+| egg          | n     | A   |
 | reasonable   | a     |     |
 | onto         | prep  |     |
 | retain       | v     |     |
 | aircraft     | n     |     |
 | decade       | n     |     |
-| cheap        | a     |     |
+| cheap        | a     | A   |
 | quiet        | a     |     |
 | bright       | a     | A   |
 | contribute   | v     |     |
@@ -1657,7 +1685,7 @@ Y, 就是用有道的，相对简单好学的
 | reject       | v     |     |
 | while        | n     |     |
 | high         | adv   |     |
-| dream        | n     |     |
+| dream        | n     | A2  |
 * K eleven
 | vote           | v    |     |
 | divide         | v    |     |
@@ -1694,7 +1722,7 @@ Y, 就是用有道的，相对简单好学的
 | acid           | n    |     |
 | spring         | n    |     |
 | birth          | n    |     |
-| ear            | n    |     |
+| ear            | n    | A   |
 | recognize      | v    |     |
 | recommend      | v    |     |
 | module         | n    |     |
@@ -1738,7 +1766,7 @@ Y, 就是用有道的，相对简单好学的
 | silence        | n    |     |
 | expenditure    | n    |     |
 | institute      | n    |     |
-| dress          | v    |     |
+| dress          | v    | A2  |
 | dangerous      | a    |     |
 | familiar       | a    |     |
 | asset          | n    |     |
@@ -1752,7 +1780,7 @@ Y, 就是用有道的，相对简单好学的
 | youth          | n    |     |
 | tape           | n    |     |
 | elsewhere      | adv  |     |
-| cover          | n    |     |
+| cover          | n    | A2  |
 | fee            | n    |     |
 | program        | n    |     |
 | treaty         | n    |     |
@@ -1774,7 +1802,7 @@ Y, 就是用有道的，相对简单好学的
 | human          | n    |     |
 | widely         | adv  |     |
 | undertake      | v    |     |
-| cut            | n    |     |
+| cut            | n    | A2  |
 | sky            | n    |     |
 | brain          | n    |     |
 | expert         | n    |     |
@@ -1790,8 +1818,8 @@ Y, 就是用有道的，相对简单好学的
 | transfer       | n    |     |
 | reading        | n    |     |
 | scientist      | n    |     |
-| fast           | adv  |     |
-| fast           | a    |     |
+| fast           | adv  | A2  |
+| fast           | a    | A2  |
 | closely        | adv  |     |
 | thin           | a    |     |
 | solicitor      | n    |     |
@@ -1811,7 +1839,7 @@ Y, 就是用有道的，相对简单好学的
 | journey        | n    |     |
 | imply          | v    |     |
 | violence       | n    |     |
-| dry            | a    |     |
+| dry            | a    | A2  |
 | historical     | a    |     |
 | step           | v    |     |
 | curriculum     | n    |     |
@@ -1821,13 +1849,13 @@ Y, 就是用有道的，相对简单好学的
 | log            | n            |    |
 | fear           | v            |    |
 | succeed        | v            |    |
-| fall           | n            |    |
+| fall           | n            | A2 |
 | bottom         | n            |    |
 | initial        | a            |    |
 | theme          | n            |    |
 | characteristic | n            |    |
 | pretty         | adv          |    |
-| empty          | a            |    |
+| empty          | a            | A  |
 | display        | n            |    |
 | combination    | n            |    |
 | interpretation | n            |    |
@@ -1843,11 +1871,11 @@ Y, 就是用有道的，相对简单好学的
 | spot           | n            |    |
 | bridge         | n            | A  |
 | double         | a            |    |
-| direct         | v            |    |
+| direct         | v            | A2 |
 | conclude       | v            |    |
 | relative       | a            |    |
 | soldier        | n            |    |
-| climb          | v            |    |
+| climb          | v            | A  |
 | breath         | n            |    |
 | afford         | v            |    |
 | urban          | a            |    |
@@ -1865,7 +1893,7 @@ Y, 就是用有道的，相对简单好学的
 | apparent       | a            |    |
 | faith          | n            |    |
 | under          | adv          |    |
-| fix            | v            |    |
+| fix            | v            | A  |
 | slow           | a            |    |
 | troop          | n            |    |
 | motion         | n            |    |
@@ -1900,7 +1928,7 @@ Y, 就是用有道的，相对简单好学的
 | male           | n            |    |
 | ring           | n            |    |
 | pub            | n            |    |
-| fruit          | n            |    |
+| fruit          | n            | A  |
 | passage        | n            |    |
 | illustrate     | v            |    |
 | pay            | n            |    |
@@ -1918,7 +1946,7 @@ Y, 就是用有道的，相对简单好学的
 | conduct        | v            |    |
 | derive         | v            |    |
 | comment        | v            |    |
-| east           | n            |    |
+| east           | n            | A  |
 | advise         | v            |    |
 | advance        | n            |    |
 | motor          | n            |    |
@@ -1949,7 +1977,7 @@ Y, 就是用有道的，相对简单好学的
 | rare           | a            |    |
 | index          | n            |    |
 | hand           | v            |    |
-| circle         | n            |    |
+| circle         | n            | A  |
 | creation       | n            |    |
 | drawing        | n            | AN |
 | anybody        | pron         |    |
@@ -1976,7 +2004,7 @@ Y, 就是用有道的，相对简单好学的
 | wonderful      | a            |    |
 | earn           | v            |    |
 | enemy          | n            |    |
-| desk           | n            |    |
+| desk           | n            | A  |
 * M thirteen
 | engineering   | n    |     |
 | minimize      | v    | AN  |
@@ -2004,13 +2032,13 @@ Y, 就是用有道的，相对简单好学的
 | leadership    | n    |     |
 | walk          | n    |     |
 | negotiation   | n    |     |
-| clean         | a    |     |
+| clean         | a    | A2  |
 | religion      | n    |     |
-| count         | v    |     |
+| count         | v    | A2  |
 | grey          | a    |     |
 | hence         | adv  |     |
 | alright       | adv  |     |
-| first         | a    |     |
+| first         | a    | A   |
 | fuel          | n    |     |
 | mine          | n    |     |
 | appeal        | v    |     |
@@ -2027,7 +2055,7 @@ Y, 就是用有道的，相对简单好学的
 | origin        | n    |     |
 | lord          | n    |     |
 | rest          | v    |     |
-| drive         | n    |     |
+| drive         | n    | A2  |
 | ticket        | n    |     |
 | editor        | n    |     |
 | switch        | v    |     |
@@ -2050,7 +2078,7 @@ Y, 就是用有道的，相对简单好学的
 | revolution    | n    |     |
 | terrible      | a    |     |
 | knee          | n    |     |
-| dress         | n    |     |
+| dress         | n    | A2  |
 | unfortunately | adv  |     |
 | steal         | v    |     |
 | criminal      | a    |     |
@@ -2070,14 +2098,14 @@ Y, 就是用有道的，相对简单好学的
 | prisoner      | n    |     |
 | question      | v    |     |
 | rapidly       | adv  |     |
-| deep          | adv  |     |
+| deep          | adv  | A2  |
 | southern      | a    |     |
 | amongst       | prep |     |
 | withdraw      | v    |     |
 | afterwards    | adv  |     |
 | paint         | v    |     |
 | judge         | v    |     |
-| citizen       | n    |     |
+| citizen       | n    | A   |
 | permanent     | a    |     |
 | weak          | a    |     |
 | separate      | v    |     |
@@ -2120,7 +2148,7 @@ Y, 就是用有道的，相对简单好学的
 | stress        | n    |     |
 | passenger     | n    |     |
 | boundary      | n    |     |
-| easy          | adv  |     |
+| easy          | adv  | A2  |
 | view          | v    |     |
 | manufacturer  | n    |     |
 | sharp         | a    |     |
@@ -2168,7 +2196,7 @@ Y, 就是用有道的，相对简单好学的
 | minority      | n    |    |
 | appreciate    | v    |    |
 | fan           | n    |    |
-| chief         | n    |    |
+| chief         | n    | A2 |
 | accommodation | n    |    |
 | subsequent    | a    |    |
 | democracy     | n    |    |
@@ -2193,7 +2221,7 @@ Y, 就是用有道的，相对简单好学的
 | firm          | a    |    |
 | abandon       | v    |    |
 | blame         | v    |    |
-| clean         | v    |    |
+| clean         | v    | A2 |
 | quote         | v    |    |
 | yours         | pron |    |
 | quantity      | n    |    |
@@ -2202,7 +2230,7 @@ Y, 就是用有道的，相对简单好学的
 | prior         | a    |    |
 | round         | a    |    |
 | eastern       | a    |    |
-| coat          | n    |    |
+| coat          | n    | A  |
 | involvement   | n    |    |
 | tension       | n    |    |
 | diet          | n    |    |
@@ -2249,7 +2277,7 @@ Y, 就是用有道的，相对简单好学的
 | yellow        | a    |    |
 | republic      | n    |    |
 | shadow        | n    |    |
-| dear          | a    |    |
+| dear          | a    | A3 |
 | analyse       | v    |    |
 | anywhere      | adv  |    |
 | average       | n    |    |
@@ -2299,7 +2327,7 @@ Y, 就是用有道的，相对简单好学的
 | poem          | n    |    |
 * O fifteen
 | candle         |     | AN |
-| chest          | n   |    |
+| chest          | n   | A  |
 | like           | adv |    |
 | secret         | n   |    |
 | restriction    | n   |    |
@@ -2372,7 +2400,7 @@ Y, 就是用有道的，相对简单好学的
 | soul           | n   |    |
 | self           | n   |    |
 | judgment       | n   |    |
-| feed           | v   |    |
+| feed           | v   | A  |
 | muscle         | n   |    |
 | shareholder    | n   |    |
 | opposite       | a   |    |
@@ -2420,7 +2448,7 @@ Y, 就是用有道的，相对简单好学的
 | emergency      | n   |    |
 | dark           | n   |    |
 | bomb           | n   | A  |
-| dollar         | n   |    |
+| dollar         | n   | A  |
 | efficiency     | n   |    |
 | mood           | n   |    |
 | convert        | v   |    |
@@ -2439,7 +2467,7 @@ Y, 就是用有道的，相对简单好学的
 | co-operation   | n   |    |
 | acceptable     | a   |    |
 | angle          | n   |    |
-| cook           | v   |    |
+| cook           | v   | A  |
 | net            | a   |    |
 | sensitive      | a   |    |
 | ratio          | n   |    |
@@ -2481,7 +2509,7 @@ Y, 就是用有道的，相对简单好学的
 | emotional      | a            |     |
 | advertising    | n            |     |
 | regard         | n            |     |
-| dance          | v            |     |
+| dance          | v            | A2  |
 | cigarette      | n            |     |
 | predict        | v            |     |
 | adequate       | a            |     |
@@ -2515,7 +2543,7 @@ Y, 就是用有道的，相对简单好学的
 | throat         | n            |     |
 | discovery      | n            |     |
 | festival       | n            |     |
-| dance          | n            |     |
+| dance          | n            | A2  |
 | promise        | n            |     |
 | rose           | n            |     |
 | principal      | a            |     |
@@ -2543,11 +2571,11 @@ Y, 就是用有道的，相对简单好学的
 | dealer         | n            |     |
 | bend           | v            | A   |
 | solid          | a            |     |
-| cloud          | n            |     |
+| cloud          | n            | A   |
 | across         | adv          | AS2 |
 | level          | a            |     |
 | enquiry        | n            |     |
-| fight          | n            |     |
+| fight          | n            | A2  |
 | abuse          | n            |     |
 | golf           | n            |     |
 | guitar         | n            |     |
@@ -2580,8 +2608,8 @@ Y, 就是用有道的，相对简单好学的
 | successfully   | adv          |     |
 | sand           | n            |     |
 | breathe        | v            |     |
-| cold           | n            |     |
-| cheek          | n            |     |
+| cold           | n            | A   |
+| cheek          | n            | A   |
 | platform       | n            |     |
 | interaction    | n            |     |
 | need           | modal        |     |
@@ -2622,10 +2650,10 @@ Y, 就是用有道的，相对简单好学的
 | anger         | n            | AS |
 | briefly       | adv          |    |
 | presumably    | adv          |    |
-| clock         | n            |    |
+| clock         | n            | A  |
 | hero          | n            |    |
 | expose        | v            |    |
-| custom        | n            |    |
+| custom        | n            | A  |
 | maximum       | a            |    |
 | wish          | n            |    |
 | earning       | n            |    |
@@ -2675,7 +2703,7 @@ Y, 就是用有道的，相对简单好学的
 | advanced      | a            |    |
 | landlord      | n            |    |
 | whenever      | adv          |    |
-| delay         | n            |    |
+| delay         | n            | A2 |
 | green         | n            |    |
 | car           | v            |    |
 | holder        | n            |    |
@@ -2695,12 +2723,12 @@ Y, 就是用有道的，相对简单好学的
 | sweep         | v            |    |
 | poet          | n            |    |
 | journalist    | n            |    |
-| defeat        | n            |    |
+| defeat        | n            | A2 |
 | unlike        | prep         |    |
 | primarily     | adv          |    |
 | tight         | a            |    |
 | indication    | n            |    |
-| dry           | v            |    |
+| dry           | v            | A2 |
 | cricket       | n            |    |
 | whisper       | v            |    |
 | routine       | n            |    |
@@ -2710,7 +2738,7 @@ Y, 就是用有道的，相对简单好学的
 | concerning    | prep         |    |
 | mill          | n            |    |
 | gentle        | a            |    |
-| curtain       | n            |    |
+| curtain       | n            | A  |
 | mission       | n            |    |
 | supplier      | n            |    |
 | basically     | adv          |    |
@@ -2733,7 +2761,7 @@ Y, 就是用有道的，相对简单好学的
 | aged          | prep         |    |
 | symbol        | n            |    |
 | slide         | v            |    |
-| cross         | n            |    |
+| cross         | n            | A2 |
 | anxious       | a            |    |
 | tale          | n            |    |
 | preference    | n            |    |
@@ -2792,7 +2820,7 @@ Y, 就是用有道的，相对简单好学的
 | implementation | n            |    |
 | worried        | a            |    |
 | pitch          | n            |    |
-| drop           | n            |    |
+| drop           | n            | A2 |
 | phone          | v            | A2 |
 | shape          | v            |    |
 | clinical       | a            |    |
@@ -2815,7 +2843,7 @@ Y, 就是用有道的，相对简单好学的
 | lend           | v            |    |
 | silver         | n            |    |
 | pack           | n            |    |
-| fun            | n            |    |
+| fun            | n            | A2 |
 | democrat       | n            |    |
 | fortune        | n            |    |
 | storage        | n            |    |
@@ -2845,7 +2873,7 @@ Y, 就是用有道的，相对简单好学的
 | developing     | a            |    |
 | proof          | n            |    |
 | furthermore    | adv          |    |
-| dish           | n            |    |
+| dish           | n            | A  |
 | interview      | v            |    |
 | considerably   | adv          |    |
 | distant        | a            |    |
@@ -2855,11 +2883,11 @@ Y, 就是用有道的，相对简单好学的
 | fixed          | a            |    |
 | by             | adv          | A2 |
 | luck           | n            |    |
-| count          | n            |    |
+| count          | n            | A2 |
 | precise        | a            |    |
 | determination  | n            |    |
 | bite           | v            |    |
-| dear           | interjection |    |
+| dear           | interjection | A3 |
 | consultation   | n            |    |
 | range          | v            |    |
 | residential    | a            |    |
@@ -2883,7 +2911,7 @@ Y, 就是用有道的，相对简单好学的
 | distribute     | v            |    |
 | lover          | n            |    |
 | childhood      | n            |    |
-| cool           | a            |    |
+| cool           | a            | A  |
 | ban            | v            |    |
 | supposed       | a            |    |
 | mouse          | n            |    |
@@ -2894,7 +2922,7 @@ Y, 就是用有道的，相对简单好学的
 | approximately  | adv          |    |
 | participant    | n            |    |
 | monetary       | a            |    |
-| confuse        | v            |    |
+| confuse        | v            | A  |
 | dare           | v            |    |
 | smoke          | n            |    |
 | movie          | n            |    |
@@ -2919,7 +2947,7 @@ Y, 就是用有道的，相对简单好学的
 | behind         | adv          | A2 |
 | ward           | n            |    |
 | profile        | n            |    |
-| fat            | a            |    |
+| fat            | a            | A2 |
 | comfort        | n            |    |
 | bathroom       | n            |    |
 | shell          | n            |    |
@@ -2936,7 +2964,7 @@ Y, 就是用有道的，相对简单好学的
 | march          | n            |    |
 | found          | v            |    |
 | dig            | v            |    |
-| dirty          | a            |    |
+| dirty          | a            | A  |
 | straight       | a            |    |
 * S nineteen
 | solved        | a            | A  |
@@ -2978,8 +3006,8 @@ Y, 就是用有道的，相对简单好学的
 | newly         | adv          |    |
 | tongue        | n            |    |
 | refugee       | n            |    |
-| delay         | v            |    |
-| dream         | v            |    |
+| delay         | v            | A2 |
+| dream         | v            | A2 |
 | composition   | n            |    |
 | alongside     | prep         |    |
 | ceiling       | n            | A  |
@@ -3007,7 +3035,7 @@ Y, 就是用有道的，相对简单好学的
 | adapt         | v            |    |
 | absorb        | v            |    |
 | encounter     | v            |    |
-| defeat        | v            |    |
+| defeat        | v            | A2 |
 | excitement    | n            |    |
 | brick         | n            |    |
 | blind         | a            |    |
@@ -3020,15 +3048,15 @@ Y, 就是用有道的，相对简单好学的
 | roll          | n            |    |
 | stop          | n            |    |
 | assistant     | n            |    |
-| deaf          | a            |    |
+| deaf          | a            | A  |
 | constituency  | n            |    |
 | continuous    | a            |    |
-| concert       | n            |    |
+| concert       | n            | A  |
 | breast        | n            |    |
 | extraordinary | a            |    |
 | squad         | n            |    |
 | wonder        | n            |    |
-| cream         | n            |    |
+| cream         | n            | A  |
 | tennis        | n            |    |
 | personally    | adv          |    |
 | communicate   | v            |    |
@@ -3073,10 +3101,10 @@ Y, 就是用有道的，相对简单好学的
 | fulfil        | v            |    |
 | commonly      | adv          |    |
 | sufficiently  | adv          |    |
-| coin          | n            |    |
+| coin          | n            | A  |
 | frighten      | v            |    |
 | grammar       | n            |    |
-| diary         | n            |    |
+| diary         | n            | A  |
 | flesh         | n            |    |
 | summary       | n            |    |
 | infant        | n            |    |
@@ -3149,7 +3177,7 @@ Y, 就是用有道的，相对简单好学的
 | welcome       | a    |     |
 | sharply       | adv  |     |
 | reception     | n    |     |
-| cousin        | n    |     |
+| cousin        | n    | A   |
 | relieve       | v    |     |
 | linguistic    | a    |     |
 | vat           | n    |     |
@@ -3173,7 +3201,7 @@ Y, 就是用有道的，相对简单好学的
 | agenda        | n    |     |
 | transport     | v    |     |
 | illegal       | a    |     |
-| chicken       | n    |     |
+| chicken       | n    | A   |
 | plain         | a    |     |
 | innovation    | n    |     |
 | opera         | n    |     |
@@ -3194,7 +3222,7 @@ Y, 就是用有道的，相对简单好学的
 | resignation   | n    |     |
 | treasury      | n    |     |
 | traveller     | n    |     |
-| chocolate     | n    |     |
+| chocolate     | n    | A   |
 | assault       | n    |     |
 | schedule      | n    |     |
 | undoubtedly   | adv  |     |
@@ -3241,7 +3269,7 @@ Y, 就是用有道的，相对简单好学的
 | ease          | v    |     |
 | friendship    | n    |     |
 | deficit       | n    |     |
-| dear          | n    |     |
+| dear          | n    | A3  |
 | convey        | v    |     |
 | reserve       | v    |     |
 | planet        | n    |     |
@@ -3324,7 +3352,7 @@ Y, 就是用有道的，相对简单好学的
 | silk           | n    |    |
 | funeral        | n    |    |
 | depending      | a    |    |
-| cow            | n    |    |
+| cow            | n    | A  |
 | correspond     | v    |    |
 | cite           | v    |    |
 | classic        | a    |    |
@@ -3362,7 +3390,7 @@ Y, 就是用有道的，相对简单好学的
 | reliable       | a    |    |
 | weigh          | v    |    |
 | medieval       | a    |    |
-| clinic         | n    |    |
+| clinic         | n    | A  |
 | shine          | v    |    |
 | knit           | v    |    |
 | complexity     | n    |    |
@@ -3384,7 +3412,7 @@ Y, 就是用有道的，相对简单好学的
 | lie            | n    |    |
 | disorder       | n    |    |
 | formally       | adv  |    |
-| excuse         | n    |    |
+| excuse         | n    | A2 |
 | socialist      | a    |    |
 | cancel         | v    |    |
 | harm           | n    |    |
@@ -3393,7 +3421,7 @@ Y, 就是用有道的，相对简单好学的
 | oblige         | v    |    |
 | accountant     | n    |    |
 | mutual         | a    |    |
-| fat            | n    |    |
+| fat            | n    | A2 |
 | volunteer      | n    |    |
 | laughter       | n    |    |
 | trick          | n    |    |
@@ -3453,9 +3481,9 @@ Y, 就是用有道的，相对简单好学的
 | tribunal       | n   |    |
 | swallow        | v   |    |
 | typically      | adv |    |
-| fun            | a   |    |
+| fun            | a   | A2 |
 | rat            | n   |    |
-| cloth          | n   |    |
+| cloth          | n   | A  |
 | cable          | n   |    |
 | interrupt      | v   |    |
 | crash          | n   |    |
@@ -3628,7 +3656,7 @@ Y, 就是用有道的，相对简单好学的
 | ease            | n   |    |
 | specially       | adv |    |
 | biological      | a   |    |
-| forgive         | v   |    |
+| forgive         | v   | A  |
 | trustee         | n   |    |
 | photo           | n   |    |
 | fraction        | n   |    |
@@ -3637,7 +3665,7 @@ Y, 就是用有道的，相对简单好学的
 | mud             | n   |    |
 | pensioner       | n   |    |
 | functional      | a   |    |
-| copy            | v   |    |
+| copy            | v   | A2 |
 | strictly        | adv |    |
 | desperately     | adv |    |
 | await           | v   |    |
@@ -3652,7 +3680,7 @@ Y, 就是用有道的，相对简单好学的
 | creditor        | n   |    |
 | capitalist      | n   |    |
 | essence         | n   |    |
-| compose         | v   |    |
+| compose         | v   | A  |
 | mentally        | adv |    |
 | gaze            | n   |    |
 | seminar         | n   |    |
@@ -3679,17 +3707,17 @@ Y, 就是用有道的，相对简单好学的
 | subtle          | a   |    |
 | capital         | a   |    |
 | gang            | n   |    |
-| fish            | v   |    |
+| fish            | v   | A2 |
 | unhappy         | a   |    |
 | lifetime        | n   |    |
 | elite           | n   |    |
 | refusal         | n   |    |
-| finish          | n   |    |
+| finish          | n   | A2 |
 | aggressive      | a   |    |
 | superior        | a   |    |
 | landing         | n   |    |
 | exchange        | v   |    |
-| debate          | v   |    |
+| debate          | v   | A2 |
 | educate         | v   |    |
 | separation      | n   |    |
 | productivity    | n   |    |
@@ -3697,7 +3725,7 @@ Y, 就是用有道的，相对简单好学的
 | probability     | n   |    |
 | virus           | n   |    |
 | reporter        | n   |    |
-| fool            | n   |    |
+| fool            | n   | A  |
 | pop             | v   |    |
 | capitalism      | n   |    |
 | painful         | a   |    |
@@ -3803,7 +3831,7 @@ Y, 就是用有道的，相对简单好学的
 | subsidy        | n    |     |
 | content        | a    |     |
 | toy            | n    |     |
-| darling        | n    |     |
+| darling        | n    | A   |
 | decent         | a    |     |
 | liberty        | n    |     |
 | forever        | adv  |     |
@@ -3841,7 +3869,7 @@ Y, 就是用有道的，相对简单好学的
 | brand          | n    |     |
 | constable      | n    |     |
 | compromise     | n    |     |
-| flag           | n    |     |
+| flag           | n    | A   |
 | filter         | n    |     |
 | reign          | n    |     |
 | execute        | v    |     |
@@ -3864,7 +3892,7 @@ Y, 就是用有道的，相对简单好学的
 | descend        | v    |     |
 | backwards      | adv  |     |
 | peer           | v    |     |
-| excuse         | v    |     |
+| excuse         | v    | A2  |
 | genetic        | a    |     |
 | fold           | v    |     |
 | portfolio      | n    |     |
@@ -3899,164 +3927,164 @@ Y, 就是用有道的，相对简单好学的
 | equip          | v    |     |
 | partial        | a    |     |
 * Y twenty-five
-| officially     | adv          |    |
-| capability     | n            |    |
-| worry          | n            |    |
-| liberation     | n            |    |
-| hunt           | v            |    |
-| daily          | adv          |    |
-| heel           | n            |    |
-| contract       | v            |    |
-| update         | v            |    |
-| assign         | v            |    |
-| spring         | v            |    |
-| single         | n            |    |
-| commons        | n            |    |
-| weekly         | a            |    |
-| stretch        | n            |    |
-| pregnancy      | n            |    |
-| happily        | adv          |    |
-| spectrum       | n            |    |
-| interfere      | v            |    |
-| suicide        | n            |    |
-| panic          | n            |    |
-| invent         | v            |    |
-| intensive      | a            |    |
-| damp           | a            |    |
-| simultaneously | adv          |    |
-| giant          | n            |    |
-| casual         | a            | A  |
-| sphere         | n            |    |
-| precious       | a            |    |
-| sword          | n            |    |
-| envisage       | v            |    |
-| bean           | n            |    |
-| time           | v            |    |
-| crazy          | a            |    |
-| changing       | a            |    |
-| primary        | n            |    |
-| concede        | v            |    |
-| besides        | adv          |    |
-| unite          | v            |    |
-| severely       | adv          |    |
-| separately     | adv          |    |
-| instruct       | v            |    |
-| insert         | v            | A  |
-| go             | n            |    |
-| exhibit        | v            |    |
-| brave          | a            |    |
-| tutor          | n            |    |
-| tune           | n            |    |
-| debut          | n            |    |
-| continued      | a            |    |
-| bid            | v            |    |
-| incidence      | n            |    |
-| downstairs     | adv          |    |
-| cafe           | n            |    |
-| regret         | v            |    |
-| killer         | n            |    |
-| delicate       | a            |    |
-| subsidiary     | n            |    |
-| gender         | n            |    |
-| entertain      | v            |    |
-| cling          | v            |    |
-| vertical       | a            |    |
-| fetch          | v            |    |
-| strip          | v            |    |
-| plead          | v            |    |
-| duck           | n            |    |
-| breed          | n            |    |
-| assistant      | a            |    |
-| pint           | n            |    |
-| abolish        | v            |    |
-| translation    | n            |    |
-| princess       | n            |    |
-| line           | v            |    |
-| excessive      | a            |    |
-| digital        | a            |    |
-| steep          | a            |    |
-| jet            | n            |    |
-| hey            | interjection |    |
-| grave          | n            |    |
-| exceptional    | a            |    |
-| boost          | v            |    |
-| random         | a            |    |
-| correlation    | n            |    |
-| outline        | n            |    |
-| intervene      | v            |    |
-| packet         | n            |    |
-| motivation     | n            |    |
-| safely         | adv          |    |
-| harsh          | a            |    |
-| spell          | n            |    |
-| spread         | n            |    |
-| draw           | n            |    |
-| concrete       | a            |    |
-| complicated    | a            |    |
-| alleged        | a            |    |
-| redundancy     | n            |    |
-| progressive    | a            |    |
-| intensity      | n            |    |
-| crack          | n            |    |
-| fly            | n            |    |
-| fancy          | v            |    |
-| alternatively  | adv          |    |
-| waiting        | a            | A2 |
-| scandal        | n            |    |
-| resemble       | v            |    |
-| parameter      | n            |    |
-| fierce         | a            |    |
-| tropical       | a            |    |
-| colour         | v            |    |
-| ours           | pron         |    |
-| engagement     | n            |    |
-| contest        | n            |    |
-| edit           | v            |    |
-| courage        | n            |    |
-| hip            | n            |    |
-| delighted      | a            |    |
-| sponsor        | v            |    |
-| carer          | n            |    |
-| crack          | v            |    |
-| substantially  | adv          |    |
-| occupational   | a            |    |
-| trainer        | n            |    |
-| remainder      | n            |    |
-| related        | a            |    |
-| inherit        | v            |    |
-| resume         | v            |    |
-| assignment     | n            |    |
-| conceal        | v            |    |
-| disclose       | v            |    |
-| exclusively    | adv          |    |
-| working        | n            |    |
-| mild           | a            |    |
-| chronic        | a            |    |
-| splendid       | a            |    |
-| function       | v            |    |
-| rider          | n            |    |
-| clay           | n            |    |
-| firstly        | adv          |    |
-| conceive       | v            |    |
-| politically    | adv          |    |
-| terminal       | n            |    |
-| accuracy       | n            |    |
-| coup           | n            |    |
-| ambulance      | n            |    |
-| living         | n            |    |
-| offender       | n            |    |
-| similarity     | n            |    |
-| orchestra      | n            |    |
-| brush          | n            |    |
-| systematic     | a            |    |
-| striker        | n            |    |
-| guard          | v            |    |
-| casualty       | n            |    |
-| steadily       | adv          |    |
-| painter        | n            |    |
-| opt            | v            |    |
-| handsome       | a            |    |
-| banking        | n            |    |
+| officially     | adv          |     |
+| capability     | n            |     |
+| worry          | n            |     |
+| liberation     | n            |     |
+| hunt           | v            |     |
+| daily          | adv          |     |
+| heel           | n            |     |
+| contract       | v            |     |
+| update         | v            |     |
+| assign         | v            |     |
+| spring         | v            |     |
+| single         | n            |     |
+| commons        | n            |     |
+| weekly         | a            |     |
+| stretch        | n            |     |
+| pregnancy      | n            |     |
+| happily        | adv          |     |
+| spectrum       | n            |     |
+| interfere      | v            |     |
+| suicide        | n            |     |
+| panic          | n            |     |
+| invent         | v            |     |
+| intensive      | a            |     |
+| damp           | a            |     |
+| simultaneously | adv          |     |
+| giant          | n            |     |
+| casual         | a            | A   |
+| sphere         | n            |     |
+| precious       | a            |     |
+| sword          | n            |     |
+| envisage       | v            |     |
+| bean           | n            |     |
+| time           | v            |     |
+| crazy          | a            |     |
+| changing       | a            |     |
+| primary        | n            |     |
+| concede        | v            |     |
+| besides        | adv          |     |
+| unite          | v            |     |
+| severely       | adv          |     |
+| separately     | adv          |     |
+| instruct       | v            |     |
+| insert         | v            | A   |
+| go             | n            |     |
+| exhibit        | v            |     |
+| brave          | a            |     |
+| tutor          | n            |     |
+| tune           | n            |     |
+| debut          | n            |     |
+| continued      | a            |     |
+| bid            | v            |     |
+| incidence      | n            |     |
+| downstairs     | adv          |     |
+| cafe           | n            |     |
+| regret         | v            |     |
+| killer         | n            |     |
+| delicate       | a            |     |
+| subsidiary     | n            |     |
+| gender         | n            |     |
+| entertain      | v            |     |
+| cling          | v            |     |
+| vertical       | a            |     |
+| fetch          | v            |     |
+| strip          | v            |     |
+| plead          | v            |     |
+| duck           | n            | A   |
+| breed          | n            |     |
+| assistant      | a            |     |
+| pint           | n            |     |
+| abolish        | v            |     |
+| translation    | n            |     |
+| princess       | n            |     |
+| line           | v            |     |
+| excessive      | a            |     |
+| digital        | a            |     |
+| steep          | a            |     |
+| jet            | n            |     |
+| hey            | interjection |     |
+| grave          | n            |     |
+| exceptional    | a            |     |
+| boost          | v            |     |
+| random         | a            |     |
+| correlation    | n            |     |
+| outline        | n            |     |
+| intervene      | v            |     |
+| packet         | n            |     |
+| motivation     | n            |     |
+| safely         | adv          |     |
+| harsh          | a            |     |
+| spell          | n            |     |
+| spread         | n            |     |
+| draw           | n            | AN2 |
+| concrete       | a            |     |
+| complicated    | a            |     |
+| alleged        | a            |     |
+| redundancy     | n            |     |
+| progressive    | a            |     |
+| intensity      | n            |     |
+| crack          | n            |     |
+| fly            | n            |     |
+| fancy          | v            |     |
+| alternatively  | adv          |     |
+| waiting        | a            | A2  |
+| scandal        | n            |     |
+| resemble       | v            |     |
+| parameter      | n            |     |
+| fierce         | a            |     |
+| tropical       | a            |     |
+| colour         | v            |     |
+| ours           | pron         |     |
+| engagement     | n            |     |
+| contest        | n            | A   |
+| edit           | v            |     |
+| courage        | n            | A   |
+| hip            | n            |     |
+| delighted      | a            |     |
+| sponsor        | v            |     |
+| carer          | n            |     |
+| crack          | v            |     |
+| substantially  | adv          |     |
+| occupational   | a            |     |
+| trainer        | n            |     |
+| remainder      | n            |     |
+| related        | a            |     |
+| inherit        | v            |     |
+| resume         | v            |     |
+| assignment     | n            |     |
+| conceal        | v            |     |
+| disclose       | v            |     |
+| exclusively    | adv          |     |
+| working        | n            |     |
+| mild           | a            |     |
+| chronic        | a            |     |
+| splendid       | a            |     |
+| function       | v            |     |
+| rider          | n            |     |
+| clay           | n            |     |
+| firstly        | adv          |     |
+| conceive       | v            |     |
+| politically    | adv          |     |
+| terminal       | n            |     |
+| accuracy       | n            |     |
+| coup           | n            |     |
+| ambulance      | n            |     |
+| living         | n            |     |
+| offender       | n            |     |
+| similarity     | n            |     |
+| orchestra      | n            |     |
+| brush          | n            |     |
+| systematic     | a            |     |
+| striker        | n            |     |
+| guard          | v            |     |
+| casualty       | n            |     |
+| steadily       | adv          |     |
+| painter        | n            |     |
+| opt            | v            |     |
+| handsome       | a            |     |
+| banking        | n            |     |
 * Z twenty-six 
 | sensitivity    | n            |    |
 | navy           | n            |    |
@@ -4139,7 +4167,7 @@ Y, 就是用有道的，相对简单好学的
 | advocate       | v            |    |
 | polytechnic    | n            |    |
 | inhabitant     | n            |    |
-| evil           | a            |    |
+| evil           | a            | A  |
 | slave          | n            |    |
 | reservation    | n            |    |
 | slam           | v            |    |
@@ -4211,7 +4239,6 @@ Dutch
 quantity
 trailer
 mate
-o''clock
 Greek
 genius
 monument
@@ -4259,7 +4286,6 @@ glory
 tightly
 protective
 tuck
-drum
 faint
 post
 queen
@@ -4274,7 +4300,6 @@ merchant
 stadium
 improved
 bloody
-defeat
 associated
 withdrawal
 refrigerator
@@ -4409,7 +4434,6 @@ pork
 creativity
 safely
 underlying
-dessert
 sympathy
 fisherman
 incredibly
@@ -4473,13 +4497,11 @@ casino
 tumor
 decorate
 sort
-charge
 pulse
 equivalent
 fixed
 experienced
 donation
-diary
 sibling
 irony
 spoon
@@ -4503,7 +4525,6 @@ purse
 shed
 liquid
 icon
-elephant
 consequently
 legislature
 associate
@@ -4518,7 +4539,6 @@ heal
 fever
 filter
 rabbit
-coin
 exploit
 accessible
 organism
@@ -4673,7 +4693,6 @@ aggression
 stimulus
 journalism
 robot
-flood
 dip
 likewise
 informal
@@ -4729,7 +4748,6 @@ parish
 slavery
 blank
 commodity
-cure
 mineral
 hunger
 dying
@@ -4737,7 +4755,6 @@ developmental
 faster
 spare
 halfway
-cure
 equality
 cemetery
 harassment
@@ -4763,7 +4780,6 @@ plunge
 this
 sponsor
 grin
-color
 demographic
 rain
 chill
@@ -4906,7 +4922,6 @@ suitable
 mention
 graduation
 drill
-cruel
 mansion
 regard
 grape
@@ -4965,7 +4980,6 @@ marble
 substantially
 twist
 defender
-fish
 explicit
 transport
 disturbing
@@ -5040,10 +5054,8 @@ till
 accurately
 plea
 bulb
-copy
 flying
 sustainable
-devil
 bolt
 cargo
 spine
@@ -5186,7 +5198,6 @@ ranking
 compensate
 making
 fossil
-center
 stunning
 hover
 voice
@@ -5198,7 +5209,6 @@ ray
 cowboy
 sketch
 clarify
-chat
 countless
 good
 copper
@@ -5286,7 +5296,6 @@ affection
 mature
 stamp
 silently
-fool
 colored
 warming
 philosopher
@@ -5397,7 +5406,6 @@ mercy
 rookie
 pin
 scream
-classmate
 hurt
 cult
 acute
@@ -5475,7 +5483,6 @@ hut
 sixteen
 couple
 holding
-excite
 dinosaur
 choir
 comfort
@@ -5520,7 +5527,6 @@ shaft
 convenient
 accommodation
 theft
-frog
 guess
 vanilla
 grind
@@ -5898,7 +5904,6 @@ sunset
 facial
 predictable
 presume
-empty
 x-ray
 nearest
 echo
@@ -5911,7 +5916,6 @@ gardener
 antique
 Polish
 sweeping
-dairy
 skate
 manipulation
 wit
@@ -5930,7 +5934,6 @@ deed
 cruise
 culturally
 sigh
-film
 miserable
 closure
 half
@@ -6156,7 +6159,6 @@ credible
 simmer
 tuna
 revision
-dear
 horizontal
 mattress
 daylight
@@ -6239,20 +6241,17 @@ jewel
 snatch
 waiting
 feminist
-coat
 perch
 outrageous
 viewpoint
 overly
 all-star
 albeit
-feed
 adequately
 shrine
 individually
 misery
 mold
-dial
 avenue
 addict
 marginal
@@ -6331,7 +6330,6 @@ endeavor
 credential
 broadly
 filmmaker
-fix
 smoothly
 swirl
 distraction
@@ -6469,7 +6467,6 @@ exclaim
 clip
 tee
 crossing
-dentist
 den
 adverse
 reported
@@ -6536,7 +6533,6 @@ dietary
 blur
 middle-aged
 fertilizer
-fairy
 vintage
 freezing
 altitude
@@ -6594,7 +6590,6 @@ committed
 fit
 collaborative
 bulletin
-darling
 ecology
 deployment
 phone
@@ -6635,7 +6630,6 @@ low-income
 deviation
 spirituality
 icy
-down
 applied
 diesel
 whistle
@@ -6845,7 +6839,6 @@ promptly
 reopen
 expanded
 stall
-eye
 cheer
 detention
 dedicated
@@ -6928,8 +6921,6 @@ siren
 weary
 vacant
 complement
-deaf
-duck
 incoming
 welcome
 fastest
@@ -7125,7 +7116,6 @@ reliance
 immunity
 fax
 tornado
-chess
 filing
 Halloween
 buffalo
@@ -7194,13 +7184,11 @@ autobiography
 preschool
 confidential
 characteristic
-chat
 superstar
 intensely
 sleek
 windshield
 elaborate
-draw
 dune
 appropriate
 ambiguity
@@ -7333,7 +7321,6 @@ paralyze
 endanger
 embarrass
 billboard
-equal
 substantive
 thermal
 precinct
@@ -7525,7 +7512,6 @@ openness
 pancake
 formulation
 diagram
-comb
 luggage
 elimination
 hurl
@@ -7696,7 +7682,6 @@ rhetorical
 mumble
 liner
 librarian
-down
 liberate
 year-round
 desperation
@@ -8035,7 +8020,6 @@ comprehension
 compute
 wrinkle
 aspire
-field
 amongst
 painfully
 scrutinize
@@ -8068,7 +8052,6 @@ splash
 nickel
 breach
 shoot
-climb
 ideally
 dispute
 HMO
@@ -8100,7 +8083,6 @@ recollection
 fallen
 lobbying
 seventy
-chair
 bartender
 akin
 forearm
@@ -8206,7 +8188,6 @@ gland
 institute
 pigeon
 spinal
-dial
 heighten
 eve
 sociology
@@ -8312,7 +8293,6 @@ waterfall
 initiation
 sniper
 automated
-dear
 uneven
 without
 infected
@@ -8368,7 +8348,6 @@ swimmer
 sting
 idle
 softball
-dolphin
 exhaustion
 anatomy
 liberalism
@@ -8395,7 +8374,6 @@ cosmos
 grove
 inch
 disconnect
-front
 courageous
 authenticity
 fragrance
@@ -8736,7 +8714,6 @@ dresser
 humane
 customary
 minor
-contest
 skim
 rubber
 alas
@@ -9348,7 +9325,6 @@ sighting
 spiral
 enclave
 bourgeois
-chalk
 demanding
 psychologically
 bully
@@ -9400,7 +9376,6 @@ lurch
 insulin
 midday
 one-year
-comb
 barber
 unsafe
 last-minute
@@ -10343,7 +10318,6 @@ continual
 pitching
 imperfect
 rectangle
-close
 whim
 stern
 ridicule
@@ -10455,7 +10429,6 @@ stairway
 intrude
 profile
 giggle
-cloud
 orthodoxy
 cerebral
 dope
@@ -10469,7 +10442,6 @@ crown
 cornerback
 osteoporosis
 cost-effective
-coin
 dearly
 exemplary
 mapping
@@ -10704,7 +10676,6 @@ zucchini
 ecstatic
 grieving
 waive
-find
 stitch
 chatter
 disintegrate
@@ -10872,7 +10843,6 @@ eclipse
 generously
 hydraulic
 coroner
-finger
 measured
 boldly
 lotion
@@ -11036,7 +11006,6 @@ feeding
 tutoring
 dwindle
 stash
-extra
 shortstop
 rejoice
 unequal
@@ -11392,7 +11361,6 @@ spearhead
 padded
 hamstring
 Argentine
-fair
 scrape
 multiculturalism
 shortcut
@@ -11501,7 +11469,6 @@ garnish
 divergent
 swivel
 forage
-certain
 partisan
 binary
 dated
@@ -11755,7 +11722,6 @@ phase
 gruesome
 trickle
 redirect
-drum
 measurable
 quarterly
 aw
@@ -12181,7 +12147,6 @@ turning
 wretched
 guidebook
 mischief
-cool
 wanted
 exhale
 fray
@@ -12380,7 +12345,6 @@ incompetence
 swerve
 muffled
 processed
-flower
 desolate
 torment
 Koran
@@ -12720,7 +12684,6 @@ panties
 oblivion
 evict
 substitute
-crayon
 baton
 inhibition
 tasting
@@ -12809,7 +12772,6 @@ speaking
 virtuous
 taco
 pop
-fill
 blitz
 underdog
 sunflower
@@ -13232,7 +13194,6 @@ unwittingly
 fondly
 riddle
 cypress
-dog
 lowland
 grizzly
 epoch
@@ -13311,7 +13272,6 @@ elegantly
 upside
 apocalyptic
 weathered
-dish
 trucker
 cornmeal
 fodder
@@ -13514,7 +13474,6 @@ wide-ranging
 hiking
 kissing
 topography
-corner
 transcendent
 variously
 marquee
@@ -13544,7 +13503,6 @@ fifteenth
 push-up
 disoriented
 lighted
-flag
 scooter
 undisturbed
 compost
@@ -14015,7 +13973,6 @@ hilltop
 Albanian
 unbroken
 confluence
-cool
 tiptoe
 stockpile
 saxophone
@@ -14319,9 +14276,7 @@ snuggle
 deviate
 snowfall
 maize
-father
 idyllic
-crunchy
 townhouse
 hereditary
 namesake
@@ -14674,7 +14629,6 @@ unmanned
 linguist
 domino
 rainwater
-course
 sparrow
 commune
 beaded
@@ -14752,7 +14706,6 @@ snapper
 floorboard
 windowsill
 barring
-fair
 prune
 loin
 frayed
@@ -14805,7 +14758,6 @@ allotment
 anemia
 vault
 mountainside
-extra
 cheers
 gratefully
 springtime
@@ -15021,7 +14973,6 @@ flooring
 painstaking
 fatherhood
 flattering
-equal
 quadruple
 forty-eight
 dew
@@ -15301,7 +15252,6 @@ cheery
 drove
 overlay
 awful
-every
 distinguishing
 discord
 schoolhouse
@@ -15398,7 +15348,6 @@ swagger
 outage
 rightfully
 reprimand
-clock
 walleye
 etching
 mainframe
@@ -16291,7 +16240,6 @@ brunette
 croon
 buoy
 Nicaraguan
-fast
 progressive
 acoustic
 cursory
@@ -16436,7 +16384,6 @@ trapper
 sabbatical
 airfare
 law-abiding
-darling
 circumference
 paltry
 binary
@@ -16951,7 +16898,6 @@ rabid
 wing
 indecent
 deconstruction
-dandelion
 shuttered
 settled
 buttress
@@ -17269,7 +17215,6 @@ moviegoer
 transcendental
 equestrian
 still
-eraser
 evasive
 skinhead
 redress
@@ -17294,7 +17239,6 @@ Aztec
 leasing
 motorcade
 peep
-foot
 notch
 exorbitant
 abstract
@@ -17625,7 +17569,6 @@ mastectomy
 illustrative
 pesky
 fast-moving
-dirty
 sagging
 harmonica
 madam
@@ -20045,7 +19988,6 @@ intensified
 sunspot
 stiletto
 resound
-floor
 corporal
 keypad
 thud
