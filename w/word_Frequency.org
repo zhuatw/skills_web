@@ -79,7 +79,7 @@ Y, 就是用有道的，相对简单好学的
 | what       | det               |     |
 | there      | pron              |     |
 | all        | det               | AS2 |
-| get        | v                 |     |
+| get        | v                 | A   |
 | her        | det               |     |
 | make       | v                 |     |
 | who        | pron              |     |
@@ -474,7 +474,7 @@ Y, 就是用有道的，相对简单好学的
 | programme     | n    |     |
 | minute        | n    |     |
 | moment        | n    |     |
-| girl          | n    |     |
+| girl          | n    | A   |
 | age           | n    | AS  |
 | centre        | n    |     |
 | stop          | v    |     |
@@ -577,7 +577,7 @@ Y, 就是用有道的，相对简单好学的
 | foot         | n            | A   |
 | clear        | a            |     |
 | boy          | n            | Y   |
-| game         | n            |     |
+| game         | n            | A   |
 | food         | n            | A   |
 | role         | n            |     |
 | practice     | n            |     |
@@ -1970,7 +1970,7 @@ Y, 就是用有道的，相对简单好学的
 | gather         | v            |    |
 | ancient        | a            |    |
 | brief          | a            | A  |
-| gate           | n            |    |
+| gate           | n            | A  |
 | elderly        | a            |    |
 | persuade       | v            |    |
 | overall        | a            |    |
@@ -2205,7 +2205,7 @@ Y, 就是用有道的，相对简单好学的
 | crown         | n    |    |
 | permit        | v    |    |
 | buyer         | n    |    |
-| gift          | n    |    |
+| gift          | n    | A  |
 | resolution    | n    |    |
 | angry         | a    |    |
 | metre         | n    |    |
@@ -2737,7 +2737,7 @@ Y, 就是用有道的，相对简单好学的
 | witness       | n            |    |
 | concerning    | prep         |    |
 | mill          | n            |    |
-| gentle        | a            |    |
+| gentle        | a            | A  |
 | curtain       | n            | A  |
 | mission       | n            |    |
 | supplier      | n            |    |
@@ -14700,7 +14700,6 @@ retro
 entrepreneurship
 developmentally
 eastward
-game
 squash
 snapper
 floorboard
