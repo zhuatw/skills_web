@@ -29,6 +29,7 @@ ASF, 有swf的, 但没 Frequency
 Y, 就是用有道的，相对简单好学的
 poppy 小狗
 * A one A
+| absent     |                   | AN  |
 | am         |                   | ANN |
 | alpha      |                   | ASF |
 | alphabet   |                   | ASF |
@@ -65,13 +66,13 @@ poppy 小狗
 | they       | pron              |     |
 | his        | det               |     |
 | that       | det               |     |
-| she        | pron              |     |
+| she        | pron              | A   |
 | or         | conj              | A   |
 | which      | det               |     |
 | as         | conj              |     |
 | we         | pron              |     |
 | an         | det               | Y   |
-| say        | v                 |     |
+| say        | v                 | A   |
 | will       | modal             |     |
 | would      | modal             |     |
 | can        | modal             | A   |
@@ -91,11 +92,11 @@ poppy 小狗
 | see        | v                 |     |
 | know       | v                 | A   |
 | time       | n                 |     |
-| take       | v                 |     |
+| take       | v                 | A   |
 | them       | pron              |     |
-| some       | det               |     |
+| some       | det               | A   |
 | could      | modal             |     |
-| so         | adv               |     |
+| so         | adv               | A2  |
 | him        | pron              |     |
 | year       | n                 |     |
 | into       | prep              | A   |
@@ -151,7 +152,7 @@ poppy 小狗
 | after      | prep              | AS2 |
 | down       | adv               | A2  |
 | yeah       | interjection      |     |
-| so         | conj              |     |
+| so         | conj              | A2  |
 | thing      | n                 |     |
 | tell       | v                 |     |
 | through    | prep              | A2  |
@@ -181,7 +182,7 @@ poppy 小狗
 | woman      | n                 |     |
 | over       | adv               | A2  |
 | seem       | v                 |     |
-| same       | det               |     |
+| same       | det               | A   |
 | us         | pron              |     |
 | work       | n                 |     |
 | need       | v                 | A3  |
@@ -221,10 +222,10 @@ poppy 小狗
 | again       | adv   | AS  |
 | world       | n     |     |
 | area        | n     |     |
-| show        | v     |     |
+| show        | v     | A2  |
 | course      | n     | A   |
 | company     | n     | A   |
-| shall       | modal |     |
+| shall       | modal | A   |
 | under       | prep  |     |
 | problem     | n     |     |
 | against     | prep  |     |
@@ -252,7 +253,7 @@ poppy 小狗
 | house       | n     | A2  |
 | different   | a     |     |
 | country     | n     |     |
-| really      | adv   |     |
+| really      | adv   | A   |
 | provide     | v     |     |
 | week        | n     |     |
 | hold        | v     | A2  |
@@ -284,18 +285,18 @@ poppy 小狗
 | write       | v     |     |
 | state       | n     |     |
 | percent     | n     |     |
-| quite       | adv   |     |
+| quite       | adv   | A   |
 | both        | det   | A2  |
-| start       | v     |     |
+| start       | v     | A2  |
 | run         | v     |     |
 | long        | a     | A2  |
 | right       | adv   | A4  |
-| set         | v     |     |
+| set         | v     | A2  |
 | help        | v     | A2  |
 | every       | det   | A   |
 | home        | n     | A2  |
 | month       | n     | A   |
-| side        | n     |     |
+| side        | n     | A   |
 | night       | n     | A   |
 | important   | a     | A   |
 | eye         | n     | A   |
@@ -317,7 +318,7 @@ poppy 小狗
 | national    | a     |     |
 | pay         | v     |     |
 | hear        | v     | A   |
-| room        | n     |     |
+| room        | n     | A   |
 | whether     | conj  |     |
 | water       | n     |     |
 | form        | n     |     |
@@ -345,7 +346,7 @@ poppy 小狗
 | lead        | v     | A2  |
 | stand       | v     |     |
 | idea        | n     | A   |
-| study       | n     |     |
+| study       | n     | A2  |
 | lot         | n     | A   |
 | live        | v     | A   |
 | job         | n     | A   |
@@ -395,7 +396,7 @@ poppy 小狗
 | candy         |      | AN  |
 | char          |      | AN  |
 | chrome        |      | AN  |
-| sit           | v    |     |
+| sit           | v    | A   |
 | market        | n    | A2  |
 | appear        | v    |     |
 | continue      | v    |     |
@@ -414,13 +415,13 @@ poppy 小狗
 | reason        | n    |     |
 | less          | adv  |     |
 | minister      | n    |     |
-| subject       | n    |     |
+| subject       | n    | A2  |
 | person        | n    | A   |
 | term          | n    |     |
 | particular    | a    |     |
 | full          | a    | A   |
 | involve       | v    |     |
-| sort          | n    |     |
+| sort          | n    | A2  |
 | require       | v    |     |
 | suggest       | v    |     |
 | far           | a    | A2  |
@@ -466,7 +467,7 @@ poppy 小狗
 | actually      | adv  |     |
 | education     | n    |     |
 | fall          | v    | A2  |
-| speak         | v    |     |
+| speak         | v    | A   |
 | few           | n    | A2  |
 | today         | adv  |     |
 | enough        | adv  | A2  |
@@ -495,9 +496,9 @@ poppy 小狗
 | receive       | v    |     |
 | back          | n    | AS4 |
 | several       | det  |     |
-| return        | v    |     |
+| return        | v    | A2  |
 | build         | v    | A   |
-| spend         | v    |     |
+| spend         | v    | A   |
 | force         | n    |     |
 | condition     | n    |     |
 | itself        | pron |     |
@@ -519,12 +520,12 @@ poppy 小狗
 | patient       | n    |     |
 | around        | adv  | AS2 |
 | activity      | n    |     |
-| road          | n    |     |
-| table         | n    |     |
+| road          | n    | A   |
+| table         | n    | A   |
 | including     | prep |     |
 | church        | n    | A   |
 | reach         | v    |     |
-| real          | a    |     |
+| real          | a    | A   |
 | lie           | v    | A2  |
 | mind          | n    |     |
 | likely        | a    |     |
@@ -532,12 +533,12 @@ poppy 小狗
 | team          | n    |     |
 | experience    | n    |     |
 | death         | n    |     |
-| soon          | adv  |     |
+| soon          | adv  | A   |
 | act           | n    | AS  |
 | sense         | n    |     |
 | staff         | n    |     |
 | certain       | a    | A   |
-| student       | n    |     |
+| student       | n    | A   |
 | half          | det  | A2  |
 | around        | prep | AS2 |
 | language      | n    |     |
@@ -591,7 +592,7 @@ poppy 小狗
 | building     | n            |     |
 | range        | n            |     |
 | behind       | prep         | A2  |
-| sure         | a            |     |
+| sure         | a            | A2  |
 | report       | v            |     |
 | pass         | v            | A2  |
 | black        | a            | A2  |
@@ -616,11 +617,11 @@ poppy 小狗
 | whose        | det          |     |
 | ago          | adv          | AS  |
 | teacher      | n            |     |
-| record       | n            |     |
+| record       | n            | A2  |
 | manager      | n            |     |
 | relation     | n            |     |
 | common       | a            |     |
-| strong       | a            |     |
+| strong       | a            | A   |
 | whole        | a            |     |
 | field        | n            | A   |
 | free         | a            | A   |
@@ -653,13 +654,13 @@ poppy 小狗
 | someone      | pron         |     |
 | everything   | pron         |     |
 | certainly    | adv          |     |
-| rule         | n            |     |
+| rule         | n            | A2  |
 | home         | adv          | A2  |
 | cut          | v            | A2  |
 | grow         | v            | A   |
 | similar      | a            |     |
-| story        | n            |     |
-| quality      | n            |     |
+| story        | n            | A   |
+| quality      | n            | A   |
 | tax          | n            |     |
 | worker       | n            |     |
 | nature       | n            |     |
@@ -680,7 +681,7 @@ poppy 小狗
 | contain      | v            |     |
 | especially   | adv          |     |
 | open         | a            | A3  |
-| short        | a            |     |
+| short        | a            | A2  |
 | personal     | a            |     |
 | detail       | n            |     |
 | model        | n            | A   |
@@ -722,7 +723,7 @@ poppy 小狗
 | along        | prep         |     |
 | top          | n            |     |
 | amount       | n            |     |
-| son          | n            |     |
+| son          | n            | A   |
 | operation    | n            |     |
 | fail         | v            |     |
 * E five A
@@ -732,10 +733,10 @@ poppy 小狗
 | excite       |      | AN |
 | human        | a    |    |
 | opportunity  | n    |    |
-| simple       | a    |    |
+| simple       | a    | A  |
 | leader       | n    |    |
 | look         | n    | A2 |
-| share        | n    |    |
+| share        | n    | A2 |
 | production   | n    |    |
 | recent       | a    | A  |
 | firm         | n    |    |
@@ -766,7 +767,7 @@ poppy 小狗
 | love         | v    | A2 |
 | colour       | n    |    |
 | clearly      | adv  |    |
-| shop         | n    |    |
+| shop         | n    | A2 |
 | benefit      | n    | A2 |
 | animal       | n    | AS |
 | heart        | n    | A  |
@@ -809,11 +810,11 @@ poppy 小狗
 | enjoy        | v    | A  |
 | individual   | n    |    |
 | suppose      | v    |    |
-| rest         | n    |    |
+| rest         | n    | A2 |
 | instead      | adv  |    |
 | wear         | v    |    |
 | basis        | n    |    |
-| size         | n    |    |
+| size         | n    | A  |
 | environment  | n    |    |
 | per          | prep |    |
 | fire         | n    |    |
@@ -822,7 +823,7 @@ poppy 小狗
 | natural      | a    |    |
 | wrong        | a    |    |
 | near         | prep | A3 |
-| round        | adv  |    |
+| round        | adv  | A5 |
 | thought      | n    |    |
 | list         | n    |    |
 | argue        | v    | AS |
@@ -831,7 +832,7 @@ poppy 小狗
 | introduce    | v    |    |
 | analysis     | n    |    |
 | enter        | v    |    |
-| space        | n    |    |
+| space        | n    | A  |
 | arrive       | v    | AS |
 | ensure       | v    |    |
 | demand       | n    |    |
@@ -841,13 +842,13 @@ poppy 小狗
 | love         | n    | A2 |
 | principle    | n    |    |
 | pull         | v    | A  |
-| set          | n    |    |
+| set          | n    | A2 |
 | doctor       | n    | A  |
 | choice       | n    | A  |
 | refer        | v    |    |
 | feature      | n    |    |
 | couple       | n    |    |
-| step         | n    |    |
+| step         | n    | A2 |
 | following    | a    |    |
 | thank        | v    |    |
 | machine      | n    |    |
@@ -882,13 +883,13 @@ poppy 小狗
 | growth       | n    |    |
 | whom         | pron |    |
 | treatment    | n    |    |
-| sound        | n    |    |
+| sound        | n    | A2 |
 | above        | prep |    |
 | task         | n    |    |
 | provision    | n    |    |
 | affect       | v    |    |
 | please       | adv  | A2 |
-* F six
+* F six A
 | frog           |       | A   |
 | flood          |       | AN  |
 | red            | a     |     |
@@ -903,10 +904,10 @@ poppy 小狗
 | garden         | n     |     |
 | floor          | n     | AN  |
 | technology     | n     |     |
-| style          | n     |     |
+| style          | n     | A   |
 | feeling        | n     |     |
 | science        | n     |     |
-| relate         | v     |     |
+| relate         | v     | A   |
 | doubt          | n     |     |
 | horse          | n     | A   |
 | force          | v     |     |
@@ -929,7 +930,7 @@ poppy 小狗
 | army           | n     | AS  |
 | indicate       | v     |     |
 | forget         | v     | A   |
-| station        | n     |     |
+| station        | n     | A   |
 | glass          | n     | A   |
 | cup            | n     | A   |
 | previous       | a     |     |
@@ -942,10 +943,10 @@ poppy 小狗
 | capital        | n     | A   |
 | either         | det   |     |
 | note           | n     | A2  |
-| season         | n     |     |
+| season         | n     | A   |
 | argument       | n     |     |
 | listen         | v     | A   |
-| show           | n     |     |
+| show           | n     | A2  |
 | responsibility | n     |     |
 | significant    | a     |     |
 | deal           | n     |     |
@@ -960,7 +961,7 @@ poppy 小狗
 | attempt        | n     |     |
 | leg            | n     | A   |
 | investment     | n     |     |
-| save           | v     |     |
+| save           | v     | A2  |
 | throughout     | prep  |     |
 | design         | v     | A2  |
 | suddenly       | adv   |     |
@@ -976,17 +977,17 @@ poppy 小狗
 | help           | n     | A2  |
 | industrial     | a     |     |
 | express        | v     |     |
-| summer         | n     |     |
+| summer         | n     | A   |
 | determine      | v     |     |
 | generally      | adv   |     |
 | daughter       | n     | A   |
 | exist          | v     | A   |
 | used           | modal |     |
-| share          | v     |     |
+| share          | v     | A2  |
 | baby           | n     | Y   |
 | nearly         | adv   |     |
-| smile          | v     |     |
-| sorry          | a     |     |
+| smile          | v     | A2  |
+| sorry          | a     | A   |
 | sea            | n     |     |
 | skill          | n     |     |
 | claim          | n     | A2  |
@@ -1031,7 +1032,7 @@ poppy 小狗
 | basic          | a     |     |
 | hard           | adv   | A2  |
 | instance       | n     |     |
-| sign           | A2n   |     |
+| sign           |       | A2  |
 | original       | a     |     |
 | successful     | a     |     |
 | okay           | adv   | A   |
@@ -1046,11 +1047,11 @@ poppy 小狗
 | commission     | n     |     |
 | intend         | v     |     |
 | beyond         | prep  | AN  |
-| seat           | n     |     |
+| seat           | n     | A   |
 | president      | n     |     |
 | encourage      | v     |     |
 
-* G seven
+* G seven A
 | greedy        |      | AN  |
 | gray          |      | AN  |
 | grape         |      | AN  |
@@ -1060,7 +1061,7 @@ poppy 小狗
 | glove         |      | ANN |
 | addition      | n    |     |
 | goal          | n    |     |
-| round         | prep |     |
+| round         | prep | A5  |
 | miss          | v    | A   |
 | popular       | a    | A   |
 | affair        | n    |     |
@@ -1087,7 +1088,7 @@ poppy 小狗
 | surface       | n    |     |
 | library       | n    | A   |
 | pupil         | n    |     |
-| record        | v    |     |
+| record        | v    | A2  |
 | refuse        | v    |     |
 | prevent       | v    |     |
 | advantage     | n    |     |
@@ -1104,7 +1105,7 @@ poppy 小狗
 | depend        | v    | A   |
 | bill          | n    |     |
 | competition   | n    |     |
-| ready         | a    |     |
+| ready         | a    | AS2 |
 | general       | n    |     |
 | access        | n    |     |
 | hit           | v    | A2  |
@@ -1112,7 +1113,7 @@ poppy 小狗
 | useful        | a    |     |
 | extent        | n    |     |
 | employment    | n    |     |
-| regard        | v    |     |
+| regard        | v    | A2  |
 | apart         | adv  | AS  |
 | present       | n    | A3  |
 | appeal        | n    |     |
@@ -1167,7 +1168,7 @@ poppy 小狗
 | physical      | a    |     |
 | except        | conj | A   |
 | check         | v    |     |
-| sun           | n    |     |
+| sun           | n    | A   |
 | species       | n    |     |
 | possibility   | n    |     |
 | official      | n    |     |
@@ -1177,22 +1178,22 @@ poppy 小狗
 | career        | n    | A   |
 | laugh         | v    | A2  |
 | weight        | n    |     |
-| sound         | v    |     |
+| sound         | v    | A2  |
 | responsible   | a    |     |
 | base          | n    | A2  |
 | document      | n    |     |
 | solution      | n    |     |
-| return        | n    |     |
+| return        | n    | A2  |
 | medical       | a    |     |
 | hot           | a    | A   |
 | recognise     | v    |     |
 | talk          | n    |     |
 | budget        | n    |     |
-| river         | n    |     |
+| river         | n    | A   |
 | fit           | v    |     |
 | organization  | n    |     |
 | existing      | a    |     |
-| start         | n    |     |
+| start         | n    | A2  |
 | push          | v    | A2  |
 | tomorrow      | adv  |     |
 | requirement   | n    |     |
@@ -1203,7 +1204,7 @@ poppy 小狗
 | drug          | n    |     |
 | quarter       | n    |     |
 | option        | n    |     |
-| sign          | v    |     |
+| sign          | v    | A2  |
 | worth         | prep |     |
 | call          | n    | A2  |
 | define        | v    |     |
@@ -1224,12 +1225,12 @@ poppy 小狗
 | heard         |      | AN  |
 | haste         | n    | AN  |
 | hasten        | v    | AN  |
-| study         | v    |     |
+| study         | v    | A2  |
 | concept       | n    |     |
 | blue          | a    | AS2 |
-| star          | n    | A   |
+| star          | n    | A2  |
 | startup       | n    | A   |
-| radio         | n    |     |
+| radio         | n    | A   |
 | no-one        | pron |     |
 | arrangement   | n    |     |
 | examine       | v    |     |
@@ -1267,7 +1268,7 @@ poppy 小狗
 | scale         | n    |     |
 | hardly        | adv  |     |
 | attend        | v    |     |
-| shoulder      | n    |     |
+| shoulder      | n    | A   |
 | otherwise     | adv  |     |
 | railway       | n    |     |
 | directly      | adv  |     |
@@ -1278,7 +1279,7 @@ poppy 小狗
 | corner        | n    | A   |
 | past          | a    |     |
 | match         | n    |     |
-| sport         | n    |     |
+| sport         | n    | A   |
 | status        | n    |     |
 | beautiful     | a    | AS  |
 | offer         | n    |     |
@@ -1298,11 +1299,11 @@ poppy 小狗
 | completely    | adv  |     |
 | copy          | n    | A2  |
 | balance       | n    | AS2 |
-| sister        | n    |     |
-| reader        | n    |     |
+| sister        | n    | A   |
+| reader        | n    | A   |
 | below         | adv  | A2  |
 | trial         | n    |     |
-| rock          | n    |     |
+| rock          | n    | A   |
 | damage        | n    |     |
 | adopt         | v    |     |
 | newspaper     | n    |     |
@@ -1312,7 +1313,7 @@ poppy 小狗
 | obvious       | a    |     |
 | nation        | n    | A   |
 | confirm       | v    |     |
-| south         | n    |     |
+| south         | n    | A   |
 | length        | n    |     |
 | branch        | n    |     |
 | deep          | a    | A2  |
@@ -1326,7 +1327,7 @@ poppy 小狗
 | spirit        | n    |     |
 | college       | n    | A   |
 | accident      | n    |     |
-| star          | v    |     |
+| star          | v    | A2  |
 | hope          | n    | A2  |
 | mark          | v    |     |
 | works         | n    |     |
@@ -1363,14 +1364,14 @@ poppy 小狗
 | media         | n    |     |
 | relevant      | a    |     |
 | employ        | v    |     |
-| shoot         | v    |     |
+| shoot         | v    | A   |
 | executive     | n    |     |
 | slowly        | adv  |     |
 | relatively    | adv  |     |
 | aid           | n    |     |
 | huge          | a    |     |
 | late          | adv  | A2  |
-| speed         | n    |     |
+| speed         | n    | A2  |
 | review        | n    |     |
 | test          | v    |     |
 | order         | v    |     |
@@ -1391,10 +1392,10 @@ poppy 小狗
 | latter         | det  |     |
 | practical      | a    |     |
 | commercial     | a    |     |
-| rich           | a    |     |
+| rich           | a    | A   |
 | emerge         | v    |     |
 | apparently     | adv  |     |
-| ring           | v    |     |
+| ring           | v    | A2  |
 | distance       | n    |     |
 | exercise       | n    |     |
 | key            | a    | A2  |
@@ -1409,7 +1410,7 @@ poppy 小狗
 | link           | v    |     |
 | candidate      | n    |     |
 | track          | n    |     |
-| safe           | a    |     |
+| safe           | a    | A   |
 | interested     | a    |     |
 | assessment     | n    |     |
 | path           | n    |     |
@@ -1425,7 +1426,7 @@ poppy 小狗
 | rise           | n    |     |
 | belief         | n    |     |
 | conclusion     | n    |     |
-| shape          | n    |     |
+| shape          | n    | A2  |
 | vote           | n    |     |
 | aim            | n    |     |
 | politics       | n    |     |
@@ -1448,13 +1449,13 @@ poppy 小狗
 | limit          | v    |     |
 | deny           | v    |     |
 | for            | conj |     |
-| straight       | adv  |     |
+| straight       | adv  | A2  |
 | somebody       | pron |     |
 | writer         | n    |     |
 | weekend        | n    |     |
 | clothes        | n    |     |
 | active         | a    |     |
-| sight          | n    |     |
+| sight          | n    | A   |
 | video          | n    |     |
 | reality        | n    |     |
 | hall           | n    | A   |
@@ -1505,7 +1506,7 @@ poppy 小狗
 | sleep          | v    | A2  |
 | progress       | n    |     |
 | volume         | n    |     |
-| ship           | n    |     |
+| ship           | n    | A2  |
 | legislation    | n    |     |
 | commitment     | n    |     |
 | enough         | det  | A2  |
@@ -1513,7 +1514,7 @@ poppy 小狗
 | bag            | n    | Y   |
 | fresh          | a    | A   |
 | entry          | n    |     |
-| smile          | n    |     |
+| smile          | n    | A2  |
 | fair           | a    | AS2 |
 | promise        | v    | A2  |
 | introduction   | n    |     |
@@ -1536,12 +1537,12 @@ poppy 小狗
 | prefer         | v    |     |
 | author         | n    | AS  |
 | actual         | a    |     |
-| song           | n    |     |
+| song           | n    | A   |
 | investigation  | n    |     |
 | debt           | n    |     |
 | visitor        | n    |     |
 | forest         | n    | A   |
-| repeat         | v    |     |
+| repeat         | v    | A   |
 | wood           | n    |     |
 | contrast       | n    |     |
 * J ten
@@ -1559,7 +1560,7 @@ poppy 小狗
 | drink        | n     |     |
 | relief       | n     |     |
 | internal     | a     |     |
-| strange      | a     |     |
+| strange      | a     | A   |
 | excellent    | a     |     |
 | run          | n     |     |
 | fairly       | adv   |     |
@@ -1580,7 +1581,7 @@ poppy 小狗
 | half         | n     | A2  |
 | increasingly | adv   |     |
 | description  | n     |     |
-| soft         | a     |     |
+| soft         | a     | A   |
 | stuff        | n     |     |
 | award        | v     |     |
 | existence    | n     |     |
@@ -1589,7 +1590,7 @@ poppy 小狗
 | appearance   | n     |     |
 | standard     | a     |     |
 | attack       | v     |     |
-| sheet        | n     |     |
+| sheet        | n     | A   |
 | category     | n     |     |
 | distribution | n     |     |
 | equally      | adv   |     |
@@ -1675,7 +1676,7 @@ poppy 小狗
 | aircraft     | n     |     |
 | decade       | n     |     |
 | cheap        | a     | A   |
-| quiet        | a     |     |
+| quiet        | a     | AS2 |
 | bright       | a     | A   |
 | contribute   | v     |     |
 | row          | n     |     |
@@ -1701,7 +1702,7 @@ poppy 小狗
 | ought        | modal |     |
 | growing      | a     |     |
 | nod          | v     |     |
-| reject       | v     |     |
+| reject       | v     | A   |
 | while        | n     |     |
 | high         | adv   | A2  |
 | dream        | n     | A2  |
@@ -1714,7 +1715,7 @@ poppy 小狗
 | detailed       | a    |     |
 | challenge      | n    |     |
 | notice         | n    |     |
-| rain           | n    |     |
+| rain           | n    | A   |
 | destroy        | v    |     |
 | mountain       | n    | A   |
 | concentration  | n    |     |
@@ -1734,7 +1735,7 @@ poppy 小狗
 | enterprise     | n    |     |
 | criticism      | n    |     |
 | average        | a    |     |
-| quick          | a    |     |
+| quick          | a    | A   |
 | sufficient     | a    |     |
 | appointment    | n    |     |
 | match          | v    |     |
@@ -1755,7 +1756,7 @@ poppy 小狗
 | bedroom        | n    |     |
 | kid            | n    | A   |
 | pleasure       | n    |     |
-| realize        | v    |     |
+| realize        | v    | A   |
 | assembly       | n    |     |
 | expensive      | a    |     |
 | select         | v    |     |
@@ -1823,7 +1824,7 @@ poppy 小狗
 | widely         | adv  |     |
 | undertake      | v    |     |
 | cut            | n    | A2  |
-| sky            | n    |     |
+| sky            | n    | A   |
 | brain          | n    |     |
 | expert         | n    |     |
 | experiment     | n    |     |
@@ -1849,19 +1850,19 @@ poppy 小狗
 | gold           | n    | A   |
 | emphasis       | n    |     |
 | recall         | v    |     |
-| shout          | v    |     |
+| shout          | v    | A   |
 | generate       | v    |     |
 | location       | n    |     |
 | display        | v    |     |
 | heat           | n    |     |
 | gun            | n    |     |
-| shut           | v    |     |
+| shut           | v    | A   |
 | journey        | n    |     |
 | imply          | v    |     |
 | violence       | n    |     |
 | dry            | a    | A2  |
 | historical     | a    |     |
-| step           | v    |     |
+| step           | v    | A2  |
 | curriculum     | n    |     |
 | noise          | n    | A   |
 | lunch          | n    | A   |
@@ -1882,7 +1883,7 @@ poppy 小狗
 | interpretation | n            |     |
 | rely           | v            |     |
 | escape         | v            | A2  |
-| score          | v            |     |
+| score          | v            | A2  |
 | justice        | n            |     |
 | upper          | a            |     |
 | tooth          | n            |     |
@@ -1934,7 +1935,7 @@ poppy 小狗
 | chemical       | n            |     |
 | careful        | a            |     |
 | investigate    | v            |     |
-| roll           | v            |     |
+| roll           | v            | A2  |
 | instrument     | n            |     |
 | guide          | n            | A   |
 | criterion      | n            |     |
@@ -1947,13 +1948,13 @@ poppy 小狗
 | wing           | n            |     |
 | surprise       | n            |     |
 | male           | n            |     |
-| ring           | n            |     |
+| ring           | n            | A2  |
 | pub            | n            |     |
 | fruit          | n            | A   |
 | passage        | n            |     |
 | illustrate     | v            |     |
 | pay            | n            |     |
-| ride           | v            |     |
+| ride           | v            | A2  |
 | foundation     | n            |     |
 | restaurant     | n            |     |
 | vital          | a            |     |
@@ -2049,7 +2050,7 @@ poppy 小狗
 | plenty        | pron |     |
 | establishment | n    |     |
 | fashion       | n    |     |
-| roof          | n    |     |
+| roof          | n    | A   |
 | milk          | n    | A   |
 | entire        | a    |     |
 | tear          | n    |     |
@@ -2085,7 +2086,7 @@ poppy 小狗
 | nose          | n    | A   |
 | origin        | n    |     |
 | lord          | n    |     |
-| rest          | v    |     |
+| rest          | v    | A2  |
 | drive         | n    | A2  |
 | ticket        | n    |     |
 | editor        | n    |     |
@@ -2184,7 +2185,7 @@ poppy 小狗
 | manufacturer  | n    |     |
 | sharp         | a    |     |
 | formation     | n    |     |
-| queen         | n    |     |
+| queen         | n    | A   |
 | waste         | n    |     |
 | virtually     | adv  |     |
 | expand        | v    |     |
@@ -2211,7 +2212,7 @@ poppy 小狗
 | assistance    | n    |     |
 | list          | v    |     |
 | identity      | n    | A   |
-| suit          | v    |     |
+| suit          | v    | A2  |
 | parliamentary | a    |     |
 | unknown       | a    |     |
 | preparation   | n    |     |
@@ -2257,17 +2258,17 @@ poppy 小狗
 | quote         | v    |     |
 | yours         | pron |     |
 | quantity      | n    |     |
-| rule          | v    |     |
+| rule          | v    | A2  |
 | guilty        | a    |     |
 | prior         | a    |     |
-| round         | a    |     |
+| round         | a    | A5  |
 | eastern       | a    |     |
 | coat          | n    | A   |
 | involvement   | n    |     |
 | tension       | n    |     |
 | diet          | n    |     |
 | enormous      | a    |     |
-| score         | n    |     |
+| score         | n    | A2  |
 | rarely        | adv  |     |
 | prize         | n    |     |
 | remaining     | a    |     |
@@ -2347,7 +2348,7 @@ poppy 小狗
 | incorporate   | v    |     |
 | proceed       | v    |     |
 | assist        | v    | AS  |
-| sure          | adv  |     |
+| sure          | adv  | A2  |
 | stress        | v    |     |
 | justify       | v    |     |
 | behalf        | n    |     |
@@ -2355,7 +2356,7 @@ poppy 小狗
 | setting       | n    |     |
 | command       | n    |     |
 | maintenance   | n    |     |
-| stair         | n    |     |
+| stair         | n    | A   |
 | poem          | n    |     |
 * O fifteen
 | orange         |     | ANN |
@@ -2423,7 +2424,7 @@ poppy 小狗
 | dramatic       | a   |     |
 | golden         | a   |     |
 | temporary      | a   |     |
-| suit           | n   |     |
+| suit           | n   | A   |
 | shortly        | adv |     |
 | initially      | adv |     |
 | arrival        | n   |     |
@@ -2457,7 +2458,7 @@ poppy 小狗
 | tired          | a   |     |
 | beer           | n   |     |
 | specify        | v   |     |
-| short          | adv |     |
+| short          | adv | A2  |
 | monitor        | v   |     |
 | electricity    | n   |     |
 | specifically   | adv |     |
@@ -2491,9 +2492,9 @@ poppy 小狗
 | please         | v   | A2  |
 | habit          | n   |     |
 | subsequently   | adv |     |
-| round          | n   |     |
+| round          | n   | A5  |
 | purchase       | n   |     |
-| sort           | v   |     |
+| sort           | v   | A2  |
 | outside        | a   |     |
 | gradually      | adv |     |
 | expansion      | n   |     |
@@ -2549,11 +2550,11 @@ poppy 小狗
 | alright        | a            |     |
 | philosophy     | n            |     |
 | gallery        | n            |     |
-| sad            | a            |     |
+| sad            | a            | A   |
 | intervention   | n            |     |
 | emotional      | a            |     |
 | advertising    | n            |     |
-| regard         | n            |     |
+| regard         | n            | A2  |
 | dance          | v            | A2  |
 | cigarette      | n            |     |
 | predict        | v            |     |
@@ -2561,7 +2562,7 @@ poppy 小狗
 | variable       | n            |     |
 | net            | n            |     |
 | retire         | v            |     |
-| sugar          | n            |     |
+| sugar          | n            | A   |
 | pale           | a            |     |
 | frequency      | n            |     |
 | guy            | n            |     |
@@ -2583,14 +2584,14 @@ poppy 小狗
 | hello          | interjection | A   |
 | remarkable     | a            |     |
 | alliance       | n            |     |
-| smoke          | v            |     |
+| smoke          | v            | A2  |
 | awareness      | n            |     |
 | throat         | n            |     |
 | discovery      | n            |     |
 | festival       | n            |     |
 | dance          | n            | A2  |
 | promise        | n            | A2  |
-| rose           | n            |     |
+| rose           | n            | A   |
 | principal      | a            |     |
 | brilliant      | a            |     |
 | proposed       | a            |     |
@@ -2610,7 +2611,7 @@ poppy 小狗
 | fire           | v            |     |
 | rank           | n            |     |
 | compete        | v            |     |
-| sweet          | a            |     |
+| sweet          | a            | A   |
 | decline        | v            |     |
 | rent           | n            |     |
 | dealer         | n            |     |
@@ -2631,7 +2632,7 @@ poppy 小狗
 | mixture        | n            |     |
 | emotion        | n            |     |
 | comprehensive  | a            |     |
-| shirt          | n            |     |
+| shirt          | n            | A   |
 | allowance      | n            |     |
 | retirement     | n            |     |
 | breach         | n            |     |
@@ -2639,7 +2640,7 @@ poppy 小狗
 | resist         | v            |     |
 | qualify        | v            |     |
 | paragraph      | n            | A   |
-| sick           | a            |     |
+| sick           | a            | A   |
 | near           | a            | A3  |
 | researcher     | n            |     |
 | consent        | n            |     |
@@ -2651,7 +2652,7 @@ poppy 小狗
 | entrance       | n            |     |
 | peak           | n            |     |
 | successfully   | adv          |     |
-| sand           | n            |     |
+| sand           | n            | A   |
 | breathe        | v            |     |
 | cold           | n            | A   |
 | cheek          | n            | A   |
@@ -2690,490 +2691,515 @@ poppy 小狗
 | figure         | v            |     |
 | race           | v            |     |
 * Q seveteen
-| demonstration | n            |    |
-| queue         | n            |    |
-| anger         | n            | AS |
-| briefly       | adv          |    |
-| presumably    | adv          |    |
-| clock         | n            | A  |
-| hero          | n            | A  |
-| expose        | v            |    |
-| custom        | n            | A  |
-| maximum       | a            |    |
-| wish          | n            |    |
-| earning       | n            |    |
-| priest        | n            |    |
-| resign        | v            |    |
-| store         | v            |    |
-| widespread    | a            |    |
-| comprise      | v            |    |
-| chamber       | n            |    |
-| acquisition   | n            |    |
-| involved      | a            |    |
-| confident     | a            |    |
-| circuit       | n            |    |
-| radical       | a            |    |
-| detect        | v            |    |
-| stupid        | a            |    |
-| grand         | a            | A  |
-| consumption   | n            |    |
-| hold          | n            | A2 |
-| zone          | n            |    |
-| mean          | a            |    |
-| altogether    | adv          |    |
-| rush          | v            |    |
-| numerous      | a            |    |
-| sink          | v            |    |
-| everywhere    | adv          |    |
-| classical     | a            |    |
-| respectively  | adv          |    |
-| distinct      | a            |    |
-| mad           | a            | A  |
-| honour        | n            |    |
-| statistics    | n            |    |
-| false         | a            |    |
-| square        | n            |    |
-| differ        | v            |    |
-| disk          | n            |    |
-| truly         | adv          |    |
-| survival      | n            |    |
-| proud         | a            |    |
-| tower         | n            |    |
-| deposit       | n            |    |
-| pace          | n            |    |
-| compensation  | n            |    |
-| adviser       | n            |    |
-| consultant    | n            |    |
-| drag          | v            |    |
-| advanced      | a            |    |
-| landlord      | n            |    |
-| whenever      | adv          |    |
-| delay         | n            | A2 |
-| green         | n            | A2 |
-| car           | v            |    |
-| holder        | n            |    |
-| secret        | a            |    |
-| edition       | n            |    |
-| occupation    | n            |    |
-| agricultural  | a            |    |
-| intelligence  | n            |    |
-| empire        | n            |    |
-| definitely    | adv          |    |
-| negotiate     | v            |    |
-| host          | n            |    |
-| relative      | n            |    |
-| mass          | a            |    |
-| helpful       | a            |    |
-| fellow        | n            |    |
-| sweep         | v            |    |
-| poet          | n            |    |
-| journalist    | n            |    |
-| defeat        | n            | A2 |
-| unlike        | prep         |    |
-| primarily     | adv          |    |
-| tight         | a            |    |
-| indication    | n            |    |
-| dry           | v            | A2 |
-| cricket       | n            |    |
-| whisper       | v            |    |
-| routine       | n            |    |
-| print         | n            | A2 |
-| anxiety       | n            |    |
-| witness       | n            |    |
-| concerning    | prep         |    |
-| mill          | n            |    |
-| gentle        | a            | A  |
-| curtain       | n            | A  |
-| mission       | n            |    |
-| supplier      | n            |    |
-| basically     | adv          |    |
-| assure        | v            |    |
-| poverty       | n            |    |
-| snow          | n            |    |
-| prayer        | n            |    |
-| pipe          | n            | A  |
-| deserve       | v            |    |
-| shift         | n            |    |
-| split         | v            |    |
-| near          | adv          | A3 |
-| consistent    | a            |    |
-| carpet        | n            | A  |
-| ownership     | n            |    |
-| joke          | n            | A  |
-| fewer         | det          |    |
-| workshop      | n            |    |
-| salt          | n            |    |
-| aged          | prep         |    |
-| symbol        | n            |    |
-| slide         | v            |    |
-| cross         | n            | A2 |
-| anxious       | a            |    |
-| tale          | n            |    |
-| preference    | n            |    |
-| inevitably    | adv          |    |
-| mere          | a            |    |
-| behave        | v            |    |
-| gain          | n            |    |
-| nervous       | a            |    |
-| guide         | v            |    |
-| remark        | n            |    |
-| pleased       | a            |    |
-| province      | n            |    |
-| steel         | n            |    |
-| practise      | v            |    |
-| flow          | v            |    |
-| holy          | a            |    |
-| dose          | n            |    |
-| alcohol       | n            |    |
-| guidance      | n            |    |
-| constantly    | adv          |    |
-| climate       | n            |    |
-| enhance       | v            |    |
-| reasonably    | adv          |    |
-| waste         | v            |    |
-| smooth        | a            |    |
-| dominant      | a            |    |
-| conscious     | a            |    |
-| formula       | n            |    |
-| tail          | n            |    |
-| ha            | interjection |    |
-| electric      | a            |    |
-| sheep         | n            |    |
-| medicine      | n            |    |
-| strategic     | a            |    |
-| disabled      | a            |    |
-| smell         | n            |    |
-| operator      | n            |    |
-| mount         | v            |    |
-| advance       | v            |    |
-| remote        | a            |    |
-| measurement   | n            |    |
-| favour        | v            |    |
+| quarrel       |              | AS2 |
+| demonstration | n            |     |
+| queue         | n            |     |
+| anger         | n            | AS  |
+| briefly       | adv          |     |
+| presumably    | adv          |     |
+| clock         | n            | A   |
+| hero          | n            | A   |
+| expose        | v            |     |
+| custom        | n            | A   |
+| maximum       | a            |     |
+| wish          | n            |     |
+| earning       | n            |     |
+| priest        | n            |     |
+| resign        | v            |     |
+| store         | v            |     |
+| widespread    | a            |     |
+| comprise      | v            |     |
+| chamber       | n            |     |
+| acquisition   | n            |     |
+| involved      | a            |     |
+| confident     | a            |     |
+| circuit       | n            |     |
+| radical       | a            |     |
+| detect        | v            |     |
+| stupid        | a            | A   |
+| grand         | a            | A   |
+| consumption   | n            |     |
+| hold          | n            | A2  |
+| zone          | n            |     |
+| mean          | a            |     |
+| altogether    | adv          |     |
+| rush          | v            | A   |
+| numerous      | a            |     |
+| sink          | v            |     |
+| everywhere    | adv          |     |
+| classical     | a            |     |
+| respectively  | adv          |     |
+| distinct      | a            |     |
+| mad           | a            | A   |
+| honour        | n            |     |
+| statistics    | n            |     |
+| false         | a            |     |
+| square        | n            | A2  |
+| differ        | v            |     |
+| disk          | n            |     |
+| truly         | adv          |     |
+| survival      | n            |     |
+| proud         | a            |     |
+| tower         | n            |     |
+| deposit       | n            |     |
+| pace          | n            |     |
+| compensation  | n            |     |
+| adviser       | n            |     |
+| consultant    | n            |     |
+| drag          | v            |     |
+| advanced      | a            |     |
+| landlord      | n            |     |
+| whenever      | adv          |     |
+| delay         | n            | A2  |
+| green         | n            | A2  |
+| car           | v            |     |
+| holder        | n            |     |
+| secret        | a            |     |
+| edition       | n            |     |
+| occupation    | n            |     |
+| agricultural  | a            |     |
+| intelligence  | n            |     |
+| empire        | n            |     |
+| definitely    | adv          |     |
+| negotiate     | v            |     |
+| host          | n            |     |
+| relative      | n            |     |
+| mass          | a            |     |
+| helpful       | a            |     |
+| fellow        | n            |     |
+| sweep         | v            |     |
+| poet          | n            |     |
+| journalist    | n            |     |
+| defeat        | n            | A2  |
+| unlike        | prep         |     |
+| primarily     | adv          |     |
+| tight         | a            |     |
+| indication    | n            |     |
+| dry           | v            | A2  |
+| cricket       | n            |     |
+| whisper       | v            |     |
+| routine       | n            |     |
+| print         | n            | A2  |
+| anxiety       | n            |     |
+| witness       | n            |     |
+| concerning    | prep         |     |
+| mill          | n            |     |
+| gentle        | a            | A   |
+| curtain       | n            | A   |
+| mission       | n            |     |
+| supplier      | n            |     |
+| basically     | adv          |     |
+| assure        | v            |     |
+| poverty       | n            |     |
+| snow          | n            | A   |
+| prayer        | n            |     |
+| pipe          | n            | A   |
+| deserve       | v            |     |
+| shift         | n            |     |
+| split         | v            |     |
+| near          | adv          | A3  |
+| consistent    | a            |     |
+| carpet        | n            | A   |
+| ownership     | n            |     |
+| joke          | n            | A   |
+| fewer         | det          |     |
+| workshop      | n            |     |
+| salt          | n            | A   |
+| aged          | prep         |     |
+| symbol        | n            |     |
+| slide         | v            | A   |
+| cross         | n            | A2  |
+| anxious       | a            |     |
+| tale          | n            |     |
+| preference    | n            |     |
+| inevitably    | adv          |     |
+| mere          | a            |     |
+| behave        | v            |     |
+| gain          | n            |     |
+| nervous       | a            |     |
+| guide         | v            |     |
+| remark        | n            |     |
+| pleased       | a            |     |
+| province      | n            |     |
+| steel         | n            |     |
+| practise      | v            |     |
+| flow          | v            |     |
+| holy          | a            |     |
+| dose          | n            |     |
+| alcohol       | n            |     |
+| guidance      | n            |     |
+| constantly    | adv          |     |
+| climate       | n            |     |
+| enhance       | v            |     |
+| reasonably    | adv          |     |
+| waste         | v            |     |
+| smooth        | a            |     |
+| dominant      | a            |     |
+| conscious     | a            |     |
+| formula       | n            |     |
+| tail          | n            |     |
+| ha            | interjection |     |
+| electric      | a            |     |
+| sheep         | n            | A   |
+| medicine      | n            |     |
+| strategic     | a            |     |
+| disabled      | a            |     |
+| smell         | n            | A2  |
+| operator      | n            |     |
+| mount         | v            |     |
+| advance       | v            |     |
+| remote        | a            |     |
+| measurement   | n            |     |
+| favour        | v            |     |
 * R eighteen
-| rote           | n            | N  |
-| replenish      | v            | AN |
-| rework         | v            | AN |
-| neither        | det          |    |
-| architecture   | n            |    |
-| worth          | n            |    |
-| tie            | n            |    |
-| barrier        | n            |    |
-| practitioner   | n            |    |
-| outstanding    | a            |    |
-| enthusiasm     | n            |    |
-| theoretical    | a            |    |
-| implementation | n            |    |
-| worried        | a            |    |
-| pitch          | n            |    |
-| drop           | n            | A2 |
-| phone          | v            | A2 |
-| shape          | v            |    |
-| clinical       | a            |    |
-| lane           | n            |    |
-| apple          | n            |    |
-| catalogue      | n            |    |
-| tip            | n            |    |
-| publisher      | n            |    |
-| opponent       | n            |    |
-| live           | a            |    |
-| burden         | n            | A  |
-| tackle         | v            |    |
-| historian      | n            |    |
-| bury           | v            |    |
-| stomach        | n            |    |
-| percentage     | n            |    |
-| evaluation     | n            |    |
-| outline        | v            |    |
-| talent         | n            |    |
-| lend           | v            |    |
-| silver         | n            |    |
-| pack           | n            |    |
-| fun            | n            | A2 |
-| democrat       | n            |    |
-| fortune        | n            |    |
-| storage        | n            |    |
-| professional   | n            |    |
-| reserve        | n            |    |
-| interval       | n            |    |
-| dimension      | n            |    |
-| honest         | a            |    |
-| awful          | a            | AS |
-| manufacture    | v            |    |
-| confusion      | n            |    |
-| pink           | a            |    |
-| impressive     | a            |    |
-| satisfaction   | n            |    |
-| visible        | a            |    |
-| vessel         | n            |    |
-| stand          | n            |    |
-| curve          | n            |    |
-| pot            | n            |    |
-| replacement    | n            |    |
-| accurate       | a            |    |
-| mortgage       | n            |    |
-| salary         | n            |    |
-| impress        | v            |    |
-| constitutional | a            |    |
-| emphasise      | v            |    |
-| developing     | a            |    |
-| proof          | n            | A  |
-| furthermore    | adv          |    |
-| dish           | n            | A  |
-| interview      | v            |    |
-| considerably   | adv          |    |
-| distant        | a            |    |
-| lower          | v            |    |
-| favourite      | n            |    |
-| tear           | v            |    |
-| fixed          | a            |    |
-| by             | adv          | A2 |
-| luck           | n            | A  |
-| count          | n            | A2 |
-| precise        | a            |    |
-| determination  | n            |    |
-| bite           | v            |    |
-| dear           | interjection | A3 |
-| consultation   | n            |    |
-| range          | v            |    |
-| residential    | a            |    |
-| conduct        | n            |    |
-| capture        | v            |    |
-| ultimately     | adv          |    |
-| cheque         | n            |    |
-| economics      | n            |    |
-| sustain        | v            |    |
-| secondly       | adv          |    |
-| silly          | a            |    |
-| merchant       | n            |    |
-| lecture        | n            |    |
-| musical        | a            |    |
-| leisure        | n            |    |
-| check          | n            |    |
-| cheese         | n            |    |
-| lift           | n            |    |
-| participate    | v            |    |
-| fabric         | n            |    |
-| distribute     | v            |    |
-| lover          | n            |    |
-| childhood      | n            |    |
-| cool           | a            | A  |
-| ban            | v            |    |
-| supposed       | a            |    |
-| mouse          | n            | A  |
-| strain         | n            |    |
-| specialist     | a            |    |
-| consult        | v            |    |
-| minimum        | a            |    |
-| approximately  | adv          |    |
-| participant    | n            |    |
-| monetary       | a            |    |
-| confuse        | v            | A  |
-| dare           | v            |    |
-| smoke          | n            |    |
-| movie          | n            | A  |
-| seed           | n            |    |
-| cease          | v            |    |
-| open           | adv          | A3 |
-| journal        | n            |    |
-| shopping       | n            |    |
-| equivalent     | n            |    |
-| palace         | n            |    |
-| exceed         | v            |    |
-| isolated       | a            |    |
-| poetry         | n            |    |
-| perceive       | v            |    |
-| lack           | v            |    |
-| strengthen     | v            |    |
-| snap           | v            |    |
-| readily        | adv          |    |
-| spite          | n            |    |
-| conviction     | n            |    |
-| corridor       | n            |    |
-| behind         | adv          | A2 |
-| ward           | n            |    |
-| profile        | n            |    |
-| fat            | a            | A2 |
-| comfort        | n            |    |
-| bathroom       | n            |    |
-| shell          | n            |    |
-| reward         | n            |    |
-| deliberately   | adv          |    |
-| automatically  | adv          |    |
-| vegetable      | n            |    |
-| imagination    | n            |    |
-| junior         | a            |    |
-| unemployed     | a            |    |
-| mystery        | n            |    |
-| pose           | v            |    |
-| violent        | a            |    |
-| march          | n            | A2 |
-| found          | v            |    |
-| dig            | v            |    |
-| dirty          | a            | A  |
-| straight       | a            |    |
+| ruler          |              | AN  |
+| rotten         |              | AN  |
+| rod            |              | AN  |
+| rocket         |              | AS2 |
+| robot          |              | AN  |
+| ripple         |              | AS2 |
+| ran            |              | ANN |
+| rote           | n            | N   |
+| replenish      | v            | AN  |
+| rework         | v            | AN  |
+| neither        | det          |     |
+| architecture   | n            |     |
+| worth          | n            |     |
+| tie            | n            |     |
+| barrier        | n            |     |
+| practitioner   | n            |     |
+| outstanding    | a            |     |
+| enthusiasm     | n            |     |
+| theoretical    | a            |     |
+| implementation | n            |     |
+| worried        | a            |     |
+| pitch          | n            |     |
+| drop           | n            | A2  |
+| phone          | v            | A2  |
+| shape          | v            | A2  |
+| clinical       | a            |     |
+| lane           | n            |     |
+| apple          | n            |     |
+| catalogue      | n            |     |
+| tip            | n            |     |
+| publisher      | n            |     |
+| opponent       | n            |     |
+| live           | a            |     |
+| burden         | n            | A   |
+| tackle         | v            |     |
+| historian      | n            |     |
+| bury           | v            |     |
+| stomach        | n            |     |
+| percentage     | n            |     |
+| evaluation     | n            |     |
+| outline        | v            |     |
+| talent         | n            |     |
+| lend           | v            |     |
+| silver         | n            | A   |
+| pack           | n            |     |
+| fun            | n            | A2  |
+| democrat       | n            |     |
+| fortune        | n            |     |
+| storage        | n            |     |
+| professional   | n            |     |
+| reserve        | n            |     |
+| interval       | n            |     |
+| dimension      | n            |     |
+| honest         | a            |     |
+| awful          | a            | AS  |
+| manufacture    | v            |     |
+| confusion      | n            |     |
+| pink           | a            |     |
+| impressive     | a            |     |
+| satisfaction   | n            |     |
+| visible        | a            |     |
+| vessel         | n            |     |
+| stand          | n            | A   |
+| curve          | n            |     |
+| pot            | n            |     |
+| replacement    | n            |     |
+| accurate       | a            |     |
+| mortgage       | n            |     |
+| salary         | n            |     |
+| impress        | v            |     |
+| constitutional | a            |     |
+| emphasise      | v            |     |
+| developing     | a            |     |
+| proof          | n            | A   |
+| furthermore    | adv          |     |
+| dish           | n            | A   |
+| interview      | v            |     |
+| considerably   | adv          |     |
+| distant        | a            |     |
+| lower          | v            |     |
+| favourite      | n            |     |
+| tear           | v            |     |
+| fixed          | a            |     |
+| by             | adv          | A2  |
+| luck           | n            | A   |
+| count          | n            | A2  |
+| precise        | a            |     |
+| determination  | n            |     |
+| bite           | v            |     |
+| dear           | interjection | A3  |
+| consultation   | n            |     |
+| range          | v            |     |
+| residential    | a            |     |
+| conduct        | n            |     |
+| capture        | v            |     |
+| ultimately     | adv          |     |
+| cheque         | n            |     |
+| economics      | n            |     |
+| sustain        | v            |     |
+| secondly       | adv          |     |
+| silly          | a            |     |
+| merchant       | n            |     |
+| lecture        | n            |     |
+| musical        | a            |     |
+| leisure        | n            |     |
+| check          | n            |     |
+| cheese         | n            |     |
+| lift           | n            |     |
+| participate    | v            |     |
+| fabric         | n            |     |
+| distribute     | v            |     |
+| lover          | n            |     |
+| childhood      | n            |     |
+| cool           | a            | A   |
+| ban            | v            |     |
+| supposed       | a            |     |
+| mouse          | n            | A   |
+| strain         | n            |     |
+| specialist     | a            |     |
+| consult        | v            |     |
+| minimum        | a            |     |
+| approximately  | adv          |     |
+| participant    | n            |     |
+| monetary       | a            |     |
+| confuse        | v            | A   |
+| dare           | v            |     |
+| smoke          | n            | A2  |
+| movie          | n            | A   |
+| seed           | n            |     |
+| cease          | v            |     |
+| open           | adv          | A3  |
+| journal        | n            |     |
+| shopping       | n            |     |
+| equivalent     | n            |     |
+| palace         | n            |     |
+| exceed         | v            |     |
+| isolated       | a            |     |
+| poetry         | n            |     |
+| perceive       | v            |     |
+| lack           | v            |     |
+| strengthen     | v            |     |
+| snap           | v            |     |
+| readily        | adv          |     |
+| spite          | n            |     |
+| conviction     | n            |     |
+| corridor       | n            |     |
+| behind         | adv          | A2  |
+| ward           | n            |     |
+| profile        | n            |     |
+| fat            | a            | A2  |
+| comfort        | n            |     |
+| bathroom       | n            |     |
+| shell          | n            |     |
+| reward         | n            |     |
+| deliberately   | adv          |     |
+| automatically  | adv          |     |
+| vegetable      | n            |     |
+| imagination    | n            |     |
+| junior         | a            |     |
+| unemployed     | a            |     |
+| mystery        | n            |     |
+| pose           | v            |     |
+| violent        | a            |     |
+| march          | n            | A2  |
+| found          | v            |     |
+| dig            | v            |     |
+| dirty          | a            | A   |
+| straight       | a            | A2  |
 * S nineteen
-| solved        | a            | A  |
-| solver        | a            | A  |
-| superadd      | a            | A  |
-| psychological | a            |    |
-| psychological | a            |    |
-| grab          | v            |    |
-| pleasant      | a            |    |
-| surgery       | n            |    |
-| inevitable    | a            |    |
-| transform     | v            |    |
-| bell          | n            | A  |
-| announcement  | n            |    |
-| draft         | n            |    |
-| unity         | n            |    |
-| airport       | n            | AS |
-| upset         | v            |    |
-| pretend       | v            |    |
-| plant         | v            | A2 |
-| till          | prep         |    |
-| known         | a            |    |
-| admission     | n            |    |
-| tissue        | n            |    |
-| magistrate    | n            |    |
-| joy           | n            | A  |
-| free          | v            |    |
-| pretty        | a            | A2 |
-| operating     | n            |    |
-| headquarters  | n            |    |
-| grateful      | a            |    |
-| classroom     | n            |    |
-| turnover      | n            |    |
-| project       | v            | A2 |
-| shrug         | v            |    |
-| sensible      | a            |    |
-| limitation    | n            |    |
-| specialist    | n            |    |
-| newly         | adv          |    |
-| tongue        | n            |    |
-| refugee       | n            |    |
-| delay         | v            | A2 |
-| dream         | v            | A2 |
-| composition   | n            |    |
-| alongside     | prep         |    |
-| ceiling       | n            | A  |
-| highlight     | v            |    |
-| stick         | n            |    |
-| favourite     | a            |    |
-| tap           | v            |    |
-| universe      | n            |    |
-| request       | v            |    |
-| label         | n            |    |
-| confine       | v            |    |
-| scream        | v            |    |
-| rid           | v            |    |
-| acceptance    | n            |    |
-| detective     | n            |    |
-| sail          | v            |    |
-| adjust        | v            |    |
-| designer      | n            |    |
-| running       | a            |    |
-| summit        | n            |    |
-| participation | n            |    |
-| weakness      | n            |    |
-| block         | v            |    |
-| so-called     | a            |    |
-| adapt         | v            |    |
-| absorb        | v            |    |
-| encounter     | v            |    |
-| defeat        | v            | A2 |
-| excitement    | n            |    |
-| brick         | n            |    |
-| blind         | a            |    |
-| wire          | n            |    |
-| crop          | n            |    |
-| square        | a            |    |
-| transition    | n            |    |
-| thereby       | adv          |    |
-| protest       | v            |    |
-| roll          | n            |    |
-| stop          | n            |    |
-| assistant     | n            |    |
-| deaf          | a            | A  |
-| constituency  | n            |    |
-| continuous    | a            |    |
-| concert       | n            | A  |
-| breast        | n            |    |
-| extraordinary | a            |    |
-| squad         | n            |    |
-| wonder        | n            |    |
-| cream         | n            | A  |
-| tennis        | n            |    |
-| personally    | adv          |    |
-| communicate   | v            |    |
-| pride         | n            |    |
-| bowl          | n            | A  |
-| file          | v            |    |
-| expertise     | n            |    |
-| govern        | v            |    |
-| leather       | n            |    |
-| observer      | n            |    |
-| margin        | n            |    |
-| uncertainty   | n            |    |
-| reinforce     | v            |    |
-| ideal         | n            |    |
-| injure        | v            |    |
-| holding       | n            |    |
-| universal     | a            |    |
-| evident       | a            |    |
-| dust          | n            |    |
-| overseas      | a            |    |
-| desperate     | a            |    |
-| swim          | v            |    |
-| occasional    | a            |    |
-| trouser       | n            |    |
-| surprisingly  | adv          |    |
-| register      | n            | A2 |
-| album         | n            |    |
-| guideline     | n            |    |
-| disturb       | v            |    |
-| amendment     | n            |    |
-| architect     | n            |    |
-| objection     | n            |    |
-| chart         | n            |    |
-| cattle        | n            |    |
-| doubt         | v            |    |
-| react         | v            |    |
-| consciousness | n            |    |
-| right         | interjection | A4 |
-| purely        | adv          |    |
-| tin           | n            |    |
-| tube          | n            |    |
-| fulfil        | v            |    |
-| commonly      | adv          |    |
-| sufficiently  | adv          |    |
-| coin          | n            | A  |
-| frighten      | v            |    |
-| grammar       | n            |    |
-| diary         | n            | A  |
-| flesh         | n            |    |
-| summary       | n            |    |
-| infant        | n            |    |
-| stir          | v            |    |
-| storm         | n            |    |
-| mail          | n            | A  |
-| rugby         | n            |    |
-| virtue        | n            |    |
-| specimen      | n            |    |
-| psychology    | n            |    |
-| paint         | n            | A2 |
-| constraint    | n            |    |
-| trace         | v            |    |
-| privilege     | n            |    |
-| completion    | n            |    |
-| progress      | v            |    |
-| hers          | pron         |    |
-| grade         | n            |    |
-| exploit       | v            |    |
-| import        | n            |    |
-| potato        | n            | A  |
-| repair        | n            | A2 |
-| passion       | n            |    |
-| seize         | v            |    |
+| supper        |              | AS  |
+| sunny         |              | AS  |
+| subway        |              | AS  |
+| stove         |              | AS  |
+| steak         |              | AS  |
+| stamp         |              | AS2 |
+| spoon         |              | AS2 |
+| sour          |              | AS2 |
+| soup          |              | ANN |
+| sock          |              | AS2 |
+| soccer        |              | ANN |
+| soap          |              | AN  |
+| skinny        |              | AN  |
+| Shoes         |              | ANN |
+| seeds         |              | ANN |
+| scared        |              | ANN |
+| salad         |              | ANN |
+| solved        | a            | A   |
+| solver        | a            | A   |
+| superadd      | a            | A   |
+| psychological | a            |     |
+| psychological | a            |     |
+| grab          | v            |     |
+| pleasant      | a            |     |
+| surgery       | n            |     |
+| inevitable    | a            |     |
+| transform     | v            |     |
+| bell          | n            | A   |
+| announcement  | n            |     |
+| draft         | n            |     |
+| unity         | n            |     |
+| airport       | n            | AS  |
+| upset         | v            |     |
+| pretend       | v            |     |
+| plant         | v            | A2  |
+| till          | prep         |     |
+| known         | a            |     |
+| admission     | n            |     |
+| tissue        | n            |     |
+| magistrate    | n            |     |
+| joy           | n            | A   |
+| free          | v            |     |
+| pretty        | a            | A2  |
+| operating     | n            |     |
+| headquarters  | n            |     |
+| grateful      | a            |     |
+| classroom     | n            |     |
+| turnover      | n            |     |
+| project       | v            | A2  |
+| shrug         | v            |     |
+| sensible      | a            |     |
+| limitation    | n            |     |
+| specialist    | n            |     |
+| newly         | adv          |     |
+| tongue        | n            |     |
+| refugee       | n            |     |
+| delay         | v            | A2  |
+| dream         | v            | A2  |
+| composition   | n            |     |
+| alongside     | prep         |     |
+| ceiling       | n            | A   |
+| highlight     | v            |     |
+| stick         | n            |     |
+| favourite     | a            |     |
+| tap           | v            |     |
+| universe      | n            |     |
+| request       | v            |     |
+| label         | n            |     |
+| confine       | v            |     |
+| scream        | v            |     |
+| rid           | v            |     |
+| acceptance    | n            |     |
+| detective     | n            |     |
+| sail          | v            |     |
+| adjust        | v            |     |
+| designer      | n            |     |
+| running       | a            |     |
+| summit        | n            |     |
+| participation | n            |     |
+| weakness      | n            |     |
+| block         | v            |     |
+| so-called     | a            |     |
+| adapt         | v            |     |
+| absorb        | v            |     |
+| encounter     | v            |     |
+| defeat        | v            | A2  |
+| excitement    | n            |     |
+| brick         | n            |     |
+| blind         | a            |     |
+| wire          | n            |     |
+| crop          | n            |     |
+| square        | a            | A2  |
+| transition    | n            |     |
+| thereby       | adv          |     |
+| protest       | v            |     |
+| roll          | n            | A2  |
+| stop          | n            |     |
+| assistant     | n            |     |
+| deaf          | a            | A   |
+| constituency  | n            |     |
+| continuous    | a            |     |
+| concert       | n            | A   |
+| breast        | n            |     |
+| extraordinary | a            |     |
+| squad         | n            |     |
+| wonder        | n            |     |
+| cream         | n            | A   |
+| tennis        | n            |     |
+| personally    | adv          |     |
+| communicate   | v            |     |
+| pride         | n            |     |
+| bowl          | n            | A   |
+| file          | v            |     |
+| expertise     | n            |     |
+| govern        | v            |     |
+| leather       | n            |     |
+| observer      | n            |     |
+| margin        | n            |     |
+| uncertainty   | n            |     |
+| reinforce     | v            |     |
+| ideal         | n            |     |
+| injure        | v            |     |
+| holding       | n            |     |
+| universal     | a            |     |
+| evident       | a            |     |
+| dust          | n            |     |
+| overseas      | a            |     |
+| desperate     | a            |     |
+| swim          | v            | A   |
+| occasional    | a            |     |
+| trouser       | n            |     |
+| surprisingly  | adv          |     |
+| register      | n            | A2  |
+| album         | n            |     |
+| guideline     | n            |     |
+| disturb       | v            |     |
+| amendment     | n            |     |
+| architect     | n            |     |
+| objection     | n            |     |
+| chart         | n            |     |
+| cattle        | n            |     |
+| doubt         | v            |     |
+| react         | v            |     |
+| consciousness | n            |     |
+| right         | interjection | A4  |
+| purely        | adv          |     |
+| tin           | n            |     |
+| tube          | n            |     |
+| fulfil        | v            |     |
+| commonly      | adv          |     |
+| sufficiently  | adv          |     |
+| coin          | n            | A   |
+| frighten      | v            |     |
+| grammar       | n            |     |
+| diary         | n            | A   |
+| flesh         | n            |     |
+| summary       | n            |     |
+| infant        | n            |     |
+| stir          | v            |     |
+| storm         | n            |     |
+| mail          | n            | A   |
+| rugby         | n            |     |
+| virtue        | n            |     |
+| specimen      | n            |     |
+| psychology    | n            |     |
+| paint         | n            | A2  |
+| constraint    | n            |     |
+| trace         | v            |     |
+| privilege     | n            |     |
+| completion    | n            |     |
+| progress      | v            |     |
+| hers          | pron         |     |
+| grade         | n            |     |
+| exploit       | v            |     |
+| import        | n            |     |
+| potato        | n            | A   |
+| repair        | n            | A2  |
+| passion       | n            |     |
+| seize         | v            |     |
 * T twenty
 | tag           | n    | AN  |
 | todo          | v    | AN  |
@@ -3199,7 +3225,7 @@ poppy 小狗
 | clever        | a    |     |
 | van           | n    |     |
 | consequently  | adv  |     |
-| raw           | a    |     |
+| raw           | a    | A   |
 | glance        | n    |     |
 | broken        | a    |     |
 | jury          | n    |     |
@@ -3242,7 +3268,7 @@ poppy 小狗
 | judicial      | a    |     |
 | risk          | v    |     |
 | ideology      | n    |     |
-| smell         | v    |     |
+| smell         | v    | A2  |
 | agenda        | n    |     |
 | transport     | v    |     |
 | illegal       | a    |     |
@@ -3333,7 +3359,7 @@ poppy 小狗
 | conception    | n    |     |
 | steady        | a    |     |
 | rival         | n    |     |
-| steam         | n    |     |
+| steam         | n    | AN2 |
 | back          | a    | AS4 |
 * U twenty-one
 | chancellor     | n    |    |
@@ -3475,7 +3501,7 @@ poppy 小狗
 | taxi           | n    |    |
 | murmur         | v    |    |
 | tonne          | n    |    |
-| spell          | v    |    |
+| spell          | v    | A2 |
 | clerk          | n    |    |
 | curious        | a    |    |
 | satisfactory   | a    |    |
@@ -3534,7 +3560,7 @@ poppy 小狗
 | crash          | n   |    |
 | flame          | n   |    |
 | controversy    | n   |    |
-| rabbit         | n   |    |
+| rabbit         | n   | A  |
 | everyday       | a   |    |
 | allegation     | n   |    |
 | strip          | n   |    |
@@ -3804,11 +3830,11 @@ poppy 小狗
 | uniform         | n   |    |
 | push            | n   | A2 |
 | counter         | n   |    |
-| subject         | a   |    |
+| subject         | a   | A2 |
 | objective       | a   |    |
 | hungry          | a   | A  |
 | clothing        | n   |    |
-| ride            | n   |    |
+| ride            | n   | A2 |
 | romantic        | a   |    |
 | attendance      | n   |    |
 | part-time       | a   |    |
@@ -3827,7 +3853,7 @@ poppy 小狗
 | working-class  | a    |     |
 | legislative    | a    |     |
 | hint           | n    |     |
-| shower         | n    |     |
+| shower         | n    | A   |
 | current        | n    |     |
 | succession     | n    |     |
 | nasty          | a    |     |
@@ -3880,7 +3906,7 @@ poppy 小狗
 | decent         | a    |     |
 | liberty        | n    |     |
 | forever        | adv  |     |
-| skirt          | n    |     |
+| skirt          | n    | A   |
 | coordinate     | v    |     |
 | tactic         | n    |     |
 | influential    | a    |     |
@@ -3943,7 +3969,7 @@ poppy 小狗
 | portfolio      | n    |     |
 | consensus      | n    |     |
 | thesis         | n    |     |
-| shop           | v    |     |
+| shop           | v    | A2  |
 | nest           | n    |     |
 | frown          | v    |     |
 | builder        | n    |     |
@@ -4061,7 +4087,7 @@ poppy 小狗
 | motivation     | n            |     |
 | safely         | adv          |     |
 | harsh          | a            |     |
-| spell          | n            |     |
+| spell          | n            | A2  |
 | spread         | n            |     |
 | draw           | n            | AN2 |
 | concrete       | a            |     |
@@ -4176,7 +4202,7 @@ poppy 小狗
 | relevance      | n            |     |
 | decorate       | v            |     |
 | continental    | a            |     |
-| ship           | v            |     |
+| ship           | v            | A2  |
 | operational    | a            |     |
 | incur          | v            |     |
 | parallel       | a            |     |
@@ -4196,7 +4222,7 @@ poppy 小狗
 | nightmare      | n            |     |
 | medal          | n            | A   |
 | diamond        | n            |     |
-| speed          | v            |     |
+| speed          | v            | A2  |
 | peaceful       | a            |     |
 | accounting     | a            |     |
 | scatter        | v            |     |
@@ -4229,7 +4255,7 @@ poppy 小狗
 | creep          | v            |     |
 | adjacent       | a            |     |
 | theft          | n            |     |
-| round          | v            |     |
+| round          | v            | A5  |
 | grace          | n            |     |
 | predecessor    | n            |     |
 | supermarket    | n            |     |
@@ -4244,7 +4270,7 @@ poppy 小狗
 | waiting        | n            | A2  |
 | tap            | n            |     |
 | shit           | n            |     |
-| sandwich       | n            |     |
+| sandwich       | n            | A   |
 | vanish         | v            |     |
 | commerce       | n            |     |
 | pursuit        | n            |     |
@@ -4254,7 +4280,7 @@ poppy 小狗
 | collar         | n            |     |
 | socialism      | n            |     |
 | skill          | v            |     |
-| rice           | n            |     |
+| rice           | n            | A   |
 | exclusion      | n            |     |
 | upwards        | adv          |     |
 | transmission   | n            |     |
@@ -4312,7 +4338,6 @@ alleged
 jaw
 grief
 mysterious
-rocket
 donate
 inmate
 tackle
@@ -4331,7 +4356,6 @@ tightly
 protective
 tuck
 faint
-queen
 dilemma
 input
 specialize
@@ -4351,7 +4375,6 @@ thoroughly
 lane
 ancestor
 condemn
-steam
 escape
 optimistic
 unite
@@ -4373,7 +4396,6 @@ symbolic
 seal
 bless
 agriculture
-rock
 hostile
 root
 conceive
@@ -4420,8 +4442,6 @@ clip
 thigh
 bull
 drawer
-regard
-sheep
 discourage
 coordinator
 ideological
@@ -4445,7 +4465,6 @@ execution
 terrific
 whale
 functional
-star
 draft
 instinct
 teammate
@@ -4480,13 +4499,11 @@ sympathy
 fisherman
 incredibly
 isolation
-sock
 eleven
 sexy
 entrepreneur
 syndrome
 bureau
-seat
 workplace
 ambition
 touchdown
@@ -4505,7 +4522,6 @@ gut
 metropolitan
 rolling
 aesthetic
-spell
 insert
 booth
 helmet
@@ -4534,7 +4550,6 @@ scramble
 casino
 tumor
 decorate
-sort
 pulse
 equivalent
 fixed
@@ -4542,12 +4557,10 @@ experienced
 donation
 sibling
 irony
-spoon
 midst
 alley
 upset
 interact
-soap
 cute
 rival
 short-term
@@ -4575,7 +4588,6 @@ access
 heal
 fever
 filter
-rabbit
 exploit
 accessible
 organism
@@ -4590,7 +4602,6 @@ conservation
 shove
 backyard
 charter
-stove
 consent
 comprise
 reminder
@@ -4726,7 +4737,6 @@ skip
 aggression
 stimulus
 journalism
-robot
 dip
 likewise
 informal
@@ -4772,7 +4782,6 @@ excessive
 high-tech
 debris
 pile
-rod
 logical
 liberal
 ash
@@ -4814,7 +4823,6 @@ this
 sponsor
 grin
 demographic
-rain
 chill
 refuge
 steer
@@ -4832,7 +4840,6 @@ elaborate
 intellectual
 conception
 auction
-steak
 comply
 triumph
 shareholder
@@ -4908,7 +4915,6 @@ soar
 removal
 autonomy
 enact
-round
 thread
 light
 landmark
@@ -4956,7 +4962,6 @@ mention
 graduation
 drill
 mansion
-regard
 authorize
 cottage
 driveway
@@ -5055,7 +5060,6 @@ transit
 dense
 seminar
 electronics
-sunny
 shorts
 swell
 accusation
@@ -5322,7 +5326,6 @@ manufacture
 poorly
 affection
 mature
-stamp
 silently
 colored
 warming
@@ -5465,7 +5468,6 @@ comic
 reside
 revenge
 unclear
-sour
 caution
 originate
 empirical
@@ -5560,7 +5562,6 @@ wounded
 prescribe
 courtesy
 shotgun
-subway
 circulation
 sentence
 transplant
@@ -5582,7 +5583,6 @@ attribute
 evolutionary
 optimism
 native
-skinny
 posture
 systematic
 demon
@@ -5642,7 +5642,6 @@ import
 gospel
 prince
 waiter
-subject
 vow
 separately
 precision
@@ -5689,11 +5688,9 @@ supporting
 continually
 modem
 firefighter
-supper
 applicant
 sample
 Egyptian
-absent
 salvation
 namely
 injured
@@ -5720,7 +5717,6 @@ furious
 poison
 repeated
 daddy
-ruler
 undoubtedly
 rocky
 amount
@@ -5728,7 +5724,6 @@ concrete
 tenant
 total
 omit
-round
 grade
 spider
 obsession
@@ -6080,7 +6075,6 @@ jam
 footage
 absurd
 preferred
-say
 urge
 temptation
 reservoir
@@ -6099,7 +6093,6 @@ intensify
 mail
 regret
 toddler
-spell
 arc
 sway
 maximum
@@ -6767,7 +6760,6 @@ perfume
 firing
 symbolize
 matching
-stamp
 flock
 firearm
 refine
@@ -7049,7 +7041,6 @@ utter
 roommate
 chant
 tout
-sound
 overwhelmingly
 crater
 enrich
@@ -7344,7 +7335,6 @@ knight
 urine
 harbor
 obesity
-station
 exacerbate
 innings
 groan
@@ -7367,7 +7357,6 @@ dwarf
 terminate
 beetle
 tactical
-space
 probation
 populate
 mistress
@@ -7586,7 +7575,6 @@ reverse
 disbelief
 gay
 veto
-shout
 inhibit
 alumnus
 enormously
@@ -7721,7 +7709,6 @@ real-life
 reel
 enlarge
 thin
-quick
 cruiser
 best-selling
 adult
@@ -7792,7 +7779,6 @@ dubious
 preventive
 creamy
 foresee
-sport
 intent
 oneself
 wade
@@ -7999,7 +7985,6 @@ layoff
 compassionate
 convene
 champ
-save
 violently
 psychic
 gem
@@ -8042,7 +8027,6 @@ pier
 splash
 nickel
 breach
-shoot
 ideally
 dispute
 HMO
@@ -8184,7 +8168,6 @@ sociology
 expressive
 moose
 yearn
-shower
 gig
 mutually
 unsure
@@ -8235,7 +8218,6 @@ trick
 flying
 postmodern
 cooler
-swim
 blessed
 delete
 flicker
@@ -8318,7 +8300,6 @@ advent
 disciplinary
 crush
 woe
-ripple
 imbalance
 sauté
 moderately
@@ -8352,7 +8333,6 @@ lavender
 ubiquitous
 solitude
 drunken
-square
 dissent
 sculptor
 Kurd
@@ -8540,8 +8520,6 @@ retrospect
 lily
 clubhouse
 court
-take
-ready
 grapple
 floral
 damaging
@@ -8575,7 +8553,6 @@ cricket
 synagogue
 ominous
 martyr
-rotten
 litter
 structured
 ethanol
@@ -9061,7 +9038,6 @@ flex
 dim
 etch
 nightly
-shut
 persecution
 first-time
 worthless
@@ -9251,7 +9227,6 @@ midwestern
 clone
 ballroom
 logging
-shoulder
 knuckle
 curtail
 bladder
@@ -9745,7 +9720,6 @@ freshwater
 outdoors
 Cherokee
 skyline
-repeat
 waterway
 ultraviolet
 wizard
@@ -9760,7 +9734,6 @@ pageant
 eldest
 overshadow
 limiting
-sight
 rectangular
 best-known
 lunge
@@ -9789,7 +9762,6 @@ wed
 sane
 scoop
 promotional
-size
 colonist
 somber
 containment
@@ -9857,7 +9829,6 @@ rot
 permeate
 remotely
 late-night
-snow
 alienation
 negative
 pollster
@@ -10042,7 +10013,6 @@ bidding
 tenet
 merit
 pessimistic
-same
 turbulent
 longitudinal
 cynicism
@@ -10157,7 +10127,6 @@ self-efficacy
 logistics
 flinch
 photon
-steam
 utilization
 disseminate
 acknowledgment
@@ -10271,7 +10240,6 @@ unification
 wane
 adjustable
 displaced
-sweet
 stakeholder
 willow
 savage
@@ -10510,7 +10478,6 @@ Spaniard
 intolerance
 rust
 dispatch
-safe
 nicotine
 insulate
 conglomerate
@@ -11170,7 +11137,6 @@ condition
 childbirth
 smother
 faint
-spoon
 refund
 Islamist
 backstage
@@ -11452,7 +11418,6 @@ tangle
 blackout
 cop
 inward
-quarrel
 topping
 pricey
 ignition
@@ -11747,7 +11712,6 @@ crackle
 bale
 shaped
 logically
-say
 strut
 drone
 coward
@@ -11984,7 +11948,6 @@ segregated
 etiquette
 deportation
 bourbon
-skirt
 intestine
 caress
 galactic
@@ -12178,7 +12141,6 @@ median
 distraught
 Alaskan
 grassland
-quiet
 approximate
 bagel
 up-to-date
@@ -12335,7 +12297,6 @@ Welsh
 workstation
 momentary
 prophetic
-silver
 impersonal
 whiff
 artichoke
@@ -12539,7 +12500,6 @@ fourteenth
 quintessential
 impossibly
 engraving
-ripple
 grimly
 hijacker
 Finnish
@@ -13448,7 +13408,6 @@ finder
 whimsical
 medium-size
 Croat
-style
 grinder
 mounting
 effortlessly
@@ -13530,7 +13489,6 @@ burned
 fertilization
 uproar
 uncontrollable
-quiet
 jolly
 migraine
 candor
@@ -13942,7 +13900,6 @@ saxophone
 crusty
 extremity
 innovator
-ready
 limitless
 melodic
 striker
@@ -14221,7 +14178,6 @@ never-ending
 awash
 Norman
 nudity
-sour
 dignitary
 twenty-nine
 oncoming
@@ -14303,7 +14259,6 @@ townspeople
 dilapidated
 wearily
 renal
-save
 unrelenting
 embroidered
 intangible
@@ -14903,7 +14858,6 @@ doorknob
 microcosm
 balm
 shorthand
-quarrel
 cordial
 uneasily
 utopia
@@ -15167,7 +15121,6 @@ outside
 unequivocally
 supple
 scourge
-sandwich
 spontaneity
 throes
 austerity
@@ -15387,7 +15340,6 @@ thickly
 toll-free
 dissident
 rekindle
-absent
 dunk
 intuitively
 tireless
@@ -16051,7 +16003,6 @@ inexorably
 communicative
 toughen
 reliant
-rocket
 conciliatory
 breezy
 placard
@@ -16548,7 +16499,6 @@ antagonist
 fetish
 cut
 mismatch
-sick
 Ramadan
 purge
 two-year-old
@@ -17220,7 +17170,6 @@ inverse
 intoxicate
 grandkid
 word
-sand
 bottomless
 upload
 clenched
@@ -17533,7 +17482,6 @@ next-door
 jittery
 thrilled
 Franciscan
-radio
 sender
 scented
 marginalized
@@ -19178,7 +19126,6 @@ searcher
 duplex
 dictatorial
 second-round
-sock
 sweltering
 genie
 idolize
@@ -19779,7 +19726,6 @@ spender
 jetliner
 muddle
 normality
-season
 climactic
 panicky
 overrated
@@ -19986,7 +19932,6 @@ unsweetened
 long-lived
 personable
 perfunctory
-subject
 covertly
 numeral
 drumbeat
