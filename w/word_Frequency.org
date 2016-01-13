@@ -39,7 +39,7 @@ poppy 小狗
 | archive    |                   | AN  |
 | aunt       |                   | AN  |
 | awake      |                   | AN  |
-| the        | det               |     |
+| the        | det               | A   |
 | be         | v                 |     |
 | of         | prep              | A   |
 | and        | conj              |     |
@@ -51,7 +51,7 @@ poppy 小狗
 | to         | prep              |     |
 | for        | prep              | A   |
 | i          | pron              |     |
-| that       | conj              |     |
+| that       | conj              | A3  |
 | you        | pron              |     |
 | he         | pron              | A   |
 | on         | prep              | A2  |
@@ -60,12 +60,12 @@ poppy 小狗
 | at         | prep              |     |
 | by         | prep              | A2  |
 | not        | adv               |     |
-| this       | det               |     |
+| this       | det               | A   |
 | but        | conj              | A   |
 | from       | prep              | A   |
 | they       | pron              |     |
 | his        | det               |     |
-| that       | det               |     |
+| that       | det               | A3  |
 | she        | pron              | A   |
 | or         | conj              | A   |
 | which      | det               |     |
@@ -80,7 +80,7 @@ poppy 小狗
 | their      | det               |     |
 | go         | v                 |     |
 | what       | det               |     |
-| there      | pron              |     |
+| there      | pron              | A2  |
 | all        | det               | AS2 |
 | get        | v                 | A   |
 | her        | det               |     |
@@ -91,7 +91,7 @@ poppy 小狗
 | up         | adv               |     |
 | see        | v                 |     |
 | know       | v                 | A   |
-| time       | n                 |     |
+| time       | n                 | A2  |
 | take       | v                 | A   |
 | them       | pron              |     |
 | some       | det               | A   |
@@ -102,10 +102,10 @@ poppy 小狗
 | into       | prep              | A   |
 | its        | det               |     |
 | then       | adv               |     |
-| think      | v                 |     |
+| think      | v                 | A   |
 | my         | det               |     |
 | come       | v                 | A   |
-| than       | conj              |     |
+| than       | conj              | A   |
 | more       | adv               |     |
 | about      | prep              | AS2 |
 | now        | adv               | A   |
@@ -117,7 +117,7 @@ poppy 小狗
 | give       | v                 | A   |
 | just       | adv               | A2  |
 | should     | modal             |     |
-| these      | det               |     |
+| these      | det               | A   |
 | people     | n                 | A   |
 | also       | adv               |     |
 | well       | adv               |     |
@@ -145,7 +145,7 @@ poppy 小狗
 | day        | n                 | A   |
 | between    | prep              | AN  |
 | even       | adv               |     |
-| there      | adv               |     |
+| there      | adv               | A2  |
 | many       | det               | A   |
 | those      | det               |     |
 | one        | pron              | A   |
@@ -154,7 +154,7 @@ poppy 小狗
 | yeah       | interjection      |     |
 | so         | conj              | A2  |
 | thing      | n                 |     |
-| tell       | v                 |     |
+| tell       | v                 | A   |
 | through    | prep              | A2  |
 | back       | adv               | AS4 |
 | still      | adv               |     |
@@ -369,7 +369,7 @@ poppy 小狗
 | himself     | pron  |     |
 | public      | a     |     |
 | together    | adv   |     |
-| talk        | v     |     |
+| talk        | v     | A2  |
 | report      | n     |     |
 | after       | conj  | AS2 |
 | only        | a     |     |
@@ -530,7 +530,7 @@ poppy 小狗
 | mind          | n    |     |
 | likely        | a    |     |
 | among         | prep | AS  |
-| team          | n    |     |
+| team          | n    | A   |
 | experience    | n    |     |
 | death         | n    |     |
 | soon          | adv  | A   |
@@ -759,7 +759,7 @@ poppy 小狗
 | plan         | v    | A2 |
 | various      | a    |    |
 | since        | prep |    |
-| test         | n    |    |
+| test         | n    | A2 |
 | eat          | v    | A  |
 | loss         | n    |    |
 | close        | v    | A3 |
@@ -850,7 +850,7 @@ poppy 小狗
 | couple       | n    |    |
 | step         | n    | A2 |
 | following    | a    |    |
-| thank        | v    |    |
+| thank        | v    | A  |
 | machine      | n    |    |
 | income       | n    |    |
 | training     | n    |    |
@@ -1093,7 +1093,7 @@ poppy 小狗
 | prevent       | v    |     |
 | advantage     | n    |     |
 | dark          | a    |     |
-| teach         | v    |     |
+| teach         | v    | A   |
 | memory        | n    |     |
 | culture       | n    |     |
 | blood         | n    |     |
@@ -1187,7 +1187,7 @@ poppy 小狗
 | medical       | a    |     |
 | hot           | a    | A   |
 | recognise     | v    |     |
-| talk          | n    |     |
+| talk          | n    | A2  |
 | budget        | n    |     |
 | river         | n    | A   |
 | fit           | v    |     |
@@ -1373,7 +1373,7 @@ poppy 小狗
 | late          | adv  | A2  |
 | speed         | n    | A2  |
 | review        | n    |     |
-| test          | v    |     |
+| test          | v    | A2  |
 | order         | v    |     |
 | route         | n    |     |
 | consequence   | n    |     |
@@ -1545,7 +1545,7 @@ poppy 小狗
 | repeat         | v    | A   |
 | wood           | n    |     |
 | contrast       | n    |     |
-* J ten
+* J ten A
 | junk         |       | AN  |
 | jungle       |       | AN  |
 | extremely    | adv   |     |
@@ -1886,7 +1886,7 @@ poppy 小狗
 | score          | v            | A2  |
 | justice        | n            |     |
 | upper          | a            |     |
-| tooth          | n            |     |
+| tooth          | n            | A   |
 | organise       | v            |     |
 | cat            | n            |     |
 | tool           | n            |     |
@@ -1911,7 +1911,7 @@ poppy 小狗
 | membership     | n            |     |
 | grant          | n            |     |
 | approve        | v            |     |
-| tall           | a            |     |
+| tall           | a            | A   |
 | apparent       | a            |     |
 | faith          | n            |     |
 | under          | adv          |     |
@@ -2088,7 +2088,7 @@ poppy 小狗
 | lord          | n    |     |
 | rest          | v    | A2  |
 | drive         | n    | A2  |
-| ticket        | n    |     |
+| ticket        | n    | A   |
 | editor        | n    |     |
 | switch        | v    |     |
 | provided      | conj |     |
@@ -2165,7 +2165,7 @@ poppy 小狗
 | inner         | a    |     |
 | crucial       | a    |     |
 | occupy        | v    |     |
-| that          | adv  |     |
+| that          | adv  | A3  |
 | independence  | n    |     |
 | column        | n    |     |
 | proceeding    | n    |     |
@@ -2197,7 +2197,7 @@ poppy 小狗
 | exception     | n    | A   |
 | thick         | a    |     |
 | inquiry       | n    |     |
-| topic         | n    |     |
+| topic         | n    | A   |
 * N fourteen
 | nut           |      | ANN |
 | resident      | n    |     |
@@ -2234,7 +2234,7 @@ poppy 小狗
 | subsequent    | a    |     |
 | democracy     | n    |     |
 | brown         | a    | A   |
-| taste         | n    |     |
+| taste         | n    | A   |
 | crown         | n    |     |
 | permit        | v    |     |
 | buyer         | n    |     |
@@ -2455,7 +2455,7 @@ poppy 小狗
 | relax          | v   |     |
 | penalty        | n   |     |
 | purchase       | v   |     |
-| tired          | a   |     |
+| tired          | a   | A   |
 | beer           | n   |     |
 | specify        | v   |     |
 | short          | adv | A2  |
@@ -3075,7 +3075,7 @@ poppy 小狗
 | limitation    | n            |     |
 | specialist    | n            |     |
 | newly         | adv          |     |
-| tongue        | n            |     |
+| tongue        | n            | A   |
 | refugee       | n            |     |
 | delay         | v            | A2  |
 | dream         | v            | A2  |
@@ -3128,7 +3128,7 @@ poppy 小狗
 | squad         | n            |     |
 | wonder        | n            |     |
 | cream         | n            | A   |
-| tennis        | n            |     |
+| tennis        | n            | A   |
 | personally    | adv          |     |
 | communicate   | v            |     |
 | pride         | n            |     |
@@ -3201,6 +3201,9 @@ poppy 小狗
 | passion       | n            |     |
 | seize         | v            |     |
 * T twenty
+| thief         |      | AN  |
+| turtle        |      | AN  |
+| thirsty       |      | AN  |
 | tag           | n    | AN  |
 | todo          | v    | AN  |
 | low           | adv  |     |
@@ -3498,7 +3501,7 @@ poppy 小狗
 | trick          | n    |    |
 | load           | v    |    |
 | disposal       | n    |    |
-| taxi           | n    |    |
+| taxi           | n    | A  |
 | murmur         | v    |    |
 | tonne          | n    |    |
 | spell          | v    | A2 |
@@ -3580,7 +3583,7 @@ poppy 小狗
 | interface      | n   |    |
 | historic       | a   |    |
 | collapse       | n   |    |
-| temple         | n   |    |
+| temple         | n   | A  |
 | shade          | n   |    |
 | craft          | n   |    |
 | nursery        | n   |    |
@@ -4030,7 +4033,7 @@ poppy 小狗
 | sword          | n            |     |
 | envisage       | v            |     |
 | bean           | n            |     |
-| time           | v            |     |
+| time           | v            | A2  |
 | crazy          | a            |     |
 | changing       | a            |     |
 | primary        | n            |     |
@@ -4819,7 +4822,6 @@ squad
 eligible
 processor
 plunge
-this
 sponsor
 grin
 demographic
@@ -5195,7 +5197,6 @@ militia
 authentic
 tenure
 rejection
-thief
 dome
 inadequate
 locker
@@ -5272,7 +5273,6 @@ monetary
 prosperity
 antibiotic
 joint
-time
 spray
 creator
 accumulate
@@ -5347,7 +5347,6 @@ destiny
 remarkably
 alien
 literacy
-taxi
 leak
 solo
 narrative
@@ -6501,7 +6500,6 @@ pasture
 swamp
 rebellion
 sleeping
-team
 standardized
 dash
 constituency
@@ -6657,7 +6655,6 @@ marked
 muddy
 two-year
 singing
-turtle
 occupational
 trio
 ferry
@@ -7372,7 +7369,6 @@ Baptist
 civilized
 smack
 masculine
-think
 would-be
 lingering
 subscriber
@@ -10533,7 +10529,6 @@ outlaw
 brilliance
 oasis
 underwater
-thirsty
 misfortune
 anecdotal
 reverence
