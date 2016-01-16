@@ -3,6 +3,7 @@
 index.org emacs.org org.org web.org search.org
 vim.org memo.org footnote.org
 
+<<<<<<< HEAD
 * A one
 application 
 absolute     
@@ -257,3 +258,21 @@ yank
 * Z twenty-six
 
 
+=======
+* skills web directory
+index.org 
+** emacs
+spacemacs.org
+** personal
+identity.org
+** english
+word.org
+** blog
+life.org
+* 站点维护
+
+* tips
+a-i 插入空格或制表符
+spc s l
+百度提供的删除语句 git rm * -r (所有东西删光光, 当然除了 .git 目录)
+>>>>>>> 1129043... dictionary

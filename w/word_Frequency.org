@@ -8,12 +8,14 @@
 | v                 | (verb)        |  1281 |
 | det               | (determiner)  |    47 |
 | pron              | (pronoun)     |    46 |
-| interjection      |               |    13 |
+| interjection      | (inter)       |    13 |
 | a                 | (adjective)   |  1124 |
 | n                 | (noun)        |  3262 |
 | prep              | (preposition) |    71 |
 | modal             |               |    12 |
-| infinitive-marker |               |     1 |
+| infinitive-marker | (infin)       |     1 |
+
+First volume
 bird有道美声好像不对
 sort-order, frequency, word, word-class
 $$$$$$$$$$$$$$$$$$$
@@ -28,175 +30,176 @@ AS, 有swf的
 ASF, 有swf的, 但没 Frequency 
 Y, 就是用有道的，相对简单好学的
 poppy 小狗
+2016.1.15 19:17:11
 * A one A
-| absent     |                   | AN  |
-| am         |                   | ANN |
-| alpha      |                   | ASF |
-| alphabet   |                   | ASF |
-| amaze      |                   | ASF |
-| amusement  |                   | ASF |
-| ashamed    |                   | ASF |
-| archive    |                   | AN  |
-| aunt       |                   | AN  |
-| awake      |                   | AN  |
-| the        | det               | A   |
-| be         | v                 |     |
-| of         | prep              | A   |
-| and        | conj              |     |
-| a          | det               |     |
-| in         | prep              |     |
-| to         | infinitive-marker | A2  |
-| have       | v                 | A   |
-| it         | pron              | A   |
-| to         | prep              | A2  |
-| for        | prep              | A   |
-| i          | pron              |     |
-| that       | conj              | A3  |
-| you        | pron              | A   |
-| he         | pron              | A   |
-| on         | prep              | A2  |
-| with       | prep              | A   |
-| do         | v                 | A   |
-| at         | prep              |     |
-| by         | prep              | A2  |
-| not        | adv               |     |
-| this       | det               | A   |
-| but        | conj              | A   |
-| from       | prep              | A   |
-| they       | pron              |     |
-| his        | det               |     |
-| that       | det               | A3  |
-| she        | pron              | A   |
-| or         | conj              | A   |
-| which      | det               | A   |
-| as         | conj              |     |
-| we         | pron              | A   |
-| an         | det               | Y   |
-| say        | v                 | A   |
-| will       | modal             | A3  |
-| would      | modal             |     |
-| can        | modal             | A   |
-| if         | conj              | A   |
-| their      | det               |     |
-| go         | v                 |     |
-| what       | det               | A   |
-| there      | pron              | A2  |
-| all        | det               | AS2 |
-| get        | v                 | A   |
-| her        | det               |     |
-| make       | v                 | A   |
-| who        | pron              | A   |
-| as         | prep              |     |
-| out        | adv               | A   |
-| up         | adv               | A2  |
-| see        | v                 |     |
-| know       | v                 | A   |
-| time       | n                 | A2  |
-| take       | v                 | A   |
-| them       | pron              |     |
-| some       | det               | A   |
-| could      | modal             |     |
-| so         | adv               | A2  |
-| him        | pron              |     |
-| year       | n                 | A   |
-| into       | prep              | A   |
-| its        | det               |     |
-| then       | adv               |     |
-| think      | v                 | A   |
-| my         | det               |     |
-| come       | v                 | A   |
-| than       | conj              | A   |
-| more       | adv               |     |
-| about      | prep              | AS2 |
-| now        | adv               | A   |
-| last       | a                 | A2  |
-| your       | det               |     |
-| me         | pron              |     |
-| no         | det               | A2  |
-| other      | a                 | A2  |
-| give       | v                 | A   |
-| just       | adv               | A2  |
-| should     | modal             |     |
-| these      | det               | A   |
-| people     | n                 | A   |
-| also       | adv               |     |
-| well       | adv               | A3  |
-| any        | det               | Y   |
-| only       | adv               |     |
-| new        | a                 | A   |
-| very       | adv               | A2  |
-| when       | conj              | A2  |
-| may        | modal             | A2  |
-| way        | n                 | A   |
-| look       | v                 | A2  |
-| like       | prep              | A5  |
-| use        | v                 | A2  |
-| her        | pron              |     |
-| such       | det               |     |
-| how        | adv               | A   |
-| because    | conj              | AS  |
-| when       | adv               | A2  |
-| as         | adv               |     |
-| good       | a                 |     |
-| find       | v                 | A   |
-| man        | n                 | A   |
-| our        | det               |     |
-| want       | v                 | A   |
-| day        | n                 | A   |
-| between    | prep              | AN  |
-| even       | adv               |     |
-| there      | adv               | A2  |
-| many       | det               | A   |
-| those      | det               |     |
-| one        | pron              | A   |
-| after      | prep              | AS2 |
-| down       | adv               | A2  |
-| yeah       | interjection      |     |
-| so         | conj              | A2  |
-| thing      | n                 |     |
-| tell       | v                 | A   |
-| through    | prep              | A2  |
-| back       | adv               | AS4 |
-| still      | adv               |     |
-| must       | modal             | A   |
-| child      | n                 | A   |
-| here       | adv               | A   |
-| over       | prep              | A2  |
-| too        | adv               | A   |
-| put        | v                 | A   |
-| own        | det               |     |
-| on         | adv               | A2  |
-| no         | interjection      | A2  |
-| work       | v                 | A2  |
-| become     | v                 | AS  |
-| more       | det               |     |
-| old        | a                 | A   |
-| government | n                 |     |
-| mean       | v                 | A   |
-| part       | n                 |     |
-| leave      | v                 |     |
-| life       | n                 | A   |
-| great      | a                 | A   |
-| where      | adv               | A2  |
-| case       | n                 |     |
-| woman      | n                 | A   |
-| over       | adv               | A2  |
-| seem       | v                 |     |
-| same       | det               | A   |
-| us         | pron              |     |
-| work       | n                 | A2  |
-| need       | v                 | A3  |
-| feel       | v                 | A   |
-| system     | n                 |     |
-| each       | det               |     |
-| might      | modal             |     |
-| may        | v                 | A2  |
-| much       | adv               | A2  |
-| ask        | v                 | Y   |
-| group      | n                 | A   |
-| number     | n                 | A   |
-| yes        | interjection      | A   |
-| however    | adv               |     |
+| absent     |       | AN  |
+| am         |       | ANN |
+| alpha      |       | ASF |
+| alphabet   |       | ASF |
+| amaze      |       | ASF |
+| amusement  |       | ASF |
+| ashamed    |       | ASF |
+| archive    |       | AN  |
+| aunt       |       | AN  |
+| awake      |       | AN  |
+| the        | det   | A   |
+| be         | v     |     |
+| of         | prep  | A   |
+| and        | conj  |     |
+| a          | det   |     |
+| in         | prep  |     |
+| to         | infin | A2  |
+| have       | v     | A   |
+| it         | pron  | A   |
+| to         | prep  | A2  |
+| for        | prep  | A   |
+| i          | pron  |     |
+| that       | conj  | A3  |
+| you        | pron  | A   |
+| he         | pron  | A   |
+| on         | prep  | A2  |
+| with       | prep  | A   |
+| do         | v     | A   |
+| at         | prep  |     |
+| by         | prep  | A2  |
+| not        | adv   |     |
+| this       | det   | A   |
+| but        | conj  | A   |
+| from       | prep  | A   |
+| they       | pron  |     |
+| his        | det   |     |
+| that       | det   | A3  |
+| she        | pron  | A   |
+| or         | conj  | A   |
+| which      | det   | A   |
+| as         | conj  |     |
+| we         | pron  | A   |
+| an         | det   | Y   |
+| say        | v     | A   |
+| will       | modal | A3  |
+| would      | modal |     |
+| can        | modal | A   |
+| if         | conj  | A   |
+| their      | det   |     |
+| go         | v     |     |
+| what       | det   | A   |
+| there      | pron  | A2  |
+| all        | det   | AS2 |
+| get        | v     | A   |
+| her        | det   |     |
+| make       | v     | A   |
+| who        | pron  | A   |
+| as         | prep  |     |
+| out        | adv   | A   |
+| up         | adv   | A2  |
+| see        | v     |     |
+| know       | v     | A   |
+| time       | n     | A2  |
+| take       | v     | A   |
+| them       | pron  |     |
+| some       | det   | A   |
+| could      | modal |     |
+| so         | adv   | A2  |
+| him        | pron  |     |
+| year       | n     | A   |
+| into       | prep  | A   |
+| its        | det   |     |
+| then       | adv   |     |
+| think      | v     | A   |
+| my         | det   |     |
+| come       | v     | A   |
+| than       | conj  | A   |
+| more       | adv   |     |
+| about      | prep  | AS2 |
+| now        | adv   | A   |
+| last       | a     | A2  |
+| your       | det   |     |
+| me         | pron  |     |
+| no         | det   | A2  |
+| other      | a     | A2  |
+| give       | v     | A   |
+| just       | adv   | A2  |
+| should     | modal |     |
+| these      | det   | A   |
+| people     | n     | A   |
+| also       | adv   |     |
+| well       | adv   | A3  |
+| any        | det   | Y   |
+| only       | adv   |     |
+| new        | a     | A   |
+| very       | adv   | A2  |
+| when       | conj  | A2  |
+| may        | modal | A2  |
+| way        | n     | A   |
+| look       | v     | A2  |
+| like       | prep  | A5  |
+| use        | v     | A2  |
+| her        | pron  |     |
+| such       | det   |     |
+| how        | adv   | A   |
+| because    | conj  | AS  |
+| when       | adv   | A2  |
+| as         | adv   |     |
+| good       | a     |     |
+| find       | v     | A   |
+| man        | n     | A   |
+| our        | det   |     |
+| want       | v     | A   |
+| day        | n     | A   |
+| between    | prep  | AN  |
+| even       | adv   |     |
+| there      | adv   | A2  |
+| many       | det   | A   |
+| those      | det   |     |
+| one        | pron  | A   |
+| after      | prep  | AS2 |
+| down       | adv   | A2  |
+| yeah       | inter |     |
+| so         | conj  | A2  |
+| thing      | n     |     |
+| tell       | v     | A   |
+| through    | prep  | A2  |
+| back       | adv   | AS4 |
+| still      | adv   |     |
+| must       | modal | A   |
+| child      | n     | A   |
+| here       | adv   | A   |
+| over       | prep  | A2  |
+| too        | adv   | A   |
+| put        | v     | A   |
+| own        | det   |     |
+| on         | adv   | A2  |
+| no         | inter | A2  |
+| work       | v     | A2  |
+| become     | v     | AS  |
+| more       | det   |     |
+| old        | a     | A   |
+| government | n     |     |
+| mean       | v     | A   |
+| part       | n     |     |
+| leave      | v     |     |
+| life       | n     | A   |
+| great      | a     | A   |
+| where      | adv   | A2  |
+| case       | n     |     |
+| woman      | n     | A   |
+| over       | adv   | A2  |
+| seem       | v     |     |
+| same       | det   | A   |
+| us         | pron  |     |
+| work       | n     | A2  |
+| need       | v     | A3  |
+| feel       | v     | A   |
+| system     | n     |     |
+| each       | det   |     |
+| might      | modal |     |
+| may        | v     | A2  |
+| much       | adv   | A2  |
+| ask        | v     | Y   |
+| group      | n     | A   |
+| number     | n     | A   |
+| yes        | inter | A   |
+| however    | adv   |     |
 
 * B two A
 | butterfly   |       | A   |
@@ -378,6 +381,7 @@ poppy 小狗
 | face        | n     | A2  |
 
 * C three
+| cursor        |      | SN  |
 | cure          |      | AN  |
 | crunchy       |      | AN  |
 | cruel         |      | AN  |
@@ -556,176 +560,176 @@ poppy 小狗
 | across        | prep | AS2 |
 
 * D four A
-| drum         |              | ANN |
-| dolphin      |              | ANN |
-| doll         |              | ANN |
-| dial         |              | A   |
-| devil        |              | A   |
-| dessert      |              | A   |
-| dentist      |              | AN  |
-| deer         |              | ANN |
-| darker       |              | ANN |
-| dandelion    |              | ANN |
-| dairy        |              | A   |
-| done         | n            | AN  |
-| plan         | n            | A2  |
-| product      | n            |     |
-| city         | n            |     |
-| early        | adv          | A2  |
-| committee    | n            |     |
-| ground       | n            | A   |
-| letter       | n            | A   |
-| create       | v            |     |
-| evidence     | n            |     |
-| foot         | n            | A   |
-| clear        | a            |     |
-| boy          | n            | Y   |
-| game         | n            | A   |
-| food         | n            | A   |
-| role         | n            |     |
-| practice     | n            | A   |
-| bank         | n            | AS  |
-| else         | adv          |     |
-| support      | n            |     |
-| sell         | v            |     |
-| event        | n            |     |
-| building     | n            |     |
-| range        | n            |     |
-| behind       | prep         | A2  |
-| sure         | a            | A2  |
-| report       | v            |     |
-| pass         | v            | A2  |
-| black        | a            | A2  |
-| stage        | n            |     |
-| meeting      | n            |     |
-| sometimes    | adv          |     |
-| thus         | adv          |     |
-| accept       | v            |     |
-| town         | n            | A   |
-| art          | n            | AS  |
-| further      | adv          |     |
-| club         | n            | A   |
-| cause        | v            |     |
-| arm          | n            | Y   |
-| history      | n            |     |
-| parent       | n            | A   |
-| land         | n            | A   |
-| trade        | n            |     |
-| watch        | v            | A2  |
-| white        | a            | A2  |
-| situation    | n            |     |
-| whose        | det          |     |
-| ago          | adv          | AS  |
-| teacher      | n            |     |
-| record       | n            | A2  |
-| manager      | n            |     |
-| relation     | n            |     |
-| common       | a            |     |
-| strong       | a            | A   |
-| whole        | a            |     |
-| field        | n            | A   |
-| free         | a            | A   |
-| break        | v            | A   |
-| yesterday    | adv          |     |
-| support      | v            |     |
-| window       | n            | A   |
-| account      | n            |     |
-| explain      | v            |     |
-| stay         | v            |     |
-| few          | det          | A2  |
-| wait         | v            | A   |
-| usually      | adv          |     |
-| difference   | n            |     |
-| material     | n            | A   |
-| air          | n            | AS  |
-| wife         | n            |     |
-| cover        | v            | A2  |
-| apply        | v            | AS  |
-| project      | n            | A   |
-| raise        | v            |     |
-| sale         | n            |     |
-| relationship | n            |     |
-| indeed       | adv          |     |
-| light        | n            | A3  |
-| claim        | v            | A2  |
-| form         | v            |     |
-| base         | v            | A2  |
-| care         | n            | A2  |
-| someone      | pron         |     |
-| everything   | pron         |     |
-| certainly    | adv          |     |
-| rule         | n            | A2  |
-| home         | adv          | A2  |
-| cut          | v            | A2  |
-| grow         | v            | A   |
-| similar      | a            |     |
-| story        | n            | A   |
-| quality      | n            | A   |
-| tax          | n            |     |
-| worker       | n            |     |
-| nature       | n            |     |
-| structure    | n            |     |
-| data         | n            |     |
-| necessary    | a            |     |
-| pound        | n            |     |
-| method       | n            |     |
-| unit         | n            |     |
-| central      | a            | A   |
-| bed          | n            | AS  |
-| union        | n            |     |
-| movement     | n            |     |
-| board        | n            | A   |
-| true         | a            |     |
-| well         | interjection | A3  |
-| simply       | adv          |     |
-| contain      | v            |     |
-| especially   | adv          |     |
-| open         | a            | A3  |
-| short        | a            | A2  |
-| personal     | a            |     |
-| detail       | n            |     |
-| model        | n            | A   |
-| bear         | v            | AS2 |
-| single       | a            |     |
-| join         | v            | A   |
-| reduce       | v            |     |
-| establish    | v            |     |
-| herself      | pron         |     |
-| wall         | n            | A   |
-| face         | v            | A2  |
-| easy         | a            | A2  |
-| private      | a            |     |
-| computer     | n            |     |
-| former       | det          |     |
-| hospital     | n            | A   |
-| chapter      | n            |     |
-| scheme       | n            |     |
-| theory       | n            |     |
-| choose       | v            | A   |
-| wish         | v            |     |
-| property     | n            |     |
-| achieve      | v            |     |
-| financial    | a            |     |
-| poor         | a            | A   |
-| officer      | n            |     |
-| up           | prep         | A2  |
-| charge       | n            | A2  |
-| director     | n            |     |
-| drive        | v            | A2  |
-| deal         | v            |     |
-| place        | v            | A2  |
-| approach     | n            | AS2 |
-| chance       | n            | A   |
-| application  | n            |     |
-| seek         | v            |     |
-| cos          | conj         |     |
-| foreign      | a            |     |
-| along        | prep         |     |
-| top          | n            | A2  |
-| amount       | n            |     |
-| son          | n            | A   |
-| operation    | n            |     |
-| fail         | v            |     |
+| drum         |       | ANN |
+| dolphin      |       | ANN |
+| doll         |       | ANN |
+| dial         |       | A   |
+| devil        |       | A   |
+| dessert      |       | A   |
+| dentist      |       | AN  |
+| deer         |       | ANN |
+| darker       |       | ANN |
+| dandelion    |       | ANN |
+| dairy        |       | A   |
+| done         | n     | AN  |
+| plan         | n     | A2  |
+| product      | n     |     |
+| city         | n     |     |
+| early        | adv   | A2  |
+| committee    | n     |     |
+| ground       | n     | A   |
+| letter       | n     | A   |
+| create       | v     |     |
+| evidence     | n     |     |
+| foot         | n     | A   |
+| clear        | a     |     |
+| boy          | n     | Y   |
+| game         | n     | A   |
+| food         | n     | A   |
+| role         | n     |     |
+| practice     | n     | A   |
+| bank         | n     | AS  |
+| else         | adv   |     |
+| support      | n     |     |
+| sell         | v     |     |
+| event        | n     |     |
+| building     | n     |     |
+| range        | n     |     |
+| behind       | prep  | A2  |
+| sure         | a     | A2  |
+| report       | v     |     |
+| pass         | v     | A2  |
+| black        | a     | A2  |
+| stage        | n     |     |
+| meeting      | n     |     |
+| sometimes    | adv   |     |
+| thus         | adv   |     |
+| accept       | v     |     |
+| town         | n     | A   |
+| art          | n     | AS  |
+| further      | adv   |     |
+| club         | n     | A   |
+| cause        | v     |     |
+| arm          | n     | Y   |
+| history      | n     |     |
+| parent       | n     | A   |
+| land         | n     | A   |
+| trade        | n     |     |
+| watch        | v     | A2  |
+| white        | a     | A2  |
+| situation    | n     |     |
+| whose        | det   |     |
+| ago          | adv   | AS  |
+| teacher      | n     |     |
+| record       | n     | A2  |
+| manager      | n     |     |
+| relation     | n     |     |
+| common       | a     |     |
+| strong       | a     | A   |
+| whole        | a     |     |
+| field        | n     | A   |
+| free         | a     | A   |
+| break        | v     | A   |
+| yesterday    | adv   |     |
+| support      | v     |     |
+| window       | n     | A   |
+| account      | n     |     |
+| explain      | v     |     |
+| stay         | v     |     |
+| few          | det   | A2  |
+| wait         | v     | A   |
+| usually      | adv   |     |
+| difference   | n     |     |
+| material     | n     | A   |
+| air          | n     | AS  |
+| wife         | n     |     |
+| cover        | v     | A2  |
+| apply        | v     | AS  |
+| project      | n     | A   |
+| raise        | v     |     |
+| sale         | n     |     |
+| relationship | n     |     |
+| indeed       | adv   |     |
+| light        | n     | A3  |
+| claim        | v     | A2  |
+| form         | v     |     |
+| base         | v     | A2  |
+| care         | n     | A2  |
+| someone      | pron  |     |
+| everything   | pron  |     |
+| certainly    | adv   |     |
+| rule         | n     | A2  |
+| home         | adv   | A2  |
+| cut          | v     | A2  |
+| grow         | v     | A   |
+| similar      | a     |     |
+| story        | n     | A   |
+| quality      | n     | A   |
+| tax          | n     |     |
+| worker       | n     |     |
+| nature       | n     |     |
+| structure    | n     |     |
+| data         | n     |     |
+| necessary    | a     |     |
+| pound        | n     |     |
+| method       | n     |     |
+| unit         | n     |     |
+| central      | a     | A   |
+| bed          | n     | AS  |
+| union        | n     |     |
+| movement     | n     |     |
+| board        | n     | A   |
+| true         | a     |     |
+| well         | inter | A3  |
+| simply       | adv   |     |
+| contain      | v     |     |
+| especially   | adv   |     |
+| open         | a     | A3  |
+| short        | a     | A2  |
+| personal     | a     |     |
+| detail       | n     |     |
+| model        | n     | A   |
+| bear         | v     | AS2 |
+| single       | a     |     |
+| join         | v     | A   |
+| reduce       | v     |     |
+| establish    | v     |     |
+| herself      | pron  |     |
+| wall         | n     | A   |
+| face         | v     | A2  |
+| easy         | a     | A2  |
+| private      | a     |     |
+| computer     | n     |     |
+| former       | det   |     |
+| hospital     | n     | A   |
+| chapter      | n     |     |
+| scheme       | n     |     |
+| theory       | n     |     |
+| choose       | v     | A   |
+| wish         | v     |     |
+| property     | n     |     |
+| achieve      | v     |     |
+| financial    | a     |     |
+| poor         | a     | A   |
+| officer      | n     |     |
+| up           | prep  | A2  |
+| charge       | n     | A2  |
+| director     | n     |     |
+| drive        | v     | A2  |
+| deal         | v     |     |
+| place        | v     | A2  |
+| approach     | n     | AS2 |
+| chance       | n     | A   |
+| application  | n     |     |
+| seek         | v     |     |
+| cos          | conj  |     |
+| foreign      | a     |     |
+| along        | prep  |     |
+| top          | n     | A2  |
+| amount       | n     |     |
+| son          | n     | A   |
+| operation    | n     |     |
+| fail         | v     |     |
 * E five A
 | eraser       |      | AN |
 | fairy        |      | AN |
@@ -1941,7 +1945,7 @@ poppy 小狗
 | criterion      | n            |     |
 | pocket         | n            | A   |
 | suggestion     | n            |     |
-| aye            | interjection |     |
+| aye            | inter |     |
 | entitle        | v            |     |
 | tone           | n            |     |
 | attractive     | a            |     |
@@ -2581,7 +2585,7 @@ poppy 小狗
 | chip           | n            |     |
 | equation       | n            |     |
 | certificate    | n            |     |
-| hello          | interjection | A   |
+| hello          | inter | A   |
 | remarkable     | a            |     |
 | alliance       | n            |     |
 | smoke          | v            | A2  |
@@ -2838,7 +2842,7 @@ poppy 小狗
 | conscious     | a            |     |
 | formula       | n            |     |
 | tail          | n            |     |
-| ha            | interjection |     |
+| ha            | inter |     |
 | electric      | a            |     |
 | sheep         | n            | A   |
 | medicine      | n            |     |
@@ -2941,7 +2945,7 @@ poppy 小狗
 | precise        | a            |     |
 | determination  | n            |     |
 | bite           | v            |     |
-| dear           | interjection | A3  |
+| dear           | inter | A3  |
 | consultation   | n            |     |
 | range          | v            |     |
 | residential    | a            |     |
@@ -3021,185 +3025,186 @@ poppy 小狗
 | dirty          | a            | A   |
 | straight       | a            | A2  |
 * S nineteen
-| supper        |              | AS  |
-| sunny         |              | AS  |
-| subway        |              | AS  |
-| stove         |              | AS  |
-| steak         |              | AS  |
-| stamp         |              | AS2 |
-| spoon         |              | AS2 |
-| sour          |              | AS2 |
-| soup          |              | ANN |
-| sock          |              | AS2 |
-| soccer        |              | ANN |
-| soap          |              | AN  |
-| skinny        |              | AN  |
-| Shoes         |              | ANN |
-| seeds         |              | ANN |
-| scared        |              | ANN |
-| salad         |              | ANN |
-| solved        | a            | A   |
-| solver        | a            | A   |
-| superadd      | a            | A   |
-| psychological | a            |     |
-| psychological | a            |     |
-| grab          | v            |     |
-| pleasant      | a            |     |
-| surgery       | n            |     |
-| inevitable    | a            |     |
-| transform     | v            |     |
-| bell          | n            | A   |
-| announcement  | n            |     |
-| draft         | n            |     |
-| unity         | n            |     |
-| airport       | n            | AS  |
-| upset         | v            |     |
-| pretend       | v            |     |
-| plant         | v            | A2  |
-| till          | prep         |     |
-| known         | a            |     |
-| admission     | n            |     |
-| tissue        | n            |     |
-| magistrate    | n            |     |
-| joy           | n            | A   |
-| free          | v            |     |
-| pretty        | a            | A2  |
-| operating     | n            |     |
-| headquarters  | n            |     |
-| grateful      | a            |     |
-| classroom     | n            |     |
-| turnover      | n            |     |
-| project       | v            | A2  |
-| shrug         | v            |     |
-| sensible      | a            |     |
-| limitation    | n            |     |
-| specialist    | n            |     |
-| newly         | adv          |     |
-| tongue        | n            | A   |
-| refugee       | n            |     |
-| delay         | v            | A2  |
-| dream         | v            | A2  |
-| composition   | n            |     |
-| alongside     | prep         |     |
-| ceiling       | n            | A   |
-| highlight     | v            |     |
-| stick         | n            |     |
-| favourite     | a            |     |
-| tap           | v            |     |
-| universe      | n            |     |
-| request       | v            |     |
-| label         | n            |     |
-| confine       | v            |     |
-| scream        | v            |     |
-| rid           | v            |     |
-| acceptance    | n            |     |
-| detective     | n            |     |
-| sail          | v            |     |
-| adjust        | v            |     |
-| designer      | n            |     |
-| running       | a            |     |
-| summit        | n            |     |
-| participation | n            |     |
-| weakness      | n            |     |
-| block         | v            |     |
-| so-called     | a            |     |
-| adapt         | v            |     |
-| absorb        | v            |     |
-| encounter     | v            |     |
-| defeat        | v            | A2  |
-| excitement    | n            |     |
-| brick         | n            |     |
-| blind         | a            |     |
-| wire          | n            |     |
-| crop          | n            |     |
-| square        | a            | A2  |
-| transition    | n            |     |
-| thereby       | adv          |     |
-| protest       | v            |     |
-| roll          | n            | A2  |
-| stop          | n            |     |
-| assistant     | n            |     |
-| deaf          | a            | A   |
-| constituency  | n            |     |
-| continuous    | a            |     |
-| concert       | n            | A   |
-| breast        | n            |     |
-| extraordinary | a            |     |
-| squad         | n            |     |
-| wonder        | n            | A2  |
-| cream         | n            | A   |
-| tennis        | n            | A   |
-| personally    | adv          |     |
-| communicate   | v            |     |
-| pride         | n            |     |
-| bowl          | n            | A   |
-| file          | v            |     |
-| expertise     | n            |     |
-| govern        | v            |     |
-| leather       | n            |     |
-| observer      | n            |     |
-| margin        | n            |     |
-| uncertainty   | n            |     |
-| reinforce     | v            |     |
-| ideal         | n            |     |
-| injure        | v            |     |
-| holding       | n            |     |
-| universal     | a            |     |
-| evident       | a            |     |
-| dust          | n            |     |
-| overseas      | a            |     |
-| desperate     | a            |     |
-| swim          | v            | A   |
-| occasional    | a            |     |
-| trouser       | n            |     |
-| surprisingly  | adv          |     |
-| register      | n            | A2  |
-| album         | n            |     |
-| guideline     | n            |     |
-| disturb       | v            |     |
-| amendment     | n            |     |
-| architect     | n            |     |
-| objection     | n            |     |
-| chart         | n            |     |
-| cattle        | n            |     |
-| doubt         | v            |     |
-| react         | v            |     |
-| consciousness | n            |     |
-| right         | interjection | A4  |
-| purely        | adv          |     |
-| tin           | n            |     |
-| tube          | n            |     |
-| fulfil        | v            |     |
-| commonly      | adv          |     |
-| sufficiently  | adv          |     |
-| coin          | n            | A   |
-| frighten      | v            |     |
-| grammar       | n            |     |
-| diary         | n            | A   |
-| flesh         | n            |     |
-| summary       | n            |     |
-| infant        | n            |     |
-| stir          | v            |     |
-| storm         | n            |     |
-| mail          | n            | A   |
-| rugby         | n            |     |
-| virtue        | n            |     |
-| specimen      | n            |     |
-| psychology    | n            |     |
-| paint         | n            | A2  |
-| constraint    | n            |     |
-| trace         | v            |     |
-| privilege     | n            |     |
-| completion    | n            |     |
-| progress      | v            |     |
-| hers          | pron         |     |
-| grade         | n            |     |
-| exploit       | v            |     |
-| import        | n            |     |
-| potato        | n            | A   |
-| repair        | n            | A2  |
-| passion       | n            |     |
-| seize         | v            |     |
+| scroll        |       | NS  |
+| supper        |       | AS  |
+| sunny         |       | AS  |
+| subway        |       | AS  |
+| stove         |       | AS  |
+| steak         |       | AS  |
+| stamp         |       | AS2 |
+| spoon         |       | AS2 |
+| sour          |       | AS2 |
+| soup          |       | ANN |
+| sock          |       | AS2 |
+| soccer        |       | ANN |
+| soap          |       | AN  |
+| skinny        |       | AN  |
+| Shoes         |       | ANN |
+| seeds         |       | ANN |
+| scared        |       | ANN |
+| salad         |       | ANN |
+| solved        | a     | A   |
+| solver        | a     | A   |
+| superadd      | a     | A   |
+| psychological | a     |     |
+| psychological | a     |     |
+| grab          | v     |     |
+| pleasant      | a     |     |
+| surgery       | n     |     |
+| inevitable    | a     |     |
+| transform     | v     |     |
+| bell          | n     | A   |
+| announcement  | n     |     |
+| draft         | n     |     |
+| unity         | n     |     |
+| airport       | n     | AS  |
+| upset         | v     |     |
+| pretend       | v     |     |
+| plant         | v     | A2  |
+| till          | prep  |     |
+| known         | a     |     |
+| admission     | n     |     |
+| tissue        | n     |     |
+| magistrate    | n     |     |
+| joy           | n     | A   |
+| free          | v     |     |
+| pretty        | a     | A2  |
+| operating     | n     |     |
+| headquarters  | n     |     |
+| grateful      | a     |     |
+| classroom     | n     |     |
+| turnover      | n     |     |
+| project       | v     | A2  |
+| shrug         | v     |     |
+| sensible      | a     |     |
+| limitation    | n     |     |
+| specialist    | n     |     |
+| newly         | adv   |     |
+| tongue        | n     | A   |
+| refugee       | n     |     |
+| delay         | v     | A2  |
+| dream         | v     | A2  |
+| composition   | n     |     |
+| alongside     | prep  |     |
+| ceiling       | n     | A   |
+| highlight     | v     |     |
+| stick         | n     |     |
+| favourite     | a     |     |
+| tap           | v     |     |
+| universe      | n     |     |
+| request       | v     |     |
+| label         | n     |     |
+| confine       | v     |     |
+| scream        | v     |     |
+| rid           | v     |     |
+| acceptance    | n     |     |
+| detective     | n     |     |
+| sail          | v     |     |
+| adjust        | v     |     |
+| designer      | n     |     |
+| running       | a     |     |
+| summit        | n     |     |
+| participation | n     |     |
+| weakness      | n     |     |
+| block         | v     |     |
+| so-called     | a     |     |
+| adapt         | v     |     |
+| absorb        | v     |     |
+| encounter     | v     |     |
+| defeat        | v     | A2  |
+| excitement    | n     |     |
+| brick         | n     |     |
+| blind         | a     |     |
+| wire          | n     |     |
+| crop          | n     |     |
+| square        | a     | A2  |
+| transition    | n     |     |
+| thereby       | adv   |     |
+| protest       | v     |     |
+| roll          | n     | A2  |
+| stop          | n     |     |
+| assistant     | n     |     |
+| deaf          | a     | A   |
+| constituency  | n     |     |
+| continuous    | a     |     |
+| concert       | n     | A   |
+| breast        | n     |     |
+| extraordinary | a     |     |
+| squad         | n     |     |
+| wonder        | n     | A2  |
+| cream         | n     | A   |
+| tennis        | n     | A   |
+| personally    | adv   |     |
+| communicate   | v     |     |
+| pride         | n     |     |
+| bowl          | n     | A   |
+| file          | v     |     |
+| expertise     | n     |     |
+| govern        | v     |     |
+| leather       | n     |     |
+| observer      | n     |     |
+| margin        | n     |     |
+| uncertainty   | n     |     |
+| reinforce     | v     |     |
+| ideal         | n     |     |
+| injure        | v     |     |
+| holding       | n     |     |
+| universal     | a     |     |
+| evident       | a     |     |
+| dust          | n     |     |
+| overseas      | a     |     |
+| desperate     | a     |     |
+| swim          | v     | A   |
+| occasional    | a     |     |
+| trouser       | n     |     |
+| surprisingly  | adv   |     |
+| register      | n     | A2  |
+| album         | n     |     |
+| guideline     | n     |     |
+| disturb       | v     |     |
+| amendment     | n     |     |
+| architect     | n     |     |
+| objection     | n     |     |
+| chart         | n     |     |
+| cattle        | n     |     |
+| doubt         | v     |     |
+| react         | v     |     |
+| consciousness | n     |     |
+| right         | inter | A4  |
+| purely        | adv   |     |
+| tin           | n     |     |
+| tube          | n     |     |
+| fulfil        | v     |     |
+| commonly      | adv   |     |
+| sufficiently  | adv   |     |
+| coin          | n     | A   |
+| frighten      | v     |     |
+| grammar       | n     |     |
+| diary         | n     | A   |
+| flesh         | n     |     |
+| summary       | n     |     |
+| infant        | n     |     |
+| stir          | v     |     |
+| storm         | n     |     |
+| mail          | n     | A   |
+| rugby         | n     |     |
+| virtue        | n     |     |
+| specimen      | n     |     |
+| psychology    | n     |     |
+| paint         | n     | A2  |
+| constraint    | n     |     |
+| trace         | v     |     |
+| privilege     | n     |     |
+| completion    | n     |     |
+| progress      | v     |     |
+| hers          | pron  |     |
+| grade         | n     |     |
+| exploit       | v     |     |
+| import        | n     |     |
+| potato        | n     | A   |
+| repair        | n     | A2  |
+| passion       | n     |     |
+| seize         | v     |     |
 * T twenty
 | tulip         |      | ANN |
 | towel         |      | ANN |
@@ -4090,7 +4095,7 @@ poppy 小狗
 | digital        | a            |     |
 | steep          | a            |     |
 | jet            | n            |     |
-| hey            | interjection |     |
+| hey            | inter |     |
 | grave          | n            |     |
 | exceptional    | a            |     |
 | boost          | v            |     |
@@ -4184,7 +4189,7 @@ poppy 小狗
 | scarcely       | adv          |     |
 | compulsory     | a            |     |
 | photographer   | n            |     |
-| ok             | interjection |     |
+| ok             | inter |     |
 | neighbourhood  | n            |     |
 | ideological    | a            |     |
 | wide           | adv          | A2  |
@@ -4265,7 +4270,7 @@ poppy 小狗
 | facilitate     | v            |     |
 | yield          | n            |     |
 | elbow          | n            |     |
-| bye            | interjection |     |
+| bye            | inter |     |
 | warm           | v            | A2  |
 | sleeve         | n            |     |
 | exploration    | n            |     |
@@ -10718,7 +10723,6 @@ nostalgic
 dignified
 relentlessly
 folded
-scroll
 scripture
 makeover
 humanities
@@ -18506,7 +18510,6 @@ fizzle
 tumult
 currant
 apolitical
-scroll
 bound
 botch
 overeat
